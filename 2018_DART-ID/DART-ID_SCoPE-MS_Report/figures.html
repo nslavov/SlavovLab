@@ -1,0 +1,134 @@
+<html lang="en">
+  <head>
+    <title>DART-ID Summary Figures</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="figures/bootstrap.min.css">
+    <link rel="stylesheet" href="figures/styles.css">
+    <link rel="stylesheet" href="figures/jquery.dataTables.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">DART-ID Summary</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+        <a class="nav-item nav-link" id="nav-experiment-summary-tab" data-toggle="tab" href="#nav-experiment-summary" role="tab" aria-controls="nav-experiment-summary" aria-selected="false">Experiment Summary</a>
+      </div>
+    </nav>
+              
+    <div class="tab-content" id="nav-tabContent">
+      
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+
+        <h3>Residual Summary</h3>
+
+        <div class="figure-row">
+          <img class="figure-img" src="figures/residuals_violin.png">
+        </div>
+
+        <h3>PEP Update Summary</h3>
+
+        <div class="figure-row">
+          <div class="figure-col">
+            <img class="figure-img" src="figures/pep_new_scatterplot.png">
+          </div>
+          <div class="figure-col">
+            <img class="figure-img" src="figures/fold_change_ids.png">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tab-pane fade" id="nav-experiment-summary" role="tabpanel" aria-labelledby="nav-experiment-summary-tab">
+        
+
+        <div class="row"><div class="col-xs-12">
+          <!-- Summary Table -->
+          <!-- $exp_table_str -->
+        </div></div>
+      
+        <div class="row"><div class="col-xs-12">
+          <h3>Alignment Summaries</h3>
+          
+          <div class="alignment-header">
+            <select class="alignment-select">
+            </select>
+          </div>
+      
+          <div id="alignment_carousel" class="carousel alignment-carousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+            </ol>
+            <div class="carousel-inner">
+            </div>
+            <a class="carousel-control-prev" href="#alignment_carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#alignment_carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div></div>
+
+        <!-- END EXPERIMENT TAB -->
+      </div>
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+        ...
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="figures/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="figures/bootstrap.min.js"></script>
+    <script type="text/javascript" src="figures/jquery.dataTables.min.js"></script>
+    <script>
+      var data = {"alignment": ["figures/alignment_0_180320S_QC_SQC67A4.png", "figures/alignment_1_180320S_QC_SQC67A7.png", "figures/alignment_2_180320S_QC_SQC67A8.png", "figures/alignment_3_180320S_QC_SQC67B8.png", "figures/alignment_4_180320S_QC_SQC67C8.png", "figures/alignment_5_180320S_QC_SQC67D8.png", "figures/alignment_6_180320S_QC_SQC67E8.png", "figures/alignment_7_180320S_QC_SQC67F8.png", "figures/alignment_8_180324S_QC_SQC67A9.png", "figures/alignment_9_180324S_QC_SQC67C10.png", "figures/alignment_10_180324S_QC_SQC67C11.png", "figures/alignment_11_180324S_QC_SQC67C12.png", "figures/alignment_12_180324S_QC_SQC67C9.png", "figures/alignment_13_180324S_QC_SQC67E9.png", "figures/alignment_14_180324S_QC_SQC68A1.png", "figures/alignment_15_180324S_QC_SQC68B1.png", "figures/alignment_16_180324S_QC_SQC68C1.png", "figures/alignment_17_180324S_QC_SQC68C2.png", "figures/alignment_18_180324S_QC_SQC68C3.png", "figures/alignment_19_180324S_QC_SQC68F1.png", "figures/alignment_20_180324S_QC_SQC68F2.png", "figures/alignment_21_180324S_QC_SQC68F3.png", "figures/alignment_22_180324S_QC_SQC69A.png", "figures/alignment_23_180324S_QC_SQC69B.png", "figures/alignment_24_180324S_QC_SQC69C.png", "figures/alignment_25_180324S_QC_SQC69D.png", "figures/alignment_26_180324S_QC_SQC69E.png", "figures/alignment_27_180324S_QC_SQC69F.png", "figures/alignment_28_180324S_QC_SQC69G.png", "figures/alignment_29_180324S_QC_SQC70A.png", "figures/alignment_30_180324S_QC_SQC70B.png", "figures/alignment_31_180324S_QC_SQC70C.png", "figures/alignment_32_180324S_QC_SQC70D_20180330082946.png", "figures/alignment_33_180324S_QC_SQC70E.png", "figures/alignment_34_180324S_QC_SQC71A.png", "figures/alignment_35_180324S_QC_SQC71B.png", "figures/alignment_36_180324S_QC_SQC71C.png", "figures/alignment_37_180324S_QC_SQC71D.png", "figures/alignment_38_180324S_QC_SQC71D2.png", "figures/alignment_39_180324S_QC_SQC71E2.png", "figures/alignment_40_180402S_QC_SQC72A1.png", "figures/alignment_41_180402S_QC_SQC72A2.png", "figures/alignment_42_180402S_QC_SQC72A3.png", "figures/alignment_43_180402S_QC_SQC72A4.png", "figures/alignment_44_180402S_QC_SQC72B1.png", "figures/alignment_45_180402S_QC_SQC72B10.png", "figures/alignment_46_180402S_QC_SQC72B11.png", "figures/alignment_47_180402S_QC_SQC72B12.png", "figures/alignment_48_180402S_QC_SQC72B2.png", "figures/alignment_49_180402S_QC_SQC72B3.png", "figures/alignment_50_180402S_QC_SQC72B4.png", "figures/alignment_51_180402S_QC_SQC72B5.png", "figures/alignment_52_180402S_QC_SQC72B6.png", "figures/alignment_53_180402S_QC_SQC72B7.png", "figures/alignment_54_180402S_QC_SQC72B8.png", "figures/alignment_55_180402S_QC_SQC72B9.png", "figures/alignment_56_180402S_QC_SQC72C1.png", "figures/alignment_57_180402S_QC_SQC72C2.png", "figures/alignment_58_180402S_QC_SQC72C3.png", "figures/alignment_59_180402S_QC_SQC72C4.png", "figures/alignment_60_180402S_QC_SQC72C5.png", "figures/alignment_61_180402S_QC_SQC72C6.png", "figures/alignment_62_180402S_QC_SQC72C7.png", "figures/alignment_63_180402S_QC_SQC72C8.png", "figures/alignment_64_180402S_QC_SQC73A1.png", "figures/alignment_65_180402S_QC_SQC73A2.png", "figures/alignment_66_180406S_QC_SQC74A.png", "figures/alignment_67_180406S_QC_SQC74B.png", "figures/alignment_68_180406S_QC_SQC74B2.png", "figures/alignment_69_180406S_QC_SQC74C.png", "figures/alignment_70_180406S_QC_SQC74D.png", "figures/alignment_71_180406S_QC_SQC74D2.png", "figures/alignment_72_180406S_QC_SQC74E.png", "figures/alignment_73_180406S_QC_SQC74F.png", "figures/alignment_74_180406S_QC_SQC74G.png", "figures/alignment_75_180406S_QC_SQC74H.png", "figures/alignment_76_180406S_QC_SQC74I.png", "figures/alignment_77_180406S_QC_SQC74J.png", "figures/alignment_78_180406S_QC_SQC74K.png", "figures/alignment_79_180406S_QC_SQC74L.png", "figures/alignment_80_180408S_QC_SQC75A.png", "figures/alignment_81_180408S_QC_SQC75B.png", "figures/alignment_82_180409S_QC_SQC76A.png", "figures/alignment_83_180409S_QC_SQC76B.png", "figures/alignment_84_180409S_QC_SQC76C.png", "figures/alignment_85_180409S_QC_SQC76D.png", "figures/alignment_86_180409S_QC_SQC76E.png", "figures/alignment_87_180409S_QC_SQC76F.png", "figures/alignment_88_180409S_QC_SQC76G.png", "figures/alignment_89_180411S_QC_SQC77A.png", "figures/alignment_90_180411S_QC_SQC77A2.png", "figures/alignment_91_180411S_QC_SQC77B.png", "figures/alignment_92_180411S_QC_SQC77B2.png", "figures/alignment_93_180411S_QC_SQC77C.png", "figures/alignment_94_180411S_QC_SQC77D.png", "figures/alignment_95_180413S_X_FP18A.png", "figures/alignment_96_180413S_X_FP18B.png", "figures/alignment_97_180413S_X_FP18C.png", "figures/alignment_98_180413S_X_FP18D.png", "figures/alignment_99_180413S_X_FP18E.png", "figures/alignment_100_180413S_X_FP18F.png", "figures/alignment_101_180413S_X_FP18G.png", "figures/alignment_102_180413S_X_FP18H.png", "figures/alignment_103_180413S_X_FP18I.png", "figures/alignment_104_180413S_X_FP18J.png", "figures/alignment_105_180413S_X_FP18K.png", "figures/alignment_106_180416S_QC_SQC78A1.png", "figures/alignment_107_180417S_QC_SQC78A2.png", "figures/alignment_108_180417S_X_QC40F_trgA.png", "figures/alignment_109_180417S_X_QC40F_trgA_IncOn.png", "figures/alignment_110_180420S_QC_SQC79A.png", "figures/alignment_111_180420S_QC_SQC79A_Gl.png", "figures/alignment_112_180420S_QC_SQC79A_SS.png", "figures/alignment_113_180420S_QC_SQC79B.png", "figures/alignment_114_180420S_QC_SQC79C.png", "figures/alignment_115_180420S_QC_SQC79D.png", "figures/alignment_116_180420S_QC_SQC79E.png", "figures/alignment_117_180420S_QC_SQC79F.png", "figures/alignment_118_180420S_QC_SQC79G.png", "figures/alignment_119_180420S_QC_SQC80B.png", "figures/alignment_120_180420S_QC_SQC80C.png", "figures/alignment_121_180420S_QC_SQC80D.png", "figures/alignment_122_180420S_QC_SQC80E.png", "figures/alignment_123_180420S_QC_SQC80F.png", "figures/alignment_124_180420S_QC_SQC80G.png", "figures/alignment_125_180424S_QC_SQC81A.png", "figures/alignment_126_180424S_QC_SQC81B.png", "figures/alignment_127_180424S_QC_SQC81C.png", "figures/alignment_128_180424S_X_IFN6H.png", "figures/alignment_129_180424S_X_IFN6I.png", "figures/alignment_130_180424S_X_IFN6J.png", "figures/alignment_131_180424S_X_IFN6K.png", "figures/alignment_132_180502S_QC_SQC82A.png", "figures/alignment_133_180502S_QC_SQC82A2.png", "figures/alignment_134_180502S_QC_SQC82B.png", "figures/alignment_135_180502S_QC_SQC82C.png", "figures/alignment_136_180502S_QC_SQC82D.png", "figures/alignment_137_180502S_QC_SQC82E.png", "figures/alignment_138_180502S_QC_SQC82F.png", "figures/alignment_139_180502S_QC_SQC82G.png", "figures/alignment_140_180502S_QC_SQC82H.png", "figures/alignment_141_180502S_QC_SQC82I.png", "figures/alignment_142_180503S_QC_SQC83A.png", "figures/alignment_143_180503S_QC_SQC83B.png", "figures/alignment_144_180503S_QC_SQC84A.png", "figures/alignment_145_180503S_QC_SQC84A2.png", "figures/alignment_146_180503S_QC_SQC84B.png", "figures/alignment_147_180503S_QC_SQC85A1.png", "figures/alignment_148_180503S_QC_SQC85A2.png", "figures/alignment_149_180503S_QC_SQC85A3.png", "figures/alignment_150_180503S_QC_SQC85B1.png", "figures/alignment_151_180503S_QC_SQC85B2.png", "figures/alignment_152_180503S_QC_SQC85B3.png", "figures/alignment_153_180503S_QC_SQC86A.png", "figures/alignment_154_180503S_QC_SQC86B.png", "figures/alignment_155_180503S_QC_SQC86C.png", "figures/alignment_156_180508S_QC_SQC87A1.png", "figures/alignment_157_180508S_QC_SQC87A10.png", "figures/alignment_158_180508S_QC_SQC87A2.png", "figures/alignment_159_180508S_QC_SQC87A3.png", "figures/alignment_160_180508S_QC_SQC87A4.png", "figures/alignment_161_180508S_QC_SQC87A5.png", "figures/alignment_162_180508S_QC_SQC87A6.png", "figures/alignment_163_180508S_QC_SQC87A7.png", "figures/alignment_164_180508S_QC_SQC87A8.png", "figures/alignment_165_180508S_QC_SQC87A9.png", "figures/alignment_166_180508S_QC_SQC87C1.png", "figures/alignment_167_180508S_QC_SQC87C10.png", "figures/alignment_168_180508S_QC_SQC87C2.png", "figures/alignment_169_180508S_QC_SQC87C3.png", "figures/alignment_170_180508S_QC_SQC87C4.png", "figures/alignment_171_180508S_QC_SQC87C5.png", "figures/alignment_172_180508S_QC_SQC87C6.png", "figures/alignment_173_180508S_QC_SQC87C7.png", "figures/alignment_174_180508S_QC_SQC87C8.png", "figures/alignment_175_180508S_QC_SQC87C9.png", "figures/alignment_176_180514S_QC_SQC95A.png", "figures/alignment_177_180524S_X_SQC95A10.png", "figures/alignment_178_180524S_X_SQC95A11.png", "figures/alignment_179_180524S_X_SQC95A12.png", "figures/alignment_180_180524S_X_SQC95A13.png", "figures/alignment_181_180524S_X_SQC95A14.png", "figures/alignment_182_180524S_X_SQC95A15.png", "figures/alignment_183_180524S_X_SQC95A16.png", "figures/alignment_184_180524S_X_SQC95A17.png", "figures/alignment_185_180524S_X_SQC95A18.png", "figures/alignment_186_180524S_X_SQC95A19.png", "figures/alignment_187_180524S_X_SQC95A20.png", "figures/alignment_188_180524S_X_SQC95A21.png", "figures/alignment_189_180524S_X_SQC95A22.png", "figures/alignment_190_180524S_X_SQC95A3.png", "figures/alignment_191_180524S_X_SQC95A4.png", "figures/alignment_192_180524S_X_SQC95A5.png", "figures/alignment_193_180524S_X_SQC95A6.png", "figures/alignment_194_180524S_X_SQC95A7.png", "figures/alignment_195_180524S_X_SQC95A8.png", "figures/alignment_196_180524S_X_SQC95A9.png", "figures/alignment_197_180528S_QC_SQC97A.png", "figures/alignment_198_180528S_QC_SQC97B.png", "figures/alignment_199_180528S_QC_SQC97C.png", "figures/alignment_200_180528S_QC_SQC97D.png", "figures/alignment_201_180528S_QC_SQC97E.png", "figures/alignment_202_180528S_QC_SQC97F.png", "figures/alignment_203_180528S_QC_SQC97G.png", "figures/alignment_204_180528S_QC_SQC97H.png", "figures/alignment_205_180528S_QC_SQC97H_20180606231935.png", "figures/alignment_206_180528S_QC_SQC97I.png", "figures/alignment_207_180528S_QC_SQC97J.png", "figures/alignment_208_180528S_QC_SQC98A.png", "figures/alignment_209_180528S_QC_SQC98B.png", "figures/alignment_210_180528S_QC_SQC98C.png", "figures/alignment_211_180528S_QC_SQC99A.png", "figures/alignment_212_180528S_QC_SQC99B.png", "figures/alignment_213_180528S_QC_SQC99C.png", "figures/alignment_214_180528S_QC_SQC99D.png", "figures/alignment_215_180528S_QC_SQC99E.png", "figures/alignment_216_180528S_QC_SQC99F.png", "figures/alignment_217_180528S_QC_SQC99G.png", "figures/alignment_218_180528S_QC_SQC99H.png", "figures/alignment_219_180528S_QC_SQC99I.png", "figures/alignment_220_180528S_QC_SQC99J.png", "figures/alignment_221_180528S_QC_SQC99K.png", "figures/alignment_222_180528S_QC_SQC99L.png", "figures/alignment_223_180528S_QC_SQC99M.png", "figures/alignment_224_180528S_QC_SQC99N.png", "figures/alignment_225_180528S_QC_SQC99O.png"], "residuals": ["./test_figures/figures/residuals_violin.png"], "newpeps": ["./test_figures/figures/pep_new_scatterplot.png", "./test_figures/figures/fold_change_ids.png"]}
+
+      // jQuery calls need to be escaped with "$"
+      // since the template file is passed as a string through python,
+      // and templating is done by replacing the dollar sign
+
+      $(document).ready(function(){
+        $("#exp_summary_table").DataTable()
+      })
+      
+      // set up carousel
+      $(".alignment-carousel").carousel({
+        interval: false,
+        wrap: true
+      })
+
+      var num_experiments = data.alignment.length
+      var experiment_names = []
+      for(var i = 0; i < num_experiments; i++) {
+        experiment_names.push(data.alignment[i].replace(/^.*[\\\/]/, ''))
+        $(".alignment-select").append(`<option value="${i}">${experiment_names[i]}</option>`)
+        $(".alignment-carousel .carousel-inner").append(`<div class="carousel-item">
+          <img class="d-block w-100" src="${data.alignment[i]}">
+        </div>`)
+        $(".alignment-carousel .carousel-indicators").append(`<li data-target="#alignment_carousel" data-slide-to="${i}"></li>`)
+      }
+      $(".alignment-carousel .carousel-item").first().addClass("active")
+      $(".alignment-carousel .carousel-indicators li").first().addClass("active")
+
+      $(".alignment-select").change(function() {
+        //$(".alignment-carousel").carousel()
+        $(".alignment-carousel").carousel(parseInt($(this)[0].value))
+      })
+      /*$(".alignment-carousel").on("slide.bs.carousel", function(e) {
+        console.log(e)
+        $(".alignment-select").val(experiment_names[e.to])
+      })*/
+
+      
+    </script>
+  </body>
+</html>
