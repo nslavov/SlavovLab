@@ -1,0 +1,11 @@
+
+.ssmed_tablestyle_rb {background: transparent url(flypage_admirable_bg_ru.png) right bottom no-repeat; border-top:1px solid #FFFFFF; clear:left; margin-top:0px;}
+.ssmed_tablestyle_rt {background: transparent url(flypage_admirable_bg_ro.png) right  top no-repeat;}
+.ssmed_tablestyle_lb {background: transparent url(flypage_admirable_bg_lu.png) left bottom no-repeat;}
+.ssmed_tablestyle_lt {background: transparent url(flypage_admirable_bg_lo.png) left top no-repeat;}
+ 
+.area_table {
+    padding: 15px;
+    margin-bottom: 5px;
+	DIV:hover A:link {color: #FF0000; } 
+    } 

@@ -1,0 +1,171 @@
+/** GENOMICS.CSS **/
+
+BODY {
+/*** old 	background-color: #E5D8C2; ***/
+	background-color: white;
+	font-family : sans-serif;
+	font-size : 16px;
+	text-decoration: none; 
+	color : black
+}
+
+
+/*P, TD {
+	
+	font-size : 16px;
+	text-decoration: none; 
+	color : black;
+}*/
+
+
+P {
+	
+	font-size : 16px;
+	text-decoration: none; 
+	color : black;
+}
+
+TD {
+	
+	font-size : 16px;
+	text-decoration: none; 
+	color : black;
+}
+
+.pageHeader {
+	font-family : Times New Roman, Times, serif;
+	font-weight: Bold;
+	font-size : 20px;
+	font-style : italic;
+	color : black;
+}
+
+.header {
+	
+	font-size : 20px;
+	font-weight : bold;
+	text-decoration: none;
+	color : #993300
+}
+
+.lineheader {
+	
+	font-size : 16px;
+	font-weight : bold;
+	text-decoration: none;
+	color : black;
+}
+
+.smallText {
+	
+	font-size : 15px;
+	color : black;
+}
+
+.headlineText {
+	font-weight : bold;
+	color : #993300
+}
+
+.boldtype {
+	font-weight : bold
+}
+
+.italictype {
+	font-weight : italic
+}
+
+.cvline {
+	
+	font-style : italic;
+	font-size : 19;
+	color : #006699;
+}
+
+.indent {
+	margin-left: 15px;
+}
+
+.cvsubline {
+	
+	font-style : italic;
+	font-size : 16;
+	color : #006699;
+}
+
+.errorText {
+	
+	font-size : 16px;
+	font-weight : bold;
+	text-decoration: none;
+	color : black;
+}
+
+/*** LINK STYLES ***/
+
+A:link {
+	
+	font-size : 16px;
+	color : #2266FF
+}
+
+A:visited {
+	
+	font-size : 16px;
+	color : #2266FF
+}
+
+A:active {
+	
+	font-size : 16px;
+	color : #2266FF
+}
+
+A.smallTextLink:link {
+	
+	font-size : 16px;
+	color : #993300
+}
+
+A.smallTextLink:visited {
+	
+	font-size : 16px;
+	color : #993300
+}
+
+A.smallTextLink:active {
+	
+	font-size : 16px;
+	color : #993300
+}
+
+.Copyright {
+	
+	font-size : 16px;
+	color : #000000
+}
+
+.normaltext  {
+	
+	font-size : 16px;
+	color : #000000;
+}
+.smallerP {
+	
+	font-size : 16px;
+	text-decoration: none; 
+	color : #993300;
+}
+
+/*** rowbackground colors for alternating ***/
+
+.oddRow {
+
+	background-color : #C9B6A1;
+}
+
+
+.evenRow {
+
+	background-color : #E5D8C2;
+}

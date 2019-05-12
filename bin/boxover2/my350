@@ -1,0 +1,21 @@
+.dvhdr1 {
+	background:#F3F0E7;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	border:1px solid #C8BA92;
+	padding:5px;
+	width:350px;
+}
+
+.dvbdy1 {
+        text-align:left;
+	background:#FFFFFF;
+	font-family:arial;
+	font-size:14px;
+	border-left:1px solid #C8BA92;
+	border-right:1px solid #C8BA92;
+	border-bottom:1px solid #C8BA92;
+	padding:5px;
+	width:350px;
+}

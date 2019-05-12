@@ -1,0 +1,49 @@
+
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300|Josefin+Slab');
+
+
+
+.header_title{ 
+   font-family: Helvetica, Tahoma, sans-serif; 
+	line-height:55px;
+	font-size:28px; 
+	padding: 1px 100px 1px 5px;
+    border-bottom: 1px dotted dimgray;	
+  }
+/* font-family: Helvetica, Tahoma, sans-serif;  */
+ .header_subtitle1{ 
+   font-family:   'Open Sans', sans-serif;
+   line-height:25px;
+   font-size:22px;
+   padding: 5px 1px 2px 5px; 
+   letter-spacing: 2px;    
+} 
+ 
+ .header_subtitle2{ 
+   font-family: Helvetica, Tahoma, sans-serif; 
+   font-size: 16px;  
+	padding: 1px 1px 1px 5px;
+  } 
+
+.Menu A  {
+padding: 0px 0px 4px 0px; 
+}  
+
+
+.TopLinks{
+   font-size: 18px; 
+   line-height: 60px;
+   font-family: Helvetica, Tahoma, sans-serif; 
+}
+a#active { background: none; color: black; text-decoration: underline; cursor: pointer; }
+
+
+.Content2 {
+width: 680px;
+padding: 10px 20px 20px 60px;
+background: transparent;
+color: inherit;
+text-align: justify;
+line-height: 1.5em;
+}

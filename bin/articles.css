@@ -1,0 +1,12 @@
+.Content A:link {text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;      color: maroon; text-decoration: none; cursor: pointer; font-weight: Bold;}
+.Content A:visited {text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;   color: maroon; text-decoration: none; cursor: pointer; font-weight: Bold;}
+.Content A:hover {text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;     color: #990000; text-decoration: underline; cursor: pointer; font-weight: Bold;} 
+.Content A:active {text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;    color: red; background: none; cursor: pointer; font-weight: Bold;}
+
+
+
+
+.Header_Text A:link {font-size: 14px; background: #FAFAFA; color: gray; text-decoration: none; cursor: pointer; font-weight: Bold;}
+.Header_Text A:visited {font-size: 14px; background:  #FAFAFA; color: gray; text-decoration: none; cursor: pointer; font-weight: Bold;}
+.Header_Text A:hover {font-size: 14px; background: #FAFAFA; color: maroon; text-decoration: underline; cursor: pointer; font-weight: Bold;} 
+.Header_Text A:active {font-size: 14px; background: #FAFAFA; color: red; background: none; cursor: pointer; font-weight: Bold;}

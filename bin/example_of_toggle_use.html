@@ -1,0 +1,43 @@
+
+<script type='text/javascript'>
+function toggle(item) {
+obj=document.getElementById(item);
+visible=(obj.style.display!="none")
+key=document.getElementById("ctrl_" + item);
+if (visible) {
+    obj.style.display="none";
+key.innerHTML="[+] Show genes";
+}
+else {
+obj.style.display="block";
+key.innerHTML="[-] Hide genes";
+}
+}
+</script>
+
+
+
+Or use toggle.js:
+
+
+<script language="javascript" type="text/javascript" SRC="https://web.northeastern.edu/slavovlab/toggle.js"></script>
+
+
+
+In the HTML body, call as follows: 
+
+<a id="ctrl_elements_GO:0006364" href="javascript:toggle('elements_GO:0006364')">[+] Show genes</a><br>
+<div id="elements_GO:0006364" style="display:none"> <font size=1>
+
+</FONT></div>
+
+
+
+
+<br><br><br><br>
+<a href="javascript:toggle('Ralph')">Ralph W</a><br>
+<div id="Ralph" style="display:none"> 
+hdghj
+dfbjs
+fdbdsj
+</div>
