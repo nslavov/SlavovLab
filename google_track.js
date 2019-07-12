@@ -6,5 +6,5 @@
 
   ga('create', 'UA-4005755-3', 'auto', {'allowLinker': true});
   ga('require', 'linker');
-  ga('linker:autoLink', ['web.mit.edu'] );
+  ga('linker:autoLink', ['slavovlab.net'] );
   ga('send', 'pageview');
