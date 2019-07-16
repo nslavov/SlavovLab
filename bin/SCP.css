@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:300|Josefin+Slab:400');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans|Josefin+Slab');
 
    .SCP_text-header {
 	display: flex;
@@ -18,8 +18,8 @@
  }	  
 .SCP_title{ 
    font-family: 'Josefin Slab', serif; 
-	line-height:50px;
-	font-size:40px; 
+	line-height:45px;
+	font-size:35px; 
 	padding: 1px 5px 1px 1px;
 	border-bottom: 1px dotted dimgray;	
 	letter-spacing: 0.9px;
@@ -29,8 +29,8 @@
 
 .SCP_subtitle{ 
    font-family:   'Open Sans', sans-serif;
-   line-height: 40px;
-   font-size: 28px;
+   line-height: 35px;
+   font-size: 22px;
    padding: 5px 1px 2px 5px; 
    letter-spacing: 2.5px; 
    font-weight: 300; 
