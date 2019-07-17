@@ -1,0 +1,15 @@
+
+My citation criterion is: Does the evidence support the referenced point?  
+
+Our @PLOSCompBiol paper: Are tissue protein levels set by mRNA levels or by post-transcriptional regulatory mechanisms? https://doi.org/10.1371/journal.pcbi.1005535
+
+Our @PLOSCompBiol article: Are tissue protein levels set by mRNA levels or by post-transcriptional regulatory mechanisms? https://doi.org/10.1371/journal.pcbi.1005535
+
+Our @PLOSCompBiol article: Are tissue protein levels set by mRNA levels or by post-transcriptional regulation? https://doi.org/10.1371/journal.pcbi.1005535
+
+Beware: Simpson's paradox may confound mRNA and protein analysis. Read our @PLOSCompBiol article: https://doi.org/10.1371/journal.pcbi.1005535  
+
+
+Our @PLOSCompBiol article on how Simpson's paradox confounds mRNA and protein analysis: https://doi.org/10.1371/journal.pcbi.1005535  
+
+Our @PLOSCompBiol article: How well do RNA levels predict protein levels? A simple question confounded by a paradox https://doi.org/10.1371/journal.pcbi.1005535 
