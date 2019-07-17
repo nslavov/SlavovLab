@@ -1,0 +1,208 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Slavov & Botstein 2012, Experimental Design</title>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="http://alum.mit.edu/www/nslavov/bin/nslavov_index_.css"  >
+<link rel="shortcut icon" href="http://alum.mit.edu/www/nslavov/index_files/icons/fire.ico">
+
+<META NAME="keywords" CONTENT="Slavov, Warburg effect, cancer, mutations, yeast, cell cycle, cell division, metabolism, continuous culture, fermentation, aerobic, glycolysis, growth, dynamics, cell growth, yeast, dynamics, systems biology, Princeton, MIT, Botstein"/>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35786511-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+<table class="Global" cellpadding="0" cellspacing="0" border="0">
+<!-- ============ Logo ============== -->
+<tr><td height="30" colspan="2"><div class="Header_Text"> <a href="Experimental_Design.html">Experimental Design</a></div></td></tr>
+<tr><td height="150" colspan="2">
+<!-- ============ Header Image ============== -->
+<table class="Header_Image" cellspacing="0" border="0"><tr>
+<td  width="100%" >  <img src="aerobic_glycolysis2.png" align="left"  width="100%" > </img>  </td>
+<!-- or add to the style sheet:	     background: url('Niteorig-5.jpg') no-repeat; -->
+</tr></table>
+</td></tr>
+<!-- ============ COLUMNS SECTION ============== -->
+<tr>
+<!-- ============ Menu Column ============== -->
+<td class="MenuColTD" align="center">
+<!-- ============ Site Menu ============== -->
+<div class="Menu">
+<a href="http://alum.mit.edu/www/nslavov/data_webs.htm">Research Home</a>
+<a href="index.html">Introduction</a>
+<a href="Experimental_Design.html">Experimental Design</a>
+<a href="">MBoC Article</a>
+<br>
+<br><br>
+ <h1 class="HeadingStyle">Explore the Data</h1>
+ <APPLET
+      code="edu/stanford/genetics/treeview/applet/ButtonApplet.class"
+      archive="TreeView-1.1.3-applet/TreeViewApplet.jar,TreeView-1.1.3-applet/nanoxml-2.2.2.jar,TreeView-1.1.3-applet/plugins/Dendrogram.jar"
+      width="200"
+      height="40"
+      alt="Your browser understands the &lt;APPLET&gt; tag but isn't
+      running the applet, for some reason."
+ >
+      Your browser is completely ignoring the &lt;APPLET&gt; tag!
+     <param name="cdtFile" value="jtv/his_lys_glu_N_interp.cdt">
+     <param name="cdtName" value="Transcripts">
+     <param name="plugins" value="edu.stanford.genetics.treeview.plugin.dendroview.DendrogramFactory">
+ </APPLET>
+ <br>
+ <h1 class="HeadingStyle">Download the Data</h1>
+<input type="button" 
+	   name="Button" 
+	   value="All Genes" 
+	   onClick="window.open('jtv/his_lys_glu_N_interp.cdt', 'download'); 
+return false;"> 
+<br><br>
+
+<h1 class="HeadingStyle">Related Work:</h1>
+<ul type="circle">
+  <li> <a href="http://genomics-pubs.princeton.edu/grr/" target="_blank">Coordination of Cell Growth and Division</a> <br> <br>
+  <li> <a href="http://genomics-pubs.princeton.edu/YMC_in_Ethanol_Batch/" target="_blank">Cell Growth Cycle</a> <br>
+  <li> <a href="http://growthrate.princeton.edu/" target="_blank">Growth Rate Response</a> 
+</ul> 
+
+</div>
+</td>
+</td>
+<!-- ============ Content Column ==============  his_lys -->
+<td class="Content">
+<h1 class="HeadingStyle">Chemostat Experiments</h1>   
+<ol>
+    <li> Chemostats cultures of auxotrophs  growing on glucose <b>20g/L</b> and limited on:
+    <ol type="i">
+        <li> <a href="http://www.yeastgenome.org/cgi-bin/locus.fpl?locus=HIS3"  target="_blank"><i>his3</i></a>
+        		auxotroph (DBY9496) limited on Histidine:   [His] = 4mg/L. 
+        		<ul>
+        		  <li>View his biosynthetic <a href="http://pathway.yeastgenome.org/YEAST/NEW-IMAGE?type=PATHWAY&object=HISTSYN-PWY&detail-level=3&detail-level=2" target="_blank">pathway</a>.
+        		</ul>
+        <li>  <a href="http://www.yeastgenome.org/cgi-bin/locus.fpl?locus=LYS2"  target="_blank"><i>lys2</i></a>
+        		 auxotroph (DBY919) limited on Lysine:   [Lys] = 6mg/L. 
+        		<ul>
+        		   <li>View lys biosynthetic <a href="http://pathway.yeastgenome.org/YEAST/NEW-IMAGE?type=PATHWAY&object=LYSINE-AMINOAD-PWY&detail-level=3&detail-level=2" target="_blank">pathway</a>.
+    		     </ul>
+		 <li> <a href="http://www.yeastgenome.org/cgi-bin/locus.fpl?locus=URA3"  target="_blank"><i>ura3</i></a> auxotroph (DBY9492) limited by Uracil: [Ura] = 5mg/L.
+                <ul>
+					<li>View reaction <a href="http://pathway.yeastgenome.org/YEAST/NEW-IMAGE?type=REACTION&object=OROTPDECARB-RXN" target="_blank">pathway</a>.
+				 </ul>	
+    </ol>
+    <li> Growth Rates
+    <ol type="i">
+        <li> Chemostat dilution rates: <i> 0.05, 0.10, 0.15, 0.2, 0.25, 0.30 </i> per hour
+        <li> Corresponding to: <i> 13.8, 6.9, 4.6,  3.5, 2.8, 2.3</i> hours per doubling
+    </ol>
+    <li> Measurements
+    <ol type="i" >
+        <li> mRNA. Reference for the microaarays: Glucose limited culture (DBY10085) growing at dilution rate 0.25 per hour
+        <li>Measure residual [Glucose] & [Ethanol] and cell sizes.
+   </ol>
+</ol>
+<br>   
+    
+</td><tr>
+<td colspan="2"  width="100%" > <br><br>
+
+
+<table >
+  <tr>
+  	<td colspan="2"  width="100%" > 
+  	<h1 class="HeadingStyle" align="center">Concentrations</h1>
+  	</td>
+  <tr>	
+ <tr>
+ <td class="width:100%" >  
+     <h1 class="SubHeadingStyle" align="center">Residual Glucose</h1>
+     <a href="physiology/Glucose_Concentartion.pdf" target="_blank">
+         <img src="physiology/Glucose_Concentartion.png"
+         style="width: 360px; height: 200px;"> </img>
+     </a>
+ </td>
+ <td width="100%"> 
+     <h1 class="SubHeadingStyle"  align="center">Generated Ethanol</h1>
+     <a href="physiology/Ethanol_Concentartion.pdf" target="_blank">
+         <img src="physiology/Ethanol_Concentartion.png"
+         style="width: 360px; height: 200px;"> </img>
+     </a>
+ </td>
+ 
+  <tr>
+  <td>  <br><br>
+  <tr>
+  	<td colspan="2"  width="100%" > 
+  	<h1 class="HeadingStyle" align="center">Distributions of Cell Sizes</h1>
+  	</td>
+  <tr>	
+ <td class="width:100%" >  
+     <h1 class="SubHeadingStyle" align="center">Histidine Limitation</h1>
+     <a href="physiology/his_dist.pdf" target="_blank">
+         <img src="physiology/his_dist_2.png"
+         style="width: 360px; height: 200px;"> </img>
+     </a>
+ </td>
+ <td width="100%">  
+     <h1 class="SubHeadingStyle"  align="center">Lysine Limitation</h1>
+     <a href="physiology/lys_dist_2.pdf" target="_blank">
+         <img src="physiology/lys_dist_2.png"
+         style="width: 360px; height: 200px;"> </img>
+     </a>
+ </td>
+ 
+   <tr>
+  	<td colspan="1"  width="100%" > 
+		<h1 class="SubHeadingStyle" align="center"><br>Uracil Limitation</h1>
+
+		 <a href="physiology/ura_dist_2.pdf" target="_blank">
+			 <img src="physiology/ura_dist_2.png"
+			 style="width: 360px; height: 200px;"> </img>
+		 </a>
+	</td>
+   	<td colspan="1"  width="100%" > 
+		<h1 class="SubHeadingStyle" align="center"><br>Glucose Limitation</h1>
+
+		 <a href="physiology/glu_dist.pdf" target="_blank">
+			 <img src="physiology/glu_dist.png"
+			 style="width: 360px; height: 200px;"> </img>
+		 </a>
+		 <br>
+		 &nbsp &nbsp &nbsp &nbsp <a href="http://genomics-pubs.princeton.edu/grr/cell_sizes.html">More cell size distributions for prototrophs</a>
+	</td>
+ </td>
+</table>      
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ============ Footer ============== -->
+<tr><td colspan="2" class="Footer">
+<div class="FooterWrap">
+<div class="Copyright">Copyright &copy; <a href="http://alum.mit.edu/www/nslavov"> Nikolai Slavov  </a></div>
+</div>
+</td></tr></table>
+</body>
+</html>

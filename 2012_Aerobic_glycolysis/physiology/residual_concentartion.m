@@ -1,0 +1,157 @@
+%% Glucose concentartion:
+%
+% 500 \mu l -- solution 1
+% 10  \mu l -- sample ( 10 x diluted, 100 \mu l + 900 \mu l )
+% 10  \mu l -- suspension 2 
+% 990 \mu l -- water
+Glu = [399 414 442 441 462 477 ...
+       371 425 430 437 468 483 ];
+b = 1.510 * 1e3 / ( 6.8 * 1e-2 * 1e3 );  % 6.3 180 
+c = b * 10 * Glu*1e-3;   
+
+fprintf( '%1.2f mM\n', c )
+fprintf( '\n' );
+
+
+%% Plots Glucose Concentartion 
+
+Marker = { 'linewidth', 3, 'MarkerSize', 10, 'MarkerFaceColor' };
+
+gr = 0.05 : 0.05 : 0.3;
+
+
+plot( gr, c(1:6), 'ko-', Marker{:}, 'k' ); hold on 
+plot( gr, c(7:12), 'ro-', Marker{:}, 'r' );
+
+
+xlim( [0.04 .31] );
+set( gca, 'Xtick', gr,  'XtickLabel', gr );
+set( gca, 'FontWeight', 'Bold', 'FontSize', 14 );
+
+h(1) = xlabel( 'Growth Rate, $h^{-1}$' );    
+h(2) = ylabel( 'Residual [Glucose], mM' );   % 
+hh = legend(   'His Limitation',...
+               'Lys Limitation',...
+               'Location', 'NorthWest'  );
+sett( hh, 16 );           
+set( hh, 'box', 'off' );           
+sett(h, 20);           
+%set(h, 'fontsize', 16, 'FontWeight', 'bold');
+%%
+pdf( 'Glucose_Concentartion', [9 5], 1 );
+
+
+
+
+
+
+
+
+
+%% Ethanol concentartion:
+%
+% 500 \mu l -- solution 2
+% 10  \mu l -- sample ( 10 x diluted, 100 \mu l + 900 \mu l )
+%  5  \mu l -- suspension 3 
+% 990 \mu l -- water
+Eth = [150 139  82  61 32/2 30/2 ...
+       244 159 139 128 28/2 25/2 ];
+b = 1.505 * 1e3 / ( 6.3 * 1e-2 * 2* 1e3 );  %46.07 
+c = b * 10 * Eth*1e-3;   
+
+fprintf( '%1.2f mM\n', c )
+fprintf( '\n' );
+
+
+%% Plots Ethanol Concentartion 
+
+Marker = { 'linewidth', 3, 'MarkerSize', 10, 'MarkerFaceColor' };
+
+gr = 0.05 : 0.05 : 0.3;
+
+plot( gr, c(1:6), 'ko-', Marker{:}, 'k' ); hold on 
+plot( gr, c(7:12), 'ro-', Marker{:}, 'r' );
+
+
+xlim( [0.04 .31] );
+set( gca, 'Xtick', gr,  'XtickLabel', gr );
+set( gca, 'FontWeight', 'Bold', 'FontSize', 14 );
+
+h(1) = xlabel( 'Growth Rate, $h^{-1}$' );    
+h(2) = ylabel( '[Ethanol], mM' );   
+hh = legend(   'His Limitation',...
+               'Lys Limitation',...
+               'Location', 'NorthEast'  );
+sett( hh, 16 );           
+set( hh, 'box', 'off' );           
+sett(h, 20);           
+%set(h, 'fontsize', 16, 'FontWeight', 'bold');
+%%
+pdf( 'Ethanol_Concentartion', [9 5], 1 );
+%png( 'Ethanol_Concentartion', [9 5], 1 );
+
+    
+
+
+
+
+
+
+
+
+
+
+
+%% Ethanol concentartion in the Victor's samples:
+%
+% 500 \mu l -- solution 2
+% 10  \mu l -- sample ( 10 x diluted, 100 \mu l + 900 \mu l )
+%  5  \mu l -- suspension 3 
+% 990 \mu l -- water
+Eth = [299      200 135 103 ...  % Leu limited chemostats (1, ,3,4,5)
+       339  238 199 134  75  ];  % Ura limited chemostats (1,2,3,4,5)
+b = 1.505 * 1e3 / ( 6.3 * 1e-2 * 2* 1e3 );  %46.07 
+c = b * 10 * Eth*1e-3;   
+
+fprintf( '%1.2f mM\n', c )
+fprintf( '\n' );
+
+
+%% Plots Ethanol Concentartion 
+
+Marker = { 'linewidth', 3, 'MarkerSize', 10, 'MarkerFaceColor' };
+
+
+gr1 = [0.05, 	   0.16, 0.22, 0.30];
+gr2 = [0.05, 0.11, 0.16, 0.22, 0.30];
+
+
+plot( gr1, c(1:4), 'ko-', Marker{:}, 'k' ); hold on 
+plot( gr2, c(5:9), 'ro-', Marker{:}, 'r' );
+
+
+xlim( [0.04 .31] );
+set( gca, 'Xtick', gr2,  'XtickLabel', gr2 );
+set( gca, 'FontWeight', 'Bold', 'FontSize', 14 );
+
+h(1) = xlabel( 'Growth Rate, $h^{-1}$' );    
+h(2) = ylabel( '[Ethanol], mM' );   
+hh = legend(   'Leu Limitation',...
+               'Ura Limitation',...
+               'Location', 'NorthEast'  );
+sett( hh, 16 );           
+set( hh, 'box', 'off' );           
+sett(h, 20);           
+%set(h, 'fontsize', 16, 'FontWeight', 'bold');
+%%
+pdf( 'Ethanol_Concentartion_Leu_Ura', [9 5], 1 );
+%png( 'Ethanol_Concentartion', [9 5], 1 );
+
+
+
+
+
+
+
+
+

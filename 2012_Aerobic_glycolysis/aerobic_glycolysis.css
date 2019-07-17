@@ -1,0 +1,19 @@
+	.Footer {
+		color: #000000;
+		font: 13px arial,sans-serif;
+		height: 50px;
+		text-align: center;
+		vertical-align: top;
+	}
+	
+	.FooterWrap {
+		border-top: 1px dotted dimgray;
+		margin-top: 10px;
+		padding-top: 10px;
+		font-style: italic;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.Copyright {
+		margin-left: 50px;
+	}
