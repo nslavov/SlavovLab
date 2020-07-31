@@ -1,20 +1,20 @@
 
-.SCPtable {
+#SCPtable {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
 
-.SCPtable td, .SCPtable th {
+#SCPtable td, #SCPtable th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-.SCPtable tr:nth-child(even){background-color: #f2f2f2;}
+#SCPtable tr:nth-child(even){background-color: #f2f2f2;}
 
-.SCPtable tr:hover {background-color: #ddd;}
+#SCPtable tr:hover {background-color: #ddd;}
 
-.SCPtable th {
+#SCPtable th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
