@@ -1,13 +1,13 @@
 
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400|Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Josefin+Slab');
 
 BODY {
-margin: 0px; 
+margin: 0px;
 padding: 0px;
 background: url('drop_shadow.jpg') center top;
 color: black;
 text-align: center;
-} 
+}
 
 A:link {background: none; color: dimgray; text-decoration: none; cursor: pointer;}
 A:visited {background: none; color: dimgray; text-decoration: none; cursor: pointer;}
@@ -41,35 +41,35 @@ border-bottom: 1px dotted dimgray;
 }
 
 
-.header_title{ 
-   font-family: 'Josefin Slab', serif; 
+.header_title{
+   font-family: 'Josefin Slab', serif;
 	line-height:35px;
-	font-size:28px; 
+	font-size:28px;
 	padding: 1px 100px 1px 5px;
-    border-bottom: 1px dotted dimgray;	
+    border-bottom: 1px dotted dimgray;
     letter-spacing: 0.8px;
     text-align: left;
 }
 /* font-family: Helvetica, Tahoma, sans-serif;  'Josefin Slab', serif;    letter-spacing: 0.7px;  line-height:45px; */
- .header_subtitle1{ 
+ .header_subtitle1{
    font-family:   'Open Sans', sans-serif;
    line-height: 30px;
    font-size: 19px;
-   padding: 5px 1px 2px 5px; 
-   letter-spacing: 2.3px; 
-   font-weight: 300; 
-   text-align: left;  
-} 
- .header_subtitle2{ 
-   font-family: Helvetica, Tahoma, sans-serif; 
-   font-size:16px;  
+   padding: 5px 1px 2px 5px;
+   letter-spacing: 2.3px;
+   font-weight: 300;
+   text-align: left;
+}
+ .header_subtitle2{
+   font-family: Helvetica, Tahoma, sans-serif;
+   font-size:16px;
    padding: 1px 1px 1px 5px;
    text-align: left;
 }
 .TopLinks{
-   font-size: 20px; 
+   font-size: 20px;
    line-height: 60px;
-   font-family: Helvetica, Tahoma, sans-serif; 
+   font-family: Helvetica, Tahoma, sans-serif;
    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 a#active { background: none; color: black; text-decoration: underline; cursor: pointer; }
@@ -87,7 +87,7 @@ color: dimgray;
 .Header_Image {
 width: 760px;
 height: 140px;
-padding: 0px; 
+padding: 0px;
 margin-left: 10px;
 }
 
@@ -116,21 +116,21 @@ width: 120px;
 height: 20px;
 text-align: left;
 font-weight: bold;
-padding: 0px 0px 4px 0px; 
+padding: 0px 0px 4px 0px;
 }
 
 .Content {
-width: 590px; 
+width: 590px;
 padding: 20px 20px 20px 20px;
 background: transparent;
 color: inherit;
 text-align: justify;
 line-height: 1.3em;
 letter-spacing: 0.5px;
-font-family: Helvetica, Tahoma, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-family: Helvetica, Tahoma, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 font-weight: 300;
 font-size: 13.5px
-} 
+}
 
 
 .Content2 {
@@ -147,8 +147,8 @@ font-size: 13.5px
 }
 
 .Navigation_Links{
- white-space: nowrap; 
- line-height: 180%; 
+ white-space: nowrap;
+ line-height: 180%;
  font-size: 15px;
  letter-spacing: 1px
 }
@@ -175,12 +175,12 @@ html:not([dummy]).Content { width: 300px; }
                           /*FAFAFA */
 .Content A:link {background: none; color: gray; text-decoration: none; cursor: pointer; font-weight: bold;}
 .Content A:visited {background:  none; color: gray; text-decoration: none; cursor: pointer; font-weight: bold;}
-.Content A:hover {background: none; color: maroon; text-decoration: underline; cursor: pointer; font-weight: bold;} 
+.Content A:hover {background: none; color: maroon; text-decoration: underline; cursor: pointer; font-weight: bold;}
 .Content A:active { background: none; color: red; background: none; cursor: pointer; font-weight: bold;}
 
 .Content2 A:link {background: none; color: gray; text-decoration: none; cursor: pointer; font-weight: bold;}
 .Content2 A:visited {background:  none; color: gray; text-decoration: none; cursor: pointer; font-weight: bold;}
-.Content2 A:hover {background: none; color: maroon; text-decoration: underline; cursor: pointer; font-weight: bold;} 
+.Content2 A:hover {background: none; color: maroon; text-decoration: underline; cursor: pointer; font-weight: bold;}
 .Content2 A:active { background: none; color: red; background: none; cursor: pointer; font-weight: bold;}
 
 
@@ -240,5 +240,3 @@ margin-right: 10px;
 .Copyright {
 margin-left: 50px;
 }
-
-
