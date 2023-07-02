@@ -149,8 +149,9 @@ font-size: 13.5px
 .Navigation_Links{
  white-space: nowrap;
  line-height: 200%;
- font-size: 22px;
- letter-spacing: 1px
+ font-size: 24px;
+ letter-spacing: 1px;
+ text-align: left;
 }
 
 
