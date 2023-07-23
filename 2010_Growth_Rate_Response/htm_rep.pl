@@ -8,8 +8,8 @@ $x = 'http://www.northeastern.edu';
 $x2 = 'http://alum.mit.edu/www/';
 $y = 'https://web.northeastern.edu';
 
-$x = 'http://slavovlab.net/';
-$y = 'https://slavovlab.net/';
+$x = 'https://web.northeastern.edu/slavovlab/blog/';
+$y = 'https://blog.slavovlab.net/';
 
 
 $File_Num=0;
