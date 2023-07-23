@@ -1,0 +1,1 @@
+COPY Slavov_Ribosome_Mediated_Translational_Regulation_Structure.png  M:\www\Ribosome_Data\
