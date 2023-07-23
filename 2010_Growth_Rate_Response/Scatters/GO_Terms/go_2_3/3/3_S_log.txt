@@ -1,0 +1,8 @@
+Date	Mon Jul 20 00:28:49 EDT 2009
+Aspect	P
+P-value cutoff	0.01
+Calculate FDR	Yes
+Uploaded gene list	3_S.txt
+Annotation file	gene_association.sgd
+Ambiguous identifiers	MIF2 NUD1 APL1 PCA1 STS1 TAF1
+Unknown identifiers	YMR086C-A YGL072C PSY1 YMR007W YML116W-A YHR214W-A YCR025C YNL303W YIL100W YLL020C YBL048W YIL059C YMR153C-A YOR013W YCR064C YMR304C-A VPS63 YPL025C YBR116C YMR316C-B

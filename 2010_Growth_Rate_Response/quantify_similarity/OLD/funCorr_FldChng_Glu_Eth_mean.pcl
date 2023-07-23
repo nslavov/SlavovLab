@@ -1,0 +1,93 @@
+YORF	NAME	GWEIGHT	GLU::Glucose	GLU::Nitrogen	GLU::Phosphate	 	ETH::Ethanol	ETH::Nitrogen	ETH::Phosphate	  	DIFF::Ethanol	DIFF::Nitrogen	DIFF::Phosphate
+EWEIGHT	 		1	1	1	1	1	1	1	1	1	1	1
+GO_0005840	ribosome	1	0.32	0.28	0.29	0.00	-0.65	0.78	-0.55
+GO_0005198	structural molecule activity	1	0.31	0.28	0.29	0.00	-0.60	0.73	-0.53
+GO_0006412	translation	1	0.34	0.25	0.32	0.00	-0.69	0.60	-0.39
+GO_0007005	mitochondrion organization	1	0.42	0.18	0.35	0.00	-0.04	0.86	0.21
+GO_0005575	cellular_component	1	0.19	0.14	0.08	0.00	0.26	0.18	0.53
+GO_0006725	cellular aromatic compound metabolic process	1	0.16	0.06	0.10	0.00	0.31	0.27	0.60
+GO_0006091	generation of precursor metabolites and energy	1	0.34	0.14	0.20	0.00	0.38	0.62	0.87
+GO_0007031	peroxisome organization	1	0.27	0.37	0.19	0.00	0.22	0.27	0.65
+GO_0008150	biological_process	1	0.21	0.18	0.13	0.00	0.25	0.24	0.27
+GO_0005618	cell wall	1	-0.11	0.34	-0.07	0.00	1.47	0.85	1.60
+GO_0019725	cellular homeostasis	1	-0.02	0.17	0.01	0.00	1.27	1.03	1.28
+GO_0045182	translation regulator activity	1	0.44	0.19	-0.03	0.00	1.20	0.92	1.06
+GO_0016020	membrane	1	0.22	0.16	0.16	0.00	0.30	0.06	0.32
+GO_0044262	cellular carbohydrate metabolic process	1	0.25	0.17	0.16	0.00	0.67	0.11	0.63
+GO_0016740	transferase activity	1	0.21	0.16	0.13	0.00	0.18	-0.02	0.38
+GO_0044255	cellular lipid metabolic process	1	0.16	0.14	0.18	0.00	0.36	-0.15	0.41
+GO_0016023	cytoplasmic membrane-bounded vesicle	1	0.08	0.15	0.20	0.00	0.33	0.14	0.16
+GO_0005740	mitochondrial envelope	1	0.30	0.19	0.20	0.00	-0.15	0.51	0.80
+GO_0045333	cellular respiration	1	0.32	0.02	0.16	0.00	-0.28	0.64	1.10
+GO_0016491	oxidoreductase activity	1	0.07	0.07	0.22	0.00	0.02	0.34	1.02
+GO_0006766	vitamin metabolic process	1	0.18	-0.09	0.09	0.00	-0.13	0.95	2.29
+GO_0016829	lyase activity	1	0.23	-0.00	0.31	0.00	0.39	-0.05	1.75
+GO_0006519	cellular amino acid and derivative metabolic process	1	0.05	0.05	0.25	0.00	0.11	0.23	1.92
+GO_0051186	cofactor metabolic process	1	0.22	-0.01	0.23	0.00	-0.37	0.14	1.55
+GO_0005777	peroxisome	1	0.19	0.35	0.19	0.00	-1.40	0.18	1.52
+GO_0005624	membrane fraction	1	0.19	0.31	0.16	0.00	0.54	-0.41	0.04
+GO_0005783	endoplasmic reticulum	1	0.18	0.20	0.20	0.00	0.72	0.31	-0.14
+GO_0042254	ribosome biogenesis	1	0.29	0.14	0.12	0.00	-0.73	0.23	-1.31
+GO_0005730	nucleolus	1	0.23	0.11	0.07	0.00	-0.45	0.20	-1.59
+GO_0070271	protein complex biogenesis	1	0.37	0.19	0.05	0.00	-0.70	-0.08	-0.96
+GO_0016779	nucleotidyltransferase activity	1	0.34	0.11	0.07	0.00	-0.31	-0.19	-1.06
+GO_0016050	vesicle organization	1	0.18	0.15	0.28	0.00	-0.42	-0.34	-0.93
+GO_0004871	signal transducer activity	1	0.17	0.30	-0.02	0.00	-0.19	-0.11	-0.30
+GO_0016787	hydrolase activity	1	0.24	0.18	0.12	0.00	-0.36	-0.71	-0.47
+GO_0051276	chromosome organization	1	0.26	0.18	0.10	0.00	-0.27	-0.66	-0.46
+GO_0030435	sporulation resulting in formation of a cellular spore	1	0.17	0.16	0.12	0.00	-0.40	-0.64	-0.40
+GO_0008233	peptidase activity	1	0.20	0.11	0.16	0.00	-0.91	-1.37	-0.45
+GO_0004386	helicase activity	1	0.29	0.32	0.25	0.00	-1.00	-1.74	-0.62
+GO_0006457	protein folding	1	0.25	0.14	0.23	0.00	-1.37	-0.88	-1.47
+GO_0044257	cellular protein catabolic process	1	0.24	0.17	0.19	0.00	-1.00	-1.04	-0.84
+GO_0032196	transposition	1	0.20	0.10	0.26	0.00	-0.57	-0.59	-0.59
+GO_0007114	cell budding	1	0.06	0.09	-0.06	0.00	-0.13	-0.63	-0.49
+GO_0000910	cytokinesis	1	0.08	0.16	-0.15	0.00	-0.30	-0.63	-0.42
+GO_0000746	conjugation	1	0.19	0.19	0.07	0.00	-0.71	-1.14	-1.80
+GO_0005576	extracellular region	1	-0.13	0.24	0.03	0.00	-0.94	-1.61	-2.03
+GO_0007049	cell cycle	1	0.20	0.15	0.04	0.00	0.01	-0.53	-0.53
+GO_0007010	cytoskeleton organization	1	0.17	0.20	0.06	0.00	-0.03	-0.59	-0.44
+GO_0007165	signal transduction	1	0.21	0.24	0.08	0.00	-0.22	-0.70	-0.66
+GO_0006259	DNA metabolic process	1	0.37	0.22	0.09	0.00	-0.10	-0.58	-0.60
+GO_0030234	enzyme regulator activity	1	0.22	0.14	0.14	0.00	-0.07	-0.33	-0.36
+GO_0006997	nucleus organization	1	0.48	0.24	0.11	0.00	-0.23	-0.62	-0.56
+GO_0016192	vesicle-mediated transport	1	0.21	0.12	0.21	0.00	-0.14	-0.37	-0.35
+GO_0006464	protein modification process	1	0.20	0.17	0.10	0.00	-0.01	-0.26	-0.21
+GO_0005694	chromosome	1	0.31	0.18	0.08	0.00	0.13	-0.41	-0.59
+GO_0007059	chromosome segregation	1	0.30	0.26	-0.01	0.00	0.02	-0.61	-0.87
+GO_0008289	lipid binding	1	0.03	0.17	0.17	0.00	-0.03	-0.43	-0.24
+GO_0007126	meiosis	1	0.22	0.17	-0.02	0.00	0.08	-0.68	-0.37
+GO_0030427	site of polarized growth	1	0.14	0.14	-0.03	0.00	0.02	-0.48	-0.30
+GO_0005933	cellular bud	1	0.11	0.13	-0.04	0.00	0.13	-0.44	-0.23
+GO_0005856	cytoskeleton	1	0.15	0.13	0.08	0.00	0.18	-0.52	-0.36
+GO_0032989	cellular component morphogenesis	1	0.11	0.27	-0.04	0.00	0.07	-0.31	-0.22
+GO_0005815	microtubule organizing center	1	0.11	0.10	0.12	0.00	0.33	-0.64	-0.86
+GO_0003774	motor activity	1	0.04	0.07	-0.03	0.00	0.35	-0.67	-0.48
+GO_0005794	Golgi apparatus	1	0.16	0.10	0.19	0.00	0.19	-0.14	-0.47
+GO_0007033	vacuole organization	1	0.08	0.18	0.19	0.00	0.49	-0.27	-1.09
+GO_0012505	endomembrane system	1	0.24	0.17	0.23	0.00	0.15	-0.10	-0.34
+GO_0016044	membrane organization	1	0.27	0.20	0.28	0.00	0.06	-0.07	-0.16
+GO_0016853	isomerase activity	1	0.19	0.36	0.41	0.00	0.02	0.28	-0.34
+GO_0046483	heterocycle metabolic process	1	0.23	0.13	0.15	0.00	-0.40	-0.35	0.35
+GO_0016874	ligase activity	1	0.21	0.04	0.26	0.00	-0.43	-0.38	0.36
+GO_0007047	cell wall organization	1	0.16	0.27	0.06	0.00	-0.35	-0.42	0.08
+GO_0003677	DNA binding	1	0.31	0.11	0.01	0.00	0.07	-0.49	-0.04
+GO_0007124	pseudohyphal growth	1	0.38	0.20	0.10	0.00	0.02	-0.72	-0.06
+GO_0005938	cell cortex	1	0.12	0.15	-0.02	0.00	0.07	-0.53	0.01
+GO_0006350	transcription	1	0.25	0.21	0.06	0.00	-0.06	-0.30	-0.06
+GO_0006950	response to stress	1	0.28	0.23	0.12	0.00	-0.12	-0.46	-0.20
+GO_0004721	phosphoprotein phosphatase activity	1	0.37	0.09	0.21	0.00	-0.15	-0.44	0.12
+GO_0030528	transcription regulator activity	1	0.19	0.14	0.06	0.00	0.03	-0.38	0.25
+GO_0004672	protein kinase activity	1	0.17	0.23	-0.01	0.00	0.16	-0.50	0.29
+GO_0005737	cytoplasm	1	0.24	0.17	NaN	0.00	-0.19	-0.06	-0.05
+GO_0005515	protein binding	1	0.30	0.16	NaN	0.00	-0.41	-0.40	-0.41
+GO_0016070	RNA metabolic process	1	0.27	0.18	NaN	0.00	-0.21	-0.07	-0.37
+GO_0005886	plasma membrane	1	0.14	0.24	NaN	0.00	0.27	-0.08	0.74
+GO_0042221	response to chemical stimulus	1	0.20	0.19	NaN	0.00	-0.25	-0.41	-0.29
+GO_0006810	transport	1	0.24	0.17	NaN	0.00	0.14	-0.00	0.28
+GO_0005739	mitochondrion	1	0.26	0.16	NaN	0.00	0.06	0.51	0.81
+GO_0005215	transporter activity	1	0.14	0.26	NaN	0.00	0.53	0.30	1.30
+GO_0005773	vacuole	1	0.09	0.16	NaN	0.00	1.29	-0.20	0.40
+GO_0003723	RNA binding	1	0.29	0.16	NaN	0.00	-0.37	0.22	-0.38
+GO_0003674	molecular_function	1	0.22	0.18	NaN	0.00	0.11	0.18	-0.06
+GO_0005634	nucleus	1	0.28	0.17	NaN	0.00	-0.25	-0.31	-0.47

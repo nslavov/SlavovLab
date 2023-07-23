@@ -1,0 +1,40 @@
+YORF	NAME	GWEIGHT	ETH::Ethanol:0.05	ETH::Ethanol:0.10	ETH::Ethanol:0.14	ETH::Nitrogen:0.05	ETH::Nitrogen:0.10	ETH::Nitrogen:0.14	ETH::Phosphate:0.05	ETH::Phosphate:0.10	ETH::Phosphate:0.14	Separator	GLU::Glucose:0.05	GLU::Glucose:0.10	GLU::Glucose:0.15	GLU::Nitrogen:0.05	GLU::Nitrogen:0.10	GLU::Nitrogen:0.15	GLU::Phosphate:0.05	GLU::Phosphate:0.10	GLU::Phosphate:0.15
+EWEIGHT	 		1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+YJL096W	MRPL49 :: Mitochondrial ribosomal protein of the large subunit	1	-1.37	-0.88	-1.23	-1.83	-0.71	-0.23	-1.69	-1.50	-1.22	0.00	-1.05	-0.34	-0.70	-2.63	-2.15	-1.16	-1.02	-0.90	-0.47
+YJL096W	MRPL49 :: Mitochondrial ribosomal protein of the large subunit	1	-1.37	-0.88	-1.23	-1.83	-0.71	-0.23	-1.69	-1.50	-1.22	0.00	-1.05	-0.34	-0.70	-2.63	-2.15	-1.16	-1.02	-0.90	-0.47
+YGR220C	MRPL9 :: Mitochondrial ribosomal protein of the large subunit	1	-0.93	-0.66	-0.94	-1.30	-0.59	-0.45	-1.09	-1.01	-0.65	0.00	-0.70	-0.34	-0.46	-1.94	-1.59	-0.59	-0.72	-0.58	-0.41
+YKR085C	MRPL20 :: Mitochondrial ribosomal protein of the large subunit	1	-1.10	-0.64	-0.97	-1.50	-0.43	-0.42	-1.28	-1.31	-0.99	0.00	-1.54	-1.01	-1.06	-3.18	-2.53	-1.61	-1.19	-0.90	-0.37
+YBR282W	MRPL27 :: Mitochondrial ribosomal protein of the large subunit	1	-0.99	-0.58	-0.87	-0.97	-0.48	0.11	-0.96	-1.11	-0.78	0.00	-1.10	-0.70	-0.91	-2.21	-1.50	-0.74	-0.79	-0.55	-0.29
+YKL138C	MRPL31 :: Essential subunit of the Dam1 complex (aka DASH complex), couples kinetochores to the force produced by MT depolymerization thereby aiding in chromosome segregation; is transferred to the kinetochore prior to mitosis	1	-1.15	-0.97	-1.23	-1.25	-0.74	-0.25	-1.42	-1.42	-1.28	0.00	-1.18	-0.41	-0.86	-2.49	-1.98	-0.55	-0.80	-0.66	-0.19
+YCR071C	IMG2 :: Mitochondrial ribosomal protein of the small subunit	1	-1.66	-1.36	-1.65	-1.87	-1.10	-0.79	-1.61	-1.43	-1.52	0.00	-1.05	-0.71	-0.88	-2.01	-1.23	-0.43	-0.29	-0.34	0.01
+YBR268W	MRPL37 :: Mitochondrial ribosomal protein of the large subunit	1	-0.92	-0.62	-0.98	-1.49	-0.23	-0.79	-0.88	-1.26	-0.82	0.00	-1.04	-0.50	-0.47	-2.34	-1.94	-0.73	-0.91	-0.88	-0.33
+YNR022C	MRPL50 :: Mitochondrial ribosomal protein of the large subunit, not essential for mitochondrial translation	1	-1.43	-0.99	-1.61	-1.67	-0.88	-1.01	-1.52	-1.96	-1.55	0.00	-1.97	-1.22	-1.31	-3.56	-2.93	-1.59	-0.63	-0.75	-0.19
+YMR286W	MRPL33 :: Mitochondrial ribosomal protein of the large subunit	1	-1.53	-1.11	-1.33	-1.66	-0.84	-1.10	-1.55	-1.76	-1.15	0.00	-1.15	-0.45	-0.65	-1.90	-1.59	-0.12	-0.31	-0.38	-0.02
+YPR100W	MRPL51 :: Mitochondrial ribosomal protein of the large subunit	1	-0.72	-0.49	-1.11	-0.76	-0.33	-0.20	-0.95	-1.11	-0.67	0.00	-0.77	-0.09	-0.35	-1.78	-1.05	0.04	-0.23	-0.16	0.10
+YDL202W	MRPL11 :: Mitochondrial ribosomal protein of the large subunit	1	-0.70	-0.41	-0.58	-0.86	-0.25	-0.58	-0.99	-0.86	-0.48	0.00	-0.73	-0.58	-0.52	-1.88	-1.52	-0.99	-1.04	-0.79	-0.52
+YBR122C	MRPL36 :: Mitochondrial ribosomal protein of the large subunit; overproduction suppresses mutations in the COX2 leader peptide-encoding region	1	-0.93	-0.70	-0.72	-0.68	-0.25	-0.47	-0.84	-0.85	-0.56	0.00	-0.91	-0.42	-0.66	-1.73	-1.68	-0.89	-0.51	-0.34	-0.62
+YCR003W	MRPL32 :: Mitochondrial ribosomal protein of the large subunit	1	-0.94	-0.35	-1.10	-1.28	-0.38	-1.06	-1.22	-1.63	-0.72	0.00	-1.21	-0.98	-1.02	-2.50	-1.93	-0.78	-0.97	-0.87	-0.49
+YCR046C	IMG1 :: Mitochondrial ribosomal protein of the large subunit, required for respiration and for maintenance of the mitochondrial genome	1	-0.55	-0.21	-0.18	-0.90	0.04	-0.57	-0.53	-0.20	-0.04	0.00	-0.92	-0.79	-0.61	-1.19	-1.28	-1.79	-1.58	-1.17	-1.03
+YDR116C	MRPL1 :: Mitochondrial ribosomal protein of the large subunit	1	-0.85	-0.57	-0.21	-0.94	-0.51	-0.38	-0.86	-0.61	-0.32	0.00	-1.03	-1.03	-0.79	-1.22	-1.31	-1.46	-1.64	-1.25	-1.19
+YLR439W	MRPL4 :: Mitochondrial ribosomal protein of the large subunit	1	-1.49	-0.93	-0.39	-1.82	-0.92	-0.82	-1.58	-0.94	-0.74	0.00	-1.16	-1.32	-0.56	-1.47	-1.53	-2.31	-2.49	-2.21	-2.21
+YML025C	YML6 :: Mitochondrial ribosomal protein of the large subunit, has similarity to E. coli L4 ribosomal protein and human mitoribosomal MRP-L4 protein; essential for viability, unlike most other mitoribosomal proteins	1	-1.26	-0.77	-0.18	-1.37	-0.73	-0.84	-1.03	-0.63	-0.47	0.00	-1.15	-1.22	-0.85	-1.36	-1.73	-2.02	-1.83	-1.63	-1.44
+YMR024W	MRPL3 :: Mitochondrial ribosomal protein of the large subunit	1	-0.70	-0.32	0.20	-0.67	-0.39	0.72	-0.96	-0.11	-0.25	0.00	-0.81	-0.92	-0.42	-1.32	-1.02	-1.16	-1.32	-1.18	-0.74
+YDR237W	MRPL7 :: Mitochondrial ribosomal protein of the large subunit	1	-1.52	-0.82	-0.39	-1.71	-0.97	-0.34	-1.39	-0.76	-0.95	0.00	-1.46	-1.10	-1.04	-1.76	-1.71	-2.31	-2.06	-1.55	-1.21
+YEL050C	RML2 :: Mitochondrial ribosomal protein of the large subunit, has similarity to E. coli L2 ribosomal protein; fat21 mutant allele causes inability to utilize oleate and may interfere with activity of the Adr1p transcription factor	1	-0.61	-0.26	0.10	-0.95	-0.27	0.17	-0.66	-0.23	-0.16	0.00	-0.75	-0.82	-0.32	-0.81	-1.01	-1.58	-1.69	-1.47	-1.46
+YKL167C	MRP49 :: Mitochondrial ribosomal protein of the large subunit, not essential for mitochondrial translation	1	-1.37	-1.11	-1.03	-1.76	-0.93	-0.76	-1.33	-1.32	-0.74	0.00	-0.74	-0.26	-0.50	-1.99	-1.56	-0.24	-0.31	-0.51	-0.11
+YDR322W	MRPL35 :: Mitochondrial ribosomal protein of the large subunit	1	-1.85	-1.34	-0.99	-1.94	-1.30	-0.53	-1.73	-1.16	-1.26	0.00	-1.43	-1.14	-0.83	-1.81	-1.71	-1.53	-1.22	-1.14	-1.09
+YDR322W	MRPL35 :: Mitochondrial ribosomal protein of the large subunit	1	-1.85	-1.34	-0.99	-1.94	-1.30	-0.53	-1.73	-1.16	-1.26	0.00	-1.43	-1.14	-0.83	-1.81	-1.71	-1.53	-1.22	-1.14	-1.09
+YHR147C	MRPL6 :: Mitochondrial ribosomal protein of the large subunit	1	-1.61	-1.28	-1.00	-2.08	-1.16	-0.52	-1.54	-1.44	-1.17	0.00	-1.41	-0.82	-0.72	-2.55	-1.96	-1.26	-1.15	-1.04	-0.83
+YHR147C	MRPL6 :: Mitochondrial ribosomal protein of the large subunit	1	-1.61	-1.28	-1.00	-2.08	-1.16	-0.52	-1.54	-1.44	-1.17	0.00	-1.41	-0.82	-0.72	-2.55	-1.96	-1.26	-1.15	-1.04	-0.83
+YNL185C	MRPL19 :: Mitochondrial ribosomal protein of the large subunit	1	-1.64	-1.10	-1.06	-1.75	-1.08	-0.51	-2.02	-1.54	-1.05	0.00	-0.87	-0.70	-0.68	-1.41	-1.07	-0.99	-0.99	-0.80	-0.64
+YPL173W	MRPL40 :: Mitochondrial ribosomal protein of the large subunit	1	-1.76	-1.45	-1.01	-1.80	-1.31	-0.94	-1.75	-1.19	-1.14	0.00	-1.29	-1.14	-0.82	-1.79	-1.62	-1.41	-1.56	-1.46	-1.33
+YPL173W	MRPL40 :: Mitochondrial ribosomal protein of the large subunit	1	-1.76	-1.45	-1.01	-1.80	-1.31	-0.94	-1.75	-1.19	-1.14	0.00	-1.29	-1.14	-0.82	-1.79	-1.62	-1.41	-1.56	-1.46	-1.33
+YDR462W	MRPL28 :: Mitochondrial ribosomal protein of the large subunit	1	-1.23	-1.03	-0.98	-1.38	-0.80	-0.83	-1.34	-1.39	-0.75	0.00	-0.59	-0.61	-0.43	-1.71	-1.70	-1.64	-1.28	-1.00	-0.86
+YLR312W-A	MRPL15 :: Mitochondrial ribosomal protein of the large subunit	1	-1.31	-1.00	-0.76	-1.60	-0.71	-0.96	-0.92	-0.95	-0.93	0.00	-1.15	-1.01	-1.01	-2.37	-1.89	-1.09	-1.27	-1.11	-0.52
+YLR312W-A	MRPL15 :: Mitochondrial ribosomal protein of the large subunit	1	-1.31	-1.00	-0.76	-1.60	-0.71	-0.96	-0.92	-0.95	-0.93	0.00	-1.15	-1.01	-1.01	-2.37	-1.89	-1.09	-1.27	-1.11	-0.52
+YDR115W	YDR115W :: 	1	-0.92	-0.71	-0.34	-1.54	-0.37	-1.29	-0.85	-0.99	-0.52	0.00	-1.00	-0.58	-0.76	-2.02	-1.65	-0.61	-0.75	-0.52	-0.49
+YNL177C	MRPL22 :: Mitochondrial ribosomal protein of the large subunit	1	-0.35	-0.15	-0.08	-0.35	-0.14	0.15	-0.36	-0.32	-0.08	0.00	-0.36	-0.45	-0.42	-0.30	-0.20	-0.14	-0.81	-0.95	-0.64
+YOR150W	MRPL23 :: Mitochondrial ribosomal protein of the large subunit	1	-0.18	0.32	-0.38	-0.22	0.08	0.96	-0.72	-0.60	-0.30	0.00	-0.67	-0.19	-0.51	-0.79	-0.20	0.06	-0.45	-0.40	-0.14
+YOR150W	MRPL23 :: Mitochondrial ribosomal protein of the large subunit	1	-0.18	0.32	-0.38	-0.22	0.08	0.96	-0.72	-0.60	-0.30	0.00	-0.67	-0.19	-0.51	-0.79	-0.20	0.06	-0.45	-0.40	-0.14
+YBL038W	MRPL16 :: Mitochondrial ribosomal protein of the large subunit	1	0.18	0.29	-0.03	0.12	0.28	0.50	0.08	-0.20	0.07	0.00	-0.12	-0.01	-0.20	-1.06	-0.63	0.16	-0.09	-0.20	-0.32
+YML009C-A	YML009C-A :: 	1	0.20	0.20	0.12	0.09	0.19	0.51	0.33	0.28	0.08	0.00	-0.59	-0.05	0.05	0.05	0.15	-0.27	0.40	-0.02	0.05

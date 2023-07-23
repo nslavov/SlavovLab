@@ -1,0 +1,4 @@
+TEX1
+TIP1
+ANT1
+POT1

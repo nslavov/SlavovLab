@@ -1,0 +1,8 @@
+Date	Sun Jul 19 22:38:44 EDT 2009
+Aspect	P
+P-value cutoff	0.01
+Calculate FDR	Yes
+Uploaded gene list	4_S.txt
+Annotation file	gene_association.sgd
+Ambiguous identifiers	CCS1 SSB1 PAP1 HXT12
+Unknown identifiers	YPL025C YLR123C

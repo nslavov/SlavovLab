@@ -1,0 +1,8 @@
+Date	Mon Jul 20 00:33:56 EDT 2009
+Aspect	P
+P-value cutoff	0.01
+Calculate FDR	Yes
+Uploaded gene list	2_S.txt
+Annotation file	gene_association.sgd
+Ambiguous identifiers	NUD1 CCS1 CTR1 SSB1 HXT12
+Unknown identifiers	YMR007W YBR206W YDR094W YIL100W YMR075C-A YIL086C YCR064C YLR317W YMR013W-A YDL185C-A

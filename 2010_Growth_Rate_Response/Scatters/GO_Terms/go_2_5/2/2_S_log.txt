@@ -1,0 +1,8 @@
+Date	Sun Jul 19 23:37:34 EDT 2009
+Aspect	P
+P-value cutoff	0.01
+Calculate FDR	Yes
+Uploaded gene list	2_S.txt
+Annotation file	gene_association.sgd
+Ambiguous identifiers	SUT1 STS1
+Unknown identifiers	YGL072C YMR007W YBR206W YIL100W YEL068C YMR075C-A YIL086C YCR064C YMR013W-A YDL185C-A

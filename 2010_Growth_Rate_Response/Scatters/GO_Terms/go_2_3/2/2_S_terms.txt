@@ -1,0 +1,28 @@
+Date	Mon Jul 20 00:28:32 EDT 2009
+Aspect	P
+P-value cutoff	0.01
+Calculate FDR	Yes
+Uploaded gene list	2_S.txt
+Annotation file	gene_association.sgd
+Ambiguous identifiers (4)	STM1 SUT1 CDH1 GAT1
+
+Terms from the process ontology with p-value <= 0.01.
+
+Of your input list, 192 genes are known or unknown but not ambiguous. The total number of genes used to calculate the background distribution of GO terms is 7274.
+
+-- 1 of 543--
+GOID	GO:0015849
+TERM	organic acid transport
+P-VALUE	9.84282964961968e-07
+CORRECTED P-VALUE	0.000534465649974348
+NUM_ANNOTATIONS	11 (of 66)
+ANNOTATED_GENES	YIL006W, GAP1, YLL055W, PDR12, HIP1, AVT2, DAL5, MUP3, UGA4, AVT3, NPR2
+
+-- 2 of 543--
+GOID	GO:0046942
+TERM	carboxylic acid transport
+P-VALUE	6.5799376758262e-06
+CORRECTED P-VALUE	0.00357290615797363
+NUM_ANNOTATIONS	10 (of 65)
+ANNOTATED_GENES	YIL006W, GAP1, YLL055W, HIP1, AVT2, DAL5, MUP3, UGA4, AVT3, NPR2
+

@@ -1,0 +1,8 @@
+Date	Mon Jul 20 09:00:27 EDT 2009
+Aspect	P
+P-value cutoff	0.01
+Calculate FDR	Yes
+Uploaded gene list	3_S.txt
+Annotation file	gene_association.sgd
+Ambiguous identifiers	TEX1 MGT1 SLT2 CPR1 PPA1 MLP1 TAF1
+Unknown identifiers	PSY1 YMR173W-A YML116W-A YHR214W-A YNL140C YLL059C YDR133C YBL048W YKL053W YHR095W YMR052C-A YNL337W YMR304C-A YLR252W VPS63 YDR154C YBR116C

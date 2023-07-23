@@ -1,0 +1,7 @@
+order deny,allow
+deny from all
+satisfy any
+AuthType Basic
+AuthUserFile  /usr/local/http/conf/passwd.nslavov
+AuthName "grr Only"
+require valid-user

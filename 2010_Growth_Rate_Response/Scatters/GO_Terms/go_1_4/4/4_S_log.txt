@@ -1,0 +1,7 @@
+Date	Mon Jul 20 00:06:21 EDT 2009
+Aspect	P
+P-value cutoff	0.01
+Calculate FDR	Yes
+Uploaded gene list	4_S.txt
+Annotation file	gene_association.sgd
+Unknown identifiers	YAR030C YKL162C-A YML089C YPL025C YMR103C YOR366W

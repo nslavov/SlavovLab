@@ -1,0 +1,7 @@
+Date	Mon Jul 20 00:28:32 EDT 2009
+Aspect	P
+P-value cutoff	0.01
+Calculate FDR	Yes
+Uploaded gene list	2_S.txt
+Annotation file	gene_association.sgd
+Ambiguous identifiers	STM1 SUT1 CDH1 GAT1

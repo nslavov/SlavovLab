@@ -1,0 +1,5 @@
+#! /bin/bash
+
+cp Distributions_of_Slopes/$1.pdf Gsets
+cp exData_Clustergramts/$1.png Gsets
+cp slopes_Clustergramts/$1.png Gsets/sl

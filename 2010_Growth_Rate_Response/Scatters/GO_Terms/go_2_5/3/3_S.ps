@@ -1,0 +1,7765 @@
+%!PS-Adobe-2.0
+%%Creator: dot version 1.12 (Wed Jun  9 07:04:15 GMT 2004)
+%%For: (www) World Wide Web Server
+%%Title: test
+%%Pages: (atend)
+%%BoundingBox: 35 35 577 727
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+
+EncodingVector
+  dup 306 /AE
+  dup 301 /Aacute
+  dup 302 /Acircumflex
+  dup 304 /Adieresis
+  dup 300 /Agrave
+  dup 305 /Aring
+  dup 303 /Atilde
+  dup 307 /Ccedilla
+  dup 311 /Eacute
+  dup 312 /Ecircumflex
+  dup 313 /Edieresis
+  dup 310 /Egrave
+  dup 315 /Iacute
+  dup 316 /Icircumflex
+  dup 317 /Idieresis
+  dup 314 /Igrave
+  dup 334 /Udieresis
+  dup 335 /Yacute
+  dup 376 /thorn
+  dup 337 /germandbls
+  dup 341 /aacute
+  dup 342 /acircumflex
+  dup 344 /adieresis
+  dup 346 /ae
+  dup 340 /agrave
+  dup 345 /aring
+  dup 347 /ccedilla
+  dup 351 /eacute
+  dup 352 /ecircumflex
+  dup 353 /edieresis
+  dup 350 /egrave
+  dup 355 /iacute
+  dup 356 /icircumflex
+  dup 357 /idieresis
+  dup 354 /igrave
+  dup 360 /dcroat
+  dup 361 /ntilde
+  dup 363 /oacute
+  dup 364 /ocircumflex
+  dup 366 /odieresis
+  dup 362 /ograve
+  dup 365 /otilde
+  dup 370 /oslash
+  dup 372 /uacute
+  dup 373 /ucircumflex
+  dup 374 /udieresis
+  dup 371 /ugrave
+  dup 375 /yacute
+  dup 377 /ydieresis  
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+	dup 1 exch div /InvScaleFactor exch def
+	dup scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw aligned label in bounding box aligned to current point
+/alignedtext {			% width adj text
+	/text exch def
+	/adj exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			text stringwidth pop adj mul 0 rmoveto
+		} if
+		[] 0 setdash
+		text show
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+1 setmiterlimit
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+%%Page: 1 1
+%%PageBoundingBox: 36 36 577 727
+%%PageOrientation: Portrait
+gsave
+35 35 542 692 boxprim clip newpath
+36 36 translate
+0 0 1 beginpage
+0.0857 set_scale
+0 0 translate 0 rotate
+0.000 0.000 0.000 graphcolor
+14.00 /Times-Roman set_font
+
+%	node1
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3616 8047 moveto
+3476 8047 lineto
+3476 8011 lineto
+3616 8011 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3616 8047 moveto
+3476 8047 lineto
+3476 8011 lineto
+3616 8011 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3546 8024 moveto 124 -0.5 (biological_process) alignedtext
+end grestore
+end grestore
+
+%	node9
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 3755 7634 moveto
+3689 7634 lineto
+3689 7594 lineto
+3755 7594 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 3755 7634 moveto
+3689 7634 lineto
+3689 7594 lineto
+3755 7594 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3722 7617 moveto 50 -0.5 (cellular) alignedtext
+3722 7601 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node1 -> node9
+newpath 3554 8011 moveto
+3583 7943 3683 7705 3713 7634 curveto
+stroke
+
+%	node14
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1862 7634 moveto
+1780 7634 lineto
+1780 7594 lineto
+1862 7594 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1862 7634 moveto
+1780 7634 lineto
+1780 7594 lineto
+1862 7594 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1821 7617 moveto 66 -0.5 (metabolic) alignedtext
+1821 7601 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node1 -> node14
+newpath 3476 8012 moveto
+3187 7942 2090 7679 1862 7624 curveto
+stroke
+
+%	node18
+gsave 10 dict begin
+filled
+0.106 1.000 1.000 nodecolor
+0.106 1.000 1.000 nodecolor
+newpath 4829 7634 moveto
+4737 7634 lineto
+4737 7594 lineto
+4829 7594 lineto
+closepath
+fill
+0.106 1.000 1.000 nodecolor
+newpath 4829 7634 moveto
+4737 7634 lineto
+4737 7594 lineto
+4829 7594 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4783 7617 moveto 76 -0.5 (response to) alignedtext
+4783 7601 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node1 -> node18
+newpath 3600 8011 moveto
+3806 7942 4544 7694 4737 7629 curveto
+stroke
+
+%	node30
+gsave 10 dict begin
+filled
+0.106 1.000 1.000 nodecolor
+0.106 1.000 1.000 nodecolor
+newpath 3266 7176 moveto
+3162 7176 lineto
+3162 7120 lineto
+3266 7120 lineto
+closepath
+fill
+0.106 1.000 1.000 nodecolor
+newpath 3266 7176 moveto
+3162 7176 lineto
+3162 7120 lineto
+3266 7120 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3214 7159 moveto 89 -0.5 (regulation of) alignedtext
+3214 7143 moveto 65 -0.5 (biological) alignedtext
+3214 7127 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node1 -> node30
+newpath 3533 8011 moveto
+3526 7997 3524 7988 3515 7970 curveto
+3505 7951 3504 7946 3494 7929 curveto
+3414 7796 3354 7785 3297 7642 curveto
+3229 7474 3217 7253 3214 7176 curveto
+stroke
+
+%	node31
+gsave 10 dict begin
+filled
+0.106 1.000 1.000 nodecolor
+0.106 1.000 1.000 nodecolor
+newpath 3245 7634 moveto
+3161 7634 lineto
+3161 7594 lineto
+3245 7594 lineto
+closepath
+fill
+0.106 1.000 1.000 nodecolor
+newpath 3245 7634 moveto
+3161 7634 lineto
+3161 7594 lineto
+3245 7594 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3203 7617 moveto 65 -0.5 (biological) alignedtext
+3203 7601 moveto 69 -0.5 (regulation) alignedtext
+end grestore
+end grestore
+
+%	node1 -> node31
+newpath 3531 8011 moveto
+3475 7943 3278 7705 3220 7634 curveto
+stroke
+
+%	node56
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5542 7642 moveto
+5442 7642 lineto
+5442 7586 lineto
+5542 7586 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5542 7642 moveto
+5442 7642 lineto
+5442 7586 lineto
+5542 7586 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5492 7625 moveto 50 -0.5 (cellular) alignedtext
+5492 7609 moveto 77 -0.5 (component) alignedtext
+5492 7593 moveto 85 -0.5 (organization) alignedtext
+end grestore
+end grestore
+
+%	node1 -> node56
+newpath 3616 8021 moveto
+3867 7990 4745 7872 5433 7642 curveto
+5436 7641 5439 7640 5442 7638 curveto
+stroke
+
+%	node62
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5760 7642 moveto
+5670 7642 lineto
+5670 7586 lineto
+5760 7586 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5760 7642 moveto
+5670 7642 lineto
+5670 7586 lineto
+5760 7586 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5715 7625 moveto 75 -0.5 (anatomical) alignedtext
+5715 7609 moveto 61 -0.5 (structure) alignedtext
+5715 7593 moveto 70 -0.5 (formation) alignedtext
+end grestore
+end grestore
+
+%	node1 -> node62
+newpath 3616 8024 moveto
+3887 8002 4886 7907 5661 7642 curveto
+5664 7641 5667 7640 5670 7638 curveto
+stroke
+
+%	node63
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5652 7642 moveto
+5560 7642 lineto
+5560 7586 lineto
+5652 7586 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5652 7642 moveto
+5560 7642 lineto
+5560 7586 lineto
+5652 7586 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5606 7625 moveto 50 -0.5 (cellular) alignedtext
+5606 7609 moveto 77 -0.5 (component) alignedtext
+5606 7593 moveto 68 -0.5 (biogenesis) alignedtext
+end grestore
+end grestore
+
+%	node1 -> node63
+newpath 3616 8023 moveto
+3878 7997 4819 7893 5551 7642 curveto
+5554 7641 5557 7640 5560 7638 curveto
+stroke
+
+%	node83
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3185 6677 moveto
+3081 6677 lineto
+3081 6605 lineto
+3185 6605 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3185 6677 moveto
+3081 6677 lineto
+3081 6605 lineto
+3185 6605 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3133 6660 moveto 57 -0.5 (negative) alignedtext
+3133 6644 moveto 89 -0.5 (regulation of) alignedtext
+3133 6628 moveto 65 -0.5 (biological) alignedtext
+3133 6612 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node1 -> node83
+newpath 3513 8011 moveto
+3346 7852 3240 7853 3152 7642 curveto
+3005 7292 3095 6811 3125 6677 curveto
+stroke
+
+%	node160
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3307 6677 moveto
+3203 6677 lineto
+3203 6605 lineto
+3307 6605 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3307 6677 moveto
+3203 6677 lineto
+3203 6605 lineto
+3307 6605 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3255 6660 moveto 52 -0.5 (positive) alignedtext
+3255 6644 moveto 89 -0.5 (regulation of) alignedtext
+3255 6628 moveto 65 -0.5 (biological) alignedtext
+3255 6612 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node1 -> node160
+newpath 3535 8011 moveto
+3520 7980 3519 7966 3503 7929 curveto
+3487 7892 3484 7882 3466 7847 curveto
+3417 7753 3379 7742 3347 7642 curveto
+3288 7456 3262 6834 3256 6677 curveto
+stroke
+
+%	node187
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5424 7634 moveto
+5308 7634 lineto
+5308 7594 lineto
+5424 7594 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5424 7634 moveto
+5308 7634 lineto
+5308 7594 lineto
+5424 7594 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5366 7617 moveto 101 -0.5 (developmental) alignedtext
+5366 7601 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node1 -> node187
+newpath 3616 8013 moveto
+3910 7946 5038 7689 5308 7627 curveto
+stroke
+
+%	node202
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3476 7634 moveto
+3356 7634 lineto
+3356 7594 lineto
+3476 7594 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3476 7634 moveto
+3356 7634 lineto
+3356 7594 lineto
+3476 7594 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3416 7617 moveto 105 -0.5 (multi-organism) alignedtext
+3416 7601 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node1 -> node202
+newpath 3540 8011 moveto
+3519 7943 3444 7705 3422 7634 curveto
+stroke
+
+%	node204
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3598 7632 moveto
+3494 7632 lineto
+3494 7596 lineto
+3598 7596 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3598 7632 moveto
+3494 7632 lineto
+3494 7596 lineto
+3598 7596 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3546 7609 moveto 88 -0.5 (reproduction) alignedtext
+end grestore
+end grestore
+
+%	node1 -> node204
+newpath 3546 8011 moveto
+3546 7943 3546 7701 3546 7632 curveto
+stroke
+
+%	node2
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3216 2507 moveto
+3108 2507 lineto
+3108 2467 lineto
+3216 2467 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3216 2507 moveto
+3108 2507 lineto
+3108 2467 lineto
+3216 2467 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3162 2490 moveto 92 -0.5 (photoreactive) alignedtext
+3162 2474 moveto 40 -0.5 (repair) alignedtext
+end grestore
+end grestore
+
+%	node21
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 3189 1877 moveto
+3135 1877 lineto
+3135 1841 lineto
+3189 1841 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 3189 1877 moveto
+3135 1877 lineto
+3135 1841 lineto
+3189 1841 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+3162 1854 moveto 39 -0.5 (PHR1) alignedtext
+end grestore
+end grestore
+
+%	node2 -> node21
+newpath 3162 2467 moveto
+3162 2371 3162 1968 3162 1877 curveto
+stroke
+
+%	node3
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3387 3257 moveto
+3287 3257 lineto
+3287 3217 lineto
+3387 3217 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3387 3257 moveto
+3287 3257 lineto
+3287 3217 lineto
+3387 3217 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3337 3240 moveto 76 -0.5 (pyrimidine) alignedtext
+3337 3224 moveto 85 -0.5 (dimer repair) alignedtext
+end grestore
+end grestore
+
+%	node3 -> node2
+newpath 3332 3217 moveto
+3307 3111 3191 2614 3167 2507 curveto
+stroke
+
+%	node4
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 3215 4207 moveto
+3115 4207 lineto
+3115 4171 lineto
+3215 4171 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 3215 4207 moveto
+3115 4207 lineto
+3115 4171 lineto
+3215 4171 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3165 4184 moveto 84 -0.5 (DNA repair) alignedtext
+end grestore
+end grestore
+
+%	node4 -> node3
+newpath 3168 4171 moveto
+3190 4052 3311 3383 3333 3257 curveto
+stroke
+
+%	node22
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 3269 3305 moveto
+2975 3305 lineto
+2975 3169 lineto
+3269 3169 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 3269 3305 moveto
+2975 3305 lineto
+2975 3169 lineto
+3269 3169 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+3122 3288 moveto 232 -0.5 (PHR1 TDP1 RAD4 MLH2 MPH1) alignedtext
+3122 3272 moveto 236 -0.5 (RDH54 YEN1 MEC3 HMI1 SLX8) alignedtext
+3122 3256 moveto 277 -0.5 (RAD53 SWC4 RAD9 SSL1 BDF1 DDC1) alignedtext
+3122 3240 moveto 254 -0.5 (PIF1 MLH3 RAD51 NHP6A DDR48) alignedtext
+3122 3224 moveto 253 -0.5 (RAD24 DNL4 MGS1 TRF5 RAD28) alignedtext
+3122 3208 moveto 278 -0.5 (SMC5 REV3 SLX4 HEX3 CTF4 RAD2) alignedtext
+3122 3192 moveto 233 -0.5 (TEL1 MSH6 BDF2 RAD26 PSO2) alignedtext
+3122 3176 moveto 138 -0.5 (RAD54 RPH1 EPL1) alignedtext
+end grestore
+end grestore
+
+%	node4 -> node22
+newpath 3164 4171 moveto
+3159 4063 3134 3502 3125 3305 curveto
+stroke
+
+%	node57
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3695 3257 moveto
+3551 3257 lineto
+3551 3217 lineto
+3695 3217 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3695 3257 moveto
+3551 3257 lineto
+3551 3217 lineto
+3695 3217 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3623 3240 moveto 129 -0.5 (nucleotide-excision) alignedtext
+3623 3224 moveto 40 -0.5 (repair) alignedtext
+end grestore
+end grestore
+
+%	node4 -> node57
+newpath 3174 4171 moveto
+3231 4052 3553 3383 3613 3257 curveto
+stroke
+
+%	node128
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3533 3255 moveto
+3405 3255 lineto
+3405 3219 lineto
+3533 3219 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3533 3255 moveto
+3405 3255 lineto
+3405 3219 lineto
+3533 3219 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3469 3232 moveto 112 -0.5 (mismatch repair) alignedtext
+end grestore
+end grestore
+
+%	node4 -> node128
+newpath 3171 4171 moveto
+3209 4051 3425 3376 3463 3255 curveto
+stroke
+
+%	node137
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2781 3257 moveto
+2671 3257 lineto
+2671 3217 lineto
+2781 3217 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2781 3257 moveto
+2671 3257 lineto
+2671 3217 lineto
+2781 3217 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2726 3240 moveto 94 -0.5 (double-strand) alignedtext
+2726 3224 moveto 84 -0.5 (break repair) alignedtext
+end grestore
+end grestore
+
+%	node4 -> node137
+newpath 3157 4171 moveto
+3102 4052 2793 3383 2735 3257 curveto
+stroke
+
+%	node138
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2957 3257 moveto
+2799 3257 lineto
+2799 3217 lineto
+2957 3217 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2957 3257 moveto
+2799 3257 lineto
+2799 3217 lineto
+2957 3217 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2878 3240 moveto 143 -0.5 (non-recombinational) alignedtext
+2878 3224 moveto 40 -0.5 (repair) alignedtext
+end grestore
+end grestore
+
+%	node4 -> node138
+newpath 3160 4171 moveto
+3124 4052 2922 3383 2884 3257 curveto
+stroke
+
+%	node194
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2653 3257 moveto
+2527 3257 lineto
+2527 3217 lineto
+2653 3217 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2653 3257 moveto
+2527 3257 lineto
+2527 3217 lineto
+2653 3217 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2590 3240 moveto 111 -0.5 (recombinational) alignedtext
+2590 3224 moveto 40 -0.5 (repair) alignedtext
+end grestore
+end grestore
+
+%	node4 -> node194
+newpath 3154 4171 moveto
+3082 4052 2678 3383 2602 3257 curveto
+stroke
+
+%	node5
+gsave 10 dict begin
+filled
+0.498 1.000 1.000 nodecolor
+0.498 1.000 1.000 nodecolor
+newpath 3211 5162 moveto
+3085 5162 lineto
+3085 5122 lineto
+3211 5122 lineto
+closepath
+fill
+0.498 1.000 1.000 nodecolor
+newpath 3211 5162 moveto
+3085 5162 lineto
+3085 5122 lineto
+3211 5122 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3148 5145 moveto 110 -0.5 (DNA metabolic) alignedtext
+3148 5129 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node5 -> node4
+newpath 3148 5122 moveto
+3151 4996 3163 4327 3165 4207 curveto
+stroke
+
+%	node195
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3097 4209 moveto
+2983 4209 lineto
+2983 4169 lineto
+3097 4169 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3097 4209 moveto
+2983 4209 lineto
+2983 4169 lineto
+3097 4169 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3040 4192 moveto 39 -0.5 (DNA) alignedtext
+3040 4176 moveto 99 -0.5 (recombination) alignedtext
+end grestore
+end grestore
+
+%	node5 -> node195
+newpath 3146 5122 moveto
+3132 4997 3056 4334 3042 4209 curveto
+stroke
+
+%	node6
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2387 6008 moveto
+2293 6008 lineto
+2293 5936 lineto
+2387 5936 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2387 6008 moveto
+2293 6008 lineto
+2293 5936 lineto
+2387 5936 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2340 5991 moveto 50 -0.5 (cellular) alignedtext
+2340 5975 moveto 79 -0.5 (biopolymer) alignedtext
+2340 5959 moveto 66 -0.5 (metabolic) alignedtext
+2340 5943 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node6 -> node5
+newpath 2373 5936 moveto
+2380 5928 2388 5920 2396 5912 curveto
+2683 5611 3041 5250 3128 5162 curveto
+stroke
+
+%	node104
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2195 5178 moveto
+2097 5178 lineto
+2097 5106 lineto
+2195 5106 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2195 5178 moveto
+2097 5178 lineto
+2097 5106 lineto
+2195 5106 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2146 5161 moveto 50 -0.5 (cellular) alignedtext
+2146 5145 moveto 79 -0.5 (biopolymer) alignedtext
+2146 5129 moveto 82 -0.5 (biosynthetic) alignedtext
+2146 5113 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node6 -> node104
+newpath 2332 5936 moveto
+2299 5799 2186 5315 2154 5178 curveto
+stroke
+
+%	node107
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1881 5178 moveto
+1799 5178 lineto
+1799 5106 lineto
+1881 5106 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1881 5178 moveto
+1799 5178 lineto
+1799 5106 lineto
+1881 5106 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1840 5161 moveto 50 -0.5 (cellular) alignedtext
+1840 5145 moveto 48 -0.5 (protein) alignedtext
+1840 5129 moveto 66 -0.5 (metabolic) alignedtext
+1840 5113 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node6 -> node107
+newpath 2318 5936 moveto
+2236 5799 1944 5315 1862 5178 curveto
+stroke
+
+%	node151
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3067 5162 moveto
+2941 5162 lineto
+2941 5122 lineto
+3067 5122 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3067 5162 moveto
+2941 5162 lineto
+2941 5122 lineto
+3067 5122 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3004 5145 moveto 110 -0.5 (RNA metabolic) alignedtext
+3004 5129 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node6 -> node151
+newpath 2369 5936 moveto
+2483 5793 2900 5272 2988 5162 curveto
+stroke
+
+%	node7
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2462 6677 moveto
+2342 6677 lineto
+2342 6605 lineto
+2462 6605 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2462 6677 moveto
+2342 6677 lineto
+2342 6605 lineto
+2462 6605 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2402 6660 moveto 50 -0.5 (cellular) alignedtext
+2402 6644 moveto 104 -0.5 (macromolecule) alignedtext
+2402 6628 moveto 66 -0.5 (metabolic) alignedtext
+2402 6612 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node7 -> node6
+newpath 2399 6605 moveto
+2388 6488 2354 6124 2343 6008 curveto
+stroke
+
+%	node105
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2525 6008 moveto
+2405 6008 lineto
+2405 5936 lineto
+2525 5936 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2525 6008 moveto
+2405 6008 lineto
+2405 5936 lineto
+2525 5936 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2465 5991 moveto 50 -0.5 (cellular) alignedtext
+2465 5975 moveto 104 -0.5 (macromolecule) alignedtext
+2465 5959 moveto 82 -0.5 (biosynthetic) alignedtext
+2465 5943 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node7 -> node105
+newpath 2405 6605 moveto
+2417 6488 2451 6124 2462 6008 curveto
+stroke
+
+%	node8
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2878 7176 moveto
+2796 7176 lineto
+2796 7120 lineto
+2878 7120 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2878 7176 moveto
+2796 7176 lineto
+2796 7120 lineto
+2878 7120 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2837 7159 moveto 50 -0.5 (cellular) alignedtext
+2837 7143 moveto 66 -0.5 (metabolic) alignedtext
+2837 7127 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node8 -> node7
+newpath 2813 7120 moveto
+2739 7033 2515 6773 2433 6677 curveto
+stroke
+
+%	node10
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2895 6024 moveto
+2779 6024 lineto
+2779 5920 lineto
+2895 5920 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2895 6024 moveto
+2779 6024 lineto
+2779 5920 lineto
+2895 5920 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2837 6007 moveto 77 -0.5 (nucleobase,) alignedtext
+2837 5991 moveto 73 -0.5 (nucleoside,) alignedtext
+2837 5975 moveto 100 -0.5 (nucleotide and) alignedtext
+2837 5959 moveto 80 -0.5 (nucleic acid) alignedtext
+2837 5943 moveto 66 -0.5 (metabolic) alignedtext
+2837 5927 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node8 -> node10
+newpath 2837 7120 moveto
+2837 6966 2837 6228 2837 6024 curveto
+stroke
+
+%	node70
+gsave 10 dict begin
+filled
+0.106 1.000 1.000 nodecolor
+0.106 1.000 1.000 nodecolor
+newpath 3063 6669 moveto
+2989 6669 lineto
+2989 6613 lineto
+3063 6613 lineto
+closepath
+fill
+0.106 1.000 1.000 nodecolor
+newpath 3063 6669 moveto
+2989 6669 lineto
+2989 6613 lineto
+3063 6613 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3026 6652 moveto 50 -0.5 (cellular) alignedtext
+3026 6636 moveto 59 -0.5 (catabolic) alignedtext
+3026 6620 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node8 -> node70
+newpath 2848 7120 moveto
+2880 7031 2982 6758 3015 6669 curveto
+stroke
+
+%	node81
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2763 5186 moveto
+2659 5186 lineto
+2659 5098 lineto
+2763 5098 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2763 5186 moveto
+2659 5186 lineto
+2659 5098 lineto
+2763 5098 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2711 5169 moveto 57 -0.5 (negative) alignedtext
+2711 5153 moveto 89 -0.5 (regulation of) alignedtext
+2711 5137 moveto 50 -0.5 (cellular) alignedtext
+2711 5121 moveto 66 -0.5 (metabolic) alignedtext
+2711 5105 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node8 -> node81
+newpath 2842 7120 moveto
+2866 6985 2963 6392 2904 5912 curveto
+2869 5630 2765 5303 2726 5186 curveto
+stroke
+
+%	node90
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 2761 6008 moveto
+2657 6008 lineto
+2657 5936 lineto
+2761 5936 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 2761 6008 moveto
+2657 6008 lineto
+2657 5936 lineto
+2761 5936 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2709 5991 moveto 89 -0.5 (regulation of) alignedtext
+2709 5975 moveto 50 -0.5 (cellular) alignedtext
+2709 5959 moveto 66 -0.5 (metabolic) alignedtext
+2709 5943 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node8 -> node90
+newpath 2834 7120 moveto
+2816 6962 2732 6186 2713 6008 curveto
+stroke
+
+%	node106
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2640 6669 moveto
+2542 6669 lineto
+2542 6613 lineto
+2640 6613 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2640 6669 moveto
+2542 6669 lineto
+2542 6613 lineto
+2640 6613 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2591 6652 moveto 50 -0.5 (cellular) alignedtext
+2591 6636 moveto 82 -0.5 (biosynthetic) alignedtext
+2591 6620 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node8 -> node106
+newpath 2823 7120 moveto
+2780 7031 2648 6758 2605 6669 curveto
+stroke
+
+%	node158
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2885 5186 moveto
+2781 5186 lineto
+2781 5098 lineto
+2885 5098 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2885 5186 moveto
+2781 5186 lineto
+2781 5098 lineto
+2885 5098 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2833 5169 moveto 52 -0.5 (positive) alignedtext
+2833 5153 moveto 89 -0.5 (regulation of) alignedtext
+2833 5137 moveto 50 -0.5 (cellular) alignedtext
+2833 5121 moveto 66 -0.5 (metabolic) alignedtext
+2833 5105 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node8 -> node158
+newpath 2844 7120 moveto
+2865 7032 2927 6765 2937 6677 curveto
+2998 6088 2876 5369 2842 5186 curveto
+stroke
+
+%	node9 -> node8
+newpath 3689 7597 moveto
+3552 7525 3029 7249 2878 7170 curveto
+stroke
+
+%	node13
+gsave 10 dict begin
+filled
+0.106 1.000 1.000 nodecolor
+0.106 1.000 1.000 nodecolor
+newpath 4192 6669 moveto
+4100 6669 lineto
+4100 6613 lineto
+4192 6613 lineto
+closepath
+fill
+0.106 1.000 1.000 nodecolor
+newpath 4192 6669 moveto
+4100 6669 lineto
+4100 6613 lineto
+4192 6613 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4146 6652 moveto 50 -0.5 (cellular) alignedtext
+4146 6636 moveto 76 -0.5 (response to) alignedtext
+4146 6620 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node9 -> node13
+newpath 3737 7594 moveto
+3738 7591 3739 7589 3740 7586 curveto
+3897 7224 4085 6784 4134 6669 curveto
+stroke
+
+%	node29
+gsave 10 dict begin
+filled
+0.165 1.000 1.000 nodecolor
+0.165 1.000 1.000 nodecolor
+newpath 3429 6669 moveto
+3325 6669 lineto
+3325 6613 lineto
+3429 6613 lineto
+closepath
+fill
+0.165 1.000 1.000 nodecolor
+newpath 3429 6669 moveto
+3325 6669 lineto
+3325 6613 lineto
+3429 6613 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3377 6652 moveto 89 -0.5 (regulation of) alignedtext
+3377 6636 moveto 50 -0.5 (cellular) alignedtext
+3377 6620 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node9 -> node29
+newpath 3707 7594 moveto
+3696 7579 3681 7558 3667 7541 curveto
+3534 7375 3431 7375 3359 7176 curveto
+3324 7082 3361 6766 3373 6669 curveto
+stroke
+
+%	node32
+gsave 10 dict begin
+filled
+0.333 1.000 1.000 nodecolor
+0.333 1.000 1.000 nodecolor
+newpath 3970 6661 moveto
+3848 6661 lineto
+3848 6621 lineto
+3970 6621 lineto
+closepath
+fill
+0.333 1.000 1.000 nodecolor
+newpath 3970 6661 moveto
+3848 6661 lineto
+3848 6621 lineto
+3970 6621 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3909 6644 moveto 22 -0.5 (cell) alignedtext
+3909 6628 moveto 107 -0.5 (communication) alignedtext
+end grestore
+end grestore
+
+%	node9 -> node32
+newpath 3729 7594 moveto
+3730 7592 3730 7589 3731 7586 curveto
+3810 7216 3888 6761 3906 6661 curveto
+stroke
+
+%	node55
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5632 7168 moveto
+5532 7168 lineto
+5532 7128 lineto
+5632 7128 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5632 7168 moveto
+5532 7168 lineto
+5532 7128 lineto
+5632 7128 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5582 7151 moveto 62 -0.5 (organelle) alignedtext
+5582 7135 moveto 85 -0.5 (organization) alignedtext
+end grestore
+end grestore
+
+%	node9 -> node55
+newpath 3755 7606 moveto
+3978 7550 5261 7228 5532 7161 curveto
+stroke
+
+%	node82
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3307 6008 moveto
+3203 6008 lineto
+3203 5936 lineto
+3307 5936 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3307 6008 moveto
+3203 6008 lineto
+3203 5936 lineto
+3307 5936 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3255 5991 moveto 57 -0.5 (negative) alignedtext
+3255 5975 moveto 89 -0.5 (regulation of) alignedtext
+3255 5959 moveto 50 -0.5 (cellular) alignedtext
+3255 5943 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node9 -> node82
+newpath 3717 7594 moveto
+3614 7166 3691 7031 3559 6605 curveto
+3471 6322 3441 6237 3282 6008 curveto
+stroke
+
+%	node125
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 3830 6661 moveto
+3754 6661 lineto
+3754 6621 lineto
+3830 6621 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 3830 6661 moveto
+3754 6661 lineto
+3754 6621 lineto
+3830 6621 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3792 6644 moveto 61 -0.5 (cell cycle) alignedtext
+3792 6628 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node9 -> node125
+newpath 3725 7594 moveto
+3732 7532 3757 7337 3769 7176 curveto
+3783 6975 3790 6732 3792 6661 curveto
+stroke
+
+%	node126
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 3760 7166 moveto
+3684 7166 lineto
+3684 7130 lineto
+3760 7130 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 3760 7166 moveto
+3684 7166 lineto
+3684 7130 lineto
+3760 7130 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3722 7143 moveto 61 -0.5 (cell cycle) alignedtext
+end grestore
+end grestore
+
+%	node9 -> node126
+newpath 3722 7594 moveto
+3722 7517 3722 7240 3722 7166 curveto
+stroke
+
+%	node159
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3429 6008 moveto
+3325 6008 lineto
+3325 5936 lineto
+3429 5936 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3429 6008 moveto
+3325 6008 lineto
+3325 5936 lineto
+3429 5936 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3377 5991 moveto 52 -0.5 (positive) alignedtext
+3377 5975 moveto 89 -0.5 (regulation of) alignedtext
+3377 5959 moveto 50 -0.5 (cellular) alignedtext
+3377 5943 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node9 -> node159
+newpath 3720 7594 moveto
+3707 7470 3638 6804 3592 6605 curveto
+3537 6372 3431 6104 3392 6008 curveto
+stroke
+
+%	node185
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5322 6659 moveto
+5242 6659 lineto
+5242 6623 lineto
+5322 6623 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5322 6659 moveto
+5242 6659 lineto
+5242 6623 lineto
+5322 6623 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5282 6636 moveto 65 -0.5 (cell aging) alignedtext
+end grestore
+end grestore
+
+%	node9 -> node185
+newpath 3755 7605 moveto
+3803 7588 3885 7554 3922 7541 curveto
+4150 7457 4763 7328 4952 7176 curveto
+5140 7024 5250 6734 5276 6659 curveto
+stroke
+
+%	node10 -> node5
+newpath 2857 5920 moveto
+2918 5758 3101 5267 3140 5162 curveto
+stroke
+
+%	node146
+gsave 10 dict begin
+filled
+0.333 1.000 1.000 nodecolor
+0.333 1.000 1.000 nodecolor
+newpath 2603 5202 moveto
+2487 5202 lineto
+2487 5082 lineto
+2603 5082 lineto
+closepath
+fill
+0.333 1.000 1.000 nodecolor
+newpath 2603 5202 moveto
+2487 5202 lineto
+2487 5082 lineto
+2603 5082 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2545 5185 moveto 89 -0.5 (regulation of) alignedtext
+2545 5169 moveto 77 -0.5 (nucleobase,) alignedtext
+2545 5153 moveto 73 -0.5 (nucleoside,) alignedtext
+2545 5137 moveto 100 -0.5 (nucleotide and) alignedtext
+2545 5121 moveto 80 -0.5 (nucleic acid) alignedtext
+2545 5105 moveto 66 -0.5 (metabolic) alignedtext
+2545 5089 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node10 -> node146
+newpath 2819 5920 moveto
+2767 5773 2621 5358 2566 5202 curveto
+stroke
+
+%	node147
+gsave 10 dict begin
+filled
+0.498 1.000 1.000 nodecolor
+0.498 1.000 1.000 nodecolor
+newpath 2184 4207 moveto
+2082 4207 lineto
+2082 4171 lineto
+2184 4171 lineto
+closepath
+fill
+0.498 1.000 1.000 nodecolor
+newpath 2184 4207 moveto
+2082 4207 lineto
+2082 4171 lineto
+2184 4171 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2133 4184 moveto 86 -0.5 (transcription) alignedtext
+end grestore
+end grestore
+
+%	node10 -> node147
+newpath 2830 5920 moveto
+2827 5894 2822 5862 2816 5834 curveto
+2811 5812 2620 5094 2612 5074 curveto
+2465 4706 2204 4297 2145 4207 curveto
+stroke
+
+%	node10 -> node151
+newpath 2848 5920 moveto
+2880 5758 2979 5267 3000 5162 curveto
+stroke
+
+%	node162
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2782 4257 moveto
+2666 4257 lineto
+2666 4121 lineto
+2782 4121 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2782 4257 moveto
+2666 4257 lineto
+2666 4121 lineto
+2782 4121 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2724 4240 moveto 52 -0.5 (positive) alignedtext
+2724 4224 moveto 89 -0.5 (regulation of) alignedtext
+2724 4208 moveto 77 -0.5 (nucleobase,) alignedtext
+2724 4192 moveto 73 -0.5 (nucleoside,) alignedtext
+2724 4176 moveto 100 -0.5 (nucleotide and) alignedtext
+2724 4160 moveto 80 -0.5 (nucleic acid) alignedtext
+2724 4144 moveto 66 -0.5 (metabolic) alignedtext
+2724 4128 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node10 -> node162
+newpath 2842 5920 moveto
+2854 5796 2884 5477 2894 5210 curveto
+2896 5149 2899 5134 2894 5074 curveto
+2859 4702 2892 4573 2758 4257 curveto
+stroke
+
+%	node11
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 4095 5170 moveto
+3959 5170 lineto
+3959 5114 lineto
+4095 5114 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 4095 5170 moveto
+3959 5170 lineto
+3959 5114 lineto
+4095 5114 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4027 5153 moveto 50 -0.5 (cellular) alignedtext
+4027 5137 moveto 120 -0.5 (response to DNA) alignedtext
+4027 5121 moveto 116 -0.5 (damage stimulus) alignedtext
+end grestore
+end grestore
+
+%	node11 -> node4
+newpath 4002 5114 moveto
+3872 4971 3288 4325 3182 4207 curveto
+stroke
+
+%	node12
+gsave 10 dict begin
+filled
+0.106 1.000 1.000 nodecolor
+0.106 1.000 1.000 nodecolor
+newpath 4079 6000 moveto
+3987 6000 lineto
+3987 5944 lineto
+4079 5944 lineto
+closepath
+fill
+0.106 1.000 1.000 nodecolor
+newpath 4079 6000 moveto
+3987 6000 lineto
+3987 5944 lineto
+4079 5944 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4033 5983 moveto 50 -0.5 (cellular) alignedtext
+4033 5967 moveto 76 -0.5 (response to) alignedtext
+4033 5951 moveto 35 -0.5 (stress) alignedtext
+end grestore
+end grestore
+
+%	node12 -> node11
+newpath 4033 5944 moveto
+4032 5817 4028 5297 4027 5170 curveto
+stroke
+
+%	node66
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 4294 4217 moveto
+4202 4217 lineto
+4202 4161 lineto
+4294 4161 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 4294 4217 moveto
+4202 4217 lineto
+4202 4161 lineto
+4294 4161 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4248 4200 moveto 50 -0.5 (cellular) alignedtext
+4248 4184 moveto 76 -0.5 (response to) alignedtext
+4248 4168 moveto 68 -0.5 (starvation) alignedtext
+end grestore
+end grestore
+
+%	node12 -> node66
+newpath 4036 5944 moveto
+4062 5735 4219 4427 4245 4217 curveto
+stroke
+
+%	node93
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2029 2523 moveto
+1923 2523 lineto
+1923 2451 lineto
+2029 2451 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2029 2523 moveto
+1923 2523 lineto
+1923 2451 lineto
+2029 2451 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1976 2506 moveto 89 -0.5 (regulation of) alignedtext
+1976 2490 moveto 90 -0.5 (translation in) alignedtext
+1976 2474 moveto 76 -0.5 (response to) alignedtext
+1976 2458 moveto 35 -0.5 (stress) alignedtext
+end grestore
+end grestore
+
+%	node12 -> node93
+newpath 4022 5944 moveto
+4020 5935 4021 5926 4019 5912 curveto
+4008 5842 4008 5825 4000 5756 curveto
+3971 5513 3960 5453 3940 5210 curveto
+3930 5096 3891 3260 3824 3169 curveto
+3592 2856 2307 2559 2029 2498 curveto
+stroke
+
+%	node141
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2965 2523 moveto
+2855 2523 lineto
+2855 2451 lineto
+2965 2451 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2965 2523 moveto
+2855 2523 lineto
+2855 2451 lineto
+2965 2451 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2910 2506 moveto 89 -0.5 (regulation of) alignedtext
+2910 2490 moveto 86 -0.5 (transcription) alignedtext
+2910 2474 moveto 94 -0.5 (in response to) alignedtext
+2910 2458 moveto 35 -0.5 (stress) alignedtext
+end grestore
+end grestore
+
+%	node12 -> node141
+newpath 4029 5944 moveto
+4016 5844 3971 5497 3950 5210 curveto
+3932 4983 3973 3368 3865 3169 curveto
+3658 2788 3136 2569 2965 2506 curveto
+stroke
+
+%	node176
+gsave 10 dict begin
+filled
+0.498 1.000 1.000 nodecolor
+0.498 1.000 1.000 nodecolor
+newpath 4795 5170 moveto
+4703 5170 lineto
+4703 5114 lineto
+4795 5114 lineto
+closepath
+fill
+0.498 1.000 1.000 nodecolor
+newpath 4795 5170 moveto
+4703 5170 lineto
+4703 5114 lineto
+4795 5114 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4749 5153 moveto 50 -0.5 (cellular) alignedtext
+4749 5137 moveto 76 -0.5 (response to) alignedtext
+4749 5121 moveto 29 -0.5 (heat) alignedtext
+end grestore
+end grestore
+
+%	node12 -> node176
+newpath 4058 5944 moveto
+4146 5845 4450 5500 4694 5210 curveto
+4704 5197 4716 5182 4726 5170 curveto
+stroke
+
+%	node13 -> node12
+newpath 4141 6613 moveto
+4123 6503 4056 6110 4038 6000 curveto
+stroke
+
+%	node26
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 4072 4217 moveto
+3966 4217 lineto
+3966 4161 lineto
+4072 4161 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 4072 4217 moveto
+3966 4217 lineto
+3966 4161 lineto
+4072 4161 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4019 4200 moveto 91 -0.5 (carbohydrate) alignedtext
+4019 4184 moveto 62 -0.5 (mediated) alignedtext
+4019 4168 moveto 61 -0.5 (signaling) alignedtext
+end grestore
+end grestore
+
+%	node13 -> node26
+newpath 4126 6613 moveto
+3990 6397 4018 6297 3978 6032 curveto
+3868 5300 3990 4387 4015 4217 curveto
+stroke
+
+%	node68
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 4197 6008 moveto
+4097 6008 lineto
+4097 5936 lineto
+4197 5936 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 4197 6008 moveto
+4097 6008 lineto
+4097 5936 lineto
+4197 5936 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4147 5991 moveto 50 -0.5 (cellular) alignedtext
+4147 5975 moveto 76 -0.5 (response to) alignedtext
+4147 5959 moveto 85 -0.5 (extracellular) alignedtext
+4147 5943 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node13 -> node68
+newpath 4146 6613 moveto
+4146 6506 4147 6127 4147 6008 curveto
+stroke
+
+%	node14 -> node8
+newpath 1862 7595 moveto
+2026 7520 2632 7242 2796 7167 curveto
+stroke
+
+%	node16
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1299 7176 moveto
+1179 7176 lineto
+1179 7120 lineto
+1299 7120 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1299 7176 moveto
+1179 7176 lineto
+1179 7120 lineto
+1299 7120 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1239 7159 moveto 104 -0.5 (macromolecule) alignedtext
+1239 7143 moveto 66 -0.5 (metabolic) alignedtext
+1239 7127 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node14 -> node16
+newpath 1796 7594 moveto
+1704 7520 1382 7262 1274 7176 curveto
+stroke
+
+%	node17
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2094 6669 moveto
+2012 6669 lineto
+2012 6613 lineto
+2094 6613 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2094 6669 moveto
+2012 6669 lineto
+2012 6613 lineto
+2094 6613 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2053 6652 moveto 56 -0.5 (primary) alignedtext
+2053 6636 moveto 66 -0.5 (metabolic) alignedtext
+2053 6620 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node14 -> node17
+newpath 1826 7594 moveto
+1855 7470 2012 6814 2046 6669 curveto
+stroke
+
+%	node71
+gsave 10 dict begin
+filled
+0.106 1.000 1.000 nodecolor
+0.106 1.000 1.000 nodecolor
+newpath 3017 7168 moveto
+2943 7168 lineto
+2943 7128 lineto
+3017 7128 lineto
+closepath
+fill
+0.106 1.000 1.000 nodecolor
+newpath 3017 7168 moveto
+2943 7168 lineto
+2943 7128 lineto
+3017 7128 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2980 7151 moveto 59 -0.5 (catabolic) alignedtext
+2980 7135 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node14 -> node71
+newpath 1862 7597 moveto
+2044 7524 2770 7232 2943 7163 curveto
+stroke
+
+%	node86
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 975 6008 moveto
+871 6008 lineto
+871 5936 lineto
+975 5936 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 975 6008 moveto
+871 6008 lineto
+871 5936 lineto
+975 5936 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+923 5991 moveto 57 -0.5 (negative) alignedtext
+923 5975 moveto 89 -0.5 (regulation of) alignedtext
+923 5959 moveto 66 -0.5 (metabolic) alignedtext
+923 5943 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node14 -> node86
+newpath 1780 7595 moveto
+1779 7594 1779 7594 1778 7593 curveto
+1753 7569 1748 7562 1721 7541 curveto
+1489 7360 1334 7419 1170 7176 curveto
+905 6782 914 6163 921 6008 curveto
+stroke
+
+%	node95
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 1659 6669 moveto
+1555 6669 lineto
+1555 6613 lineto
+1659 6613 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 1659 6669 moveto
+1555 6669 lineto
+1555 6613 lineto
+1659 6613 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1607 6652 moveto 89 -0.5 (regulation of) alignedtext
+1607 6636 moveto 66 -0.5 (metabolic) alignedtext
+1607 6620 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node14 -> node95
+newpath 1817 7594 moveto
+1789 7470 1645 6814 1613 6669 curveto
+stroke
+
+%	node108
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 852 7168 moveto
+754 7168 lineto
+754 7128 lineto
+852 7128 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 852 7168 moveto
+754 7168 lineto
+754 7128 lineto
+852 7128 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+803 7151 moveto 82 -0.5 (biosynthetic) alignedtext
+803 7135 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node14 -> node108
+newpath 1780 7595 moveto
+1616 7520 1015 7245 847 7168 curveto
+stroke
+
+%	node164
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1873 6008 moveto
+1769 6008 lineto
+1769 5936 lineto
+1873 5936 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1873 6008 moveto
+1769 6008 lineto
+1769 5936 lineto
+1873 5936 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1821 5991 moveto 52 -0.5 (positive) alignedtext
+1821 5975 moveto 89 -0.5 (regulation of) alignedtext
+1821 5959 moveto 66 -0.5 (metabolic) alignedtext
+1821 5943 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node14 -> node164
+newpath 1821 7594 moveto
+1821 7424 1821 6232 1821 6008 curveto
+stroke
+
+%	node15
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1771 6669 moveto
+1677 6669 lineto
+1677 6613 lineto
+1771 6613 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1771 6669 moveto
+1677 6669 lineto
+1677 6613 lineto
+1771 6613 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1724 6652 moveto 79 -0.5 (biopolymer) alignedtext
+1724 6636 moveto 66 -0.5 (metabolic) alignedtext
+1724 6620 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node15 -> node6
+newpath 1750 6613 moveto
+1848 6506 2197 6127 2307 6008 curveto
+stroke
+
+%	node109
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1751 6000 moveto
+1653 6000 lineto
+1653 5944 lineto
+1751 5944 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1751 6000 moveto
+1653 6000 lineto
+1653 5944 lineto
+1751 5944 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1702 5983 moveto 79 -0.5 (biopolymer) alignedtext
+1702 5967 moveto 82 -0.5 (biosynthetic) alignedtext
+1702 5951 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node15 -> node109
+newpath 1723 6613 moveto
+1720 6503 1707 6110 1703 6000 curveto
+stroke
+
+%	node113
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1635 6000 moveto
+1553 6000 lineto
+1553 5944 lineto
+1635 5944 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1635 6000 moveto
+1553 6000 lineto
+1553 5944 lineto
+1635 5944 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1594 5983 moveto 48 -0.5 (protein) alignedtext
+1594 5967 moveto 66 -0.5 (metabolic) alignedtext
+1594 5951 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node15 -> node113
+newpath 1718 6613 moveto
+1697 6503 1621 6110 1600 6000 curveto
+stroke
+
+%	node16 -> node7
+newpath 1299 7122 moveto
+1499 7035 2142 6754 2342 6667 curveto
+stroke
+
+%	node16 -> node15
+newpath 1266 7120 moveto
+1351 7031 1612 6758 1697 6669 curveto
+stroke
+
+%	node110
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 907 6669 moveto
+787 6669 lineto
+787 6613 lineto
+907 6613 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 907 6669 moveto
+787 6669 lineto
+787 6613 lineto
+907 6613 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+847 6652 moveto 104 -0.5 (macromolecule) alignedtext
+847 6636 moveto 82 -0.5 (biosynthetic) alignedtext
+847 6620 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node16 -> node110
+newpath 1217 7120 moveto
+1149 7031 937 6758 869 6669 curveto
+stroke
+
+%	node114
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1117 5990 moveto
+993 5990 lineto
+993 5954 lineto
+1117 5954 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1117 5990 moveto
+993 5990 lineto
+993 5954 lineto
+1117 5954 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1055 5967 moveto 108 -0.5 (gene expression) alignedtext
+end grestore
+end grestore
+
+%	node16 -> node114
+newpath 1232 7120 moveto
+1124 6662 1067 6098 1057 5990 curveto
+stroke
+
+%	node115
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 435 5186 moveto
+315 5186 lineto
+315 5098 lineto
+435 5098 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 435 5186 moveto
+315 5186 lineto
+315 5098 lineto
+435 5098 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+375 5169 moveto 62 -0.5 (-negative) alignedtext
+375 5153 moveto 89 -0.5 (regulation of) alignedtext
+375 5137 moveto 104 -0.5 (macromolecule) alignedtext
+375 5121 moveto 66 -0.5 (metabolic) alignedtext
+375 5105 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node16 -> node115
+newpath 1220 7120 moveto
+1216 7106 1217 7092 1209 7071 curveto
+1027 6598 941 6497 740 6032 curveto
+601 5709 444 5316 393 5186 curveto
+stroke
+
+%	node116
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 1255 6008 moveto
+1135 6008 lineto
+1135 5936 lineto
+1255 5936 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 1255 6008 moveto
+1135 6008 lineto
+1135 5936 lineto
+1255 5936 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1195 5991 moveto 103 -0.5 (&regulation of) alignedtext
+1195 5975 moveto 104 -0.5 (macromolecule) alignedtext
+1195 5959 moveto 66 -0.5 (metabolic) alignedtext
+1195 5943 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node16 -> node116
+newpath 1238 7120 moveto
+1232 6962 1203 6186 1196 6008 curveto
+stroke
+
+%	node173
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1467 5186 moveto
+1347 5186 lineto
+1347 5098 lineto
+1467 5098 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1467 5186 moveto
+1347 5186 lineto
+1347 5098 lineto
+1467 5098 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1407 5169 moveto 61 -0.5 (+positive) alignedtext
+1407 5153 moveto 89 -0.5 (regulation of) alignedtext
+1407 5137 moveto 104 -0.5 (macromolecule) alignedtext
+1407 5121 moveto 66 -0.5 (metabolic) alignedtext
+1407 5105 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node16 -> node173
+newpath 1240 7120 moveto
+1242 6985 1257 6393 1302 5912 curveto
+1328 5635 1380 5304 1400 5186 curveto
+stroke
+
+%	node17 -> node10
+newpath 2087 6613 moveto
+2190 6526 2509 6258 2770 6032 curveto
+2773 6029 2776 6027 2779 6024 curveto
+stroke
+
+%	node17 -> node113
+newpath 2034 6613 moveto
+1958 6503 1688 6110 1613 6000 curveto
+stroke
+
+%	node117
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 2275 6008 moveto
+2157 6008 lineto
+2157 5936 lineto
+2275 5936 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 2275 6008 moveto
+2157 6008 lineto
+2157 5936 lineto
+2275 5936 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2216 5991 moveto 103 -0.5 (&regulation of) alignedtext
+2216 5975 moveto 56 -0.5 (primary) alignedtext
+2216 5959 moveto 66 -0.5 (metabolic) alignedtext
+2216 5943 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node17 -> node117
+newpath 2060 6613 moveto
+2086 6506 2178 6127 2207 6008 curveto
+stroke
+
+%	node18 -> node13
+newpath 4754 7594 moveto
+4415 7309 4205 6795 4157 6669 curveto
+stroke
+
+%	node19
+gsave 10 dict begin
+filled
+0.106 1.000 1.000 nodecolor
+0.106 1.000 1.000 nodecolor
+newpath 4829 6661 moveto
+4737 6661 lineto
+4737 6621 lineto
+4829 6621 lineto
+closepath
+fill
+0.106 1.000 1.000 nodecolor
+newpath 4829 6661 moveto
+4737 6661 lineto
+4737 6621 lineto
+4829 6621 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4783 6644 moveto 76 -0.5 (response to) alignedtext
+4783 6628 moveto 35 -0.5 (stress) alignedtext
+end grestore
+end grestore
+
+%	node18 -> node19
+newpath 4783 7594 moveto
+4783 7467 4783 6788 4783 6661 curveto
+stroke
+
+%	node35
+gsave 10 dict begin
+filled
+0.498 1.000 1.000 nodecolor
+0.498 1.000 1.000 nodecolor
+newpath 5214 7176 moveto
+5122 7176 lineto
+5122 7120 lineto
+5214 7120 lineto
+closepath
+fill
+0.498 1.000 1.000 nodecolor
+newpath 5214 7176 moveto
+5122 7176 lineto
+5122 7120 lineto
+5214 7120 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5168 7159 moveto 76 -0.5 (response to) alignedtext
+5168 7143 moveto 60 -0.5 (chemical) alignedtext
+5168 7127 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node18 -> node35
+newpath 4800 7594 moveto
+4861 7520 5074 7262 5145 7176 curveto
+stroke
+
+%	node49
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5328 7168 moveto
+5232 7168 lineto
+5232 7128 lineto
+5328 7128 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5328 7168 moveto
+5232 7168 lineto
+5232 7128 lineto
+5328 7128 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5280 7151 moveto 81 -0.5 (detection of) alignedtext
+5280 7135 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node18 -> node49
+newpath 4804 7594 moveto
+4885 7518 5177 7245 5258 7168 curveto
+stroke
+
+%	node73
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 4642 7176 moveto
+4550 7176 lineto
+4550 7120 lineto
+4642 7120 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 4642 7176 moveto
+4550 7176 lineto
+4550 7120 lineto
+4642 7120 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4596 7159 moveto 76 -0.5 (response to) alignedtext
+4596 7143 moveto 55 -0.5 (external) alignedtext
+4596 7127 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node18 -> node73
+newpath 4775 7594 moveto
+4745 7520 4642 7262 4607 7176 curveto
+stroke
+
+%	node132
+gsave 10 dict begin
+filled
+0.498 1.000 1.000 nodecolor
+0.498 1.000 1.000 nodecolor
+newpath 4943 7176 moveto
+4851 7176 lineto
+4851 7120 lineto
+4943 7120 lineto
+closepath
+fill
+0.498 1.000 1.000 nodecolor
+newpath 4943 7176 moveto
+4851 7176 lineto
+4851 7120 lineto
+4943 7120 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4897 7159 moveto 76 -0.5 (response to) alignedtext
+4897 7143 moveto 44 -0.5 (abiotic) alignedtext
+4897 7127 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node18 -> node132
+newpath 4788 7594 moveto
+4806 7520 4869 7262 4890 7176 curveto
+stroke
+
+%	node19 -> node12
+newpath 4758 6621 moveto
+4666 6546 4338 6276 4088 6032 curveto
+4078 6022 4067 6010 4058 6000 curveto
+stroke
+
+%	node20
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 4351 5992 moveto
+4215 5992 lineto
+4215 5952 lineto
+4351 5952 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 4351 5992 moveto
+4215 5992 lineto
+4215 5952 lineto
+4351 5952 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4283 5975 moveto 120 -0.5 (response to DNA) alignedtext
+4283 5959 moveto 116 -0.5 (damage stimulus) alignedtext
+end grestore
+end grestore
+
+%	node19 -> node20
+newpath 4768 6621 moveto
+4695 6523 4372 6091 4298 5992 curveto
+stroke
+
+%	node75
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 4685 5162 moveto
+4593 5162 lineto
+4593 5122 lineto
+4685 5122 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 4685 5162 moveto
+4593 5162 lineto
+4593 5122 lineto
+4685 5122 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4639 5145 moveto 76 -0.5 (response to) alignedtext
+4639 5129 moveto 68 -0.5 (starvation) alignedtext
+end grestore
+end grestore
+
+%	node19 -> node75
+newpath 4783 6621 moveto
+4785 6544 4791 6263 4794 6032 curveto
+4794 5978 4799 5965 4794 5912 curveto
+4764 5609 4669 5250 4645 5162 curveto
+stroke
+
+%	node77
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 4785 6032 moveto
+4499 6032 lineto
+4499 5912 lineto
+4785 5912 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 4785 6032 moveto
+4499 6032 lineto
+4499 5912 lineto
+4785 5912 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+4642 6015 moveto 223 -0.5 (SBP1 MCK1 TIR1 HSP42 RIM15) alignedtext
+4642 5999 moveto 265 -0.5 (MNN4 TPS2 PAU7 YOR338W POG1) alignedtext
+4642 5983 moveto 260 -0.5 (TPS1 YDR291W MRK1 GPD1 HSC82) alignedtext
+4642 5967 moveto 197 -0.5 (HSF1 DDR48 HSP104 HSP12) alignedtext
+4642 5951 moveto 254 -0.5 (YKL151C HSP32 HAL1 UBI4 GCN2) alignedtext
+4642 5935 moveto 270 -0.5 (FRT1 YGP1 MSN2 YGK3 SSQ1 HSP33) alignedtext
+4642 5919 moveto 250 -0.5 (MSN4 CTK1 SLG1 YLR247C SSA4) alignedtext
+end grestore
+end grestore
+
+%	node19 -> node77
+newpath 4779 6621 moveto
+4760 6533 4685 6176 4655 6032 curveto
+stroke
+
+%	node131
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5059 5992 moveto
+4951 5992 lineto
+4951 5952 lineto
+5059 5952 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5059 5992 moveto
+4951 5992 lineto
+4951 5952 lineto
+5059 5952 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5005 5975 moveto 76 -0.5 (response to) alignedtext
+5005 5959 moveto 93 -0.5 (osmotic stress) alignedtext
+end grestore
+end grestore
+
+%	node19 -> node131
+newpath 4790 6621 moveto
+4823 6523 4966 6091 4998 5992 curveto
+stroke
+
+%	node177
+gsave 10 dict begin
+filled
+0.498 1.000 1.000 nodecolor
+0.498 1.000 1.000 nodecolor
+newpath 4933 5992 moveto
+4841 5992 lineto
+4841 5952 lineto
+4933 5952 lineto
+closepath
+fill
+0.498 1.000 1.000 nodecolor
+newpath 4933 5992 moveto
+4841 5992 lineto
+4841 5952 lineto
+4933 5952 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4887 5975 moveto 76 -0.5 (response to) alignedtext
+4887 5959 moveto 29 -0.5 (heat) alignedtext
+end grestore
+end grestore
+
+%	node19 -> node177
+newpath 4786 6621 moveto
+4801 6523 4868 6091 4884 5992 curveto
+stroke
+
+%	node190
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5457 6000 moveto
+5365 6000 lineto
+5365 5944 lineto
+5457 5944 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5457 6000 moveto
+5365 6000 lineto
+5365 5944 lineto
+5457 5944 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5411 5983 moveto 76 -0.5 (response to) alignedtext
+5411 5967 moveto 62 -0.5 (oxidative) alignedtext
+5411 5951 moveto 35 -0.5 (stress) alignedtext
+end grestore
+end grestore
+
+%	node19 -> node190
+newpath 4802 6621 moveto
+4875 6544 5140 6264 5356 6032 curveto
+5365 6022 5376 6010 5385 6000 curveto
+stroke
+
+%	node20 -> node11
+newpath 4277 5952 moveto
+4243 5841 4076 5300 4036 5170 curveto
+stroke
+
+%	node23
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 4575 5210 moveto
+4281 5210 lineto
+4281 5074 lineto
+4575 5074 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 4575 5210 moveto
+4281 5210 lineto
+4281 5074 lineto
+4575 5074 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+4428 5193 moveto 232 -0.5 (PHR1 TDP1 RAD4 MLH2 MPH1) alignedtext
+4428 5177 moveto 234 -0.5 (RDH54 MEC3 HMI1 SML1 SLX8) alignedtext
+4428 5161 moveto 277 -0.5 (RAD53 SWC4 RAD9 SSL1 BDF1 DDC1) alignedtext
+4428 5145 moveto 271 -0.5 (PIF1 MLH3 YOL063C RAD51 NHP6A) alignedtext
+4428 5129 moveto 250 -0.5 (RAD24 DNL4 UFO1 TRF5 RAD28) alignedtext
+4428 5113 moveto 277 -0.5 (SMC5 REV3 SLX4 HEX3 RMI1 RAD2) alignedtext
+4428 5097 moveto 279 -0.5 (TEL1 MSH6 BDF2 HPR1 CTK1 RAD26) alignedtext
+4428 5081 moveto 136 -0.5 (PSO2 RAD54 EPL1) alignedtext
+end grestore
+end grestore
+
+%	node20 -> node23
+newpath 4287 5952 moveto
+4305 5850 4385 5386 4416 5210 curveto
+stroke
+
+%	node24
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 4195 2515 moveto
+4117 2515 lineto
+4117 2459 lineto
+4195 2459 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 4195 2515 moveto
+4117 2515 lineto
+4117 2459 lineto
+4195 2459 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4156 2498 moveto 50 -0.5 (glucose) alignedtext
+4156 2482 moveto 62 -0.5 (mediated) alignedtext
+4156 2466 moveto 61 -0.5 (signaling) alignedtext
+end grestore
+end grestore
+
+%	node38
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 4240 1877 moveto
+4138 1877 lineto
+4138 1841 lineto
+4240 1841 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 4240 1877 moveto
+4138 1877 lineto
+4138 1841 lineto
+4240 1841 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+4189 1854 moveto 87 -0.5 (GPR1 GPA2) alignedtext
+end grestore
+end grestore
+
+%	node24 -> node38
+newpath 4157 2459 moveto
+4163 2351 4183 1965 4188 1877 curveto
+stroke
+
+%	node25
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 4083 3257 moveto
+3955 3257 lineto
+3955 3217 lineto
+4083 3217 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 4083 3257 moveto
+3955 3257 lineto
+3955 3217 lineto
+4083 3217 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4019 3240 moveto 113 -0.5 (hexose mediated) alignedtext
+4019 3224 moveto 61 -0.5 (signaling) alignedtext
+end grestore
+end grestore
+
+%	node25 -> node24
+newpath 4023 3217 moveto
+4041 3113 4129 2636 4151 2515 curveto
+stroke
+
+%	node25 -> node38
+newpath 4028 3217 moveto
+4035 3200 4037 3191 4044 3169 curveto
+4127 2888 4168 2821 4204 2531 curveto
+4208 2492 4204 2482 4204 2443 curveto
+4201 2220 4192 1949 4190 1877 curveto
+stroke
+
+%	node26 -> node25
+newpath 4019 4161 moveto
+4019 4018 4019 3379 4019 3257 curveto
+stroke
+
+%	node40
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 4221 3257 moveto
+4101 3257 lineto
+4101 3217 lineto
+4221 3217 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 4221 3257 moveto
+4101 3257 lineto
+4101 3217 lineto
+4221 3217 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4161 3240 moveto 105 -0.5 (sugar mediated) alignedtext
+4161 3224 moveto 61 -0.5 (signaling) alignedtext
+end grestore
+end grestore
+
+%	node26 -> node40
+newpath 4023 4161 moveto
+4045 4018 4140 3379 4158 3257 curveto
+stroke
+
+%	node27
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3715 5170 moveto
+3617 5170 lineto
+3617 5114 lineto
+3715 5114 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3715 5170 moveto
+3617 5170 lineto
+3617 5114 lineto
+3715 5114 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3666 5153 moveto 82 -0.5 (intracellular) alignedtext
+3666 5137 moveto 61 -0.5 (signaling) alignedtext
+3666 5121 moveto 51 -0.5 (cascade) alignedtext
+end grestore
+end grestore
+
+%	node27 -> node26
+newpath 3676 5114 moveto
+3728 4975 3957 4357 4009 4217 curveto
+stroke
+
+%	node28
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 3717 5992 moveto
+3617 5992 lineto
+3617 5952 lineto
+3717 5952 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 3717 5992 moveto
+3617 5992 lineto
+3617 5952 lineto
+3717 5952 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3667 5975 moveto 39 -0.5 (signal) alignedtext
+3667 5959 moveto 85 -0.5 (transduction) alignedtext
+end grestore
+end grestore
+
+%	node28 -> node27
+newpath 3667 5952 moveto
+3667 5841 3666 5300 3666 5170 curveto
+stroke
+
+%	node29 -> node28
+newpath 3389 6613 moveto
+3438 6500 3617 6088 3658 5992 curveto
+stroke
+
+%	node29 -> node82
+newpath 3372 6613 moveto
+3353 6506 3283 6127 3262 6008 curveto
+stroke
+
+%	node29 -> node90
+newpath 3349 6613 moveto
+3242 6506 2864 6127 2745 6008 curveto
+stroke
+
+%	node29 -> node159
+newpath 3377 6613 moveto
+3377 6506 3377 6127 3377 6008 curveto
+stroke
+
+%	node30 -> node29
+newpath 3223 7120 moveto
+3251 7031 3339 6758 3368 6669 curveto
+stroke
+
+%	node30 -> node83
+newpath 3209 7120 moveto
+3195 7033 3154 6773 3139 6677 curveto
+stroke
+
+%	node30 -> node95
+newpath 3162 7137 moveto
+2962 7093 2230 6924 1668 6677 curveto
+1663 6675 1657 6672 1652 6669 curveto
+stroke
+
+%	node30 -> node160
+newpath 3216 7120 moveto
+3223 7033 3244 6773 3252 6677 curveto
+stroke
+
+%	node31 -> node30
+newpath 3203 7594 moveto
+3205 7520 3211 7262 3213 7176 curveto
+stroke
+
+%	node32 -> node28
+newpath 3902 6621 moveto
+3866 6523 3710 6091 3674 5992 curveto
+stroke
+
+%	node32 -> node68
+newpath 3916 6621 moveto
+3950 6527 4091 6131 4134 6008 curveto
+stroke
+
+%	node33
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5221 6000 moveto
+5115 6000 lineto
+5115 5944 lineto
+5221 5944 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5221 6000 moveto
+5115 6000 lineto
+5115 5944 lineto
+5221 5944 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5168 5983 moveto 76 -0.5 (response to) alignedtext
+5168 5967 moveto 91 -0.5 (carbohydrate) alignedtext
+5168 5951 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node33 -> node26
+newpath 5171 5944 moveto
+5185 5799 5247 5153 5208 5074 curveto
+5079 4817 4275 4338 4068 4217 curveto
+stroke
+
+%	node37
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5621 5170 moveto
+5495 5170 lineto
+5495 5114 lineto
+5621 5114 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5621 5170 moveto
+5495 5170 lineto
+5495 5114 lineto
+5621 5114 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5558 5153 moveto 76 -0.5 (response to) alignedtext
+5558 5137 moveto 110 -0.5 (monosaccharide) alignedtext
+5558 5121 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node33 -> node37
+newpath 5181 5944 moveto
+5241 5817 5485 5297 5545 5170 curveto
+stroke
+
+%	node42
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5353 5170 moveto
+5255 5170 lineto
+5255 5114 lineto
+5353 5114 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5353 5170 moveto
+5255 5170 lineto
+5255 5114 lineto
+5353 5114 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5304 5153 moveto 76 -0.5 (response to) alignedtext
+5304 5137 moveto 83 -0.5 (disaccharide) alignedtext
+5304 5121 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node33 -> node42
+newpath 5173 5944 moveto
+5193 5817 5279 5297 5299 5170 curveto
+stroke
+
+%	node47
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5477 5170 moveto
+5371 5170 lineto
+5371 5114 lineto
+5477 5114 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5477 5170 moveto
+5371 5170 lineto
+5371 5114 lineto
+5477 5114 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5424 5153 moveto 81 -0.5 (detection of) alignedtext
+5424 5137 moveto 91 -0.5 (carbohydrate) alignedtext
+5424 5121 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node33 -> node47
+newpath 5177 5944 moveto
+5216 5817 5376 5297 5415 5170 curveto
+stroke
+
+%	node34
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5214 6669 moveto
+5122 6669 lineto
+5122 6613 lineto
+5214 6613 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5214 6669 moveto
+5122 6669 lineto
+5122 6613 lineto
+5214 6613 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5168 6652 moveto 76 -0.5 (response to) alignedtext
+5168 6636 moveto 51 -0.5 (organic) alignedtext
+5168 6620 moveto 66 -0.5 (substance) alignedtext
+end grestore
+end grestore
+
+%	node34 -> node33
+newpath 5168 6613 moveto
+5168 6503 5168 6110 5168 6000 curveto
+stroke
+
+%	node35 -> node34
+newpath 5168 7120 moveto
+5168 7031 5168 6758 5168 6669 curveto
+stroke
+
+%	node48
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5694 6669 moveto
+5598 6669 lineto
+5598 6613 lineto
+5694 6613 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5694 6669 moveto
+5598 6669 lineto
+5598 6613 lineto
+5694 6613 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5646 6652 moveto 81 -0.5 (detection of) alignedtext
+5646 6636 moveto 60 -0.5 (chemical) alignedtext
+5646 6620 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node35 -> node48
+newpath 5195 7120 moveto
+5278 7031 5536 6758 5619 6669 curveto
+stroke
+
+%	node134
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5580 6661 moveto
+5488 6661 lineto
+5488 6621 lineto
+5580 6621 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5580 6661 moveto
+5488 6661 lineto
+5488 6621 lineto
+5580 6621 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5534 6644 moveto 76 -0.5 (response to) alignedtext
+5534 6628 moveto 32 -0.5 (drug) alignedtext
+end grestore
+end grestore
+
+%	node35 -> node134
+newpath 5188 7120 moveto
+5255 7028 5463 6740 5520 6661 curveto
+stroke
+
+%	node174
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 4905 5162 moveto
+4813 5162 lineto
+4813 5122 lineto
+4905 5122 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 4905 5162 moveto
+4813 5162 lineto
+4813 5122 lineto
+4905 5122 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4859 5145 moveto 76 -0.5 (response to) alignedtext
+4859 5129 moveto 55 -0.5 (nutrient) alignedtext
+end grestore
+end grestore
+
+%	node35 -> node174
+newpath 5164 7120 moveto
+5154 7047 5127 6845 5113 6677 curveto
+5083 6337 5122 6248 5068 5912 curveto
+5018 5607 4897 5250 4866 5162 curveto
+stroke
+
+%	node180
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5470 6661 moveto
+5378 6661 lineto
+5378 6621 lineto
+5470 6621 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5470 6661 moveto
+5378 6661 lineto
+5378 6621 lineto
+5470 6621 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5424 6644 moveto 76 -0.5 (response to) alignedtext
+5424 6628 moveto 35 -0.5 (toxin) alignedtext
+end grestore
+end grestore
+
+%	node35 -> node180
+newpath 5182 7120 moveto
+5228 7028 5374 6740 5414 6661 curveto
+stroke
+
+%	node35 -> node190
+newpath 5177 7120 moveto
+5182 7105 5188 7087 5194 7071 curveto
+5254 6895 5289 6857 5331 6677 curveto
+5389 6418 5406 6096 5410 6000 curveto
+stroke
+
+%	node205
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 4082 6661 moveto
+3988 6661 lineto
+3988 6621 lineto
+4082 6621 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 4082 6661 moveto
+3988 6661 lineto
+3988 6621 lineto
+4082 6621 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4035 6644 moveto 76 -0.5 (response to) alignedtext
+4035 6628 moveto 78 -0.5 (pheromone) alignedtext
+end grestore
+end grestore
+
+%	node35 -> node205
+newpath 5122 7131 moveto
+4970 7074 4476 6883 4091 6677 curveto
+4082 6672 4072 6667 4064 6661 curveto
+stroke
+
+%	node36
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5486 4209 moveto
+5362 4209 lineto
+5362 4169 lineto
+5486 4169 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5486 4209 moveto
+5362 4209 lineto
+5362 4169 lineto
+5486 4169 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5424 4192 moveto 76 -0.5 (response to) alignedtext
+5424 4176 moveto 108 -0.5 (hexose stimulus) alignedtext
+end grestore
+end grestore
+
+%	node36 -> node25
+newpath 5409 4169 moveto
+5396 4151 5375 4124 5353 4105 curveto
+4852 3668 4617 3710 4092 3305 curveto
+4072 3290 4053 3271 4039 3257 curveto
+stroke
+
+%	node45
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5594 3257 moveto
+5470 3257 lineto
+5470 3217 lineto
+5594 3217 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5594 3257 moveto
+5470 3257 lineto
+5470 3217 lineto
+5594 3217 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5532 3240 moveto 81 -0.5 (detection of) alignedtext
+5532 3224 moveto 108 -0.5 (hexose stimulus) alignedtext
+end grestore
+end grestore
+
+%	node36 -> node45
+newpath 5426 4169 moveto
+5440 4044 5516 3382 5530 3257 curveto
+stroke
+
+%	node50
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5452 3265 moveto
+5360 3265 lineto
+5360 3209 lineto
+5452 3209 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5452 3265 moveto
+5360 3265 lineto
+5360 3209 lineto
+5452 3209 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5406 3248 moveto 76 -0.5 (response to) alignedtext
+5406 3232 moveto 50 -0.5 (glucose) alignedtext
+5406 3216 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node36 -> node50
+newpath 5424 4169 moveto
+5421 4047 5409 3408 5407 3265 curveto
+stroke
+
+%	node37 -> node36
+newpath 5554 5114 moveto
+5534 4972 5444 4332 5427 4209 curveto
+stroke
+
+%	node46
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5630 4217 moveto
+5504 4217 lineto
+5504 4161 lineto
+5630 4161 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5630 4217 moveto
+5504 4217 lineto
+5504 4161 lineto
+5630 4161 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5567 4200 moveto 81 -0.5 (detection of) alignedtext
+5567 4184 moveto 110 -0.5 (monosaccharide) alignedtext
+5567 4168 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node37 -> node46
+newpath 5558 5114 moveto
+5560 4975 5565 4357 5567 4217 curveto
+stroke
+
+%	node39
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5221 2515 moveto
+5143 2515 lineto
+5143 2459 lineto
+5221 2459 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5221 2515 moveto
+5143 2515 lineto
+5143 2459 lineto
+5221 2459 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5182 2498 moveto 49 -0.5 (sucrose) alignedtext
+5182 2482 moveto 62 -0.5 (mediated) alignedtext
+5182 2466 moveto 61 -0.5 (signaling) alignedtext
+end grestore
+end grestore
+
+%	node43
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 5303 1877 moveto
+5249 1877 lineto
+5249 1841 lineto
+5303 1841 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 5303 1877 moveto
+5249 1877 lineto
+5249 1841 lineto
+5303 1841 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+5276 1854 moveto 39 -0.5 (GPR1) alignedtext
+end grestore
+end grestore
+
+%	node39 -> node43
+newpath 5186 2459 moveto
+5203 2351 5260 1965 5273 1877 curveto
+stroke
+
+%	node40 -> node39
+newpath 4180 3217 moveto
+4193 3203 4212 3184 4230 3169 curveto
+4565 2886 5010 2597 5143 2512 curveto
+stroke
+
+%	node41
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5228 4217 moveto
+5136 4217 lineto
+5136 4161 lineto
+5228 4161 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5228 4217 moveto
+5136 4217 lineto
+5136 4161 lineto
+5228 4161 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5182 4200 moveto 76 -0.5 (response to) alignedtext
+5182 4184 moveto 49 -0.5 (sucrose) alignedtext
+5182 4168 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node41 -> node39
+newpath 5182 4161 moveto
+5182 3958 5182 2718 5182 2515 curveto
+stroke
+
+%	node51
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5324 3265 moveto
+5228 3265 lineto
+5228 3209 lineto
+5324 3209 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5324 3265 moveto
+5228 3265 lineto
+5228 3209 lineto
+5324 3209 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5276 3248 moveto 81 -0.5 (detection of) alignedtext
+5276 3232 moveto 49 -0.5 (sucrose) alignedtext
+5276 3216 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node41 -> node51
+newpath 5185 4161 moveto
+5198 4021 5259 3405 5273 3265 curveto
+stroke
+
+%	node42 -> node41
+newpath 5300 5114 moveto
+5282 4975 5203 4357 5186 4217 curveto
+stroke
+
+%	node52
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5344 4217 moveto
+5246 4217 lineto
+5246 4161 lineto
+5344 4161 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5344 4217 moveto
+5246 4217 lineto
+5246 4161 lineto
+5344 4161 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5295 4200 moveto 81 -0.5 (detection of) alignedtext
+5295 4184 moveto 83 -0.5 (disaccharide) alignedtext
+5295 4168 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node42 -> node52
+newpath 5304 5114 moveto
+5302 4975 5297 4357 5295 4217 curveto
+stroke
+
+%	node44
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5454 2507 moveto
+5358 2507 lineto
+5358 2467 lineto
+5454 2467 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5454 2507 moveto
+5358 2507 lineto
+5358 2467 lineto
+5454 2467 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5406 2490 moveto 81 -0.5 (detection of) alignedtext
+5406 2474 moveto 50 -0.5 (glucose) alignedtext
+end grestore
+end grestore
+
+%	node44 -> node43
+newpath 5402 2467 moveto
+5383 2371 5299 1968 5280 1877 curveto
+stroke
+
+%	node45 -> node44
+newpath 5529 3217 moveto
+5511 3111 5427 2614 5409 2507 curveto
+stroke
+
+%	node46 -> node45
+newpath 5566 4161 moveto
+5561 4018 5537 3379 5533 3257 curveto
+stroke
+
+%	node47 -> node46
+newpath 5428 5114 moveto
+5449 4975 5542 4357 5563 4217 curveto
+stroke
+
+%	node47 -> node52
+newpath 5420 5114 moveto
+5401 4975 5318 4357 5299 4217 curveto
+stroke
+
+%	node48 -> node47
+newpath 5686 6613 moveto
+5812 6519 6191 6208 6082 5912 curveto
+6064 5865 5567 5303 5449 5170 curveto
+stroke
+
+%	node49 -> node48
+newpath 5295 7128 moveto
+5352 7049 5560 6761 5626 6669 curveto
+stroke
+
+%	node50 -> node44
+newpath 5406 3209 moveto
+5406 3088 5406 2611 5406 2507 curveto
+stroke
+
+%	node51 -> node43
+newpath 5276 3209 moveto
+5276 3028 5276 2025 5276 1877 curveto
+stroke
+
+%	node52 -> node51
+newpath 5294 4161 moveto
+5291 4021 5279 3405 5277 3265 curveto
+stroke
+
+%	node53
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 4099 2523 moveto
+3955 2523 lineto
+3955 2451 lineto
+4099 2451 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 4099 2523 moveto
+3955 2523 lineto
+3955 2451 lineto
+4099 2451 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4027 2506 moveto 129 -0.5 (nucleotide-excision) alignedtext
+4027 2490 moveto 87 -0.5 (repair, DNA) alignedtext
+4027 2474 moveto 54 -0.5 (damage) alignedtext
+4027 2458 moveto 77 -0.5 (recognition) alignedtext
+end grestore
+end grestore
+
+%	node58
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 4058 1877 moveto
+3996 1877 lineto
+3996 1841 lineto
+4058 1841 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 4058 1877 moveto
+3996 1877 lineto
+3996 1841 lineto
+4058 1841 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+4027 1854 moveto 46 -0.5 (RAD4) alignedtext
+end grestore
+end grestore
+
+%	node53 -> node58
+newpath 4027 2451 moveto
+4027 2334 4027 1964 4027 1877 curveto
+stroke
+
+%	node54
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 6088 3257 moveto
+5984 3257 lineto
+5984 3217 lineto
+6088 3217 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 6088 3257 moveto
+5984 3257 lineto
+5984 3217 lineto
+6088 3217 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+6036 3240 moveto 88 -0.5 (chromosome) alignedtext
+6036 3224 moveto 85 -0.5 (organization) alignedtext
+end grestore
+end grestore
+
+%	node54 -> node53
+newpath 5986 3217 moveto
+5951 3203 5903 3185 5861 3169 curveto
+5084 2877 4863 2871 4108 2531 curveto
+4103 2529 4097 2526 4091 2523 curveto
+stroke
+
+%	node55 -> node54
+newpath 5607 7128 moveto
+5682 7068 5902 6881 6016 6677 curveto
+6174 6392 6215 6297 6215 5972 curveto
+6215 5972 6215 5972 6215 5142 curveto
+6215 4360 6064 3407 6039 3257 curveto
+stroke
+
+%	node64
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 6263 3257 moveto
+6163 3257 lineto
+6163 3217 lineto
+6263 3217 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 6263 3257 moveto
+6163 3257 lineto
+6163 3217 lineto
+6263 3217 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+6213 3240 moveto 44 -0.5 (vesicle) alignedtext
+6213 3224 moveto 85 -0.5 (organization) alignedtext
+end grestore
+end grestore
+
+%	node55 -> node64
+newpath 5632 7131 moveto
+5665 7111 5718 7078 5728 7071 curveto
+5823 6997 5838 6967 5914 6874 curveto
+6183 6540 6253 6400 6253 5972 curveto
+6253 5972 6253 5972 6253 5142 curveto
+6253 4364 6219 3407 6214 3257 curveto
+stroke
+
+%	node56 -> node55
+newpath 5497 7586 moveto
+5514 7500 5564 7242 5578 7168 curveto
+stroke
+
+%	node61
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5755 7176 moveto
+5663 7176 lineto
+5663 7120 lineto
+5755 7120 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5755 7176 moveto
+5663 7176 lineto
+5663 7120 lineto
+5755 7120 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5709 7159 moveto 50 -0.5 (cellular) alignedtext
+5709 7143 moveto 77 -0.5 (component) alignedtext
+5709 7127 moveto 63 -0.5 (assembly) alignedtext
+end grestore
+end grestore
+
+%	node56 -> node61
+newpath 5505 7586 moveto
+5544 7503 5657 7259 5696 7176 curveto
+stroke
+
+%	node57 -> node53
+newpath 3634 3217 moveto
+3689 3116 3936 2656 4007 2523 curveto
+stroke
+
+%	node59
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 3748 2507 moveto
+3498 2507 lineto
+3498 2467 lineto
+3748 2467 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 3748 2507 moveto
+3498 2507 lineto
+3498 2467 lineto
+3748 2467 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+3623 2490 moveto 235 -0.5 (RAD4 RAD9 SSL1 RAD24 TFB3) alignedtext
+3623 2474 moveto 150 -0.5 (POL2 RAD2 RAD26) alignedtext
+end grestore
+end grestore
+
+%	node57 -> node59
+newpath 3623 3217 moveto
+3623 3111 3623 2614 3623 2507 curveto
+stroke
+
+%	node60
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 6258 2515 moveto
+6168 2515 lineto
+6168 2459 lineto
+6258 2459 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 6258 2515 moveto
+6168 2515 lineto
+6168 2459 lineto
+6258 2459 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+6213 2498 moveto 75 -0.5 (autophagic) alignedtext
+6213 2482 moveto 52 -0.5 (vacuole) alignedtext
+6213 2466 moveto 70 -0.5 (formation) alignedtext
+end grestore
+end grestore
+
+%	node76
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 6290 1877 moveto
+6136 1877 lineto
+6136 1841 lineto
+6290 1841 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 6290 1877 moveto
+6136 1877 lineto
+6136 1841 lineto
+6290 1841 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+6213 1854 moveto 139 -0.5 (ATG2 ATG4 ATG1) alignedtext
+end grestore
+end grestore
+
+%	node60 -> node76
+newpath 6213 2459 moveto
+6213 2351 6213 1965 6213 1877 curveto
+stroke
+
+%	node61 -> node60
+newpath 5740 7120 moveto
+5813 7051 5998 6867 6098 6677 curveto
+6247 6388 6291 6296 6291 5972 curveto
+6291 5972 6291 5972 6291 4189 curveto
+6291 3735 6295 3621 6272 3169 curveto
+6259 2915 6226 2608 6216 2515 curveto
+stroke
+
+%	node62 -> node61
+newpath 5715 7586 moveto
+5713 7503 5710 7259 5709 7176 curveto
+stroke
+
+%	node63 -> node61
+newpath 5612 7586 moveto
+5630 7503 5684 7259 5703 7176 curveto
+stroke
+
+%	node64 -> node60
+newpath 6213 3217 moveto
+6213 3113 6213 2636 6213 2515 curveto
+stroke
+
+%	node65
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 4371 3255 moveto
+4239 3255 lineto
+4239 3219 lineto
+4371 3219 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 4371 3255 moveto
+4239 3255 lineto
+4239 3219 lineto
+4371 3219 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4305 3232 moveto 117 -0.5 (macroautophagy) alignedtext
+end grestore
+end grestore
+
+%	node65 -> node60
+newpath 4351 3219 moveto
+4613 3116 5909 2607 6168 2505 curveto
+stroke
+
+%	node66 -> node65
+newpath 4250 4161 moveto
+4258 4018 4297 3373 4304 3255 curveto
+stroke
+
+%	node67
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 4263 5170 moveto
+4151 5170 lineto
+4151 5114 lineto
+4263 5114 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 4263 5170 moveto
+4151 5170 lineto
+4151 5114 lineto
+4263 5114 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4207 5153 moveto 50 -0.5 (cellular) alignedtext
+4207 5137 moveto 76 -0.5 (response to) alignedtext
+4207 5121 moveto 97 -0.5 (nutrient levels) alignedtext
+end grestore
+end grestore
+
+%	node67 -> node66
+newpath 4208 5114 moveto
+4214 4975 4241 4357 4247 4217 curveto
+stroke
+
+%	node170
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 4445 4217 moveto
+4353 4217 lineto
+4353 4161 lineto
+4445 4161 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 4445 4217 moveto
+4353 4217 lineto
+4353 4161 lineto
+4445 4161 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4399 4200 moveto 50 -0.5 (cellular) alignedtext
+4399 4184 moveto 76 -0.5 (response to) alignedtext
+4399 4168 moveto 55 -0.5 (nutrient) alignedtext
+end grestore
+end grestore
+
+%	node67 -> node170
+newpath 4213 5114 moveto
+4240 4975 4365 4357 4393 4217 curveto
+stroke
+
+%	node68 -> node67
+newpath 4150 5936 moveto
+4160 5796 4196 5295 4205 5170 curveto
+stroke
+
+%	node69
+gsave 10 dict begin
+filled
+0.333 1.000 1.000 nodecolor
+0.333 1.000 1.000 nodecolor
+newpath 3342 4207 moveto
+3254 4207 lineto
+3254 4171 lineto
+3342 4171 lineto
+closepath
+fill
+0.333 1.000 1.000 nodecolor
+newpath 3342 4207 moveto
+3254 4207 lineto
+3254 4171 lineto
+3342 4171 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3298 4184 moveto 73 -0.5 (autophagy) alignedtext
+end grestore
+end grestore
+
+%	node69 -> node65
+newpath 3317 4171 moveto
+3444 4051 4158 3376 4286 3255 curveto
+stroke
+
+%	node70 -> node69
+newpath 3033 6613 moveto
+3053 6526 3114 6257 3151 6032 curveto
+3210 5668 3222 5576 3253 5210 curveto
+3286 4805 3296 4308 3298 4207 curveto
+stroke
+
+%	node71 -> node70
+newpath 2982 7128 moveto
+2989 7049 3015 6761 3023 6669 curveto
+stroke
+
+%	node72
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 4475 6669 moveto
+4375 6669 lineto
+4375 6613 lineto
+4475 6613 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 4475 6669 moveto
+4375 6669 lineto
+4375 6613 lineto
+4475 6613 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4425 6652 moveto 76 -0.5 (response to) alignedtext
+4425 6636 moveto 85 -0.5 (extracellular) alignedtext
+4425 6620 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node72 -> node68
+newpath 4413 6613 moveto
+4369 6506 4211 6127 4162 6008 curveto
+stroke
+
+%	node74
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 4481 5992 moveto
+4369 5992 lineto
+4369 5952 lineto
+4481 5952 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 4481 5992 moveto
+4369 5992 lineto
+4369 5952 lineto
+4481 5952 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4425 5975 moveto 76 -0.5 (response to) alignedtext
+4425 5959 moveto 97 -0.5 (nutrient levels) alignedtext
+end grestore
+end grestore
+
+%	node72 -> node74
+newpath 4425 6613 moveto
+4425 6500 4425 6088 4425 5992 curveto
+stroke
+
+%	node73 -> node72
+newpath 4586 7120 moveto
+4556 7031 4464 6758 4434 6669 curveto
+stroke
+
+%	node74 -> node67
+newpath 4420 5952 moveto
+4390 5841 4249 5300 4214 5170 curveto
+stroke
+
+%	node74 -> node75
+newpath 4430 5952 moveto
+4460 5838 4604 5276 4634 5162 curveto
+stroke
+
+%	node74 -> node174
+newpath 4436 5952 moveto
+4495 5838 4789 5276 4848 5162 curveto
+stroke
+
+%	node75 -> node66
+newpath 4631 5122 moveto
+4580 4999 4318 4359 4259 4217 curveto
+stroke
+
+%	node78
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1907 1903 moveto
+1801 1903 lineto
+1801 1815 lineto
+1907 1815 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1907 1903 moveto
+1801 1903 lineto
+1801 1815 lineto
+1907 1815 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1854 1886 moveto 57 -0.5 (negative) alignedtext
+1854 1870 moveto 89 -0.5 (regulation of) alignedtext
+1854 1854 moveto 90 -0.5 (translation in) alignedtext
+1854 1838 moveto 76 -0.5 (response to) alignedtext
+1854 1822 moveto 35 -0.5 (stress) alignedtext
+end grestore
+end grestore
+
+%	node118
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 1881 1168 moveto
+1827 1168 lineto
+1827 1132 lineto
+1881 1132 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 1881 1168 moveto
+1827 1168 lineto
+1827 1132 lineto
+1881 1132 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+1854 1145 moveto 33 -0.5 (SBP1) alignedtext
+end grestore
+end grestore
+
+%	node78 -> node118
+newpath 1854 1815 moveto
+1854 1677 1854 1260 1854 1168 curveto
+stroke
+
+%	node79
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1783 2515 moveto
+1679 2515 lineto
+1679 2459 lineto
+1783 2459 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1783 2515 moveto
+1679 2515 lineto
+1679 2459 lineto
+1783 2459 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1731 2498 moveto 57 -0.5 (negative) alignedtext
+1731 2482 moveto 89 -0.5 (regulation of) alignedtext
+1731 2466 moveto 72 -0.5 (translation) alignedtext
+end grestore
+end grestore
+
+%	node79 -> node78
+newpath 1737 2459 moveto
+1756 2360 1822 2024 1845 1903 curveto
+stroke
+
+%	node80
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2306 4233 moveto
+2202 4233 lineto
+2202 4145 lineto
+2306 4145 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2306 4233 moveto
+2202 4233 lineto
+2202 4145 lineto
+2306 4145 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2254 4216 moveto 57 -0.5 (negative) alignedtext
+2254 4200 moveto 89 -0.5 (regulation of) alignedtext
+2254 4184 moveto 50 -0.5 (cellular) alignedtext
+2254 4168 moveto 82 -0.5 (biosynthetic) alignedtext
+2254 4152 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node80 -> node79
+newpath 2248 4145 moveto
+2226 4002 2152 3538 2036 3169 curveto
+1943 2875 1915 2800 1767 2531 curveto
+1763 2524 1761 2519 1758 2515 curveto
+stroke
+
+%	node81 -> node80
+newpath 2690 5098 moveto
+2613 4939 2352 4393 2275 4233 curveto
+stroke
+
+%	node84
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2027 3289 moveto
+1923 3289 lineto
+1923 3185 lineto
+2027 3185 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2027 3289 moveto
+1923 3289 lineto
+1923 3185 lineto
+2027 3185 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1975 3272 moveto 57 -0.5 (negative) alignedtext
+1975 3256 moveto 89 -0.5 (regulation of) alignedtext
+1975 3240 moveto 50 -0.5 (cellular) alignedtext
+1975 3224 moveto 48 -0.5 (protein) alignedtext
+1975 3208 moveto 66 -0.5 (metabolic) alignedtext
+1975 3192 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node81 -> node84
+newpath 2710 5098 moveto
+2707 4924 2690 4291 2619 4105 curveto
+2483 3747 2155 3408 2027 3286 curveto
+stroke
+
+%	node82 -> node81
+newpath 3231 5936 moveto
+3144 5802 2836 5333 2740 5186 curveto
+stroke
+
+%	node83 -> node82
+newpath 3140 6605 moveto
+3161 6488 3227 6124 3248 6008 curveto
+stroke
+
+%	node83 -> node86
+newpath 3081 6609 moveto
+3078 6608 3075 6606 3072 6605 curveto
+2185 6229 1817 6512 984 6032 curveto
+973 6026 963 6017 954 6008 curveto
+stroke
+
+%	node84 -> node79
+newpath 1958 3185 moveto
+1911 3039 1776 2627 1740 2515 curveto
+stroke
+
+%	node85
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 557 5178 moveto
+453 5178 lineto
+453 5106 lineto
+557 5106 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 557 5178 moveto
+453 5178 lineto
+453 5106 lineto
+557 5106 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+505 5161 moveto 57 -0.5 (negative) alignedtext
+505 5145 moveto 89 -0.5 (regulation of) alignedtext
+505 5129 moveto 82 -0.5 (biosynthetic) alignedtext
+505 5113 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node85 -> node80
+newpath 533 5106 moveto
+543 5095 554 5083 566 5074 curveto
+1209 4587 1576 4792 2193 4273 curveto
+2206 4262 2218 4247 2228 4233 curveto
+stroke
+
+%	node87
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 634 4209 moveto
+422 4209 lineto
+422 4169 lineto
+634 4169 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 634 4209 moveto
+422 4209 lineto
+422 4169 lineto
+634 4169 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+528 4192 moveto 196 -0.5 (GO:0010558 - macromolecule) alignedtext
+528 4176 moveto 136 -0.5 (biosynthetic process) alignedtext
+end grestore
+end grestore
+
+%	node85 -> node87
+newpath 506 5106 moveto
+510 4949 525 4329 528 4209 curveto
+stroke
+
+%	node86 -> node81
+newpath 955 5936 moveto
+964 5927 974 5919 984 5912 curveto
+1637 5472 1922 5590 2612 5210 curveto
+2628 5201 2644 5190 2659 5180 curveto
+stroke
+
+%	node86 -> node85
+newpath 905 5936 moveto
+836 5799 592 5315 523 5178 curveto
+stroke
+
+%	node88
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1187 5162 moveto
+973 5162 lineto
+973 5122 lineto
+1187 5122 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1187 5162 moveto
+973 5162 lineto
+973 5122 lineto
+1187 5122 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1080 5145 moveto 198 -0.5 (GO:0010605 - macromolecule) alignedtext
+1080 5129 moveto 120 -0.5 (metabolic process) alignedtext
+end grestore
+end grestore
+
+%	node86 -> node88
+newpath 930 5936 moveto
+957 5793 1055 5272 1076 5162 curveto
+stroke
+
+%	node87 -> node79
+newpath 526 4169 moveto
+517 4057 484 3508 717 3169 curveto
+855 2969 1472 2767 1650 2602 curveto
+1664 2588 1694 2544 1713 2515 curveto
+stroke
+
+%	node88 -> node87
+newpath 1068 5122 moveto
+996 4997 612 4334 540 4209 curveto
+stroke
+
+%	node89
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1646 4233 moveto
+1542 4233 lineto
+1542 4145 lineto
+1646 4145 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1646 4233 moveto
+1542 4233 lineto
+1542 4145 lineto
+1646 4145 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1594 4216 moveto 57 -0.5 (negative) alignedtext
+1594 4200 moveto 89 -0.5 (regulation of) alignedtext
+1594 4184 moveto 48 -0.5 (protein) alignedtext
+1594 4168 moveto 66 -0.5 (metabolic) alignedtext
+1594 4152 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node88 -> node89
+newpath 1091 5122 moveto
+1154 5004 1479 4402 1570 4233 curveto
+stroke
+
+%	node89 -> node84
+newpath 1612 4145 moveto
+1675 3988 1887 3458 1954 3289 curveto
+stroke
+
+%	node90 -> node81
+newpath 2709 5936 moveto
+2709 5802 2710 5333 2711 5186 curveto
+stroke
+
+%	node91
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 2355 5178 moveto
+2251 5178 lineto
+2251 5106 lineto
+2355 5106 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 2355 5178 moveto
+2251 5178 lineto
+2251 5106 lineto
+2355 5106 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2303 5161 moveto 89 -0.5 (regulation of) alignedtext
+2303 5145 moveto 50 -0.5 (cellular) alignedtext
+2303 5129 moveto 82 -0.5 (biosynthetic) alignedtext
+2303 5113 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node90 -> node91
+newpath 2691 5936 moveto
+2624 5799 2388 5315 2321 5178 curveto
+stroke
+
+%	node94
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2026 4233 moveto
+1922 4233 lineto
+1922 4145 lineto
+2026 4145 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2026 4233 moveto
+1922 4233 lineto
+1922 4145 lineto
+2026 4145 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1974 4216 moveto 89 -0.5 (regulation of) alignedtext
+1974 4200 moveto 50 -0.5 (cellular) alignedtext
+1974 4184 moveto 48 -0.5 (protein) alignedtext
+1974 4168 moveto 66 -0.5 (metabolic) alignedtext
+1974 4152 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node90 -> node94
+newpath 2657 5938 moveto
+2386 5708 2386 5556 2242 5210 curveto
+2232 5186 2035 4426 1985 4233 curveto
+stroke
+
+%	node90 -> node146
+newpath 2702 5936 moveto
+2676 5806 2589 5364 2557 5202 curveto
+stroke
+
+%	node90 -> node158
+newpath 2714 5936 moveto
+2734 5802 2804 5333 2826 5186 curveto
+stroke
+
+%	node91 -> node80
+newpath 2301 5106 moveto
+2293 4958 2265 4396 2256 4233 curveto
+stroke
+
+%	node92
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1707 3257 moveto
+1603 3257 lineto
+1603 3217 lineto
+1707 3217 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1707 3257 moveto
+1603 3257 lineto
+1603 3217 lineto
+1707 3217 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1655 3240 moveto 89 -0.5 (regulation of) alignedtext
+1655 3224 moveto 72 -0.5 (translation) alignedtext
+end grestore
+end grestore
+
+%	node91 -> node92
+newpath 2269 5106 moveto
+2028 4802 2044 4657 1913 4273 curveto
+1782 3892 1789 3785 1693 3394 curveto
+1680 3345 1667 3287 1660 3257 curveto
+stroke
+
+%	node142
+gsave 10 dict begin
+filled
+0.333 1.000 1.000 nodecolor
+0.333 1.000 1.000 nodecolor
+newpath 1905 3257 moveto
+1801 3257 lineto
+1801 3217 lineto
+1905 3217 lineto
+closepath
+fill
+0.333 1.000 1.000 nodecolor
+newpath 1905 3257 moveto
+1801 3257 lineto
+1801 3217 lineto
+1905 3217 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1853 3240 moveto 89 -0.5 (regulation of) alignedtext
+1853 3224 moveto 86 -0.5 (transcription) alignedtext
+end grestore
+end grestore
+
+%	node91 -> node142
+newpath 2293 5106 moveto
+2259 4987 2150 4597 2073 4273 curveto
+2026 4078 1927 3589 1886 3394 curveto
+1875 3345 1863 3287 1857 3257 curveto
+stroke
+
+%	node157
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2428 4233 moveto
+2324 4233 lineto
+2324 4145 lineto
+2428 4145 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2428 4233 moveto
+2324 4233 lineto
+2324 4145 lineto
+2428 4145 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2376 4216 moveto 52 -0.5 (positive) alignedtext
+2376 4200 moveto 89 -0.5 (regulation of) alignedtext
+2376 4184 moveto 50 -0.5 (cellular) alignedtext
+2376 4168 moveto 82 -0.5 (biosynthetic) alignedtext
+2376 4152 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node91 -> node157
+newpath 2306 5106 moveto
+2317 4958 2360 4396 2373 4233 curveto
+stroke
+
+%	node92 -> node79
+newpath 1657 3217 moveto
+1667 3113 1716 2636 1728 2515 curveto
+stroke
+
+%	node92 -> node93
+newpath 1664 3217 moveto
+1707 3116 1904 2656 1960 2523 curveto
+stroke
+
+%	node93 -> node78
+newpath 1969 2451 moveto
+1948 2343 1885 2021 1863 1903 curveto
+stroke
+
+%	node94 -> node84
+newpath 1974 4145 moveto
+1974 3988 1975 3458 1975 3289 curveto
+stroke
+
+%	node94 -> node92
+newpath 1959 4145 moveto
+1903 3977 1701 3375 1662 3257 curveto
+stroke
+
+%	node95 -> node86
+newpath 1578 6613 moveto
+1489 6526 1213 6256 984 6032 curveto
+976 6024 968 6016 960 6008 curveto
+stroke
+
+%	node95 -> node90
+newpath 1653 6613 moveto
+1831 6505 2469 6117 2657 6004 curveto
+stroke
+
+%	node96
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 853 6000 moveto
+749 6000 lineto
+749 5944 lineto
+853 5944 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 853 6000 moveto
+749 6000 lineto
+749 5944 lineto
+853 5944 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+801 5983 moveto 89 -0.5 (regulation of) alignedtext
+801 5967 moveto 82 -0.5 (biosynthetic) alignedtext
+801 5951 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node95 -> node96
+newpath 1570 6613 moveto
+1461 6528 1125 6267 862 6032 curveto
+851 6022 839 6010 829 6000 curveto
+stroke
+
+%	node98
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 1535 5992 moveto
+1311 5992 lineto
+1311 5952 lineto
+1535 5952 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 1535 5992 moveto
+1311 5992 lineto
+1311 5952 lineto
+1535 5952 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1423 5975 moveto 209 -0.5 (GO:0060255 & macromolecule) alignedtext
+1423 5959 moveto 120 -0.5 (metabolic process) alignedtext
+end grestore
+end grestore
+
+%	node95 -> node98
+newpath 1599 6613 moveto
+1568 6500 1455 6088 1428 5992 curveto
+stroke
+
+%	node102
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 2139 5992 moveto
+1891 5992 lineto
+1891 5952 lineto
+2139 5952 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 2139 5992 moveto
+1891 5992 lineto
+1891 5952 lineto
+2139 5952 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2015 5975 moveto 232 -0.5 (GO:0080090 & primary metabolic) alignedtext
+2015 5959 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node95 -> node102
+newpath 1624 6613 moveto
+1693 6500 1944 6088 2003 5992 curveto
+stroke
+
+%	node95 -> node164
+newpath 1616 6613 moveto
+1650 6506 1771 6127 1809 6008 curveto
+stroke
+
+%	node96 -> node85
+newpath 791 5944 moveto
+746 5820 568 5318 518 5178 curveto
+stroke
+
+%	node96 -> node91
+newpath 826 5944 moveto
+837 5933 850 5921 862 5912 curveto
+1406 5515 1627 5557 2204 5210 curveto
+2220 5200 2237 5189 2252 5178 curveto
+stroke
+
+%	node97
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 795 5162 moveto
+575 5162 lineto
+575 5122 lineto
+795 5122 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 795 5162 moveto
+575 5162 lineto
+575 5122 lineto
+795 5122 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+685 5145 moveto 205 -0.5 (GO:0010556 & macromolecule) alignedtext
+685 5129 moveto 136 -0.5 (biosynthetic process) alignedtext
+end grestore
+end grestore
+
+%	node96 -> node97
+newpath 797 5944 moveto
+779 5814 703 5274 688 5162 curveto
+stroke
+
+%	node163
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 917 5178 moveto
+813 5178 lineto
+813 5106 lineto
+917 5106 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 917 5178 moveto
+813 5178 lineto
+813 5106 lineto
+917 5106 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+865 5161 moveto 52 -0.5 (positive) alignedtext
+865 5145 moveto 89 -0.5 (regulation of) alignedtext
+865 5129 moveto 82 -0.5 (biosynthetic) alignedtext
+865 5113 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node96 -> node163
+newpath 803 5944 moveto
+812 5820 851 5318 862 5178 curveto
+stroke
+
+%	node97 -> node87
+newpath 682 5122 moveto
+661 4997 552 4334 531 4209 curveto
+stroke
+
+%	node97 -> node92
+newpath 685 5122 moveto
+681 4984 666 4200 709 4105 curveto
+912 3658 1465 3338 1616 3257 curveto
+stroke
+
+%	node97 -> node142
+newpath 685 5122 moveto
+686 4986 694 4198 742 4105 curveto
+1005 3597 1293 3649 1750 3305 curveto
+1779 3283 1789 3272 1813 3257 curveto
+stroke
+
+%	node165
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 969 4209 moveto
+751 4209 lineto
+751 4169 lineto
+969 4169 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 969 4209 moveto
+751 4209 lineto
+751 4169 lineto
+969 4169 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+860 4192 moveto 202 -0.5 (GO:0010557 + macromolecule) alignedtext
+860 4176 moveto 136 -0.5 (biosynthetic process) alignedtext
+end grestore
+end grestore
+
+%	node97 -> node165
+newpath 689 5122 moveto
+712 4997 833 4334 856 4209 curveto
+stroke
+
+%	node98 -> node88
+newpath 1415 5952 moveto
+1367 5838 1135 5276 1088 5162 curveto
+stroke
+
+%	node98 -> node97
+newpath 1405 5952 moveto
+1304 5838 804 5276 703 5162 curveto
+stroke
+
+%	node100
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1329 5162 moveto
+1205 5162 lineto
+1205 5122 lineto
+1329 5122 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1329 5162 moveto
+1205 5162 lineto
+1205 5122 lineto
+1329 5122 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1267 5145 moveto 89 -0.5 (regulation of) alignedtext
+1267 5129 moveto 108 -0.5 (gene expression) alignedtext
+end grestore
+end grestore
+
+%	node98 -> node100
+newpath 1419 5952 moveto
+1397 5838 1292 5276 1271 5162 curveto
+stroke
+
+%	node101
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2079 5178 moveto
+1975 5178 lineto
+1975 5106 lineto
+2079 5106 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2079 5178 moveto
+1975 5178 lineto
+1975 5106 lineto
+2079 5106 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2027 5161 moveto 89 -0.5 (regulation of) alignedtext
+2027 5145 moveto 48 -0.5 (protein) alignedtext
+2027 5129 moveto 66 -0.5 (metabolic) alignedtext
+2027 5113 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node98 -> node101
+newpath 1438 5952 moveto
+1517 5843 1897 5321 2001 5178 curveto
+stroke
+
+%	node145
+gsave 10 dict begin
+filled
+0.498 1.000 1.000 nodecolor
+0.498 1.000 1.000 nodecolor
+newpath 2610 4217 moveto
+2484 4217 lineto
+2484 4161 lineto
+2610 4161 lineto
+closepath
+fill
+0.498 1.000 1.000 nodecolor
+newpath 2610 4217 moveto
+2484 4217 lineto
+2484 4161 lineto
+2610 4161 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2547 4200 moveto 89 -0.5 (regulation of) alignedtext
+2547 4184 moveto 110 -0.5 (RNA metabolic) alignedtext
+2547 4168 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node98 -> node145
+newpath 1463 5952 moveto
+1484 5940 1496 5931 1523 5912 curveto
+1916 5624 2119 5630 2364 5210 curveto
+2466 5032 2531 4363 2545 4217 curveto
+stroke
+
+%	node167
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1743 5162 moveto
+1523 5162 lineto
+1523 5122 lineto
+1743 5122 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1743 5162 moveto
+1523 5162 lineto
+1523 5122 lineto
+1743 5122 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1633 5145 moveto 204 -0.5 (GO:0010604 + macromolecule) alignedtext
+1633 5129 moveto 120 -0.5 (metabolic process) alignedtext
+end grestore
+end grestore
+
+%	node98 -> node167
+newpath 1428 5952 moveto
+1457 5838 1599 5276 1628 5162 curveto
+stroke
+
+%	node99
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1246 4217 moveto
+1104 4217 lineto
+1104 4161 lineto
+1246 4161 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1246 4217 moveto
+1104 4217 lineto
+1104 4161 lineto
+1246 4161 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1175 4200 moveto 126 -0.5 (posttranscriptional) alignedtext
+1175 4184 moveto 89 -0.5 (regulation of) alignedtext
+1175 4168 moveto 108 -0.5 (gene expression) alignedtext
+end grestore
+end grestore
+
+%	node99 -> node92
+newpath 1189 4161 moveto
+1261 4018 1583 3379 1645 3257 curveto
+stroke
+
+%	node100 -> node99
+newpath 1265 5122 moveto
+1253 4999 1191 4359 1178 4217 curveto
+stroke
+
+%	node100 -> node142
+newpath 1266 5122 moveto
+1260 4994 1232 4304 1293 4105 curveto
+1411 3722 1749 3347 1834 3257 curveto
+stroke
+
+%	node166
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1524 4207 moveto
+1302 4207 lineto
+1302 4171 lineto
+1524 4171 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1524 4207 moveto
+1302 4207 lineto
+1302 4171 lineto
+1524 4171 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1413 4184 moveto 206 -0.5 (GO:0010628 + gene expression) alignedtext
+end grestore
+end grestore
+
+%	node100 -> node166
+newpath 1270 5122 moveto
+1289 4996 1392 4327 1410 4207 curveto
+stroke
+
+%	node101 -> node89
+newpath 2011 5106 moveto
+1943 4958 1688 4396 1614 4233 curveto
+stroke
+
+%	node101 -> node94
+newpath 2025 5106 moveto
+2016 4958 1985 4396 1976 4233 curveto
+stroke
+
+%	node102 -> node101
+newpath 2015 5952 moveto
+2017 5843 2024 5321 2026 5178 curveto
+stroke
+
+%	node102 -> node146
+newpath 2028 5952 moveto
+2094 5848 2398 5372 2507 5202 curveto
+stroke
+
+%	node103
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1790 4207 moveto
+1702 4207 lineto
+1702 4171 lineto
+1790 4171 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1790 4207 moveto
+1702 4207 lineto
+1702 4171 lineto
+1790 4171 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1746 4184 moveto 72 -0.5 (translation) alignedtext
+end grestore
+end grestore
+
+%	node103 -> node79
+newpath 1746 4171 moveto
+1744 4003 1733 2722 1731 2515 curveto
+stroke
+
+%	node103 -> node92
+newpath 1744 4171 moveto
+1733 4052 1669 3383 1657 3257 curveto
+stroke
+
+%	node104 -> node103
+newpath 2131 5106 moveto
+2065 4948 1802 4322 1754 4207 curveto
+stroke
+
+%	node104 -> node147
+newpath 2146 5106 moveto
+2143 4948 2135 4322 2133 4207 curveto
+stroke
+
+%	node105 -> node104
+newpath 2451 5936 moveto
+2399 5799 2213 5315 2160 5178 curveto
+stroke
+
+%	node106 -> node80
+newpath 2590 6613 moveto
+2589 6561 2587 6447 2584 6351 curveto
+2581 6294 2581 6279 2578 6223 curveto
+2570 6084 2573 6049 2557 5912 curveto
+2475 5239 2306 4429 2264 4233 curveto
+stroke
+
+%	node106 -> node91
+newpath 2591 6613 moveto
+2590 6515 2584 6181 2534 5912 curveto
+2506 5762 2358 5310 2315 5178 curveto
+stroke
+
+%	node106 -> node105
+newpath 2586 6613 moveto
+2566 6506 2494 6127 2472 6008 curveto
+stroke
+
+%	node150
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 2965 4217 moveto
+2867 4217 lineto
+2867 4161 lineto
+2965 4161 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 2965 4217 moveto
+2867 4217 lineto
+2867 4161 lineto
+2965 4161 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2916 4200 moveto 39 -0.5 (RNA) alignedtext
+2916 4184 moveto 82 -0.5 (biosynthetic) alignedtext
+2916 4168 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node106 -> node150
+newpath 2609 6613 moveto
+2701 6471 3108 5815 3220 5210 curveto
+3294 4806 3012 4336 2935 4217 curveto
+stroke
+
+%	node106 -> node157
+newpath 2592 6613 moveto
+2594 6526 2602 6255 2605 6032 curveto
+2605 5978 2609 5965 2605 5912 curveto
+2576 5596 2522 5523 2478 5210 curveto
+2425 4833 2389 4376 2379 4233 curveto
+stroke
+
+%	node107 -> node84
+newpath 1843 5106 moveto
+1852 4972 1885 4496 1913 4105 curveto
+1935 3796 1961 3424 1971 3289 curveto
+stroke
+
+%	node107 -> node94
+newpath 1845 5106 moveto
+1866 4958 1945 4396 1968 4233 curveto
+stroke
+
+%	node107 -> node103
+newpath 1836 5106 moveto
+1821 4948 1759 4322 1748 4207 curveto
+stroke
+
+%	node108 -> node85
+newpath 791 7128 moveto
+439 6407 488 5383 502 5178 curveto
+stroke
+
+%	node108 -> node96
+newpath 802 7128 moveto
+797 7062 783 6851 778 6677 curveto
+771 6413 792 6095 799 6000 curveto
+stroke
+
+%	node108 -> node106
+newpath 852 7134 moveto
+1053 7079 1832 6863 2471 6677 curveto
+2494 6670 2520 6662 2542 6656 curveto
+stroke
+
+%	node108 -> node110
+newpath 805 7128 moveto
+812 7049 837 6761 845 6669 curveto
+stroke
+
+%	node108 -> node163
+newpath 800 7128 moveto
+800 7126 800 7123 800 7120 curveto
+794 7032 794 7011 788 6924 curveto
+782 6814 781 6786 774 6677 curveto
+756 6337 714 6251 740 5912 curveto
+767 5580 775 5486 855 5178 curveto
+stroke
+
+%	node109 -> node104
+newpath 1717 5944 moveto
+1784 5820 2052 5318 2127 5178 curveto
+stroke
+
+%	node110 -> node105
+newpath 907 6625 moveto
+1121 6568 1860 6356 2396 6032 curveto
+2407 6025 2418 6016 2427 6008 curveto
+stroke
+
+%	node110 -> node109
+newpath 888 6613 moveto
+1009 6530 1371 6275 1644 6032 curveto
+1655 6022 1666 6010 1676 6000 curveto
+stroke
+
+%	node111
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 386 3281 moveto
+266 3281 lineto
+266 3193 lineto
+386 3193 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 386 3281 moveto
+266 3281 lineto
+266 3193 lineto
+386 3193 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+326 3264 moveto 62 -0.5 (-negative) alignedtext
+326 3248 moveto 89 -0.5 (regulation of) alignedtext
+326 3232 moveto 104 -0.5 (macromolecule) alignedtext
+326 3216 moveto 82 -0.5 (biosynthetic) alignedtext
+326 3200 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node110 -> node111
+newpath 787 6620 moveto
+783 6616 779 6611 773 6605 curveto
+727 6555 720 6538 689 6478 curveto
+413 5931 269 5810 150 5210 curveto
+0 4448 251 3496 313 3281 curveto
+stroke
+
+%	node112
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 297 5178 moveto
+177 5178 lineto
+177 5106 lineto
+297 5106 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 297 5178 moveto
+177 5178 lineto
+177 5106 lineto
+297 5106 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+237 5161 moveto 103 -0.5 (&regulation of) alignedtext
+237 5145 moveto 104 -0.5 (macromolecule) alignedtext
+237 5129 moveto 82 -0.5 (biosynthetic) alignedtext
+237 5113 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node110 -> node112
+newpath 835 6613 moveto
+760 6428 336 5386 252 5178 curveto
+stroke
+
+%	node171
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 846 3281 moveto
+726 3281 lineto
+726 3193 lineto
+846 3193 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 846 3281 moveto
+726 3281 lineto
+726 3193 lineto
+846 3193 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+786 3264 moveto 61 -0.5 (+positive) alignedtext
+786 3248 moveto 89 -0.5 (regulation of) alignedtext
+786 3232 moveto 104 -0.5 (macromolecule) alignedtext
+786 3216 moveto 82 -0.5 (biosynthetic) alignedtext
+786 3200 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node110 -> node171
+newpath 809 6613 moveto
+618 6427 670 6290 548 6032 curveto
+378 5667 255 5603 168 5210 curveto
+136 5062 124 4573 279 4105 curveto
+394 3761 656 3404 751 3281 curveto
+stroke
+
+%	node111 -> node79
+newpath 386 3205 moveto
+619 3080 1460 2631 1679 2515 curveto
+stroke
+
+%	node112 -> node87
+newpath 248 5106 moveto
+296 4949 485 4329 522 4209 curveto
+stroke
+
+%	node112 -> node92
+newpath 231 5106 moveto
+212 4965 157 4449 356 4105 curveto
+624 3643 887 3699 1324 3394 curveto
+1382 3353 1394 3337 1458 3305 curveto
+1520 3272 1540 3266 1603 3249 curveto
+stroke
+
+%	node112 -> node142
+newpath 239 5106 moveto
+251 4943 304 4277 413 4105 curveto
+728 3613 993 3649 1517 3394 curveto
+1604 3351 1630 3350 1716 3305 curveto
+1756 3283 1764 3266 1801 3250 curveto
+stroke
+
+%	node112 -> node165
+newpath 261 5106 moveto
+363 4949 769 4329 847 4209 curveto
+stroke
+
+%	node113 -> node89
+newpath 1600 5944 moveto
+1605 5916 1614 5872 1622 5834 curveto
+1679 5556 1722 5491 1752 5210 curveto
+1791 4829 1655 4374 1609 4233 curveto
+stroke
+
+%	node113 -> node101
+newpath 1609 5944 moveto
+1673 5820 1935 5318 2008 5178 curveto
+stroke
+
+%	node113 -> node107
+newpath 1602 5944 moveto
+1639 5820 1788 5318 1829 5178 curveto
+stroke
+
+%	node114 -> node100
+newpath 1060 5954 moveto
+1088 5845 1233 5276 1262 5162 curveto
+stroke
+
+%	node114 -> node103
+newpath 1068 5954 moveto
+1077 5939 1081 5931 1091 5912 curveto
+1266 5601 1343 5540 1476 5210 curveto
+1485 5184 1706 4342 1741 4207 curveto
+stroke
+
+%	node114 -> node147
+newpath 1084 5954 moveto
+1100 5941 1106 5930 1126 5912 curveto
+1464 5598 1656 5607 1890 5210 curveto
+1917 5163 2100 4340 2129 4207 curveto
+stroke
+
+%	node172
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1324 3265 moveto
+1200 3265 lineto
+1200 3209 lineto
+1324 3209 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1324 3265 moveto
+1200 3265 lineto
+1200 3209 lineto
+1324 3209 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1262 3248 moveto 61 -0.5 (+positive) alignedtext
+1262 3232 moveto 89 -0.5 (regulation of) alignedtext
+1262 3216 moveto 108 -0.5 (gene expression) alignedtext
+end grestore
+end grestore
+
+%	node114 -> node172
+newpath 1052 5954 moveto
+1039 5869 982 5508 964 5210 curveto
+917 4408 1199 3441 1253 3265 curveto
+stroke
+
+%	node115 -> node87
+newpath 382 5098 moveto
+409 4930 506 4328 525 4209 curveto
+stroke
+
+%	node115 -> node89
+newpath 418 5098 moveto
+426 5090 435 5081 444 5074 curveto
+902 4684 1110 4699 1533 4273 curveto
+1545 4261 1556 4247 1565 4233 curveto
+stroke
+
+%	node116 -> node88
+newpath 1190 5936 moveto
+1170 5793 1098 5272 1083 5162 curveto
+stroke
+
+%	node116 -> node97
+newpath 1173 5936 moveto
+1085 5793 765 5272 697 5162 curveto
+stroke
+
+%	node116 -> node100
+newpath 1198 5936 moveto
+1211 5793 1256 5272 1265 5162 curveto
+stroke
+
+%	node116 -> node101
+newpath 1232 5936 moveto
+1343 5826 1682 5491 1961 5210 curveto
+1971 5200 1982 5188 1992 5178 curveto
+stroke
+
+%	node116 -> node145
+newpath 1233 5936 moveto
+1233 5935 1234 5933 1235 5932 curveto
+1238 5929 1238 5928 1240 5926 curveto
+1246 5919 1247 5918 1252 5912 curveto
+1278 5878 1282 5867 1309 5834 curveto
+1336 5798 1342 5789 1373 5756 curveto
+1374 5754 1920 5212 1922 5210 curveto
+1955 5155 1938 5131 1966 5074 curveto
+2139 4711 2440 4323 2524 4217 curveto
+stroke
+
+%	node116 -> node167
+newpath 1214 5936 moveto
+1289 5793 1565 5272 1622 5162 curveto
+stroke
+
+%	node117 -> node101
+newpath 2208 5936 moveto
+2176 5799 2066 5315 2035 5178 curveto
+stroke
+
+%	node117 -> node146
+newpath 2230 5936 moveto
+2282 5806 2457 5364 2521 5202 curveto
+stroke
+
+%	node119
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3867 1879 moveto
+3739 1879 lineto
+3739 1839 lineto
+3867 1839 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3867 1879 moveto
+3739 1879 lineto
+3739 1839 lineto
+3867 1839 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3803 1862 moveto 49 -0.5 (meiotic) alignedtext
+3803 1846 moveto 112 -0.5 (mismatch repair) alignedtext
+end grestore
+end grestore
+
+%	node129
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 3859 1168 moveto
+3747 1168 lineto
+3747 1132 lineto
+3859 1132 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 3859 1168 moveto
+3747 1168 lineto
+3747 1132 lineto
+3859 1132 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+3803 1145 moveto 96 -0.5 (MLH2 MSH6) alignedtext
+end grestore
+end grestore
+
+%	node119 -> node129
+newpath 3803 1839 moveto
+3803 1736 3803 1267 3803 1168 curveto
+stroke
+
+%	node120
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3840 2505 moveto
+3766 2505 lineto
+3766 2469 lineto
+3840 2469 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3840 2505 moveto
+3766 2505 lineto
+3766 2469 lineto
+3840 2469 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3803 2482 moveto 59 -0.5 (meiosis I) alignedtext
+end grestore
+end grestore
+
+%	node120 -> node119
+newpath 3803 2469 moveto
+3803 2378 3803 1974 3803 1879 curveto
+stroke
+
+%	node121
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3815 3255 moveto
+3751 3255 lineto
+3751 3219 lineto
+3815 3219 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3815 3255 moveto
+3751 3255 lineto
+3751 3219 lineto
+3815 3219 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3783 3232 moveto 49 -0.5 (meiosis) alignedtext
+end grestore
+end grestore
+
+%	node121 -> node120
+newpath 3783 3219 moveto
+3787 3116 3800 2608 3803 2505 curveto
+stroke
+
+%	node122
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3598 4217 moveto
+3504 4217 lineto
+3504 4161 lineto
+3598 4161 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3598 4217 moveto
+3504 4217 lineto
+3504 4161 lineto
+3598 4161 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3551 4200 moveto 79 -0.5 (M phase of) alignedtext
+3551 4184 moveto 77 -0.5 (meiotic cell) alignedtext
+3551 4168 moveto 34 -0.5 (cycle) alignedtext
+end grestore
+end grestore
+
+%	node122 -> node121
+newpath 3558 4161 moveto
+3593 4018 3750 3373 3779 3255 curveto
+stroke
+
+%	node123
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 3523 5160 moveto
+3449 5160 lineto
+3449 5124 lineto
+3523 5124 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 3523 5160 moveto
+3449 5160 lineto
+3449 5124 lineto
+3523 5124 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3486 5137 moveto 59 -0.5 (M phase) alignedtext
+end grestore
+end grestore
+
+%	node123 -> node122
+newpath 3487 5124 moveto
+3495 5007 3539 4361 3549 4217 curveto
+stroke
+
+%	node124
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 3523 5992 moveto
+3447 5992 lineto
+3447 5952 lineto
+3523 5952 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 3523 5992 moveto
+3447 5992 lineto
+3447 5952 lineto
+3523 5952 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3485 5975 moveto 61 -0.5 (cell cycle) alignedtext
+3485 5959 moveto 38 -0.5 (phase) alignedtext
+end grestore
+end grestore
+
+%	node124 -> node120
+newpath 3481 5952 moveto
+3479 5936 3478 5930 3476 5912 curveto
+3469 5842 3469 5825 3465 5756 curveto
+3448 5513 3439 5453 3432 5210 curveto
+3420 4812 3443 4282 3472 4105 curveto
+3531 3739 3629 3667 3704 3305 curveto
+3736 3143 3791 2611 3801 2505 curveto
+stroke
+
+%	node124 -> node121
+newpath 3483 5952 moveto
+3476 5864 3449 5505 3440 5210 curveto
+3427 4794 3484 4161 3495 4105 curveto
+3563 3737 3627 3656 3755 3305 curveto
+3763 3281 3766 3273 3774 3255 curveto
+stroke
+
+%	node124 -> node123
+newpath 3485 5952 moveto
+3485 5837 3486 5269 3486 5160 curveto
+stroke
+
+%	node125 -> node119
+newpath 3789 6621 moveto
+3785 6600 3779 6569 3772 6542 curveto
+3711 6311 3644 6267 3608 6032 curveto
+3541 5608 3605 4529 3660 4105 curveto
+3706 3745 3781 3665 3824 3305 curveto
+3864 2963 3843 2875 3849 2531 curveto
+3849 2491 3850 2482 3849 2443 curveto
+3840 2221 3813 1954 3805 1879 curveto
+stroke
+
+%	node125 -> node124
+newpath 3783 6621 moveto
+3738 6523 3540 6091 3494 5992 curveto
+stroke
+
+%	node198
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3811 5992 moveto
+3735 5992 lineto
+3735 5952 lineto
+3811 5952 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3811 5992 moveto
+3735 5992 lineto
+3735 5952 lineto
+3811 5952 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3773 5975 moveto 61 -0.5 (cell cycle) alignedtext
+3773 5959 moveto 38 -0.5 (arrest) alignedtext
+end grestore
+end grestore
+
+%	node125 -> node198
+newpath 3791 6621 moveto
+3788 6523 3776 6091 3774 5992 curveto
+stroke
+
+%	node126 -> node125
+newpath 3724 7130 moveto
+3735 7052 3778 6743 3789 6661 curveto
+stroke
+
+%	node127
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3736 6661 moveto
+3644 6661 lineto
+3644 6621 lineto
+3736 6621 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3736 6661 moveto
+3644 6661 lineto
+3644 6621 lineto
+3736 6621 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3690 6644 moveto 77 -0.5 (meiotic cell) alignedtext
+3690 6628 moveto 34 -0.5 (cycle) alignedtext
+end grestore
+end grestore
+
+%	node126 -> node127
+newpath 3721 7130 moveto
+3716 7052 3696 6743 3691 6661 curveto
+stroke
+
+%	node127 -> node122
+newpath 3685 6621 moveto
+3666 6545 3598 6266 3575 6032 curveto
+3537 5658 3549 4420 3551 4217 curveto
+stroke
+
+%	node128 -> node119
+newpath 3468 3219 moveto
+3464 3115 3448 2596 3489 2443 curveto
+3552 2202 3733 1951 3787 1879 curveto
+stroke
+
+%	node130
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 3442 2505 moveto
+3234 2505 lineto
+3234 2469 lineto
+3442 2469 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 3442 2505 moveto
+3234 2505 lineto
+3234 2469 lineto
+3442 2469 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+3338 2482 moveto 193 -0.5 (MLH2 MLH3 POL2 MSH6) alignedtext
+end grestore
+end grestore
+
+%	node128 -> node130
+newpath 3466 3219 moveto
+3448 3116 3359 2608 3341 2505 curveto
+stroke
+
+%	node133
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 5199 5162 moveto
+4923 5162 lineto
+4923 5122 lineto
+5199 5122 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 5199 5162 moveto
+4923 5162 lineto
+4923 5122 lineto
+5199 5122 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+5061 5145 moveto 261 -0.5 (LAS17 ARK1 NHA1 STF2 YML131W) alignedtext
+5061 5129 moveto 224 -0.5 (BNI1 ELM1 MSN2 MSN4 SLG1) alignedtext
+end grestore
+end grestore
+
+%	node131 -> node133
+newpath 5006 5952 moveto
+5014 5838 5052 5276 5060 5162 curveto
+stroke
+
+%	node132 -> node131
+newpath 4901 7120 moveto
+4911 7047 4939 6845 4956 6677 curveto
+4982 6406 5000 6076 5004 5992 curveto
+stroke
+
+%	node178
+gsave 10 dict begin
+filled
+0.498 1.000 1.000 nodecolor
+0.498 1.000 1.000 nodecolor
+newpath 4947 6669 moveto
+4847 6669 lineto
+4847 6613 lineto
+4947 6613 lineto
+closepath
+fill
+0.498 1.000 1.000 nodecolor
+newpath 4947 6669 moveto
+4847 6669 lineto
+4847 6613 lineto
+4947 6613 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+4897 6652 moveto 76 -0.5 (response to) alignedtext
+4897 6636 moveto 84 -0.5 (temperature) alignedtext
+4897 6620 moveto 57 -0.5 (stimulus) alignedtext
+end grestore
+end grestore
+
+%	node132 -> node178
+newpath 4897 7120 moveto
+4897 7031 4897 6758 4897 6669 curveto
+stroke
+
+%	node135
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 6073 6008 moveto
+5785 6008 lineto
+5785 5936 lineto
+6073 5936 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 6073 6008 moveto
+5785 6008 lineto
+5785 5936 lineto
+6073 5936 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+5929 5991 moveto 224 -0.5 (PHM6 MET17 STB5 TPS1 CSG2) alignedtext
+5929 5975 moveto 216 -0.5 (PGD1 SKY1 PDR15 TOS1 CBF1) alignedtext
+5929 5959 moveto 272 -0.5 (MET28 ROD1 ELM1 CIN5 SSD1 SNQ2) alignedtext
+5929 5943 moveto 63 -0.5 (YIL077C) alignedtext
+end grestore
+end grestore
+
+%	node134 -> node135
+newpath 5546 6621 moveto
+5602 6527 5836 6131 5908 6008 curveto
+stroke
+
+%	node136
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2837 2531 moveto
+2711 2531 lineto
+2711 2443 lineto
+2837 2443 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2837 2531 moveto
+2711 2531 lineto
+2711 2443 lineto
+2837 2443 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2774 2514 moveto 94 -0.5 (double-strand) alignedtext
+2774 2498 moveto 84 -0.5 (break repair) alignedtext
+2774 2482 moveto 20 -0.5 (via) alignedtext
+2774 2466 moveto 110 -0.5 (nonhomologous) alignedtext
+2774 2450 moveto 78 -0.5 (end joining) alignedtext
+end grestore
+end grestore
+
+%	node139
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 2874 1877 moveto
+2680 1877 lineto
+2680 1841 lineto
+2874 1841 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 2874 1877 moveto
+2680 1877 lineto
+2680 1841 lineto
+2874 1841 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+2777 1854 moveto 178 -0.5 (MCK1 DNL4 POL2 SIR3) alignedtext
+end grestore
+end grestore
+
+%	node136 -> node139
+newpath 2774 2443 moveto
+2775 2317 2777 1961 2777 1877 curveto
+stroke
+
+%	node137 -> node136
+newpath 2727 3217 moveto
+2734 3118 2762 2674 2771 2531 curveto
+stroke
+
+%	node193
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2670 2523 moveto
+2546 2523 lineto
+2546 2451 lineto
+2670 2451 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2670 2523 moveto
+2546 2523 lineto
+2546 2451 lineto
+2670 2451 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2608 2506 moveto 94 -0.5 (double-strand) alignedtext
+2608 2490 moveto 84 -0.5 (break repair) alignedtext
+2608 2474 moveto 109 -0.5 (via homologous) alignedtext
+2608 2458 moveto 99 -0.5 (recombination) alignedtext
+end grestore
+end grestore
+
+%	node137 -> node193
+newpath 2723 3217 moveto
+2707 3116 2635 2656 2614 2523 curveto
+stroke
+
+%	node138 -> node136
+newpath 2875 3217 moveto
+2862 3118 2800 2674 2780 2531 curveto
+stroke
+
+%	node140
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2863 1210 moveto
+2753 1210 lineto
+2753 1090 lineto
+2863 1090 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2863 1210 moveto
+2753 1210 lineto
+2753 1090 lineto
+2863 1090 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2808 1193 moveto 89 -0.5 (regulation of) alignedtext
+2808 1177 moveto 86 -0.5 (transcription) alignedtext
+2808 1161 moveto 80 -0.5 (from RNA) alignedtext
+2808 1145 moveto 94 -0.5 (polymerase II) alignedtext
+2808 1129 moveto 82 -0.5 (promoter in) alignedtext
+2808 1113 moveto 76 -0.5 (response to) alignedtext
+2808 1097 moveto 35 -0.5 (stress) alignedtext
+end grestore
+end grestore
+
+%	node152
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 2883 500 moveto
+2733 500 lineto
+2733 464 lineto
+2883 464 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 2883 500 moveto
+2733 500 lineto
+2733 464 lineto
+2883 464 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+2808 477 moveto 135 -0.5 (SET1 MSN2 MSN4) alignedtext
+end grestore
+end grestore
+
+%	node140 -> node152
+newpath 2808 1090 moveto
+2808 946 2808 585 2808 500 curveto
+stroke
+
+%	node141 -> node140
+newpath 2909 2451 moveto
+2908 2350 2901 2057 2883 1815 curveto
+2866 1591 2832 1327 2816 1210 curveto
+stroke
+
+%	node142 -> node141
+newpath 1869 3217 moveto
+1880 3202 1897 3183 1914 3169 curveto
+2291 2838 2432 2814 2846 2531 curveto
+2850 2528 2853 2526 2857 2523 curveto
+stroke
+
+%	node144
+gsave 10 dict begin
+filled
+0.498 1.000 1.000 nodecolor
+0.498 1.000 1.000 nodecolor
+newpath 2400 2515 moveto
+2270 2515 lineto
+2270 2459 lineto
+2400 2459 lineto
+closepath
+fill
+0.498 1.000 1.000 nodecolor
+newpath 2400 2515 moveto
+2270 2515 lineto
+2270 2459 lineto
+2400 2459 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2335 2498 moveto 89 -0.5 (regulation of) alignedtext
+2335 2482 moveto 89 -0.5 (transcription,) alignedtext
+2335 2466 moveto 115 -0.5 (DNA-dependent) alignedtext
+end grestore
+end grestore
+
+%	node142 -> node144
+newpath 1866 3217 moveto
+1933 3113 2239 2636 2317 2515 curveto
+stroke
+
+%	node156
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 1905 2515 moveto
+1801 2515 lineto
+1801 2459 lineto
+1905 2459 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 1905 2515 moveto
+1801 2515 lineto
+1801 2459 lineto
+1905 2459 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1853 2498 moveto 52 -0.5 (positive) alignedtext
+1853 2482 moveto 89 -0.5 (regulation of) alignedtext
+1853 2466 moveto 86 -0.5 (transcription) alignedtext
+end grestore
+end grestore
+
+%	node142 -> node156
+newpath 1853 3217 moveto
+1853 3113 1853 2636 1853 2515 curveto
+stroke
+
+%	node143
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 2528 1903 moveto
+2418 1903 lineto
+2418 1815 lineto
+2528 1815 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 2528 1903 moveto
+2418 1903 lineto
+2418 1815 lineto
+2528 1815 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2473 1886 moveto 89 -0.5 (regulation of) alignedtext
+2473 1870 moveto 86 -0.5 (transcription) alignedtext
+2473 1854 moveto 80 -0.5 (from RNA) alignedtext
+2473 1838 moveto 94 -0.5 (polymerase II) alignedtext
+2473 1822 moveto 64 -0.5 (promoter) alignedtext
+end grestore
+end grestore
+
+%	node143 -> node140
+newpath 2494 1815 moveto
+2552 1693 2714 1350 2780 1210 curveto
+stroke
+
+%	node144 -> node143
+newpath 2341 2459 moveto
+2363 2360 2437 2024 2463 1903 curveto
+stroke
+
+%	node155
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2274 1895 moveto
+2144 1895 lineto
+2144 1823 lineto
+2274 1823 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2274 1895 moveto
+2144 1895 lineto
+2144 1823 lineto
+2274 1823 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2209 1878 moveto 52 -0.5 (positive) alignedtext
+2209 1862 moveto 89 -0.5 (regulation of) alignedtext
+2209 1846 moveto 89 -0.5 (transcription,) alignedtext
+2209 1830 moveto 115 -0.5 (DNA-dependent) alignedtext
+end grestore
+end grestore
+
+%	node144 -> node155
+newpath 2329 2459 moveto
+2309 2357 2239 2009 2216 1895 curveto
+stroke
+
+%	node168
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2396 1895 moveto
+2292 1895 lineto
+2292 1823 lineto
+2396 1823 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2396 1895 moveto
+2292 1895 lineto
+2292 1823 lineto
+2396 1823 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2344 1878 moveto 89 -0.5 (regulation of) alignedtext
+2344 1862 moveto 86 -0.5 (transcription) alignedtext
+2344 1846 moveto 70 -0.5 (by carbon) alignedtext
+2344 1830 moveto 70 -0.5 (catabolites) alignedtext
+end grestore
+end grestore
+
+%	node144 -> node168
+newpath 2335 2459 moveto
+2337 2357 2342 2009 2343 1895 curveto
+stroke
+
+%	node145 -> node144
+newpath 2543 4161 moveto
+2537 4127 2527 4067 2518 4017 curveto
+2458 3699 2409 3625 2370 3305 curveto
+2332 2997 2333 2620 2335 2515 curveto
+stroke
+
+%	node161
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2285 3273 moveto
+2159 3273 lineto
+2159 3201 lineto
+2285 3201 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2285 3273 moveto
+2159 3273 lineto
+2159 3201 lineto
+2285 3201 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2222 3256 moveto 52 -0.5 (positive) alignedtext
+2222 3240 moveto 89 -0.5 (regulation of) alignedtext
+2222 3224 moveto 110 -0.5 (RNA metabolic) alignedtext
+2222 3208 moveto 49 -0.5 (process) alignedtext
+end grestore
+end grestore
+
+%	node145 -> node161
+newpath 2537 4161 moveto
+2490 4024 2287 3426 2234 3273 curveto
+stroke
+
+%	node146 -> node142
+newpath 2542 5082 moveto
+2534 4888 2502 4286 2437 4105 curveto
+2365 3909 1954 3368 1868 3257 curveto
+stroke
+
+%	node146 -> node145
+newpath 2545 5082 moveto
+2546 4898 2547 4349 2547 4217 curveto
+stroke
+
+%	node146 -> node162
+newpath 2556 5082 moveto
+2588 4913 2678 4435 2711 4257 curveto
+stroke
+
+%	node147 -> node142
+newpath 2128 4171 moveto
+2093 4052 1896 3383 1859 3257 curveto
+stroke
+
+%	node148
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 2509 3257 moveto
+2379 3257 lineto
+2379 3217 lineto
+2509 3217 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 2509 3257 moveto
+2379 3257 lineto
+2379 3217 lineto
+2509 3217 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2444 3240 moveto 89 -0.5 (transcription,) alignedtext
+2444 3224 moveto 115 -0.5 (DNA-dependent) alignedtext
+end grestore
+end grestore
+
+%	node147 -> node148
+newpath 2139 4171 moveto
+2178 4052 2396 3383 2437 3257 curveto
+stroke
+
+%	node147 -> node156
+newpath 2132 4171 moveto
+2129 4070 2108 3570 2036 3169 curveto
+1989 2911 1893 2608 1862 2515 curveto
+stroke
+
+%	node148 -> node144
+newpath 2441 3217 moveto
+2426 3113 2357 2636 2339 2515 curveto
+stroke
+
+%	node149
+gsave 10 dict begin
+filled
+0.624 0.718 1.000 nodecolor
+0.624 0.718 1.000 nodecolor
+newpath 2528 2523 moveto
+2418 2523 lineto
+2418 2451 lineto
+2528 2451 lineto
+closepath
+fill
+0.624 0.718 1.000 nodecolor
+newpath 2528 2523 moveto
+2418 2523 lineto
+2418 2451 lineto
+2528 2451 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2473 2506 moveto 86 -0.5 (transcription) alignedtext
+2473 2490 moveto 80 -0.5 (from RNA) alignedtext
+2473 2474 moveto 94 -0.5 (polymerase II) alignedtext
+2473 2458 moveto 64 -0.5 (promoter) alignedtext
+end grestore
+end grestore
+
+%	node148 -> node149
+newpath 2445 3217 moveto
+2448 3116 2466 2656 2472 2523 curveto
+stroke
+
+%	node148 -> node155
+newpath 2436 3217 moveto
+2336 2924 2312 2842 2261 2531 curveto
+2220 2290 2211 1996 2210 1895 curveto
+stroke
+
+%	node149 -> node143
+newpath 2473 2451 moveto
+2473 2343 2473 2021 2473 1903 curveto
+stroke
+
+%	node150 -> node148
+newpath 2902 4161 moveto
+2832 4018 2515 3379 2454 3257 curveto
+stroke
+
+%	node151 -> node145
+newpath 2994 5122 moveto
+2935 4999 2629 4359 2560 4217 curveto
+stroke
+
+%	node151 -> node150
+newpath 3002 5122 moveto
+2990 4999 2932 4359 2919 4217 curveto
+stroke
+
+%	node151 -> node161
+newpath 3000 5122 moveto
+2975 4985 2830 4204 2791 4105 curveto
+2638 3717 2565 3629 2304 3305 curveto
+2292 3291 2285 3281 2277 3273 curveto
+stroke
+
+%	node153
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2335 518 moveto
+2231 518 lineto
+2231 446 lineto
+2335 446 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2335 518 moveto
+2231 518 lineto
+2231 446 lineto
+2335 446 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2283 501 moveto 52 -0.5 (positive) alignedtext
+2283 485 moveto 89 -0.5 (regulation of) alignedtext
+2283 469 moveto 86 -0.5 (transcription) alignedtext
+2283 453 moveto 83 -0.5 (by galactose) alignedtext
+end grestore
+end grestore
+
+%	node175
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 2311 44 moveto
+2255 44 lineto
+2255 8 lineto
+2311 8 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 2311 44 moveto
+2255 44 lineto
+2255 8 lineto
+2311 8 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+2283 21 moveto 41 -0.5 (GAL1) alignedtext
+end grestore
+end grestore
+
+%	node153 -> node175
+newpath 2283 446 moveto
+2283 354 2283 113 2283 44 curveto
+stroke
+
+%	node154
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2274 1194 moveto
+2170 1194 lineto
+2170 1106 lineto
+2274 1106 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2274 1194 moveto
+2170 1194 lineto
+2170 1106 lineto
+2274 1106 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2222 1177 moveto 52 -0.5 (positive) alignedtext
+2222 1161 moveto 89 -0.5 (regulation of) alignedtext
+2222 1145 moveto 86 -0.5 (transcription) alignedtext
+2222 1129 moveto 70 -0.5 (by carbon) alignedtext
+2222 1113 moveto 70 -0.5 (catabolites) alignedtext
+end grestore
+end grestore
+
+%	node154 -> node153
+newpath 2226 1106 moveto
+2238 982 2269 632 2280 518 curveto
+stroke
+
+%	node155 -> node154
+newpath 2210 1823 moveto
+2212 1704 2219 1325 2221 1194 curveto
+stroke
+
+%	node156 -> node155
+newpath 1869 2459 moveto
+1926 2357 2124 2009 2189 1895 curveto
+stroke
+
+%	node157 -> node156
+newpath 2363 4145 moveto
+2310 3963 2103 3255 1932 2673 curveto
+1913 2609 1917 2590 1889 2531 curveto
+1886 2524 1883 2519 1881 2515 curveto
+stroke
+
+%	node158 -> node157
+newpath 2812 5098 moveto
+2735 4939 2474 4393 2397 4233 curveto
+stroke
+
+%	node158 -> node162
+newpath 2828 5098 moveto
+2811 4946 2753 4442 2732 4257 curveto
+stroke
+
+%	node159 -> node158
+newpath 3353 5936 moveto
+3266 5802 2958 5333 2862 5186 curveto
+stroke
+
+%	node160 -> node159
+newpath 3262 6605 moveto
+3283 6488 3349 6124 3370 6008 curveto
+stroke
+
+%	node160 -> node164
+newpath 3203 6610 moveto
+3200 6608 3197 6606 3194 6605 curveto
+2627 6315 2409 6388 1882 6032 curveto
+1872 6025 1862 6016 1853 6008 curveto
+stroke
+
+%	node161 -> node155
+newpath 2222 3201 moveto
+2220 3006 2211 2089 2209 1895 curveto
+stroke
+
+%	node162 -> node156
+newpath 2709 4121 moveto
+2701 4089 2691 4050 2679 4017 curveto
+2540 3626 2487 3534 2294 3169 curveto
+2275 3134 1984 2632 1900 2515 curveto
+stroke
+
+%	node162 -> node161
+newpath 2688 4121 moveto
+2589 3934 2316 3415 2241 3273 curveto
+stroke
+
+%	node163 -> node157
+newpath 916 5106 moveto
+932 5095 948 5084 964 5074 curveto
+1552 4698 1799 4743 2315 4273 curveto
+2327 4261 2339 4247 2349 4233 curveto
+stroke
+
+%	node163 -> node165
+newpath 865 5106 moveto
+864 4949 861 4329 860 4209 curveto
+stroke
+
+%	node164 -> node158
+newpath 1856 5936 moveto
+1865 5928 1873 5919 1882 5912 curveto
+2259 5578 2404 5554 2772 5210 curveto
+2780 5203 2788 5194 2795 5186 curveto
+stroke
+
+%	node164 -> node163
+newpath 1785 5936 moveto
+1777 5928 1768 5919 1760 5912 curveto
+1441 5619 1041 5287 909 5178 curveto
+stroke
+
+%	node164 -> node167
+newpath 1813 5936 moveto
+1781 5793 1662 5272 1638 5162 curveto
+stroke
+
+%	node165 -> node156
+newpath 863 4169 moveto
+880 4059 970 3531 1191 3169 curveto
+1375 2866 1524 2873 1753 2602 curveto
+1754 2600 1791 2547 1813 2515 curveto
+stroke
+
+%	node166 -> node156
+newpath 1420 4171 moveto
+1458 4080 1626 3661 1716 3305 curveto
+1793 3000 1838 2620 1850 2515 curveto
+stroke
+
+%	node167 -> node161
+newpath 1638 5122 moveto
+1663 5015 1786 4510 1913 4105 curveto
+2015 3778 2162 3391 2208 3273 curveto
+stroke
+
+%	node167 -> node165
+newpath 1616 5122 moveto
+1515 4997 977 4334 876 4209 curveto
+stroke
+
+%	node167 -> node166
+newpath 1628 5122 moveto
+1599 4996 1445 4327 1417 4207 curveto
+stroke
+
+%	node168 -> node154
+newpath 2338 1823 moveto
+2317 1704 2252 1325 2230 1194 curveto
+stroke
+
+%	node169
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2396 1178 moveto
+2292 1178 lineto
+2292 1122 lineto
+2396 1122 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2396 1178 moveto
+2292 1178 lineto
+2292 1122 lineto
+2396 1122 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2344 1161 moveto 89 -0.5 (regulation of) alignedtext
+2344 1145 moveto 86 -0.5 (transcription) alignedtext
+2344 1129 moveto 83 -0.5 (by galactose) alignedtext
+end grestore
+end grestore
+
+%	node168 -> node169
+newpath 2344 1823 moveto
+2344 1698 2344 1289 2344 1178 curveto
+stroke
+
+%	node169 -> node153
+newpath 2341 1122 moveto
+2332 1015 2297 637 2286 518 curveto
+stroke
+
+%	node170 -> node168
+newpath 4404 4161 moveto
+4427 4038 4505 3542 4380 3169 curveto
+4316 2979 4008 2563 3849 2443 curveto
+3304 2029 3016 2216 2409 1903 curveto
+2405 1901 2400 1898 2395 1895 curveto
+stroke
+
+%	node171 -> node156
+newpath 846 3195 moveto
+1003 3086 1434 2785 1792 2531 curveto
+1799 2526 1806 2520 1814 2515 curveto
+stroke
+
+%	node172 -> node156
+newpath 1284 3209 moveto
+1377 3091 1737 2634 1831 2515 curveto
+stroke
+
+%	node173 -> node161
+newpath 1420 5098 moveto
+1459 4971 1573 4591 1655 4273 curveto
+1673 4198 1664 4176 1693 4105 curveto
+1853 3704 1887 3565 2179 3273 curveto
+stroke
+
+%	node173 -> node165
+newpath 1382 5098 moveto
+1285 4930 939 4328 872 4209 curveto
+stroke
+
+%	node173 -> node166
+newpath 1407 5098 moveto
+1408 4929 1412 4320 1413 4207 curveto
+stroke
+
+%	node174 -> node170
+newpath 4849 5122 moveto
+4790 4999 4481 4359 4413 4217 curveto
+stroke
+
+%	node179
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 4899 4273 moveto
+4599 4273 lineto
+4599 4105 lineto
+4899 4105 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 4899 4273 moveto
+4599 4273 lineto
+4599 4105 lineto
+4899 4105 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+4749 4256 moveto 256 -0.5 (YRO2 YTP1 SPG5 KTR2 YOR052C) alignedtext
+4749 4240 moveto 253 -0.5 (MOH1 YNL305C STF2 GLK1 KNS1) alignedtext
+4749 4224 moveto 262 -0.5 (RBK1 TPS1 SPI1 PRX1 COX20 HXT6) alignedtext
+4749 4208 moveto 284 -0.5 (HXT7 YMR090W MSC1 DDR48 PDR15) alignedtext
+4749 4192 moveto 236 -0.5 (YDR506C YHR087W YDL057W) alignedtext
+4749 4176 moveto 233 -0.5 (YNL200C HSP104 SDS24 RIM20) alignedtext
+4749 4160 moveto 238 -0.5 (HSP12 YKL151C GAD1 YJR096W) alignedtext
+4749 4144 moveto 256 -0.5 (GPH1 RNR3 LAP4 SPG3 YNL274C) alignedtext
+4749 4128 moveto 265 -0.5 (UBI4 YGP1 MSN2 PIR3 UBX3 HBT1) alignedtext
+4749 4112 moveto 190 -0.5 (YDL124W SSA4 YLL056C) alignedtext
+end grestore
+end grestore
+
+%	node176 -> node179
+newpath 4749 5114 moveto
+4749 4989 4749 4477 4749 4273 curveto
+stroke
+
+%	node177 -> node176
+newpath 4884 5952 moveto
+4866 5841 4775 5300 4754 5170 curveto
+stroke
+
+%	node178 -> node177
+newpath 4897 6613 moveto
+4895 6500 4889 6088 4887 5992 curveto
+stroke
+
+%	node181
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 5767 6008 moveto
+5475 6008 lineto
+5475 5936 lineto
+5767 5936 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 5767 6008 moveto
+5475 6008 lineto
+5475 5936 lineto
+5767 5936 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+5621 5991 moveto 276 -0.5 (MET17 FRE2 NCA3 YLR161W AAD10) alignedtext
+5621 5975 moveto 277 -0.5 (YML131W YMR102C GTT2 YKL071W) alignedtext
+5621 5959 moveto 217 -0.5 (SCC4 FRE3 JLP1 OYE3 UBA4) alignedtext
+5621 5943 moveto 68 -0.5 (YLL056C) alignedtext
+end grestore
+end grestore
+
+%	node180 -> node181
+newpath 5430 6621 moveto
+5458 6527 5574 6131 5610 6008 curveto
+stroke
+
+%	node182
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5828 4241 moveto
+5714 4241 lineto
+5714 4137 lineto
+5828 4137 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5828 4241 moveto
+5714 4241 lineto
+5714 4137 lineto
+5828 4137 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5771 4224 moveto 99 -0.5 (age-dependent) alignedtext
+5771 4208 moveto 76 -0.5 (response to) alignedtext
+5771 4192 moveto 62 -0.5 (oxidative) alignedtext
+5771 4176 moveto 86 -0.5 (stress during) alignedtext
+5771 4160 moveto 92 -0.5 (chronological) alignedtext
+5771 4144 moveto 65 -0.5 (cell aging) alignedtext
+end grestore
+end grestore
+
+%	node191
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 5852 3255 moveto
+5690 3255 lineto
+5690 3219 lineto
+5852 3219 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 5852 3255 moveto
+5690 3255 lineto
+5690 3219 lineto
+5852 3219 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+5771 3232 moveto 147 -0.5 (RIM15 MSN2 MSN4) alignedtext
+end grestore
+end grestore
+
+%	node182 -> node191
+newpath 5771 4137 moveto
+5771 3957 5771 3367 5771 3255 curveto
+stroke
+
+%	node183
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5791 5194 moveto
+5677 5194 lineto
+5677 5090 lineto
+5791 5090 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5791 5194 moveto
+5677 5194 lineto
+5677 5090 lineto
+5791 5090 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5734 5177 moveto 99 -0.5 (age-dependent) alignedtext
+5734 5161 moveto 50 -0.5 (general) alignedtext
+5734 5145 moveto 66 -0.5 (metabolic) alignedtext
+5734 5129 moveto 98 -0.5 (decline during) alignedtext
+5734 5113 moveto 92 -0.5 (chronological) alignedtext
+5734 5097 moveto 65 -0.5 (cell aging) alignedtext
+end grestore
+end grestore
+
+%	node183 -> node182
+newpath 5736 5090 moveto
+5743 4923 5763 4407 5769 4241 curveto
+stroke
+
+%	node184
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5347 5992 moveto
+5239 5992 lineto
+5239 5952 lineto
+5347 5952 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5347 5992 moveto
+5239 5992 lineto
+5239 5952 lineto
+5347 5952 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5293 5975 moveto 92 -0.5 (chronological) alignedtext
+5293 5959 moveto 65 -0.5 (cell aging) alignedtext
+end grestore
+end grestore
+
+%	node184 -> node183
+newpath 5304 5952 moveto
+5360 5846 5620 5356 5706 5194 curveto
+stroke
+
+%	node185 -> node184
+newpath 5282 6623 moveto
+5284 6528 5291 6092 5293 5992 curveto
+stroke
+
+%	node186
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 6007 6677 moveto
+5893 6677 lineto
+5893 6605 lineto
+6007 6605 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 6007 6677 moveto
+5893 6677 lineto
+5893 6605 lineto
+6007 6605 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5950 6660 moveto 99 -0.5 (age-dependent) alignedtext
+5950 6644 moveto 50 -0.5 (general) alignedtext
+5950 6628 moveto 66 -0.5 (metabolic) alignedtext
+5950 6612 moveto 47 -0.5 (decline) alignedtext
+end grestore
+end grestore
+
+%	node186 -> node183
+newpath 5963 6605 moveto
+5997 6512 6085 6254 6115 6032 curveto
+6122 5979 6127 5963 6115 5912 curveto
+6047 5621 5852 5314 5771 5194 curveto
+stroke
+
+%	node188
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5923 5178 moveto
+5809 5178 lineto
+5809 5106 lineto
+5923 5106 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5923 5178 moveto
+5809 5178 lineto
+5809 5106 lineto
+5923 5106 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5866 5161 moveto 99 -0.5 (age-dependent) alignedtext
+5866 5145 moveto 76 -0.5 (response to) alignedtext
+5866 5129 moveto 62 -0.5 (oxidative) alignedtext
+5866 5113 moveto 35 -0.5 (stress) alignedtext
+end grestore
+end grestore
+
+%	node186 -> node188
+newpath 5972 6605 moveto
+6034 6499 6201 6182 6153 5912 curveto
+6100 5616 5940 5286 5885 5178 curveto
+stroke
+
+%	node187 -> node186
+newpath 5369 7594 moveto
+5380 7524 5423 7286 5523 7120 curveto
+5649 6910 5766 6926 5908 6727 curveto
+5919 6712 5928 6693 5935 6677 curveto
+stroke
+
+%	node189
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 5400 7166 moveto
+5346 7166 lineto
+5346 7130 lineto
+5400 7130 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 5400 7166 moveto
+5346 7166 lineto
+5346 7130 lineto
+5400 7130 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+5373 7143 moveto 38 -0.5 (aging) alignedtext
+end grestore
+end grestore
+
+%	node187 -> node189
+newpath 5366 7594 moveto
+5368 7517 5372 7240 5373 7166 curveto
+stroke
+
+%	node188 -> node182
+newpath 5862 5106 moveto
+5848 4960 5793 4413 5776 4241 curveto
+stroke
+
+%	node189 -> node185
+newpath 5370 7130 moveto
+5356 7052 5300 6738 5285 6659 curveto
+stroke
+
+%	node189 -> node186
+newpath 5394 7130 moveto
+5477 7057 5794 6778 5909 6677 curveto
+stroke
+
+%	node190 -> node188
+newpath 5426 5944 moveto
+5495 5820 5770 5318 5846 5178 curveto
+stroke
+
+%	node192
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 2662 1903 moveto
+2548 1903 lineto
+2548 1815 lineto
+2662 1815 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 2662 1903 moveto
+2548 1903 lineto
+2548 1815 lineto
+2662 1815 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2605 1886 moveto 94 -0.5 (double-strand) alignedtext
+2605 1870 moveto 84 -0.5 (break repair) alignedtext
+2605 1854 moveto 20 -0.5 (via) alignedtext
+2605 1838 moveto 98 -0.5 (break-induced) alignedtext
+2605 1822 moveto 71 -0.5 (replication) alignedtext
+end grestore
+end grestore
+
+%	node196
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 2639 1168 moveto
+2571 1168 lineto
+2571 1132 lineto
+2639 1132 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 2639 1168 moveto
+2571 1168 lineto
+2571 1132 lineto
+2639 1132 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+2605 1145 moveto 53 -0.5 (RDH54) alignedtext
+end grestore
+end grestore
+
+%	node192 -> node196
+newpath 2605 1815 moveto
+2605 1677 2605 1260 2605 1168 curveto
+stroke
+
+%	node193 -> node192
+newpath 2608 2451 moveto
+2607 2343 2606 2021 2605 1903 curveto
+stroke
+
+%	node194 -> node193
+newpath 2590 3217 moveto
+2593 3116 2604 2656 2607 2523 curveto
+stroke
+
+%	node195 -> node194
+newpath 3030 4169 moveto
+2971 4044 2658 3382 2600 3257 curveto
+stroke
+
+%	node197
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3827 5178 moveto
+3733 5178 lineto
+3733 5106 lineto
+3827 5106 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3827 5178 moveto
+3733 5178 lineto
+3733 5106 lineto
+3827 5106 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3780 5161 moveto 61 -0.5 (cell cycle) alignedtext
+3780 5145 moveto 56 -0.5 (arrest in) alignedtext
+3780 5129 moveto 76 -0.5 (response to) alignedtext
+3780 5113 moveto 78 -0.5 (pheromone) alignedtext
+end grestore
+end grestore
+
+%	node206
+gsave 10 dict begin
+filled
+0.000 0.000 0.651 nodecolor
+0.000 0.000 0.651 nodecolor
+newpath 3827 4207 moveto
+3669 4207 lineto
+3669 4171 lineto
+3827 4171 lineto
+closepath
+fill
+0.000 0.000 0.651 nodecolor
+newpath 3827 4207 moveto
+3669 4207 lineto
+3669 4171 lineto
+3827 4171 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.667 1.000 1.000 nodecolor
+3748 4184 moveto 143 -0.5 (FAR11 VPS64 OPY2) alignedtext
+end grestore
+end grestore
+
+%	node197 -> node206
+newpath 3779 5106 moveto
+3774 4948 3752 4322 3749 4207 curveto
+stroke
+
+%	node198 -> node197
+newpath 3773 5952 moveto
+3774 5843 3778 5321 3780 5178 curveto
+stroke
+
+%	node199
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3931 6024 moveto
+3829 6024 lineto
+3829 5920 lineto
+3931 5920 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3931 6024 moveto
+3829 6024 lineto
+3829 5920 lineto
+3931 5920 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3880 6007 moveto 76 -0.5 (response to) alignedtext
+3880 5991 moveto 78 -0.5 (pheromone) alignedtext
+3880 5975 moveto 46 -0.5 (during) alignedtext
+3880 5959 moveto 81 -0.5 (conjugation) alignedtext
+3880 5943 moveto 86 -0.5 (with cellular) alignedtext
+3880 5927 moveto 44 -0.5 (fusion) alignedtext
+end grestore
+end grestore
+
+%	node199 -> node197
+newpath 3874 5920 moveto
+3855 5765 3800 5310 3784 5178 curveto
+stroke
+
+%	node200
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3550 6669 moveto
+3448 6669 lineto
+3448 6613 lineto
+3550 6613 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3550 6669 moveto
+3448 6669 lineto
+3448 6613 lineto
+3550 6613 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3499 6652 moveto 81 -0.5 (conjugation) alignedtext
+3499 6636 moveto 86 -0.5 (with cellular) alignedtext
+3499 6620 moveto 44 -0.5 (fusion) alignedtext
+end grestore
+end grestore
+
+%	node200 -> node199
+newpath 3515 6613 moveto
+3574 6510 3774 6158 3850 6024 curveto
+stroke
+
+%	node201
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3464 7166 moveto
+3368 7166 lineto
+3368 7130 lineto
+3464 7130 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3464 7166 moveto
+3368 7166 lineto
+3368 7130 lineto
+3464 7130 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3416 7143 moveto 81 -0.5 (conjugation) alignedtext
+end grestore
+end grestore
+
+%	node201 -> node200
+newpath 3419 7130 moveto
+3432 7055 3479 6762 3494 6669 curveto
+stroke
+
+%	node202 -> node201
+newpath 3416 7594 moveto
+3416 7517 3416 7240 3416 7166 curveto
+stroke
+
+%	node203
+gsave 10 dict begin
+filled
+0.090 0.388 0.933 nodecolor
+0.090 0.388 0.933 nodecolor
+newpath 3586 7168 moveto
+3482 7168 lineto
+3482 7128 lineto
+3586 7128 lineto
+closepath
+fill
+0.090 0.388 0.933 nodecolor
+newpath 3586 7168 moveto
+3482 7168 lineto
+3482 7128 lineto
+3586 7128 lineto
+closepath
+stroke
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3534 7151 moveto 43 -0.5 (sexual) alignedtext
+3534 7135 moveto 88 -0.5 (reproduction) alignedtext
+end grestore
+end grestore
+
+%	node203 -> node200
+newpath 3533 7128 moveto
+3527 7049 3507 6761 3501 6669 curveto
+stroke
+
+%	node204 -> node203
+newpath 3546 7596 moveto
+3543 7522 3536 7246 3535 7168 curveto
+stroke
+
+%	node205 -> node199
+newpath 4030 6621 moveto
+4010 6531 3924 6162 3892 6024 curveto
+stroke
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+end
+restore
+%%EOF

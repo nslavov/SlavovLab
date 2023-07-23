@@ -1,0 +1,37 @@
+YORF	NAME	GWEIGHT	Slope::ETH::Ethanol	Slope::ETH::Nitrogen	Slope::ETH::Phosphate	 	Slope::GLU::Glucose	Slope:GLU::Nitrogen	Slope::GLU::Phosphate	 	FoldChange:CarbonSource	FoldChange::Nitrogen	FoldChange::Phosphate
+EWEIGHT	 		1	1	1	1	1	1	1	1	1	1	1
+YNL306W	MRPS18 :: Mitochondrial ribosomal protein of the small subunit; essential for viability, unlike most other mitoribosomal proteins	1	1.43	5.49	-2.11	0.00	3.33	4.47	2.12	0.00	-1.01	1.45	-2.00
+YNL306W	MRPS18 :: Mitochondrial ribosomal protein of the small subunit; essential for viability, unlike most other mitoribosomal proteins	1	1.43	5.49	-2.11	0.00	3.33	4.47	2.12	0.00	-1.01	1.45	-2.00
+YDL045W-A	MRP10 :: Mitochondrial ribosomal protein of the small subunit	1	6.50	14.15	-2.81	0.00	6.54	8.74	1.88	0.00	-0.87	2.79	-3.72
+YDL045W-A	MRP10 :: Mitochondrial ribosomal protein of the small subunit	1	6.50	14.15	-2.81	0.00	6.54	8.74	1.88	0.00	-0.87	2.79	-3.72
+YMR188C	MRPS17 :: Mitochondrial ribosomal protein of the small subunit	1	0.48	3.58	1.55	0.00	5.30	6.67	0.58	0.00	-0.53	1.59	-3.82
+YGR215W	RSM27 :: Mitochondrial ribosomal protein of the small subunit	1	1.03	9.97	1.84	0.00	7.35	8.43	0.61	0.00	-2.15	-0.59	-3.63
+YKL003C	MRP17 :: Mitochondrial ribosomal protein of the small subunit; MRP17 exhibits genetic interactions with PET122, encoding a COX3-specific translational activator	1	1.82	12.81	3.52	0.00	3.67	6.19	2.05	0.00	-1.66	1.34	-1.86
+YKL003C	MRP17 :: Mitochondrial ribosomal protein of the small subunit; MRP17 exhibits genetic interactions with PET122, encoding a COX3-specific translational activator	1	1.82	12.81	3.52	0.00	3.67	6.19	2.05	0.00	-1.66	1.34	-1.86
+YER050C	RSM18 :: Mitochondrial ribosomal protein of the small subunit, has similarity to E. coli S18 ribosomal protein	1	-0.21	6.59	4.19	0.00	2.16	2.93	-0.58	0.00	-0.91	1.20	-1.58
+YNL081C	SWS2 :: Putative mitochondrial ribosomal protein of the small subunit, has similarity to E. coli S13 ribosomal protein; participates in controlling sporulation efficiency	1	-1.94	9.22	2.15	0.00	3.37	5.62	-0.02	0.00	-0.15	3.25	-2.00
+YMR158W	MRPS8 :: Mitochondrial ribosomal protein of the small subunit	1	0.68	11.35	5.92	0.00	4.43	8.34	2.90	0.00	1.79	5.63	0.71
+YOR158W	PET123 :: Mitochondrial ribosomal protein of the small subunit; PET123 exhibits genetic interactions with PET122, which encodes a COX3 mRNA-specific translational activator	1	0.99	4.31	3.66	0.00	4.46	5.05	0.19	0.00	0.78	2.81	-0.86
+YNR037C	RSM19 :: Mitochondrial ribosomal protein of the small subunit, has similarity to E. coli S19 ribosomal protein	1	0.30	13.85	0.73	0.00	1.57	2.28	1.69	0.00	-0.75	2.03	1.08
+YDR347W	MRP1 :: Mitochondrial ribosomal protein of the small subunit; MRP1 exhibits genetic interactions with PET122, encoding a COX3-specific translational activator, and with PET123, encoding a small subunit mitochondrial ribosomal protein	1	6.04	5.08	10.16	0.00	5.30	3.46	2.39	0.00	0.57	1.55	1.42
+YGR084C	MRP13 :: Mitochondrial ribosomal protein of the small subunit	1	5.24	11.93	6.31	0.00	5.50	2.79	1.25	0.00	0.12	1.90	1.17
+YGR084C	MRP13 :: Mitochondrial ribosomal protein of the small subunit	1	5.24	11.93	6.31	0.00	5.50	2.79	1.25	0.00	0.12	1.90	1.17
+YJR101W	RSM26 :: Mitochondrial ribosomal protein of the small subunit	1	9.23	16.88	7.88	0.00	7.77	6.52	4.74	0.00	0.68	2.75	0.40
+YDR175C	RSM24 :: Mitochondrial ribosomal protein of the small subunit	1	5.59	10.28	4.23	0.00	5.55	1.84	0.75	0.00	2.35	2.47	-0.03
+YGR165W	MRPS35 :: Mitochondrial ribosomal protein of the small subunit	1	7.12	14.59	5.80	0.00	3.87	2.16	0.46	0.00	-0.18	0.54	-0.83
+YHL004W	MRP4 :: Mitochondrial ribosomal protein of the small subunit	1	20.06	11.39	10.55	0.00	6.78	3.77	2.54	0.00	1.34	2.23	2.58
+YGL129C	RSM23 :: Mitochondrial ribosomal protein of the small subunit, has similarity to mammalian apoptosis mediator proteins; null mutation prevents induction of apoptosis by overproduction of metacaspase Mca1p	1	16.89	11.93	8.04	0.00	5.81	1.51	1.65	0.00	2.42	2.81	1.67
+YIL093C	RSM25 :: Mitochondrial ribosomal protein of the small subunit	1	9.18	12.14	4.68	0.00	4.99	2.60	1.13	0.00	0.85	2.84	1.87
+YDR494W	RSM28 :: Mitochondrial ribosomal protein of the small subunit; genetic interactions suggest a possible role in promoting translation initiation	1	7.74	7.54	3.62	0.00	2.25	1.33	0.09	0.00	0.26	2.24	1.62
+YJR113C	RSM7 :: Mitochondrial ribosomal protein of the small subunit, has similarity to E. coli S7 ribosomal protein	1	5.47	5.28	2.30	0.00	3.01	-0.91	-0.21	0.00	0.92	2.83	1.71
+YPR166C	MRP2 :: Mitochondrial ribosomal protein of the small subunit	1	7.41	11.71	3.70	0.00	3.59	6.09	3.15	0.00	-2.80	-0.86	-2.96
+YBR251W	MRPS5 :: Mitochondrial ribosomal protein of the small subunit	1	5.94	6.06	4.81	0.00	5.01	5.57	1.17	0.00	-0.16	1.58	-0.78
+YBR146W	MRPS9 :: Mitochondrial ribosomal protein of the small subunit	1	7.76	7.41	6.01	0.00	5.00	7.51	2.17	0.00	-0.66	2.19	-1.28
+YKL155C	RSM22 :: Mitochondrial ribosomal protein of the small subunit	1	1.70	4.57	2.83	0.00	1.83	2.37	0.33	0.00	-0.45	1.51	2.33
+YPL118W	MRP51 :: Mitochondrial ribosomal protein of the small subunit; MRP51 exhibits genetic interactions with mutations in the COX2 and COX3 mRNA 5'-untranslated leader sequences	1	1.82	1.79	1.34	0.00	2.63	2.03	-1.83	0.00	-1.16	0.34	-1.36
+YPL118W	MRP51 :: Mitochondrial ribosomal protein of the small subunit; MRP51 exhibits genetic interactions with mutations in the COX2 and COX3 mRNA 5'-untranslated leader sequences	1	1.82	1.79	1.34	0.00	2.63	2.03	-1.83	0.00	-1.16	0.34	-1.36
+YDR337W	MRPS28 :: Mitochondrial ribosomal protein of the small subunit	1	0.08	1.42	2.04	0.00	4.64	2.35	0.46	0.00	1.10	1.48	1.32
+YPL013C	MRPS16 :: Mitochondrial ribosomal protein of the small subunit	1	-4.20	2.94	0.34	0.00	2.90	4.46	0.69	0.00	-1.53	1.43	-3.07
+YDR041W	RSM10 :: Mitochondrial ribosomal protein of the small subunit, has similarity to E. coli S10 ribosomal protein; essential for viability, unlike most other mitoribosomal proteins	1	-2.24	0.30	-0.04	0.00	2.71	1.35	0.10	0.00	-1.18	-0.96	-3.53
+YFR049W	YMR31 :: Mitochondrial ribosomal protein of the small subunit, has similarity to human mitochondrial ribosomal protein MRP-S36	1	-8.78	9.72	0.73	0.00	-4.32	-3.81	-7.36	0.00	0.78	4.16	0.62
+YNR036C	YNR036C :: Mitochondrial protein; may interact with ribosomes based on co-purification experiments; similar to E. coli and human mitochondrial S12 ribosomal proteins	1	1.39	-1.85	3.18	0.00	0.20	-2.90	1.25	0.00	1.54	1.82	2.88

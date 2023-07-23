@@ -1,0 +1,5 @@
+YORF	NAME	GWEIGHT	Slope::ETH::Ethanol	Slope::ETH::Nitrogen	Slope::ETH::Phosphate	 	Slope::GLU::Glucose	Slope:GLU::Nitrogen	Slope::GLU::Phosphate	 	FoldChange:CarbonSource	FoldChange::Nitrogen	FoldChange::Phosphate
+EWEIGHT	 		1	1	1	1	1	1	1	1	1	1	1
+YNL141W	AAH1 :: Adenine deaminase (adenine aminohydrolase), converts adenine to hypoxanthine; involved in purine salvage; transcriptionally regulated by nutrient levels and growth phase; Aah1p degraded upon entry into quiescence via SCF and the proteasome	1	11.04	-3.23	5.98	0.00	5.70	3.80	3.93	0.00	-1.11	-4.41	-2.29
+YNL141W	AAH1 :: Adenine deaminase (adenine aminohydrolase), converts adenine to hypoxanthine; involved in purine salvage; transcriptionally regulated by nutrient levels and growth phase; Aah1p degraded upon entry into quiescence via SCF and the proteasome	1	11.04	-3.23	5.98	0.00	5.70	3.80	3.93	0.00	-1.11	-4.41	-2.29
+YGL243W	TAD1 :: tRNA-specific adenosine deaminase, deaminates adenosine-37 to inosine in tRNA-Ala	1	-4.32	-2.22	-3.16	0.00	-2.03	-1.11	-2.35	0.00	0.88	0.92	0.70

@@ -1,0 +1,8 @@
+Date	Sun Jul 19 23:39:08 EDT 2009
+Aspect	P
+P-value cutoff	0.01
+Calculate FDR	Yes
+Uploaded gene list	4_S.txt
+Annotation file	gene_association.sgd
+Ambiguous identifiers	TEX1 SDH1 POT1 HAP3
+Unknown identifiers	YMR141C YKR047W YLR280C YKL136W YHR095W YAR053W YNL337W YPR002C-A YPR150W

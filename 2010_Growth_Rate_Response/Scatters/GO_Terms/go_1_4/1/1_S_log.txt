@@ -1,0 +1,8 @@
+Date	Mon Jul 20 00:05:30 EDT 2009
+Aspect	P
+P-value cutoff	0.01
+Calculate FDR	Yes
+Uploaded gene list	1_S.txt
+Annotation file	gene_association.sgd
+Ambiguous identifiers	CCS1 BAT1 MSF1 SFH1 SSB1 PRS3 TUF1 HXT12
+Unknown identifiers	YBL100C YPR012W YGL102C YOR309C YDR157W YDR417C YAR075W IMD1 YLR112W

@@ -1,0 +1,1139 @@
+YORF	NAME	GWEIGHT	Slope::ETH::Ethanol	Slope::ETH::Nitrogen	Slope::ETH::Phosphate	 	Slope::GLU::Glucose	Slope:GLU::Nitrogen	Slope::GLU::Phosphate	 	FoldChange:CarbonSource	FoldChange::Nitrogen	FoldChange::Phosphate
+EWEIGHT	 		1	1	1	1	1	1	1	1	1	1	1
+YLR149C-A	YLR149C-A :: 	1	-5.96	18.75	9.59	0.00	1.56	1.72	5.27	0.00	-6.32	-4.50	-0.14
+YLR149C-A	YLR149C-A :: 	1	-5.96	18.75	9.59	0.00	1.56	1.72	5.27	0.00	-6.32	-4.50	-0.14
+YGR182C	YGR182C :: 	1	-4.47	11.80	11.90	0.00	-0.46	0.58	1.44	0.00	-3.24	-3.26	0.24
+YDL114W-A	YDL114W-A :: 	1	-2.03	6.63	6.44	0.00	0.67	0.21	2.03	0.00	0.73	-0.22	1.01
+YDL114W-A	YDL114W-A :: 	1	-2.03	6.63	6.44	0.00	0.67	0.21	2.03	0.00	0.73	-0.22	1.01
+YML101C	CUE4 :: Protein of unknown function; has a CUE domain that binds ubiquitin, which may facilitate intramolecular monoubiquitination	1	-3.04	6.35	7.09	0.00	-0.78	-0.83	2.39	0.00	1.75	2.06	1.52
+YEL074W	YEL074W :: 	1	-5.12	5.40	5.06	0.00	3.42	2.15	2.70	0.00	-1.34	-0.07	-1.24
+YDL012C	YDL012C :: 	1	0.94	4.24	4.38	0.00	1.21	2.19	1.00	0.00	0.65	1.75	-0.76
+YER057C	HMF1 :: Member of the p14.5 protein family with similarity to Mmf1p, functionally complements Mmf1p function when targeted to mitochondria; heat shock inducible; high-dosage growth inhibitor; forms a homotrimer in vitro	1	-1.16	7.43	7.99	0.00	2.21	5.05	1.57	0.00	0.68	0.29	-2.61
+YML079W	YML079W :: 	1	-0.79	10.50	7.56	0.00	1.32	4.40	0.61	0.00	-1.35	0.46	-2.71
+YER010C	YER010C :: 	1	2.15	8.71	8.37	0.00	0.02	2.55	-0.27	0.00	-0.53	0.01	-1.04
+YDL228C	YDL228C :: 	1	-5.55	15.06	7.89	0.00	8.05	3.17	5.51	0.00	2.20	1.41	1.25
+YLL044W	YLL044W :: 	1	-2.39	16.61	9.44	0.00	6.02	4.98	9.30	0.00	1.56	3.05	5.21
+YKR044W	UIP5 :: Protein of unknown function that interacts with Ulp1p, a Ubl (ubiquitin-like protein)-specific protease for Smt3p protein conjugates	1	-0.16	6.12	3.24	0.00	1.61	2.14	1.27	0.00	1.29	1.50	-0.67
+YOL106W	YOL106W :: 	1	-2.01	11.31	7.03	0.00	2.77	3.83	-0.07	0.00	1.53	1.93	0.54
+YLR076C	YLR076C :: 	1	-1.39	13.86	1.27	0.00	3.90	3.74	2.69	0.00	0.03	1.06	-1.45
+YPL197C	YPL197C :: 	1	-1.63	22.03	7.90	0.00	5.89	2.43	5.90	0.00	0.51	1.24	-0.41
+YGR045C	YGR045C :: 	1	0.07	7.48	3.37	0.00	1.34	2.56	0.79	0.00	-0.24	3.71	0.94
+YAL004W	YAL004W :: 	1	3.12	19.61	3.62	0.00	1.90	-1.11	5.01	0.00	-0.46	0.65	4.07
+YBL096C	YBL096C :: 	1	-0.50	16.62	-0.69	0.00	-0.07	-4.58	0.41	0.00	-0.67	-1.51	1.82
+YKL098W	YKL098W :: Protein of unknown function; mtc2 is synthetically sick with cdc13-1	1	1.41	8.04	1.13	0.00	0.50	-2.13	0.85	0.00	0.09	-0.19	0.99
+YBR016W	YBR016W :: 	1	-1.68	8.82	1.12	0.00	-1.53	-1.37	2.22	0.00	-0.10	2.45	1.77
+YAL046C	YAL046C :: Putative protein of unknown function; null mutant displays increased frequency of mitochondrial genome loss (petite formation)	1	-2.34	10.04	4.99	0.00	-0.22	0.50	0.38	0.00	2.49	3.90	2.10
+YMR046W-A	YMR046W-A :: 	1	-1.31	11.38	5.78	0.00	0.30	0.91	-1.59	0.00	2.67	2.98	0.96
+YHR162W	YHR162W :: 	1	1.21	18.66	5.10	0.00	-3.18	7.06	4.67	0.00	3.07	6.49	2.45
+YBL059W	YBL059W :: 	1	-2.12	9.48	3.82	0.00	-0.40	3.59	-1.91	0.00	-0.32	3.81	-0.63
+YBR012C	YBR012C :: 	1	-1.96	12.74	1.04	0.00	-3.48	2.76	-2.08	0.00	1.14	4.76	-0.81
+YGL117W	YGL117W :: 	1	0.11	25.80	19.22	0.00	-12.15	3.50	0.65	0.00	-3.59	4.48	2.63
+YPL099C	YPL099C :: Protein of unknown function;non-tagged protein detected in purified mitochondria in high-throughput studies; null mutant displays increased frequency of mitochondrial genome loss and severe growth defect in minimal glycerol media	1	0.67	10.30	2.57	0.00	-2.98	1.78	-0.69	0.00	-2.58	1.04	-0.36
+YAL044W-A	YAL044W-A :: 	1	-0.07	7.04	-1.05	0.00	-0.35	3.87	-1.97	0.00	-0.68	1.41	-1.78
+YJL147C	YJL147C :: 	1	0.54	3.88	-0.34	0.00	-2.01	2.75	-2.29	0.00	-1.21	1.09	-1.22
+YCR015C	YCR015C :: 	1	-0.46	5.38	0.69	0.00	-0.24	5.05	2.61	0.00	-1.17	-1.40	-0.81
+YCR090C	YCR090C :: 	1	-0.36	9.09	0.33	0.00	1.10	6.82	2.46	0.00	-3.87	-1.64	-4.17
+YFR011C	YFR011C :: Putative protein of unknown function; non-tagged protein is detected in highly purified mitochondria; null mutant displays increased frequency of mitochondrial genome loss (petite formation) and reduced growth rate in minimal glycerol media	1	1.46	18.12	6.46	0.00	2.47	7.91	0.69	0.00	-2.63	2.20	-1.47
+YGR207C	YGR207C :: 	1	-2.31	11.95	3.98	0.00	1.45	7.19	1.25	0.00	-2.52	0.51	-2.55
+YOR021C	YOR021C :: 	1	-1.15	7.72	1.61	0.00	2.33	5.18	-0.45	0.00	-2.25	-0.11	-2.60
+YNL211C	YNL211C :: 	1	-2.02	8.59	3.90	0.00	-0.70	5.18	-0.11	0.00	-1.19	0.67	-1.59
+YOL114C	YOL114C :: 	1	-3.01	6.29	4.99	0.00	-0.06	5.99	0.08	0.00	0.18	1.94	-2.58
+YGR235C	YGR235C :: 	1	-0.62	6.45	3.93	0.00	-1.63	2.53	-2.97	0.00	-2.48	0.05	-1.82
+YKR011C	YKR011C :: 	1	0.76	6.41	1.63	0.00	-0.23	3.78	-2.78	0.00	-3.37	-0.34	-4.12
+YPR158W	YPR158W :: Protein of unknown function involved in destabilization of [URE3] prions; similar in sequence to Btn2p	1	-1.50	5.37	1.71	0.00	-1.11	4.17	-1.63	0.00	-2.64	-0.44	-2.94
+YIL117C	PRM5 :: Pheromone-regulated protein, predicted to have 1 transmembrane segment; induced during cell integrity signaling	1	1.19	14.69	5.30	0.00	-4.75	4.99	-1.46	0.00	-9.76	-2.76	-3.64
+YOR238W	YOR238W :: 	1	2.31	4.83	1.96	0.00	-0.92	3.48	0.49	0.00	-2.60	-1.19	-1.12
+YDR031W	MIC14 :: Mitochondrial intermembrane space cysteine motif protein of 14 kDa	1	-3.65	13.41	-0.40	0.00	-0.06	2.17	-2.25	0.00	-1.52	1.01	-3.58
+YJR100C	YJR100C :: Putative protein of unknown function; non-tagged protein is detected in purified mitochondria in high-throughput studies; null mutant displays increased frequency of mitochondrial genome loss (petite formation); similar to murine NOR1	1	-2.19	6.65	-0.04	0.00	0.73	1.38	-0.64	0.00	-0.93	0.69	-0.63
+YGL160W	YGL160W :: Putative protein of unknown function; similar to iron/copper reductases (FRE1-8), possibly involved in iron homeostasis; may interact with ribosomes, null mutant displays increased frequency of mitochondrial genome loss (petite formation)	1	-2.44	4.76	0.42	0.00	0.35	0.39	-0.74	0.00	0.07	0.42	-2.30
+YER092W	IES5 :: Protein that associates with the INO80 chromatin remodeling complex under low-salt conditions	1	-2.55	8.07	-0.65	0.00	-2.35	1.78	0.18	0.00	-2.51	0.17	-2.10
+YFL046W	YFL046W :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	-3.92	7.72	-0.93	0.00	-2.73	5.47	-1.05	0.00	-2.42	1.22	-2.78
+YDR066C	YDR066C :: Protein of unknown function with high similarity to Rtr1p; exhibits genetic interactions with Rtr1p; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm; YDR066C is not an essential gene	1	-3.29	5.19	-0.10	0.00	-0.15	1.05	0.96	0.00	-0.19	-0.25	-1.18
+YDR063W	YDR063W :: Putative protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm and nucleus; null mutant is viable and displays decreased frequency of mitochondrial genome loss (petite formation)	1	-3.92	4.89	-0.49	0.00	0.31	1.77	-0.26	0.00	-1.41	-0.89	-3.63
+YBR096W	YBR096W :: 	1	4.18	15.29	5.06	0.00	2.90	11.30	3.91	0.00	-1.02	2.79	-3.44
+YHR059W	FYV4 :: Protein of unknown function, required for survival upon exposure to K1 killer toxin	1	6.40	16.89	3.42	0.00	6.45	11.27	3.02	0.00	-1.22	3.52	-3.32
+YNL010W	YNL010W :: 	1	1.35	9.45	0.24	0.00	4.24	7.43	3.14	0.00	-0.62	1.22	-3.32
+YOR309C	YOR309C :: 	1	4.16	13.92	-1.27	0.00	5.36	8.14	4.87	0.00	-1.75	0.39	-3.38
+YDR519W	FPR2 :: Membrane-bound peptidyl-prolyl cis-trans isomerase (PPIase), binds to the drugs FK506 and rapamycin; expression pattern suggests possible involvement in ER protein trafficking	1	0.16	7.13	-1.44	0.00	2.38	8.36	2.96	0.00	-1.25	1.30	-1.23
+YDL167C	NRP1 :: Protein of unknown function, rich in asparagine residues	1	1.38	6.53	1.12	0.00	3.05	2.85	3.43	0.00	0.03	0.22	-0.54
+YGR173W	RBG2 :: Protein with similarity to mammalian developmentally regulated GTP-binding protein	1	1.52	4.87	1.57	0.00	3.45	4.63	4.25	0.00	-0.43	0.97	0.35
+YGR283C	YGR283C :: 	1	1.93	8.54	3.79	0.00	3.82	7.65	5.34	0.00	1.72	2.87	0.43
+YLR255C	YLR255C :: 	1	0.07	4.85	1.31	0.00	2.23	2.93	2.08	0.00	0.90	1.27	0.82
+YCR043C	YCR043C :: 	1	1.87	9.32	-0.02	0.00	6.73	9.56	8.56	0.00	-1.51	-2.67	-2.21
+YCL021W-A	YCL021W-A :: 	1	3.41	9.26	1.35	0.00	5.28	12.90	2.23	0.00	-5.05	-1.56	-4.75
+YMR244C-A	YMR244C-A :: 	1	1.66	6.35	1.54	0.00	0.61	4.55	0.01	0.00	-2.78	0.52	-2.73
+YHL014C	YLF2 :: Protein of unknown function, has weak similarity to E. coli GTP-binding protein gtp1; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	1.14	3.94	-0.21	0.00	2.13	3.68	-0.71	0.00	-1.51	0.51	-0.06
+YBR262C	YBR262C :: Protein of unknown function; non-tagged protein is detected in purified mitochondria in high-throughput studies; null mutant displays decreased frequency of mitochondrial genome loss and reduced growth rate in minimal glycerol media	1	3.09	18.65	-2.60	0.00	-0.70	2.23	-0.69	0.00	-0.67	3.28	0.52
+YCL057C-A	YCL057C-A :: 	1	7.88	23.03	1.78	0.00	2.99	4.44	2.69	0.00	-0.26	2.80	1.03
+YNL122C	YNL122C :: 	1	3.10	7.38	1.14	0.00	1.30	1.59	0.31	0.00	0.68	2.86	0.62
+YNL022C	YNL022C :: 	1	5.88	8.97	-0.15	0.00	2.15	2.31	-0.38	0.00	-0.30	0.83	-0.22
+YDR541C	YDR541C :: 	1	5.13	6.52	-0.02	0.00	1.05	1.73	-0.59	0.00	1.64	3.73	-0.13
+YGL102C	YGL102C :: 	1	7.27	14.92	-4.05	0.00	3.09	4.16	6.85	0.00	-0.36	1.00	0.78
+YNR021W	YNR021W :: 	1	6.38	8.66	0.08	0.00	2.66	5.99	4.03	0.00	0.84	1.42	0.93
+YGR136W	LSB1 :: Protein containing an N-terminal SH3 domain; binds Las17p, which is a homolog of human Wiskott-Aldrich Syndrome protein involved in actin patch assembly and actin polymerization	1	8.39	9.30	-2.22	0.00	0.51	3.21	2.67	0.00	-2.35	-1.48	1.52
+YPL066W	YPL066W :: 	1	3.79	4.26	-2.49	0.00	1.23	2.71	-0.02	0.00	-1.58	0.19	-0.41
+YDL158C	YDL158C :: 	1	-3.57	4.39	0.73	0.00	2.86	6.77	5.80	0.00	1.29	2.60	0.63
+YIL158W	YIL158W :: Putative protein of unknown function; overexpression causes a cell cycle delay or arrest; null mutant displays increased frequency of mitochondrial genome loss; green fluorescent protein (GFP)-fusion protein localizes to the vacuole	1	-3.25	6.66	1.48	0.00	2.97	7.21	4.24	0.00	2.15	3.39	0.09
+YNL175C	NOP13 :: Protein of unknown function, localizes to the nucleolus and nucleoplasm; contains an RNA recognition motif (RRM) and has similarity to Nop12p, which is required for processing of pre-18S rRNA	1	-0.48	4.52	0.27	0.00	3.88	6.97	4.31	0.00	0.57	2.51	-0.12
+YEL048C	YEL048C :: 	1	-1.06	2.60	0.34	0.00	3.79	6.57	4.31	0.00	2.29	2.77	1.74
+YNL150W	YNL150W :: 	1	-3.42	2.49	0.27	0.00	2.39	4.79	2.02	0.00	1.34	1.94	-0.51
+YLR065C	YLR065C :: 	1	0.53	3.74	-2.59	0.00	2.01	9.15	3.69	0.00	1.80	3.03	-0.21
+YJL193W	YJL193W :: 	1	-2.39	-0.48	-1.20	0.00	5.11	7.35	5.78	0.00	2.25	1.87	1.40
+YNR061C	YNR061C :: 	1	-3.30	1.26	-0.92	0.00	2.75	6.57	1.84	0.00	1.55	1.75	2.50
+YGL199C	YGL199C :: 	1	-5.07	12.60	1.07	0.00	3.19	4.53	4.52	0.00	2.34	4.36	5.49
+YPR099C	YPR099C :: 	1	-1.43	8.30	0.82	0.00	3.31	3.89	2.17	0.00	2.24	2.39	1.32
+YJL062W-A	YJL062W-A :: 	1	-1.74	7.71	2.83	0.00	5.09	6.40	4.02	0.00	3.85	5.92	3.40
+YPL142C	YPL142C :: 	1	-5.19	14.95	3.31	0.00	7.65	14.77	4.01	0.00	1.00	7.11	2.08
+YPL238C	YPL238C :: 	1	-1.93	4.65	3.68	0.00	3.16	5.57	1.51	0.00	2.39	1.99	2.85
+YOR282W	YOR282W :: 	1	-1.32	1.79	0.60	0.00	1.93	1.42	1.77	0.00	1.37	0.33	0.68
+YDR316W	OMS1 :: Protein integral to the mitochondrial membrane; has a conserved methyltransferase motif; multicopy suppressor of respiratory defects caused by OXA1 mutations	1	0.89	4.57	4.34	0.00	3.57	2.37	-0.37	0.00	-0.25	0.78	0.32
+YDR417C	YDR417C :: 	1	2.57	8.53	5.86	0.00	5.77	6.59	6.21	0.00	1.83	2.64	5.02
+YOR205C	YOR205C :: Protein of unknown function; non-tagged protein is detected in purified mitochondria in high-throughput studies; null mutant displays decreased frequency of mitochondrial genome loss and severe growth defect in minimal glycerol media	1	0.59	4.10	2.96	0.00	2.26	1.22	1.61	0.00	-0.21	1.22	2.04
+YNR040W	YNR040W :: 	1	2.58	5.56	6.13	0.00	4.99	6.55	1.82	0.00	2.64	5.54	1.27
+YPL261C	YPL261C :: 	1	-0.27	1.54	3.66	0.00	1.34	3.71	1.54	0.00	1.49	1.90	0.07
+YGR021W	YGR021W :: 	1	2.96	3.79	1.44	0.00	5.82	2.39	0.49	0.00	2.60	4.15	1.13
+YHR049W	FSH1 :: Serine hydrolase that localizes to both the nucleus and cytoplasm; sequence is similar to Fsh2p and Fsh3p	1	5.15	7.67	0.18	0.00	6.85	8.88	4.66	0.00	4.27	5.19	-0.01
+YAL036C	RBG1 :: Member of the DRG family of GTP-binding proteins; interacts with translating ribosomes and with Tma46p	1	4.92	3.27	2.35	0.00	2.47	2.10	4.77	0.00	-0.49	0.27	2.20
+YJR124C	YJR124C :: 	1	8.54	5.49	6.72	0.00	5.00	4.57	5.72	0.00	1.11	0.19	2.53
+YKL027W	YKL027W :: 	1	4.22	2.24	3.10	0.00	2.33	2.10	2.45	0.00	-0.21	0.41	0.87
+YAR073W	IMD1 :: Nonfunctional protein with homology to IMP dehydrogenase; probable pseudogene, located close to the telomere; is not expressed at detectable levels; YAR073W and YAR075W comprise a continuous reading frame in some strains of S. cerevisiae	1	14.86	15.88	14.35	0.00	2.87	5.52	7.46	0.00	-1.86	-1.38	3.04
+YBR125C	PTC4 :: Cytoplasmic type 2C protein phosphatase; identified as a high-copy number suppressor of the synthetic lethality of a cnb1 mpk1 double deletion; overexpression decreases high-osmolarity induced Hog1p phosphorylation and kinase activity	1	5.98	4.58	5.03	0.00	1.50	1.40	2.15	0.00	-0.04	0.28	2.31
+YHR117W	TOM71 :: Mitochondrial outer membrane protein with similarity to Tom70p; probable minor component of the TOM (translocase of outer membrane) complex responsible for recognition and import of mitochondrially directed proteins	1	7.80	4.96	6.39	0.00	2.80	3.34	3.13	0.00	-0.91	-0.36	1.43
+YPL263C	KEL3 :: Cytoplasmic protein of unknown function	1	5.33	3.45	1.54	0.00	3.32	2.00	2.04	0.00	-0.44	-0.29	-0.04
+YBR025C	OLA1 :: P-loop ATPase with similarity to human OLA1 and bacterial YchF; identified as specifically interacting with the proteasome; protein levels are induced by hydrogen peroxide	1	7.18	7.33	5.22	0.00	4.25	4.92	1.54	0.00	0.98	0.57	-1.45
+YHR045W	YHR045W :: 	1	7.85	7.06	4.79	0.00	2.01	4.16	2.45	0.00	1.05	0.89	-0.46
+YMR157C	YMR157C :: Protein of unknown function; non-tagged protein is detected in purified mitochondria in high-throughput studies; null mutant displays increased frequency of mitochondrial genome loss and reduced growth rate in minimal glycerol media	1	8.91	6.80	5.93	0.00	4.81	5.75	3.14	0.00	-1.19	0.48	-1.09
+YNL249C	MPA43 :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	5.30	3.10	4.67	0.00	1.53	2.91	1.30	0.00	0.39	-0.02	-0.98
+YER156C	YER156C :: 	1	9.51	3.96	7.73	0.00	4.67	4.50	2.41	0.00	-0.48	-0.94	-2.04
+YGL083W	SCY1 :: Putative kinase, suppressor of GTPase mutant, similar to bovine rhodopsin kinase	1	7.66	2.58	7.16	0.00	4.10	2.17	2.03	0.00	-1.21	-1.69	-1.01
+YOL042W	NGL1 :: Putative endonuclease, has a domain similar to a magnesium-dependent endonuclease motif in mRNA deadenylase Ccr4p; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	4.85	1.32	3.42	0.00	1.14	2.38	0.34	0.00	-1.02	-1.16	-0.76
+YDL073W	YDL073W :: 	1	4.81	6.00	2.27	0.00	0.68	2.47	1.06	0.00	-0.72	0.21	0.15
+YHR017W	YSC83 :: Non-essential mitochondrial protein of unknown function; mRNA induced during meiosis, peaking between mid to late prophase of meiosis I; similar to S. douglasii YSD83	1	8.35	10.08	4.71	0.00	1.70	3.29	0.69	0.00	-0.44	-0.11	0.81
+YDR036C	EHD3 :: 3-hydroxyisobutyryl-CoA hydrolase, member of a family of enoyl-CoA hydratase/isomerases; non-tagged protein is detected in highly purified mitochondria in high-throughput studies; phosphorylated; mutation affects fluid-phase endocytosis	1	16.53	17.46	9.99	0.00	2.21	2.31	1.08	0.00	-0.20	3.75	5.61
+YNL058C	YNL058C :: 	1	14.42	15.42	11.43	0.00	4.71	6.60	2.18	0.00	3.38	3.23	1.70
+YHR198C	YHR198C :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies; null mutant displays increased frequency of mitochondrial genome loss (petite formation)	1	6.19	11.76	8.71	0.00	2.78	3.14	0.41	0.00	0.33	1.95	1.10
+YLR253W	YLR253W :: 	1	10.91	13.82	8.26	0.00	4.09	2.98	1.89	0.00	-1.11	-0.10	-0.11
+YPR004C	YPR004C :: Protein with similarity to mammalian electron transfer flavoprotein complex subunit ETF-alpha; interacts with yeast frataxin Yfh1p; null mutant displays increased frequency of mitochondrial genome loss (petite formation)	1	7.09	12.66	9.92	0.00	3.30	3.45	2.58	0.00	-1.03	-0.59	0.10
+YMR259C	YMR259C :: 	1	4.87	7.71	6.81	0.00	2.72	1.98	1.55	0.00	0.28	-0.16	-2.31
+YDR493W	YDR493W :: Protein of unknown function; overexpression causes a cell cycle delay or arrest; null mutant displays decreased frequency of mitochondrial genome loss in minimal glycerol media; detected in purified mitochondria in high-throughput studies	1	3.69	9.14	5.86	0.00	2.57	4.58	1.51	0.00	-0.21	2.94	-1.40
+YER093C-A	YER093C-A :: Putative protein of unknown function; YER093C-A contains an intron; null mutant displays increased frequency of mitochondrial genome loss (petite formation)	1	4.45	9.12	8.97	0.00	3.07	5.22	1.71	0.00	-1.12	1.52	-1.27
+YEL001C	YEL001C :: Putative protein of unknown function; green fluorescent protein (GFP)-fusion localizes to the ER; YEL001C is non-essential; null mutant displays increased levels of spontaneous Rad52p foci	1	6.02	14.80	8.71	0.00	3.14	6.61	4.21	0.00	-0.44	0.77	-1.43
+YLR050C	YLR050C :: 	1	3.47	10.17	3.20	0.00	1.25	3.45	1.05	0.00	-0.97	-0.55	-1.64
+YML050W	YML050W :: Putative protein of unknown function; non-essential gene; null mutant displays increased frequency of mitochondrial genome loss (petite formation)	1	8.00	14.91	5.97	0.00	4.60	6.33	0.50	0.00	-0.96	2.12	-1.50
+YOR286W	YOR286W :: Protein of unknown function; overexpression causes a cell cycle delay or arrest; null mutant displays increased frequency of mitochondrial genome loss in minimal glycerol media; detected in purified mitochondria in high-throughput studies	1	5.36	10.76	3.72	0.00	4.74	4.42	2.25	0.00	-0.71	-0.17	-2.52
+YMR222C	FSH2 :: Serine hydrolase that localizes to the cytoplasm; sequence is similar to Fsh1p and Fsh3p	1	6.58	7.72	6.92	0.00	2.48	7.02	3.17	0.00	0.05	2.59	1.58
+YPR063C	YPR063C :: 	1	2.62	7.28	5.60	0.00	2.50	5.32	3.10	0.00	0.71	1.96	1.97
+YMR310C	YMR310C :: 	1	6.14	9.31	6.41	0.00	5.26	4.91	4.11	0.00	1.68	2.57	0.64
+YMR321C	YMR321C :: 	1	10.07	11.79	8.13	0.00	-1.54	9.65	4.53	0.00	0.61	4.85	2.22
+YJL200C	ACO2 :: Putative mitochondrial aconitase isozyme; similarity to Aco1p, an aconitase required for the TCA cycle; expression induced during growth on glucose, by amino acid starvation via Gcn4p, and repressed on ethanol	1	7.37	8.70	12.49	0.00	0.21	2.98	2.89	0.00	-1.46	-0.09	-0.61
+YOR203W	YOR203W :: 	1	7.77	15.28	22.22	0.00	-1.15	5.71	10.05	0.00	-1.78	-0.06	4.02
+YJR111C	YJR111C :: 	1	13.36	22.36	14.38	0.00	-3.61	3.07	2.38	0.00	-2.45	0.55	0.32
+YKL033W-A	YKL033W-A :: 	1	13.37	18.39	14.90	0.00	-4.35	5.89	3.25	0.00	-3.93	-0.49	1.18
+YKL033W-A	YKL033W-A :: 	1	13.37	18.39	14.90	0.00	-4.35	5.89	3.25	0.00	-3.93	-0.49	1.18
+YKL187C	YKL187C :: 	1	21.19	43.95	22.92	0.00	-13.34	11.04	5.15	0.00	-4.50	9.49	9.84
+YBR255C-A	YBR255C-A :: 	1	10.25	11.27	0.09	0.00	1.25	8.06	1.35	0.00	-3.91	-1.11	-4.24
+YGR117C	YGR117C :: 	1	5.95	5.47	2.56	0.00	1.29	5.18	1.12	0.00	-0.93	-0.05	-2.34
+YGL101W	YGL101W :: 	1	8.27	6.73	1.53	0.00	1.50	5.63	2.57	0.00	-1.55	-1.58	-0.93
+YCR054C	CTR86 :: Essential protein of unknown function; upstream region contains a Gcn4p responsive site suggesting a possible role in amino acid biosynthesis	1	9.36	4.14	1.93	0.00	-0.50	2.79	0.66	0.00	-0.81	-0.14	-1.60
+YGL057C	YGL057C :: 	1	7.95	5.65	1.10	0.00	1.64	4.04	-1.30	0.00	-0.81	0.02	-2.53
+YBR220C	YBR220C :: 	1	6.96	4.07	5.89	0.00	3.26	1.27	4.31	0.00	3.89	2.31	3.84
+YCL036W	GFD2 :: Protein of unknown function, identified as a high-copy suppressor of a dbp5 mutation	1	9.26	4.39	6.18	0.00	4.98	1.33	3.84	0.00	2.19	1.28	1.82
+YOR271C	YOR271C :: Putative protein, predicted to be an alpha-isopropylmalate carrier; belongs to the sideroblastic-associated protein family; non-tagged protein is detected in purified mitochondria; likely to play a role in iron homeostasis	1	5.97	1.83	7.85	0.00	1.91	2.32	4.42	0.00	0.21	1.44	5.20
+YCR023C	YCR023C :: 	1	3.34	1.84	6.87	0.00	-0.08	1.35	1.54	0.00	1.92	0.80	1.36
+YMR122C	YMR122C :: 	1	3.41	4.09	6.84	0.00	0.04	3.83	2.51	0.00	1.98	3.14	0.22
+YOL137W	BSC6 :: Protein of unknown function containing 8 putative transmembrane seqments; ORF exhibits genomic organization compatible with a translational readthrough-dependent mode of expression	1	3.22	1.80	4.52	0.00	1.93	3.66	0.53	0.00	1.10	0.33	0.36
+YER188W	YER188W :: 	1	11.45	2.45	10.41	0.00	1.96	1.66	-1.96	0.00	0.88	0.25	-1.98
+YKL132C	RMA1 :: Putative dihydrofolate synthetase; has similarity to Fol3p and to E. coli folylpolyglutamate synthetase/dihydrofolate synthetase; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	5.00	0.22	4.63	0.00	1.99	0.71	-0.88	0.00	1.41	0.17	-1.45
+YKL039W	PTM1 :: Protein of unknown function, copurifies with late Golgi vesicles containing the v-SNARE Tlg2p	1	3.99	1.49	1.43	0.00	1.19	1.13	-0.31	0.00	0.60	-0.02	-0.32
+YPR071W	YPR071W :: 	1	10.37	3.57	5.02	0.00	1.69	2.94	0.97	0.00	0.33	0.26	-0.78
+YLR063W	YLR063W :: 	1	12.68	1.67	3.05	0.00	1.30	1.86	-0.15	0.00	0.23	0.35	-2.11
+YMR209C	YMR209C :: 	1	7.34	2.90	1.17	0.00	2.07	3.71	0.18	0.00	1.82	1.14	-0.17
+YBR246W	YBR246W :: 	1	1.11	2.43	4.15	0.00	3.97	5.13	2.69	0.00	-2.03	-1.37	-3.34
+YJR003C	YJR003C :: 	1	1.00	3.19	2.16	0.00	2.19	6.64	1.46	0.00	-0.92	0.65	-3.35
+YLR412W	YLR412W :: Protein involved in microtubule-related processes, N-acetylation; GFP-fusion protein localizes to the cytoplasm and is induced in response to the DNA-damaging agent MMS; YLR412W is not an essential gene; similar to Arabidopsis SRR1 gene	1	-0.32	4.14	4.71	0.00	2.00	6.91	1.24	0.00	-1.61	-0.13	-2.58
+YLR364W	YLR364W :: Putative cytosolic dithiol glutaredoxin; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm; non-essential gene that is strongly induced by arsenic	1	7.25	10.52	7.81	0.00	6.73	11.77	5.38	0.00	-5.18	-2.25	-3.79
+YML056C	IMD4 :: Inosine monophosphate dehydrogenase, catalyzes the first step of GMP biosynthesis, member of a four-gene family in S. cerevisiae, constitutively expressed	1	7.62	10.69	12.93	0.00	9.49	11.67	8.47	0.00	-2.71	-1.60	-2.62
+YML096W	YML096W :: 	1	3.84	5.11	4.23	0.00	1.53	5.06	4.43	0.00	-1.66	-0.91	-1.58
+YOR342C	YOR342C :: 	1	7.43	8.56	8.95	0.00	3.99	5.55	4.19	0.00	-4.47	-1.38	-2.17
+YGR001C	YGR001C :: Putative protein of unknown function with similarity to methyltransferase family members; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm; required for replication of Brome mosaic virus in S. cerevisiae	1	2.13	3.23	6.33	0.00	0.66	5.46	1.54	0.00	-4.16	-1.72	-4.59
+YHR100C	YHR100C :: 	1	2.52	2.66	4.33	0.00	0.08	3.59	0.11	0.00	-1.58	-1.24	-0.66
+YLR118C	YLR118C :: 	1	3.30	2.88	4.30	0.00	-0.31	4.39	0.44	0.00	-2.95	-1.42	-2.26
+YKR040C	YKR040C :: 	1	1.23	0.99	2.92	0.00	-0.30	1.18	1.72	0.00	-0.03	-1.65	-1.08
+YAL049C	YAL049C :: Cytoplasmic protein of unknown function, potential Hsp82p interactor; null mutant displays decreased frequency of mitochondrial genome loss (petite formation)	1	5.35	6.03	1.66	0.00	2.03	0.41	-2.67	0.00	0.06	-1.83	-1.54
+YKL047W	YKL047W :: 	1	3.40	3.57	3.66	0.00	-0.26	-0.22	-2.22	0.00	-0.99	-1.97	-3.50
+YLR108C	YLR108C :: 	1	10.23	12.13	6.81	0.00	1.99	-1.86	-1.97	0.00	-0.92	-5.93	-8.31
+YBR053C	YBR053C :: 	1	7.22	8.55	3.26	0.00	-2.89	-0.63	-4.09	0.00	-4.09	-3.57	-3.73
+YKR005C	YKR005C :: 	1	10.81	6.51	5.51	0.00	-3.67	-1.07	-3.86	0.00	-3.89	-2.71	-3.46
+YIL172C	YIL172C :: 	1	4.67	6.14	3.43	0.00	-1.50	-0.68	-2.48	0.00	-3.04	-0.94	-1.31
+YJL221C	FSP2 :: Protein of unknown function, expression is induced during nitrogen limitation	1	4.41	6.72	4.42	0.00	-1.89	-0.55	-3.40	0.00	-3.34	-1.10	-1.99
+YOR366W	YOR366W :: 	1	4.58	4.07	4.56	0.00	-3.41	-0.22	-1.92	0.00	-1.31	-1.84	-0.80
+YER080W	YER080W :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies; null mutant displays decreased frequency of mitochondrial genome loss (petite formation)	1	4.07	3.26	4.44	0.00	0.91	-1.06	-3.99	0.00	-2.13	-2.13	-0.21
+YDR132C	YDR132C :: 	1	6.68	2.89	6.57	0.00	-0.82	-0.06	-0.02	0.00	-2.81	-2.20	-2.15
+YEL073C	YEL073C :: 	1	9.44	7.93	8.06	0.00	-1.88	0.81	-0.06	0.00	-6.13	-4.38	-4.86
+YKR070W	YKR070W :: 	1	6.21	6.33	6.07	0.00	0.36	1.56	-0.43	0.00	-4.16	-3.46	-3.41
+YOR280C	FSH3 :: Serine hydrolase; sequence is similar to Fsh1p and Fsh2p	1	5.58	6.01	4.21	0.00	-0.49	0.79	-0.38	0.00	-2.84	-2.65	-2.72
+YMR187C	YMR187C :: 	1	9.31	7.04	3.62	0.00	-0.82	1.77	0.57	0.00	-2.58	-2.33	-2.76
+YDR333C	YDR333C :: 	1	2.87	3.24	2.47	0.00	1.23	1.23	1.16	0.00	-0.92	-1.05	-1.76
+YGR015C	YGR015C :: 	1	5.74	7.46	3.28	0.00	0.70	2.34	0.58	0.00	-2.29	-0.95	-2.27
+YOL098C	YOL098C :: 	1	9.21	9.76	4.56	0.00	2.29	3.29	3.26	0.00	-2.41	-1.64	-1.58
+YJL213W	YJL213W :: 	1	18.94	26.84	22.56	0.00	-0.01	5.01	10.55	0.00	-9.13	-10.32	-4.10
+YPR123C	YPR123C :: 	1	5.02	9.29	3.90	0.00	-0.55	0.16	1.82	0.00	-2.03	-2.87	-3.18
+YGL230C	YGL230C :: 	1	9.16	11.77	10.28	0.00	-0.97	-0.05	-1.37	0.00	-2.14	0.27	-0.22
+YJR080C	YJR080C :: Protein of unknown function; non-tagged protein is detected in purified mitochondria in high-throughput studies; null mutant displays increased frequency of mitochondrial genome loss and reduced growth rate in minimal glycerol media	1	8.64	13.12	11.18	0.00	1.21	0.73	-1.65	0.00	-1.52	-0.57	-0.44
+YOL157C	YOL157C :: 	1	8.98	9.12	7.20	0.00	-0.82	1.74	-1.25	0.00	-3.03	-0.95	-2.10
+YJL216C	YJL216C :: 	1	22.91	14.66	15.63	0.00	1.26	1.08	0.74	0.00	-4.84	-1.55	3.03
+YOR356W	YOR356W :: 	1	13.50	12.12	7.77	0.00	-0.25	-1.68	-0.45	0.00	-4.09	-2.78	-0.19
+YLR132C	YLR132C :: 	1	9.59	6.44	6.50	0.00	2.21	1.23	1.29	0.00	-2.04	-2.08	-1.61
+YNL313C	YNL313C :: 	1	9.51	7.24	6.39	0.00	1.58	0.04	2.06	0.00	-0.68	-0.75	-0.94
+YBL077W	YBL077W :: 	1	0.45	15.16	8.62	0.00	0.87	0.45	0.76	0.00	0.18	0.11	-0.21
+YDR034C-A	YDR034C-A :: 	1	0.02	20.29	7.52	0.00	1.55	1.53	-1.71	0.00	-1.58	-0.25	-3.47
+YER087W	YER087W :: Protein with similarity to tRNA synthetases; non-tagged protein is detected in purified mitochondria; null mutant displays decreased frequency of mitochondrial genome loss (petite formation), severe growth defect in minimal glycerol media	1	0.17	9.04	3.49	0.00	2.92	0.11	-1.76	0.00	-0.80	-0.12	-0.79
+YER182W	YER182W :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	4.17	11.24	10.35	0.00	0.69	-0.95	-5.11	0.00	-0.91	1.35	-0.77
+YML119W	YML119W :: 	1	3.07	6.55	4.65	0.00	0.98	-0.27	-2.15	0.00	-0.45	-0.84	-1.39
+YML087C	YML087C :: Putative protein of unknown function; highly conserved across species and orthologous to human CYB5R4; null mutant shows increased frequency of mitochondrial genome loss (petite formation) and severe growth defect in minimal glycerol media	1	8.25	16.22	7.41	0.00	3.47	-2.50	-7.66	0.00	-0.01	1.61	-0.10
+YBL107W-A	YBL107W-A :: 	1	3.47	16.11	9.63	0.00	-0.79	7.05	-8.02	0.00	-2.95	1.66	-4.79
+YER138W-A	YER138W-A :: 	1	5.91	18.67	9.83	0.00	-1.34	6.57	-7.95	0.00	-3.43	1.12	-4.47
+YGL204C	YGL204C :: 	1	3.30	12.31	3.62	0.00	0.44	2.62	-2.95	0.00	-1.29	0.37	-4.44
+YGR122C-A	YGR122C-A :: 	1	2.46	16.19	5.02	0.00	-1.61	4.16	-1.85	0.00	-2.47	0.27	-2.45
+YNL086W	YNL086W :: 	1	5.01	7.90	5.98	0.00	-1.99	3.28	-0.80	0.00	-2.53	0.92	-3.05
+YNL100W	YNL100W :: Putative protein of unknown function; non-tagged protein is detected in purified mitochondria; null mutant displays decreased frequency of mitochondrial genome loss (petite formation) and severe growth defect in minimal glycerol media	1	2.27	7.61	4.36	0.00	0.49	2.97	-1.72	0.00	-2.94	-0.15	-1.43
+YBL100C	YBL100C :: 	1	6.52	25.32	12.40	0.00	4.02	1.39	4.03	0.00	1.09	2.46	4.43
+YNL057W	YNL057W :: 	1	4.44	10.31	7.62	0.00	1.35	1.71	3.28	0.00	1.04	1.53	3.79
+YNL168C	YNL168C :: Putative protein of unknown function; GFP-fusion protein is induced in response to the DNA-damaging agent MMS; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	2.19	7.09	5.08	0.00	0.17	0.59	0.57	0.00	0.08	-1.36	1.33
+YCL049C	YCL049C :: 	1	11.79	13.50	9.57	0.00	-1.91	-4.17	-0.36	0.00	-0.31	-0.58	3.88
+YDL144C	YDL144C :: 	1	5.12	7.21	3.85	0.00	-0.37	-2.65	-0.46	0.00	0.42	0.29	0.82
+YDL180W	YDL180W :: 	1	5.86	7.51	5.98	0.00	0.26	-1.00	-0.43	0.00	1.63	0.35	1.04
+YIR039C	YPS6 :: Putative GPI-anchored aspartic protease	1	20.01	35.74	23.31	0.00	2.35	1.44	-1.87	0.00	2.58	2.91	4.15
+YGL261C	YGL261C :: Putative protein of unknown function; mRNA expression appears to be regulated by SUT1 and UPC2	1	5.54	11.49	6.40	0.00	-0.22	-2.15	1.46	0.00	2.37	2.62	4.43
+YKL105C	YKL105C :: 	1	8.06	19.34	17.39	0.00	0.10	-2.46	-3.63	0.00	5.29	4.46	2.72
+YOR228C	YOR228C :: 	1	2.24	10.81	9.00	0.00	-0.22	-0.16	-1.69	0.00	1.60	1.84	2.84
+YPR012W	YPR012W :: 	1	4.82	10.65	11.30	0.00	1.74	-0.36	0.23	0.00	2.10	1.66	2.69
+YDL025C	YDL025C :: 	1	3.43	8.74	4.97	0.00	-3.09	-0.39	1.26	0.00	1.06	4.23	1.41
+YFL010C	WWM1 :: WW domain containing protein of unknown function; binds to Mca1p, a caspase-related protease that regulates H2O2-induced apoptosis; overexpression causes Gi phase growth arrest and clonal death that is suppressed by overexpression of MCA1	1	8.03	9.60	5.43	0.00	1.54	0.09	3.89	0.00	-1.95	-1.36	0.46
+YPR147C	YPR147C :: 	1	5.89	7.10	4.68	0.00	-1.63	-0.50	2.35	0.00	-0.29	-1.88	0.20
+YLR137W	YLR137W :: 	1	4.76	5.09	4.91	0.00	-0.09	-1.36	3.59	0.00	-0.43	-0.65	2.12
+YGL221C	NIF3 :: Protein of unknown function, similar to Listeria monocytogenes major sigma factor (rpoD gene product); the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	4.69	6.94	2.30	0.00	-1.97	-1.17	1.49	0.00	-0.56	0.10	1.15
+YLR281C	YLR281C :: 	1	4.42	8.42	1.67	0.00	-0.75	-2.63	2.66	0.00	-0.52	-0.49	3.40
+YEL007W	YEL007W :: 	1	6.51	5.41	6.60	0.00	3.16	-0.39	-1.51	0.00	1.81	0.45	1.33
+YEL025C	YEL025C :: 	1	4.28	2.72	5.64	0.00	0.27	-0.42	-0.11	0.00	0.13	-0.29	-0.21
+YKR012C	YKR012C :: 	1	7.14	6.63	9.56	0.00	-0.35	0.22	-0.57	0.00	0.75	1.23	0.76
+YIL058W	YIL058W :: 	1	4.04	3.94	6.85	0.00	-1.32	1.42	-0.03	0.00	-0.67	1.03	0.66
+YHR078W	YHR078W :: 	1	4.16	5.56	8.62	0.00	-1.27	0.40	-1.02	0.00	0.59	0.41	-0.90
+YGR266W	YGR266W :: 	1	9.73	7.49	10.98	0.00	-1.11	-2.85	0.65	0.00	-1.83	-2.24	0.08
+YPR022C	YPR022C :: 	1	4.65	4.18	4.30	0.00	0.26	-1.57	0.44	0.00	-0.57	-1.07	-0.72
+YHL021C	YHL021C :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies; null mutant displays decreased frequency of mitochondrial genome loss (petite formation)	1	13.84	14.06	12.92	0.00	-2.98	-6.19	-0.94	0.00	-0.86	-1.88	2.19
+YPL109C	YPL109C :: 	1	6.91	6.99	8.67	0.00	-3.92	-4.35	-2.54	0.00	-1.10	-1.71	1.02
+YJR107W	YJR107W :: 	1	2.53	5.89	4.36	0.00	-0.61	-2.63	1.13	0.00	-0.57	-0.54	-0.33
+YML081W	YML081W :: 	1	3.71	1.93	5.00	0.00	0.13	-2.30	-0.99	0.00	-0.70	-2.06	-0.89
+YOL024W	YOL024W :: 	1	5.21	2.68	9.95	0.00	-1.89	-1.54	-2.41	0.00	-1.32	-2.69	0.44
+YIL164C	NIT1 :: Nitrilase, member of the nitrilase branch of the nitrilase superfamily; in closely related species and other S. cerevisiae strain backgrounds YIL164C and adjacent ORF, YIL165C, likely constitute a single ORF encoding a nitrilase gene	1	17.23	6.52	18.82	0.00	-1.65	-2.29	6.32	0.00	-1.82	-7.83	3.99
+YIL165C	YIL165C :: 	1	14.21	5.42	17.08	0.00	-2.17	-2.42	6.06	0.00	-2.17	-8.13	3.07
+YIR042C	YIR042C :: 	1	21.67	10.23	20.98	0.00	3.21	2.49	4.70	0.00	-3.58	-8.56	-2.19
+YNL035C	YNL035C :: 	1	5.64	2.42	5.28	0.00	0.95	0.31	1.14	0.00	0.25	-0.08	0.57
+YHR009C	YHR009C :: 	1	11.55	6.70	8.96	0.00	0.15	-6.71	-0.04	0.00	0.53	-1.89	1.37
+YPL184C	YPL184C :: Putative RNA binding protein	1	8.46	5.29	5.10	0.00	0.07	-5.85	1.06	0.00	0.94	-2.77	1.92
+YIL137C	TMA108 :: Protein that associates with ribosomes; putative metalloprotease	1	6.63	3.35	3.40	0.00	1.31	-1.94	0.71	0.00	-0.01	-1.26	0.12
+YKL215C	YKL215C :: 	1	8.58	4.15	1.63	0.00	0.21	-4.96	0.72	0.00	-1.41	-3.60	0.12
+YLR419W	YLR419W :: 	1	7.30	2.17	0.06	0.00	0.81	-1.33	-0.88	0.00	-0.81	-1.36	0.38
+YLR077W	YLR077W :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	6.94	5.60	2.09	0.00	0.03	-1.37	-1.74	0.00	0.09	0.16	3.44
+YEL028W	YEL028W :: 	1	0.70	-0.08	7.05	0.00	-1.53	2.34	0.41	0.00	-0.16	0.61	0.44
+YNR068C	YNR068C :: 	1	11.07	1.52	24.05	0.00	-9.58	1.45	-3.82	0.00	-1.66	0.41	0.92
+YPR146C	YPR146C :: 	1	1.22	0.62	2.68	0.00	-1.17	0.31	1.58	0.00	0.31	-0.23	-0.09
+YER187W	YER187W :: 	1	4.99	-1.14	14.71	0.00	1.77	-0.29	-2.20	0.00	-3.73	-2.83	-4.92
+YIL001W	YIL001W :: 	1	1.95	-0.26	5.67	0.00	-1.51	0.55	-1.31	0.00	-1.40	-1.00	-1.95
+YGR131W	YGR131W :: 	1	1.25	5.31	7.73	0.00	-1.66	-0.56	-1.62	0.00	-0.58	-1.74	-0.97
+YPR172W	YPR172W :: 	1	3.19	3.03	5.45	0.00	-1.53	1.59	-3.01	0.00	-0.81	-0.36	-2.76
+YJR136C	YJR136C :: 	1	3.65	0.92	2.46	0.00	-0.83	2.70	-0.70	0.00	-0.78	0.56	-0.71
+YLR042C	YLR042C :: 	1	8.81	-0.30	3.98	0.00	2.15	9.99	-1.54	0.00	-4.54	0.95	-1.93
+YKL128C	PMU1 :: Putative phosphomutase, contains a region homologous to the active site of phosphomutases; overexpression suppresses the histidine auxotrophy of an ade3 ade16 ade17 triple mutant and the temperature sensitivity of a tps2 mutant	1	2.62	1.66	2.90	0.00	1.79	7.61	-2.06	0.00	-1.14	1.35	-5.76
+YAR030C	YAR030C :: 	1	1.24	0.83	6.42	0.00	-2.05	-4.14	-0.81	0.00	0.13	-0.91	2.07
+YJR151C	DAN4 :: Cell wall mannoprotein with similarity to Tir1p, Tir2p, Tir3p, and Tir4p; expressed under anaerobic conditions, completely repressed during aerobic growth	1	-1.10	0.76	8.94	0.00	-0.32	-5.35	1.42	0.00	1.19	-0.01	3.44
+YLR152C	YLR152C :: 	1	-0.78	7.07	13.18	0.00	-8.73	-5.83	0.67	0.00	0.91	1.13	7.94
+YNL011C	YNL011C :: 	1	-0.24	-0.74	2.68	0.00	-1.24	-1.88	0.78	0.00	1.12	-0.04	0.88
+YBL095W	YBL095W :: 	1	3.71	4.83	9.42	0.00	-0.48	-6.34	-3.57	0.00	2.28	-2.07	0.25
+YPR003C	YPR003C :: 	1	1.49	1.51	3.52	0.00	-1.23	-4.39	-1.22	0.00	2.32	-0.11	-0.42
+YPR084W	YPR084W :: 	1	0.75	1.66	2.31	0.00	0.27	-3.07	-0.75	0.00	-0.59	-1.45	-1.39
+YBL108C-A	YBL108C-A :: Hypothetical protein identified by homology. See FEBS Letters [2000] 487:31-36.	1	1.52	3.96	6.10	0.00	0.10	-1.45	0.47	0.00	2.74	3.37	5.38
+YIL176C	YIL176C :: Hypothetical protein	1	1.36	4.27	6.44	0.00	-0.86	-1.54	0.69	0.00	2.28	3.42	5.46
+YBR301W	DAN3 :: Cell wall mannoprotein with similarity to Tir1p, Tir2p, Tir3p, and Tir4p; expressed under anaerobic conditions, completely repressed during aerobic growth	1	1.65	2.48	6.88	0.00	-0.69	-2.02	0.34	0.00	2.52	3.22	5.08
+YLL064C	YLL064C :: Hypothetical protein	1	0.90	2.71	6.36	0.00	-0.63	-1.70	0.41	0.00	2.06	3.15	5.04
+YHL046C	YHL046C :: Putative protein of unknown function; not an essential gene	1	1.52	3.45	6.04	0.00	-0.69	-2.59	0.34	0.00	2.33	3.29	5.08
+YNR076W	PAU6 :: Part of 23-member seripauperin multigene family encoded mainly in subtelomeric regions, active during alcoholic fermentation, regulated by anaerobiosis, negatively regulated by oxygen, repressed by heme	1	1.08	2.77	5.34	0.00	-0.98	-1.58	0.54	0.00	2.19	3.08	4.92
+YJL223C	PAU1 :: Part of 23-member seripauperin multigene family encoded mainly in subtelomeric regions, active during alcoholic fermentation, regulated by anaerobiosis, negatively regulated by oxygen, repressed by heme	1	1.46	3.67	6.76	0.00	-0.74	-1.79	-0.33	0.00	2.21	3.34	5.05
+YDR542W	YDR542W :: Hypothetical protein	1	2.44	5.22	6.37	0.00	-0.33	-0.73	0.57	0.00	2.31	3.54	5.24
+YGR294W	YGR294W :: Hypothetical protein	1	1.84	7.05	6.72	0.00	-0.19	-1.01	1.39	0.00	3.32	3.61	5.55
+YEL049W	PAU2 :: Part of 23-member seripauperin multigene family encoded mainly in subtelomeric regions, active during alcoholic fermentation, regulated by anaerobiosis, negatively regulated by oxygen, repressed by heme	1	4.82	3.80	6.11	0.00	-0.64	-1.19	-0.06	0.00	2.84	3.70	4.20
+YLR461W	PAU4 :: Part of 23-member seripauperin multigene family encoded mainly in subtelomeric regions, active during alcoholic fermentation, regulated by anaerobiosis, negatively regulated by oxygen, repressed by heme	1	4.04	3.12	4.27	0.00	0.29	-0.06	1.78	0.00	2.75	4.30	5.04
+YOL161C	YOL161C :: Hypothetical protein	1	3.37	3.23	5.16	0.00	0.89	0.47	1.58	0.00	2.59	3.81	4.73
+YLR040C	YLR040C :: 	1	5.28	7.39	5.81	0.00	-0.58	-1.59	-0.61	0.00	9.15	9.76	9.44
+YDL086W	YDL086W :: 	1	-0.30	3.28	7.02	0.00	-1.36	-3.17	-1.72	0.00	4.44	2.68	4.94
+YKL224C	YKL224C :: Putative protein of unknown function	1	-0.75	1.94	4.73	0.00	-0.84	-2.75	-0.08	0.00	2.95	3.06	5.71
+YEL043W	YEL043W :: 	1	2.47	0.15	3.80	0.00	0.09	-2.49	0.09	0.00	2.41	2.02	2.67
+YBR147W	YBR147W :: Protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies; null mutant displays fluconazole resistance and suppresses cdc13-1 temperature sensitivity	1	1.09	4.82	9.84	0.00	-5.79	0.22	-2.66	0.00	4.18	3.19	4.57
+YMR019W	STB4 :: Protein that binds Sin3p in a two-hybrid assay; contains a Zn(II)2Cys6 zinc finger domain characteristic of DNA-binding proteins; computational analysis suggests a role in regulation of expression of genes encoding transporters	1	-0.24	2.60	3.74	0.00	-1.92	0.57	0.56	0.00	1.30	2.00	1.06
+YDL085C-A	YDL085C-A :: 	1	2.65	4.97	6.71	0.00	-1.01	0.94	2.28	0.00	4.75	3.11	0.70
+YFR018C	YFR018C :: 	1	10.10	5.71	5.61	0.00	-2.67	-6.37	4.18	0.00	3.61	1.86	5.71
+YHR131C	YHR131C :: 	1	3.77	2.13	3.52	0.00	-0.75	-3.16	1.25	0.00	1.36	0.22	2.89
+YLR187W	SKG3 :: Protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cell periphery, cytoplasm, bud, and bud neck; potential Cdc28p substrate; similar to Caf120p and Skg4p	1	3.03	3.47	2.76	0.00	1.22	-2.17	1.98	0.00	2.56	1.08	4.08
+YJL066C	MPM1 :: Mitochondrial membrane protein of unknown function, contains no hydrophobic stretches	1	4.78	2.79	2.81	0.00	-2.27	-5.13	-2.94	0.00	1.69	2.86	6.03
+YLR278C	YLR278C :: 	1	5.29	2.36	2.65	0.00	-1.87	-3.95	-1.22	0.00	1.13	1.62	3.30
+YBR222C	PCS60 :: Peroxisomal AMP-binding protein, localizes to both the peroxisomal peripheral membrane and matrix, expression is highly inducible by oleic acid, similar to E. coli long chain acyl-CoA synthetase	1	3.77	5.57	10.95	0.00	-3.70	-3.44	-4.78	0.00	-0.67	2.09	6.10
+YFL061W	YFL061W :: Protein of unknown function; expression is induced by DNA damage	1	9.06	9.30	13.98	0.00	-12.63	1.62	-2.94	0.00	0.02	7.83	7.13
+YNL335W	YNL335W :: Protein of unknown function; expression is induced by DNA damage	1	9.74	8.55	13.55	0.00	-12.89	1.54	-1.82	0.00	-0.00	8.03	8.38
+YML089C	YML089C :: 	1	11.19	14.35	10.66	0.00	-7.87	-1.68	-2.14	0.00	-2.76	2.83	7.27
+YBR230C	OM14 :: Integral mitochondrial outer membrane protein; abundance is decreased in cells grown in glucose relative to other carbon sources; appears to contain 3 alpha-helical transmembrane segments; ORF encodes a 97-basepair intron	1	3.74	13.08	5.70	0.00	-4.17	-1.39	-7.43	0.00	-0.13	6.55	7.61
+YDL183C	YDL183C :: 	1	2.37	6.64	8.15	0.00	-0.76	-3.46	-2.61	0.00	2.65	2.53	3.38
+YPL272C	YPL272C :: 	1	3.27	13.89	10.79	0.00	-2.28	-3.59	-5.01	0.00	4.13	4.68	3.92
+YLR267W	YLR267W :: Protein of unknown function, overproduction suppresses a pam1 slv3 double null mutation	1	9.74	34.64	16.34	0.00	-11.98	-3.69	-5.91	0.00	5.45	7.45	10.80
+YPR061C	JID1 :: Probable Hsp40p co-chaperone, has a DnaJ-like domain and appears to be involved in ER-associated degradation of misfolded proteins containing a tightly folded cytoplasmic domain; inhibits replication of Brome mosaic virus in S. cerevisiae	1	4.03	9.79	6.91	0.00	-2.21	-2.13	-4.32	0.00	1.15	1.75	2.08
+YJL206C	YJL206C :: 	1	3.34	4.38	5.61	0.00	-1.55	-1.34	-2.74	0.00	1.34	0.98	0.24
+YNL134C	YNL134C :: 	1	7.75	15.49	8.41	0.00	2.48	-4.27	-4.58	0.00	9.01	6.35	1.49
+YJL199C	MBB1 :: Dubious open reading frame, unlikely to encode a protein; not conserved in closely related Saccharomyces species; protein detected in large-scale protein-protein interaction studies	1	-0.11	5.71	2.38	0.00	-3.17	0.02	-1.31	0.00	0.14	0.85	1.77
+YPL107W	YPL107W :: 	1	-0.11	3.88	2.61	0.00	-2.91	-0.93	-2.43	0.00	0.26	0.49	0.31
+YDL173W	YDL173W :: 	1	-1.65	2.42	0.48	0.00	-2.13	-3.46	-0.35	0.00	-0.61	1.39	3.19
+YEL044W	IES6 :: Protein that associates with the INO80 chromatin remodeling complex under low-salt conditions; human ortholog INO80C is a member of the human INO80 complex; implicated in DNA repair based on genetic interactions with RAD52 epistasis genes	1	-2.17	4.55	-1.11	0.00	-0.75	-2.99	1.05	0.00	-0.19	0.51	1.49
+YGL146C	YGL146C :: 	1	2.29	3.68	-2.37	0.00	-3.61	-3.50	-0.77	0.00	1.90	5.93	7.69
+YHR199C	YHR199C :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies; null mutant displays increased frequency of mitochondrial genome loss (petite formation)	1	-0.48	3.79	-1.29	0.00	0.55	-1.95	0.58	0.00	2.93	2.25	4.33
+YLR037C	DAN2 :: Cell wall mannoprotein with similarity to Tir1p, Tir2p, Tir3p, and Tir4p; expressed under anaerobic conditions, completely repressed during aerobic growth	1	0.77	4.09	1.23	0.00	-0.92	-3.87	-1.17	0.00	3.10	2.00	5.54
+YPR150W	YPR150W :: 	1	-1.37	4.91	0.64	0.00	-1.84	-1.84	-0.14	0.00	3.06	2.42	2.66
+YOL029C	YOL029C :: 	1	0.46	0.55	0.41	0.00	0.82	-1.09	-0.03	0.00	-0.13	-0.03	1.62
+YCR041W	YCR041W :: 	1	-2.42	5.29	0.37	0.00	2.18	-0.27	-0.12	0.00	8.05	6.69	7.52
+YCR097W-A	YCR097W-A :: 	1	-1.63	3.67	1.38	0.00	-0.82	0.72	-0.79	0.00	6.76	6.70	7.11
+YLR036C	YLR036C :: 	1	4.32	10.54	-0.37	0.00	4.63	8.53	2.34	0.00	16.46	18.69	16.16
+YHR180W	YHR180W :: 	1	-0.21	2.08	0.96	0.00	-0.99	0.24	-3.72	0.00	2.78	4.46	1.97
+YHL026C	YHL026C :: 	1	1.72	0.75	1.28	0.00	3.93	-1.18	-1.52	0.00	5.64	3.24	1.79
+YPR013C	YPR013C :: 	1	2.64	0.70	0.32	0.00	0.94	0.18	-1.68	0.00	4.45	4.16	1.61
+YHR054C	YHR054C :: 	1	1.69	2.32	-2.35	0.00	0.63	1.24	-2.69	0.00	1.65	2.70	1.93
+YDR304C	CPR5 :: Peptidyl-prolyl cis-trans isomerase (cyclophilin) of the endoplasmic reticulum, catalyzes the cis-trans isomerization of peptide bonds N-terminal to proline residues; transcriptionally induced in response to unfolded proteins in the ER	1	-1.79	-1.41	0.79	0.00	0.10	1.31	-1.21	0.00	3.66	3.74	-0.82
+YMR195W	ICY1 :: Protein of unknown function, required for viability in rich media of cells lacking mitochondrial DNA; mutants have an invasive growth defect with elongated morphology; induced by amino acid starvation	1	-6.00	8.33	1.04	0.00	1.29	2.07	-3.27	0.00	11.84	8.28	-0.55
+YDR061W	YDR061W :: 	1	1.66	2.76	0.09	0.00	2.52	0.58	-1.72	0.00	0.95	0.70	0.99
+YJL131C	YJL131C :: Putative protein of unknown function; the authentic non-tagged protein is detected in highly purified mitochondria; null mutant is viable, displays increased frequency of mitochondrial genome loss (petite formation)	1	0.15	1.85	0.32	0.00	2.90	1.49	-3.29	0.00	1.90	2.33	-0.14
+YCR051W	YCR051W :: 	1	2.81	0.79	-0.98	0.00	0.41	-0.58	5.18	0.00	-2.15	0.03	1.94
+YDR348C	YDR348C :: 	1	0.77	1.52	-0.48	0.00	2.61	-1.99	1.71	0.00	0.86	-0.09	-0.23
+YBL081W	YBL081W :: 	1	-1.16	-3.52	5.99	0.00	4.72	-0.20	6.09	0.00	3.27	1.03	6.35
+YHR151C	YHR151C :: Protein of unknown function; mtc6 is synthetically sick with cdc13-1	1	-1.58	-2.34	2.81	0.00	0.84	0.10	2.67	0.00	2.23	1.09	2.98
+YIL011W	TIR3 :: Cell wall mannoprotein of the Srp1p/Tip1p family of serine-alanine-rich proteins; expressed under anaerobic conditions and required for anaerobic growth	1	-2.90	-2.88	7.48	0.00	2.85	-3.02	4.13	0.00	4.18	-0.43	3.07
+YPL056C	YPL056C :: 	1	-0.62	-5.12	3.50	0.00	0.89	-2.17	3.81	0.00	0.75	-0.70	4.23
+YNL095C	YNL095C :: 	1	0.13	-2.17	4.44	0.00	-0.77	-0.62	2.61	0.00	2.25	1.27	2.39
+YDR239C	YDR239C :: 	1	-0.97	-2.15	0.20	0.00	0.21	-0.05	1.78	0.00	1.21	1.20	0.59
+YGL193C	YGL193C :: 	1	-3.99	-6.81	5.36	0.00	2.05	0.79	0.42	0.00	3.39	1.86	1.67
+YGR026W	YGR026W :: 	1	-2.20	-3.22	3.37	0.00	2.25	-0.10	2.11	0.00	3.84	0.75	1.46
+YGL198W	YIP4 :: Protein that interacts with Rab GTPases, localized to late Golgi vesicles; computational analysis of large-scale protein-protein interaction data suggests a possible role in vesicle-mediated transport	1	-7.17	-7.80	1.99	0.00	1.07	-1.51	4.77	0.00	4.79	2.98	5.91
+YOL092W	YOL092W :: 	1	-7.63	-7.53	5.37	0.00	-0.56	-0.86	2.66	0.00	3.92	2.15	3.06
+YDR249C	YDR249C :: 	1	-0.08	-5.76	6.81	0.00	0.62	3.27	0.66	0.00	-2.58	-2.67	-2.55
+YKR051W	YKR051W :: 	1	-0.87	-1.86	3.97	0.00	0.15	-0.17	0.28	0.00	0.71	-1.87	-0.30
+YOL107W	YOL107W :: 	1	-2.72	-3.52	7.44	0.00	2.83	0.29	2.58	0.00	1.22	-1.70	0.91
+YGR073C	YGR073C :: 	1	-1.81	-0.37	2.26	0.00	0.42	2.05	0.87	0.00	-0.13	-0.87	-0.42
+YHL039W	YHL039W :: 	1	-4.06	-5.24	3.87	0.00	1.15	2.58	1.42	0.00	-1.14	0.01	0.67
+YPL245W	YPL245W :: 	1	-2.10	-2.78	3.94	0.00	0.42	2.06	1.03	0.00	0.29	1.37	-0.21
+YBR151W	APD1 :: Protein of unknown function, required for normal localization of actin patches and for normal tolerance of sodium ions and hydrogen peroxide; localizes to both cytoplasm and nucleus	1	1.36	1.46	3.39	0.00	0.99	2.00	-1.13	0.00	2.50	1.98	-0.31
+YIL130W	ASG1 :: Proposed transcriptional activator, member of the Gal4p family of zinc cluster proteins	1	-0.77	0.32	3.92	0.00	0.40	0.97	-0.27	0.00	0.82	1.30	1.57
+YBR292C	YBR292C :: 	1	0.84	6.59	11.80	0.00	2.68	4.49	6.35	0.00	3.17	3.25	5.21
+YPL264C	YPL264C :: 	1	1.81	3.92	10.28	0.00	-2.83	3.71	5.84	0.00	1.54	1.72	4.53
+YKL219W	COS9 :: Protein of unknown function, member of the DUP380 subfamily of conserved, often subtelomerically-encoded proteins	1	0.93	2.08	3.94	0.00	-3.13	0.21	3.35	0.00	-0.14	0.95	2.79
+YCL005W	LDB16 :: Protein of unknown function; null mutants have decreased net negative cell surface charge; GFP-fusion protein expression is induced in response to the DNA-damaging agent MMS; native protein is detected in purified mitochondria	1	-0.62	1.05	4.35	0.00	2.33	0.67	1.55	0.00	2.30	0.61	2.12
+YPR114W	YPR114W :: 	1	-2.91	1.14	5.36	0.00	4.49	0.02	4.35	0.00	1.90	0.24	2.08
+YKL183W	LOT5 :: Protein of unknown function; gene expression increases in cultures shifted to a lower temperature	1	-0.25	1.34	1.66	0.00	3.73	1.38	4.86	0.00	1.18	0.21	3.59
+YJR020W	YJR020W :: 	1	2.70	9.57	6.97	0.00	6.09	4.32	7.42	0.00	8.84	7.99	6.44
+YJR116W	YJR116W :: 	1	-2.94	6.60	8.64	0.00	2.89	0.82	5.62	0.00	6.96	5.59	6.10
+YOL030W	GAS5 :: 1,3-beta-glucanosyltransferase, has similarity to Gas1p; localizes to the cell wall	1	1.43	0.44	2.15	0.00	2.57	1.39	2.10	0.00	4.05	2.79	4.01
+YOL073C	YOL073C :: 	1	1.56	1.04	5.82	0.00	0.55	2.58	4.05	0.00	4.59	3.17	3.69
+YOR139C	YOR139C :: 	1	0.84	-0.46	2.93	0.00	2.20	1.25	1.79	0.00	2.17	1.56	1.34
+YDR015C	YDR015C :: 	1	-1.23	-1.58	2.45	0.00	3.72	3.92	0.70	0.00	2.65	1.21	0.59
+YMR221C	YMR221C :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies; physical interaction with Atg27p suggests a possible role in autophagy	1	0.01	-0.87	2.88	0.00	1.74	2.60	2.55	0.00	2.38	-0.47	0.47
+YOR314W	YOR314W :: 	1	-1.47	-1.15	3.11	0.00	2.23	2.51	2.89	0.00	1.90	0.94	1.95
+YGL149W	YGL149W :: 	1	-2.17	1.52	2.20	0.00	3.61	2.23	1.54	0.00	2.15	2.49	1.35
+YOR050C	YOR050C :: 	1	-0.82	0.27	0.51	0.00	3.08	1.74	2.50	0.00	2.40	1.07	0.05
+YPR142C	YPR142C :: 	1	-1.82	0.22	1.96	0.00	4.41	2.51	2.46	0.00	2.42	0.85	-0.91
+YOL007C	CSI2 :: Protein of unknown function; green fluorescent protein (GFP)- fusion protein localizes to the mother side of the bud neck and the vacuole; YOL007C is not an essential gene	1	1.48	0.12	0.22	0.00	4.27	1.98	4.33	0.00	2.88	1.75	-1.10
+YOR390W	YOR390W :: 	1	1.48	-2.61	-0.55	0.00	4.19	4.05	5.38	0.00	4.03	2.49	1.49
+YPL279C	YPL279C :: 	1	1.54	-2.92	0.59	0.00	3.36	3.23	4.48	0.00	4.66	3.14	1.70
+YJL181W	YJL181W :: 	1	-2.06	-1.00	1.29	0.00	4.59	0.69	-0.12	0.00	4.32	2.99	0.77
+YBR239C	YBR239C :: Putative protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm and nucleus; plays a role in restricting Ty1 transposition	1	1.42	-1.62	2.42	0.00	-0.03	-0.10	1.71	0.00	0.61	-0.32	-0.00
+YOR009W	TIR4 :: Cell wall mannoprotein of the Srp1p/Tip1p family of serine-alanine-rich proteins; expressed under anaerobic conditions and required for anaerobic growth; transcription is also induced by cold shock	1	3.11	-2.31	9.06	0.00	2.78	1.15	5.29	0.00	-0.27	-1.26	3.15
+YDR090C	YDR090C :: 	1	4.09	-0.94	5.95	0.00	2.09	3.21	2.03	0.00	2.57	-1.12	1.34
+YLR112W	YLR112W :: 	1	6.43	-0.71	6.03	0.00	7.79	6.45	8.29	0.00	1.98	-0.90	-0.84
+YMR010W	YMR010W :: 	1	3.76	-1.05	5.05	0.00	2.73	4.05	3.18	0.00	-0.44	-1.54	-1.87
+YDR020C	YDR020C :: Predicted protein shares weak similarity with uridine kinases and with phosphoribokinases; null mutant suppresses dst1delta sensitivity for 6-azauracil	1	7.51	-3.22	0.43	0.00	3.41	3.01	4.95	0.00	1.27	0.22	1.62
+YKL077W	YKL077W :: 	1	5.83	-1.04	1.19	0.00	1.83	3.42	1.47	0.00	1.96	1.12	0.18
+YER076C	YER076C :: 	1	5.61	-0.35	1.47	0.00	1.74	1.35	1.57	0.00	2.27	1.89	2.96
+YHL017W	YHL017W :: 	1	4.50	0.15	-2.66	0.00	2.85	2.63	2.16	0.00	1.44	1.04	1.17
+YAL008W	FUN14 :: Mitochondrial protein of unknown function	1	0.16	7.63	0.82	0.00	-2.46	-0.49	-4.30	0.00	-1.62	-1.31	-2.49
+YJR008W	YJR008W :: 	1	2.43	12.65	-0.29	0.00	-7.97	-4.59	-9.78	0.00	-2.88	0.03	-1.96
+YPR015C	YPR015C :: 	1	0.32	12.55	0.29	0.00	-4.38	-6.17	-7.79	0.00	0.68	-0.01	-2.18
+YBL029C-A	YBL029C-A :: 	1	1.39	5.94	-0.48	0.00	-4.10	0.15	-3.31	0.00	-0.13	0.94	-3.53
+YKL094W	YJU3 :: Serine hydrolase with sequence similarity to monoglyceride lipase (MGL), localizes to lipid particles	1	0.35	3.71	-0.76	0.00	-1.45	-1.07	-0.77	0.00	-1.74	-0.58	-0.43
+YOR285W	YOR285W :: 	1	-2.98	12.51	-3.31	0.00	-6.03	-3.42	-6.43	0.00	-6.18	-1.98	-3.68
+YOL048C	YOL048C :: 	1	1.22	5.87	-1.78	0.00	-4.33	-1.24	-1.98	0.00	-2.16	-1.32	-2.19
+YGL036W	YGL036W :: 	1	-0.75	3.69	0.64	0.00	-1.26	-2.04	-3.62	0.00	-1.60	-1.93	-2.17
+YLR053C	YLR053C :: 	1	0.86	12.87	4.83	0.00	-11.65	-6.47	-9.27	0.00	-6.73	-12.48	-9.52
+YMR141C	YMR141C :: 	1	-3.34	3.20	1.43	0.00	-1.25	-1.82	-3.73	0.00	-0.55	-1.53	-1.74
+YBR085C-A	YBR085C-A :: 	1	7.79	15.89	-1.01	0.00	-3.42	3.17	-2.59	0.00	-2.82	-0.70	-1.29
+YKR017C	YKR017C :: 	1	5.63	5.39	0.46	0.00	-3.52	-0.80	-2.33	0.00	-1.51	-1.12	0.01
+YER101C	AST2 :: Protein that may have a role in targeting of plasma membrane [H+]ATPase (Pma1p) to the plasma membrane, as suggested by analysis of genetic interactions	1	2.57	5.89	1.96	0.00	-1.99	-1.81	-2.34	0.00	-0.35	-0.39	-0.23
+YGL161C	YIP5 :: Protein that interacts with Rab GTPases, localized to late Golgi vesicles; computational analysis of large-scale protein-protein interaction data suggests a possible role in vesicle-mediated transport	1	2.26	6.82	0.80	0.00	-0.40	-1.68	-1.43	0.00	0.88	0.06	0.63
+YKL091C	YKL091C :: 	1	5.98	9.72	3.01	0.00	-0.34	-2.15	-3.01	0.00	-0.05	-0.55	-0.21
+YFL042C	YFL042C :: 	1	3.66	8.36	-1.08	0.00	-1.25	-3.22	-1.58	0.00	-0.78	-1.14	0.77
+YKL136W	YKL136W :: 	1	0.88	6.72	1.09	0.00	-0.59	-3.25	-0.93	0.00	-0.42	-2.15	-1.08
+YDL027C	YDL027C :: 	1	3.81	4.64	1.90	0.00	-1.30	-1.19	-5.50	0.00	0.28	-0.34	-0.67
+YJR149W	YJR149W :: 	1	4.95	4.76	0.89	0.00	0.17	-4.86	-5.10	0.00	1.53	0.42	0.05
+YBR033W	EDS1 :: Putative zinc cluster protein; YBR033W is not an essential gene	1	-0.41	2.83	-2.50	0.00	0.58	-3.48	-8.61	0.00	-0.86	0.81	-1.61
+YOR152C	YOR152C :: 	1	0.16	4.08	0.51	0.00	-1.86	2.23	-8.38	0.00	0.72	1.33	-3.64
+YHR095W	YHR095W :: 	1	-1.83	10.71	2.95	0.00	-2.80	-7.11	-6.82	0.00	-2.15	-0.44	2.94
+YLR326W	YLR326W :: 	1	-3.57	5.16	-0.51	0.00	-0.18	-1.53	-3.48	0.00	1.41	1.81	-0.92
+YML030W	YML030W :: Putative protein of unknown function; GFP-fusion protein localizes to mitochondria; null mutant is viable and displays decreased frequency of mitochondrial genome loss (petite formation) and severe growth rate in minimal glycerol media	1	-4.01	6.23	-0.84	0.00	-1.16	-3.25	-4.74	0.00	1.62	2.61	0.20
+YBR285W	YBR285W :: 	1	-7.59	9.92	-1.21	0.00	-4.60	-0.57	-9.28	0.00	-1.90	0.46	-0.01
+YCR007C	YCR007C :: 	1	-3.59	2.95	0.18	0.00	-5.25	-1.04	-3.73	0.00	-2.09	0.58	-0.61
+YLR211C	YLR211C :: 	1	-3.35	1.72	-0.64	0.00	-3.06	0.35	-2.05	0.00	-0.24	0.55	-0.04
+YDR357C	YDR357C :: 	1	-9.47	5.11	-0.29	0.00	-3.08	-0.02	-3.37	0.00	-2.23	0.57	-3.47
+YOL159C	YOL159C :: 	1	-4.92	4.49	-0.61	0.00	-2.30	0.89	-1.39	0.00	-0.04	0.72	-1.69
+YKL061W	YKL061W :: 	1	-7.21	6.64	-3.60	0.00	-3.95	2.31	-4.55	0.00	-2.29	-0.33	-7.31
+YLR250W	SSP120 :: Protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm in a punctate pattern	1	-5.62	3.47	-2.35	0.00	-3.58	1.73	-1.55	0.00	-2.07	0.65	-2.84
+YER121W	YER121W :: 	1	-12.66	5.96	-8.98	0.00	-11.27	-5.74	-5.63	0.00	-4.43	-0.63	-0.77
+YOR220W	YOR220W :: Protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm and is induced in response to the DNA-damaging agent MMS	1	-2.63	1.35	-2.86	0.00	-4.47	-2.34	-3.31	0.00	-3.19	-1.71	-1.79
+YLR099W-A	YLR099W-A :: 	1	-4.24	5.16	-2.16	0.00	-4.25	-3.22	-2.27	0.00	-2.32	-2.00	-2.96
+YHR209W	YHR209W :: Putative S-adenosylmethionine-dependent methyltransferase; mediates cantharidin resistance	1	-8.19	1.67	-0.89	0.00	-7.85	-1.87	-4.18	0.00	-6.93	-4.22	-3.47
+YKL018C-A	YKL018C-A :: 	1	-4.15	6.49	-3.02	0.00	-1.02	-0.99	-0.98	0.00	-0.50	0.49	-0.94
+YNL285W	YNL285W :: 	1	-3.76	7.78	-3.36	0.00	-4.06	1.18	-1.59	0.00	-1.09	1.45	-0.21
+YLR414C	YLR414C :: 	1	-4.02	8.51	-5.22	0.00	-5.40	2.45	-0.04	0.00	-5.66	-0.65	-0.12
+YOR105W	YOR105W :: 	1	-2.67	2.95	-2.76	0.00	-2.15	-0.13	0.50	0.00	-1.41	-1.03	-0.74
+YFL034W	YFL034W :: 	1	-0.37	1.42	-3.02	0.00	-0.37	-1.62	-1.85	0.00	-1.24	-0.20	-1.20
+YNL217W	YNL217W :: 	1	-0.38	6.81	-10.11	0.00	0.69	0.63	-3.77	0.00	1.10	0.06	-4.21
+YOL154W	ZPS1 :: Putative GPI-anchored protein; transcription is induced under low-zinc conditions, as mediated by the Zap1p transcription factor, and at alkaline pH	1	5.15	7.18	-14.84	0.00	-4.35	-0.15	-6.95	0.00	-4.59	-1.37	-8.85
+YMR144W	YMR144W :: 	1	-2.97	-0.91	-6.43	0.00	1.61	0.45	1.11	0.00	-1.33	-2.11	-3.25
+YNL157W	YNL157W :: Hypothetical protein	1	-0.02	1.03	-4.81	0.00	-0.19	1.52	-0.50	0.00	-1.55	-0.02	-2.17
+YMR294W-A	YMR294W-A :: 	1	-2.89	0.03	-6.37	0.00	-1.09	-2.11	1.59	0.00	-1.78	-2.27	-1.69
+YNL208W	YNL208W :: 	1	-3.32	3.72	-9.78	0.00	-3.29	-3.78	0.78	0.00	-4.28	-1.53	-4.48
+YNR029C	YNR029C :: 	1	-2.83	4.32	-4.70	0.00	0.10	0.51	-0.75	0.00	-1.91	-1.06	-2.55
+YOR062C	YOR062C :: 	1	-3.96	4.87	-5.64	0.00	-2.50	-0.83	-3.67	0.00	-3.60	-3.71	-6.09
+YPR077C	YPR077C :: 	1	-5.99	5.58	-9.08	0.00	-5.75	-2.46	-2.31	0.00	-6.72	-3.59	-8.87
+YAL064W-B	YAL064W-B :: 	1	-0.39	0.69	2.18	0.00	1.28	-0.78	-0.00	0.00	-0.68	1.35	-2.90
+YAL064W-B	YAL064W-B :: 	1	-0.39	0.69	2.18	0.00	1.28	-0.78	-0.00	0.00	-0.68	1.35	-2.90
+YAR028W	YAR028W :: 	1	4.87	4.24	-5.59	0.00	5.55	3.44	0.42	0.00	0.11	-1.96	-7.65
+YDL063C	YDL063C :: 	1	0.86	-1.12	1.08	0.00	3.83	7.39	2.23	0.00	-0.59	0.82	-3.32
+YJR054W	YJR054W :: Vacuolar protein of unknown function; potential Cdc28p substrate	1	1.84	0.08	-1.39	0.00	3.85	4.73	3.18	0.00	-1.39	-0.93	-3.97
+YLR413W	YLR413W :: 	1	2.36	2.56	-2.46	0.00	5.64	6.99	4.03	0.00	1.25	1.93	-2.80
+YCL047C	YCL047C :: 	1	2.35	-0.42	1.68	0.00	2.41	1.10	-2.08	0.00	-1.86	-2.57	-4.50
+YGL157W	YGL157W :: 	1	3.23	-5.29	1.98	0.00	1.94	3.87	1.04	0.00	-2.24	-8.80	-8.34
+YEL072W	RMD6 :: Protein required for sporulation	1	-0.34	-2.10	3.90	0.00	4.25	2.13	0.20	0.00	1.34	-2.16	-3.21
+YAR053W	YAR053W :: 	1	-3.10	6.62	-0.15	0.00	0.20	-3.49	-0.24	0.00	-4.17	-4.68	-4.79
+YEL070W	DSF1 :: Deletion suppressor of mpt5 mutation	1	-5.71	3.76	1.43	0.00	4.87	-3.33	-3.42	0.00	-6.42	-2.24	-2.57
+YER134C	YER134C :: 	1	-0.23	1.90	1.98	0.00	0.38	1.26	-0.09	0.00	-1.39	-0.87	-3.34
+YLR143W	YLR143W :: 	1	-0.51	2.33	2.55	0.00	1.95	1.11	1.60	0.00	-1.56	-1.62	-3.22
+YOL037C	YOL037C :: 	1	-1.01	2.09	2.44	0.00	0.29	0.54	0.30	0.00	-0.35	-1.03	-1.51
+YKR098C	UBP11 :: Ubiquitin-specific protease that cleaves ubiquitin from ubiquitinated proteins	1	-2.62	2.16	1.54	0.00	1.31	1.47	-1.22	0.00	-2.64	-2.54	-3.13
+YGR016W	YGR016W :: 	1	-1.61	2.33	3.40	0.00	-1.25	0.21	-1.02	0.00	-1.27	-0.96	-0.18
+YBL036C	YBL036C :: 	1	-2.20	3.55	-2.39	0.00	0.06	2.40	0.59	0.00	-2.69	-1.93	-4.59
+YGR187C	HGH1 :: Nonessential protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm; similar to mammalian BRP16 (Brain protein 16)	1	-1.67	1.83	-0.38	0.00	1.65	4.36	1.34	0.00	-3.90	-2.18	-5.02
+YDR371W	CTS2 :: Sporulation-specific chitinase	1	3.23	7.18	-0.43	0.00	0.02	4.07	0.33	0.00	-4.99	-4.65	-6.67
+YNL155W	YNL155W :: 	1	-0.26	8.40	-0.93	0.00	-1.41	2.29	-0.97	0.00	-5.08	-3.52	-5.51
+YGL085W	YGL085W :: 	1	1.82	2.83	-2.29	0.00	0.08	3.72	1.14	0.00	-2.01	-1.08	-1.77
+YGL159W	YGL159W :: 	1	0.95	1.15	-2.79	0.00	0.00	3.78	0.46	0.00	-1.94	-1.54	-2.98
+YCL028W	RNQ1 :: [PIN(+)] prion, an infectious protein conformation that is generally an ordered protein aggregate	1	7.46	6.68	4.40	0.00	-0.65	-2.68	0.66	0.00	-8.24	-8.50	-4.56
+YFR006W	YFR006W :: 	1	4.61	4.27	2.53	0.00	-3.10	-1.93	-1.73	0.00	-4.42	-5.38	-3.62
+YKR043C	YKR043C :: 	1	3.22	0.87	2.47	0.00	1.55	-2.41	4.18	0.00	-4.64	-6.08	-4.19
+YFR020W	YFR020W :: 	1	1.59	-2.23	2.95	0.00	0.24	2.43	0.95	0.00	-7.92	-6.62	-5.98
+YJL217W	YJL217W :: Cytoplasmic protein involved in the regulation of enolase (ENO1); mRNA expression is induced by calcium shortage, copper deficiency (via Mac1p) and the presence of galactose (via Gal4p); mRNA expression is also regulated by the cell cycle	1	-0.49	6.31	6.45	0.00	-0.77	8.11	1.93	0.00	-17.30	-8.39	-9.10
+YOR264W	DSE3 :: Daughter cell-specific protein, may help establish daughter fate	1	-1.62	2.32	-0.63	0.00	-0.34	1.19	0.44	0.00	-6.52	-3.07	-1.61
+YBR137W	YBR137W :: 	1	-2.42	0.35	-0.73	0.00	-2.31	3.45	-1.47	0.00	-3.64	-0.96	-3.76
+YDR525W-A	SNA2 :: Protein of unknown function, has similarity to Pmp3p, which is involved in cation transport; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm in a punctate pattern	1	0.38	-0.54	0.99	0.00	-2.28	1.75	-1.67	0.00	-2.08	-1.06	-2.50
+YDR525W-A	SNA2 :: Protein of unknown function, has similarity to Pmp3p, which is involved in cation transport; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm in a punctate pattern	1	0.38	-0.54	0.99	0.00	-2.28	1.75	-1.67	0.00	-2.08	-1.06	-2.50
+YAL069W	YAL069W :: 	1	-10.21	7.25	0.91	0.00	0.97	-0.53	3.51	0.00	1.68	3.87	5.10
+YFL067W	YFL067W :: 	1	-10.02	11.44	-1.70	0.00	2.18	-1.00	3.06	0.00	4.50	4.08	2.43
+YFL068W	YFL068W :: 	1	-6.89	5.62	1.03	0.00	0.69	-2.87	0.79	0.00	1.83	1.57	1.89
+YBL109W	YBL109W :: 	1	-6.36	4.10	4.12	0.00	1.85	-2.30	1.96	0.00	1.29	0.85	2.86
+YDR543C	YDR543C :: 	1	-8.06	7.15	4.82	0.00	-0.50	-1.14	2.22	0.00	1.25	2.54	5.05
+YEL075W-A	YEL075W-A :: 	1	-8.04	7.23	-0.91	0.00	2.58	0.09	0.02	0.00	2.00	2.11	0.41
+YLR465C	BSC3 :: Dubious open reading frame, unlikely to encode a protein; not conserved in closely related Saccharomyces species; 100% of YLR465C overlaps the uncharacterized ORF YLR464W and 86% of YLR465C overlaps the verified gene YRF1-4	1	-9.98	9.92	-3.04	0.00	2.09	0.74	0.96	0.00	0.38	1.09	-0.44
+YLR463C	YLR463C :: 	1	-7.71	7.96	0.83	0.00	0.90	-1.63	-0.68	0.00	-0.96	-0.25	-1.27
+YGR137W	YGR137W :: 	1	-2.43	1.86	1.11	0.00	-1.10	-0.23	0.38	0.00	-1.55	-0.72	0.83
+YJR162C	YJR162C :: 	1	-9.35	4.41	4.96	0.00	-0.98	-1.50	2.54	0.00	-1.54	-0.02	3.29
+YNR077C	YNR077C :: 	1	-8.52	3.05	5.90	0.00	-1.31	-2.46	2.54	0.00	-1.44	-0.23	2.74
+YKL225W	YKL225W :: 	1	-9.89	4.50	4.27	0.00	0.27	-1.81	3.87	0.00	-2.79	-1.74	1.58
+YLL065W	YLL065W :: 	1	-7.16	7.82	5.33	0.00	0.18	-1.07	2.63	0.00	-1.33	0.80	1.49
+YPR106W	ISR1 :: Predicted protein kinase, overexpression causes sensitivity to staurosporine, which is a potent inhibitor of protein kinase C	1	-1.76	2.10	2.54	0.00	0.77	-2.33	-0.03	0.00	-1.11	-1.91	0.91
+YDR286C	YDR286C :: 	1	-8.95	3.12	0.87	0.00	0.77	3.09	-0.13	0.00	-0.50	1.24	-1.65
+YJL064W	YJL064W :: 	1	-5.96	1.35	1.72	0.00	1.44	2.59	0.67	0.00	0.16	0.47	-1.10
+YHR217C	YHR217C :: 	1	-9.61	8.05	1.62	0.00	2.94	2.87	3.94	0.00	2.18	1.28	1.03
+YKR035C	OPI8 :: Dubious open reading frame unlikely to encode a protein, based on available experimental and comparative sequence data; partially overlaps verified gene DID2/YKR035W-A	1	-6.56	1.75	0.92	0.00	2.09	1.93	1.89	0.00	0.73	-0.14	0.35
+YLR236C	YLR236C :: 	1	-5.93	-1.25	2.34	0.00	1.14	0.79	2.43	0.00	1.96	0.08	0.25
+YNL320W	YNL320W :: 	1	-7.54	-0.49	1.80	0.00	0.33	1.86	2.85	0.00	1.41	0.53	-0.09
+YNR042W	YNR042W :: 	1	-6.60	-0.49	1.17	0.00	-0.18	0.27	1.58	0.00	2.05	1.15	2.25
+YHR076W	PTC7 :: Mitochondrially localized type 2C protein phosphatase; expression induced by growth on ethanol and by sustained osmotic stress; possible role in carbon source utilization in low oxygen environments	1	-1.53	0.45	1.06	0.00	1.18	-0.30	1.99	0.00	-0.40	-1.03	0.72
+YAR027W	UIP3 :: Putative integral membrane protein of unknown function; interacts with Ulp1p at the nuclear periphery; member of DUP240 gene family	1	-4.03	0.14	-0.59	0.00	-1.06	-1.78	-0.94	0.00	0.93	0.13	-1.09
+YIL151C	YIL151C :: 	1	-4.48	0.48	-2.77	0.00	0.04	-0.14	-1.38	0.00	1.57	1.57	0.07
+YJR012C	YJR012C :: 	1	-9.06	0.80	-2.95	0.00	-1.34	-0.22	-1.27	0.00	1.90	1.87	-0.80
+YOR114W	YOR114W :: 	1	-8.54	0.77	-3.58	0.00	-0.02	-1.29	-1.25	0.00	1.74	0.43	-1.15
+YDR034W-B	YDR034W-B :: 	1	-20.73	-1.05	-15.36	0.00	-5.65	1.95	0.94	0.00	-2.00	3.27	-0.26
+YPL077C	YPL077C :: 	1	-5.44	0.03	-5.64	0.00	-0.36	-0.06	-0.75	0.00	0.80	1.23	0.33
+YFR039C	YFR039C :: 	1	-6.46	-0.17	-3.58	0.00	-2.70	-0.28	-2.00	0.00	-2.03	-0.63	-1.60
+YHR132W-A	YHR132W-A :: Putative protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm and nucleus; protein abundance is decreased upon intracellular iron depletion	1	-10.15	1.70	-4.14	0.00	-3.65	-0.48	-0.51	0.00	-2.35	-0.26	-0.85
+YDR319C	YDR319C :: Putative protein of unknown function, identified as an ortholog of the highly conserved FIT family of proteins involved in triglyceride droplet biosynthesis; interacts with Sst2p and Hsp82p in high-throughput two-hybrid screens	1	-8.55	-1.81	-5.66	0.00	-1.62	1.69	-0.92	0.00	-0.23	0.10	-1.99
+YPR202W	YPR202W :: 	1	-12.53	-3.93	-9.55	0.00	0.79	2.05	-1.97	0.00	-0.27	0.41	-3.75
+YFL065C	YFL065C :: 	1	-10.89	-2.67	-4.98	0.00	0.71	-0.52	-1.73	0.00	0.63	-0.15	-3.33
+YHL049C	YHL049C :: 	1	-12.95	-2.71	-8.48	0.00	0.40	-1.78	-2.96	0.00	-0.20	-0.97	-4.67
+YPR203W	YPR203W :: 	1	-13.75	-2.86	-8.05	0.00	-0.19	-1.06	-3.93	0.00	0.97	-0.13	-3.92
+YPL225W	YPL225W :: 	1	-14.08	-3.88	-9.85	0.00	-3.25	-1.67	-2.09	0.00	-1.48	-0.55	-2.92
+YJR011C	YJR011C :: 	1	-11.57	-5.84	-3.93	0.00	0.39	1.95	-0.76	0.00	-0.99	-1.94	-4.14
+YPL071C	YPL071C :: 	1	-12.61	-3.49	-3.84	0.00	-0.81	1.80	-0.39	0.00	-0.80	0.55	-1.90
+YMR233W	TRI1 :: Non-essential sumoylated protein of unknown function with similarity to components of human SWI/SNF complex including SMRD3; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm, nucleus and nucleolus	1	-10.77	-5.18	-2.62	0.00	0.80	0.68	-2.01	0.00	2.21	1.35	-2.46
+YJL049W	YJL049W :: 	1	-9.98	-0.27	-3.72	0.00	-0.46	1.73	-2.58	0.00	-0.65	0.76	-2.09
+YOR097C	YOR097C :: 	1	-8.13	-0.67	-4.12	0.00	-0.73	2.41	-0.97	0.00	0.40	0.81	-3.23
+YLR408C	YLR408C :: 	1	-10.56	-1.15	-2.82	0.00	-1.86	2.22	-2.78	0.00	-0.03	2.33	-1.03
+YOR258W	HNT3 :: Member of the third branch of the histidine triad (HIT) superfamily of nucleotide-binding proteins; similar to Aprataxin, a Hint related protein that is mutated in individuals with ataxia with oculomotor apraxia	1	-9.08	0.96	-4.26	0.00	-3.30	2.63	-2.54	0.00	0.24	2.42	-1.02
+YPR098C	YPR098C :: 	1	-6.56	-0.20	-1.80	0.00	-0.04	0.79	-2.48	0.00	0.10	-0.46	-1.25
+YBL107C	YBL107C :: 	1	-7.76	3.02	-2.66	0.00	0.26	1.82	-2.05	0.00	-1.99	0.75	-4.95
+YDR068W	DOS2 :: Protein of unknown function, green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm	1	-5.36	0.49	-1.39	0.00	-0.33	1.27	-2.59	0.00	-0.67	0.28	-2.44
+YGL164C	YRB30 :: RanGTP-binding protein, inhibits RanGAP1 (Rna1p)-mediated GTP hydrolysis of RanGTP (Gsp1p); shares similarity to proteins in other fungi but not in higher eukaryotes	1	-6.51	2.36	-0.81	0.00	0.39	0.58	-2.36	0.00	-2.04	-1.83	-3.54
+YEL076C	YEL076C :: 	1	-10.39	1.55	-5.91	0.00	2.05	-0.11	-0.97	0.00	-0.39	0.13	-4.77
+YNL043C	YNL043C :: 	1	-14.16	6.91	-8.54	0.00	-0.16	-0.48	0.11	0.00	-1.47	-1.16	-4.64
+YLR057W	YLR057W :: 	1	-7.57	2.72	-1.68	0.00	0.65	1.03	-1.63	0.00	0.48	2.07	-0.96
+YML053C	YML053C :: 	1	-6.86	2.63	-3.45	0.00	2.05	1.51	-2.07	0.00	1.28	1.88	-1.48
+YBR204C	YBR204C :: 	1	-2.81	-0.70	-4.31	0.00	-0.86	3.21	-1.79	0.00	-0.92	0.14	-1.98
+YHR156C	LIN1 :: Non-essential component of U5 snRNP; nuclear protein; physically interacts with Irr1p of cohesin complex; may link together proteins involved in chromosome segregation, mRNA splicing and DNA replication	1	-6.45	-2.08	-5.87	0.00	-2.43	2.31	-1.39	0.00	-1.76	0.08	-2.56
+YBR242W	YBR242W :: 	1	-6.79	1.07	-5.16	0.00	0.59	3.62	-0.94	0.00	-0.64	0.20	-4.07
+YGL242C	YGL242C :: 	1	-6.10	-0.04	-5.40	0.00	0.27	3.19	-0.42	0.00	-1.93	-0.93	-3.67
+YFL064C	YFL064C :: 	1	-9.84	0.15	-14.38	0.00	1.43	0.24	-1.89	0.00	0.36	1.03	-3.86
+YNL050C	YNL050C :: 	1	-3.36	0.74	-4.73	0.00	-0.58	0.92	-2.06	0.00	-0.18	-0.05	-2.72
+YCL002C	YCL002C :: 	1	-8.57	-4.69	-2.37	0.00	0.09	3.46	1.92	0.00	-0.53	-0.48	0.83
+YDL072C	YET3 :: Protein of unknown function; YET3 null mutant decreases the level of secreted invertase; homolog of human BAP31 protein	1	-6.85	-5.03	-3.34	0.00	0.92	3.84	1.12	0.00	0.28	1.12	-0.59
+YMR122W-A	YMR122W-A :: 	1	-8.14	-7.01	-7.03	0.00	1.11	3.29	2.05	0.00	-1.37	0.18	0.20
+YFR032C-A	RPL29 :: Protein component of the large (60S) ribosomal subunit, has similarity to rat L29 ribosomal protein; not essential for translation, but required for proper joining of the large and small ribosomal subunits and for normal translation rate	1	-9.66	-1.60	-4.97	0.00	1.04	4.42	5.66	0.00	-1.38	0.04	-1.29
+YDL121C	YDL121C :: 	1	-10.49	-2.54	-5.72	0.00	-1.10	4.03	1.39	0.00	2.78	4.58	2.05
+YMR126C	YMR126C :: Protein of unknown function, mutant sensitive to 6-azauracil (6AU) and mycophenolic acid (MPA)	1	-4.63	-0.62	-1.43	0.00	-0.90	1.81	1.17	0.00	1.06	1.98	1.21
+YJR141W	YJR141W :: 	1	-4.21	-0.17	-2.72	0.00	-1.19	3.18	-0.53	0.00	0.93	1.38	0.24
+YGR151C	YGR151C :: 	1	-8.84	-0.57	-4.83	0.00	2.97	4.19	2.11	0.00	0.66	0.74	-2.25
+YHL013C	OTU2 :: Protein of unknown function that may interact with ribosomes, based on co-purification experiments; member of the ovarian tumor-like (OTU) superfamily of predicted cysteine proteases; shows cytoplasmic localization	1	-4.94	-0.52	-3.44	0.00	0.33	1.59	0.71	0.00	0.27	0.43	-1.08
+YPR050C	YPR050C :: 	1	-6.90	0.93	-5.61	0.00	1.03	2.75	-0.52	0.00	1.01	1.25	-0.81
+YMR003W	YMR003W :: Protein of unknown function; GFP-fusion protein localizes to the mitochondria; null mutant is viable and displays decreased frequency of mitochondrial genome loss (petite formation) and severe growth defect in minimal glycerol media	1	-8.73	1.75	-3.32	0.00	1.03	3.14	0.87	0.00	0.91	-0.19	-1.87
+YOL086W-A	YOL086W-A :: 	1	-7.60	1.75	-2.38	0.00	0.54	2.27	3.26	0.00	1.09	1.02	0.40
+YOR331C	YOR331C :: 	1	-11.49	0.52	-2.34	0.00	2.49	0.96	1.77	0.00	2.16	0.79	0.16
+YBR141C	YBR141C :: 	1	-2.63	-3.23	-4.15	0.00	1.91	5.61	1.34	0.00	1.33	2.95	0.42
+YDL118W	YDL118W :: 	1	0.42	-2.05	-3.41	0.00	2.87	4.21	1.07	0.00	2.02	2.52	1.33
+YGR093W	YGR093W :: Putative debranching enzyme associated ribonuclease; green fluorescent protein (GFP)-fusion protein localizes to the nucleus	1	-2.24	-1.39	-2.36	0.00	0.50	0.87	-0.25	0.00	1.56	2.01	-0.59
+YHR192W	YHR192W :: 	1	-1.75	-1.28	-2.85	0.00	-0.00	1.77	-1.14	0.00	0.60	1.78	-0.25
+YKL090W	CUE2 :: Protein of unknown function; has two CUE domains that bind ubiquitin, which may facilitate intramolecular monoubiquitination	1	-1.90	-1.70	-5.66	0.00	0.76	2.47	-1.76	0.00	1.78	1.65	-0.02
+YGR153W	YGR153W :: 	1	-4.09	-1.44	-8.34	0.00	-0.69	1.86	1.39	0.00	-0.59	1.70	-0.80
+YOR304C-A	YOR304C-A :: 	1	-6.77	-0.72	-13.14	0.00	1.76	3.23	2.50	0.00	2.99	2.59	-0.27
+YJL119C	YJL119C :: 	1	-2.76	0.53	-10.07	0.00	-0.05	3.44	1.02	0.00	2.21	5.27	-2.77
+YML090W	YML090W :: 	1	-2.11	0.77	-11.89	0.00	3.90	5.74	0.41	0.00	-0.34	3.38	1.17
+YMR193C-A	YMR193C-A :: 	1	-1.82	-5.92	-19.12	0.00	3.73	9.24	5.21	0.00	-1.45	2.92	-0.91
+YBL028C	YBL028C :: 	1	-1.60	-3.16	0.93	0.00	2.14	6.76	0.34	0.00	0.38	1.52	-5.35
+YIL091C	YIL091C :: 	1	-0.14	-3.65	1.39	0.00	2.02	3.21	0.35	0.00	-0.91	-0.33	-2.31
+YDR179W-A	YDR179W-A :: 	1	-1.32	-2.96	-0.88	0.00	-0.81	2.27	1.73	0.00	-1.37	-1.60	-1.92
+YLR243W	YLR243W :: 	1	-0.77	-4.87	-2.00	0.00	1.55	4.73	1.53	0.00	-1.35	0.28	-1.96
+YLR287C	YLR287C :: Protein component of the small (40S) ribosomal subunit; nearly identical to Rps30Bp and has similarity to rat S30 ribosomal protein	1	-1.31	-3.94	-2.41	0.00	0.09	4.41	2.42	0.00	-1.55	-0.90	-2.19
+YOR051C	YOR051C :: 	1	-1.26	-3.64	-3.41	0.00	0.98	4.70	2.29	0.00	-0.67	-0.46	-1.95
+YDR370C	YDR370C :: 	1	-3.74	-2.73	-2.96	0.00	0.66	4.04	0.11	0.00	-1.07	-0.26	-3.18
+YGL108C	YGL108C :: 	1	-4.21	-3.89	-4.06	0.00	2.14	6.55	0.23	0.00	-1.22	1.26	-4.05
+YNL260C	YNL260C :: 	1	-6.45	-7.39	-2.22	0.00	1.28	7.06	1.96	0.00	-1.91	1.12	-3.96
+YMR130W	YMR130W :: 	1	-4.31	-3.72	-2.07	0.00	-0.11	2.56	-0.66	0.00	-2.10	-1.48	-4.86
+YOR252W	TMA16 :: Protein of unknown function that associates with ribosomes	1	-5.83	-3.96	-4.00	0.00	1.30	5.12	-0.25	0.00	-2.70	-1.51	-7.10
+YPR169W	JIP5 :: Essential protein of unknown function; fluorescent protein (GFP or YFP)-tagged protein localizes to nucleus and nucleolus	1	-3.46	-3.19	-2.06	0.00	1.37	1.61	0.77	0.00	-1.20	-0.12	-1.78
+YPL199C	YPL199C :: 	1	-4.87	-4.35	-6.54	0.00	-0.43	3.61	1.11	0.00	-1.38	0.29	-2.88
+YKL063C	YKL063C :: 	1	-7.62	-3.39	-1.03	0.00	1.53	3.46	1.51	0.00	-0.22	0.91	-3.10
+YOR131C	YOR131C :: 	1	-5.04	-2.93	1.26	0.00	1.06	4.39	0.73	0.00	-1.82	0.44	-3.73
+YBR013C	YBR013C :: 	1	-2.54	0.36	-1.20	0.00	-2.80	3.92	0.59	0.00	-1.48	1.80	-2.06
+YGL080W	YGL080W :: Putative protein of unknown function; highly conserved across species and orthologous to human gene BRP44L; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	-1.95	-0.67	-1.68	0.00	-1.27	6.94	0.66	0.00	-1.32	1.96	-1.31
+YCR099C	YCR099C :: 	1	-0.46	-1.15	1.73	0.00	-2.42	5.69	0.33	0.00	-1.86	1.32	-2.60
+YJR157W	YJR157W :: 	1	-0.57	0.70	-0.46	0.00	0.31	1.87	0.38	0.00	-0.88	0.55	-0.03
+YBR194W	YBR194W :: Protein proposed to be associated with the nuclear pore complex; null mutant displays decreased frequency of mitochondrial genome loss (petite formation) and a severe growth defect in minimal glycerol media	1	-3.39	1.98	-0.77	0.00	0.17	3.93	-0.54	0.00	-1.11	1.42	-1.96
+YER137C	YER137C :: 	1	-6.37	2.02	-1.01	0.00	-0.45	3.44	-1.25	0.00	0.84	2.69	-2.34
+YIR024C	YIR024C :: 	1	-6.76	0.61	0.29	0.00	1.11	4.58	-1.74	0.00	-0.72	1.61	-2.98
+YGL010W	YGL010W :: 	1	-6.12	-0.79	-1.86	0.00	-0.69	5.85	-0.68	0.00	-0.04	0.68	-2.16
+YDL157C	YDL157C :: 	1	-6.48	3.80	-3.34	0.00	0.29	6.07	2.27	0.00	0.11	2.66	-1.93
+YDL177C	YDL177C :: 	1	-7.84	1.53	-2.88	0.00	0.64	4.18	1.38	0.00	0.41	2.57	-1.19
+YKR074W	YKR074W :: Putative protein of unknown function; epitope-tagged protein localizes to the cytoplasm; null mutant displays increased frequency of mitochondrial genome loss (petite formation)	1	-9.72	2.78	-1.64	0.00	2.71	7.05	2.19	0.00	0.77	3.22	-2.37
+YDR056C	YDR056C :: 	1	-9.82	6.75	-3.46	0.00	-0.44	5.92	-0.38	0.00	2.50	4.18	0.03
+YMR132C	JLP2 :: Protein of unknown function, contains sequence that closely resembles a J domain (typified by the E. coli DnaJ protein)	1	-6.58	2.24	-1.26	0.00	-1.24	3.81	1.71	0.00	-2.82	-1.42	-3.62
+YOR104W	PIN2 :: Protein that induces appearance of [PIN+] prion when overproduced; predicted to be palmitoylated	1	-6.27	2.00	0.05	0.00	-1.15	2.69	0.14	0.00	-2.60	0.74	-2.30
+YCR016W	YCR016W :: 	1	-3.98	0.01	0.11	0.00	1.66	5.39	0.25	0.00	-0.13	0.64	-3.78
+YCR087C-A	YCR087C-A :: Putative protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the nucleolus; YCR087C-A is not an essential gene	1	-3.74	1.93	-1.24	0.00	1.03	5.43	2.15	0.00	-2.65	0.76	-3.25
+YIL096C	YIL096C :: 	1	-5.39	2.24	-1.47	0.00	3.01	7.20	1.24	0.00	-0.84	1.33	-4.73
+YML108W	YML108W :: 	1	-7.15	0.38	-5.78	0.00	0.61	8.32	3.29	0.00	-1.90	1.02	-4.27
+YMR178W	YMR178W :: 	1	-4.96	-0.36	-2.06	0.00	0.63	6.02	1.88	0.00	-2.90	-0.96	-4.74
+YLR064W	YLR064W :: 	1	-3.56	-0.09	-0.62	0.00	3.58	6.09	2.42	0.00	-1.62	-1.69	-3.02
+YJR056C	YJR056C :: 	1	-1.79	-0.67	-0.88	0.00	0.56	4.33	0.94	0.00	-2.85	1.08	-1.81
+YDL068W	YDL068W :: 	1	-2.57	0.46	-2.68	0.00	1.92	2.59	1.26	0.00	0.75	1.02	-0.20
+YDR210W	YDR210W :: 	1	-6.88	4.83	-5.04	0.00	3.43	5.86	4.83	0.00	0.86	1.06	-3.52
+YLR363W-A	YLR363W-A :: 	1	-3.97	3.99	-3.55	0.00	3.63	7.24	3.58	0.00	-0.88	1.44	-4.16
+YDR152W	GIR2 :: Highly-acidic cytoplasmic RWD domain-containing protein of unknown function, sensitive to proteolysis, N-terminal region has high content of acidic amino acid residues, putative IUP (intrinsically unstructured protein)	1	-0.78	5.51	-1.23	0.00	1.77	5.57	-0.69	0.00	-1.45	1.26	-3.79
+YNL056W	OCA2 :: Putative protein with similarity to predicted tyrosine phosphatases Oca1p and Siw14p; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm; YNL056W is not an essential gene	1	-1.35	3.81	-2.19	0.00	0.46	5.28	1.35	0.00	-0.99	1.22	-2.85
+YIL127C	YIL127C :: 	1	-6.16	8.30	0.01	0.00	2.95	8.46	1.96	0.00	-0.12	2.81	-3.10
+YJR067C	YAE1 :: Protein of unknown function, essential for growth under standard (aerobic) conditions but not under anaerobic conditions	1	-6.47	7.88	0.26	0.00	1.47	8.28	1.46	0.00	-3.13	0.19	-4.43
+YER071C	YER071C :: 	1	-2.71	1.59	-5.29	0.00	-0.29	6.07	-2.43	0.00	-1.57	0.62	-5.56
+YJR055W	HIT1 :: Protein of unknown function, required for growth at high temperature	1	-0.43	-0.56	-5.17	0.00	0.75	5.24	-0.30	0.00	-0.66	1.10	-2.53
+YLR456W	YLR456W :: 	1	-2.28	1.61	-6.51	0.00	0.22	7.62	-2.14	0.00	0.99	3.66	-2.25
+YOR284W	HUA2 :: Cytoplasmic protein of unknown function; computational analysis of large-scale protein-protein interaction data suggests a possible role in actin patch assembly	1	-0.33	1.53	-3.14	0.00	1.86	3.38	0.21	0.00	-0.48	-0.26	-2.48
+YCR013C	YCR013C :: 	1	-7.43	7.84	-3.11	0.00	5.70	1.04	0.25	0.00	6.61	3.71	-0.06
+YKL153W	YKL153W :: 	1	-4.07	8.32	-6.14	0.00	9.07	4.98	0.97	0.00	5.69	3.36	-4.77
+YDL050C	YDL050C :: 	1	-0.56	6.44	-2.73	0.00	1.14	1.61	1.33	0.00	0.19	1.61	-0.70
+YML009C-A	YML009C-A :: 	1	-0.98	4.92	-2.91	0.00	1.98	0.72	-0.13	0.00	1.11	0.87	0.27
+YLR162W	YLR162W :: 	1	-2.54	20.12	-23.94	0.00	3.97	3.42	5.52	0.00	-0.31	4.84	-5.56
+YDR336W	YDR336W :: 	1	-3.69	4.40	-7.21	0.00	-0.29	2.05	-0.55	0.00	1.05	2.11	-0.68
+YER163C	YER163C :: 	1	-2.79	5.37	-3.96	0.00	1.25	2.32	-0.73	0.00	-0.06	2.21	0.08
+YDR230W	YDR230W :: 	1	-2.11	6.24	-0.46	0.00	2.14	1.83	-1.54	0.00	1.98	2.57	1.16
+YIL043C	CBR1 :: Microsomal cytochrome b reductase, not essential for viability; also detected in mitochondria; mutation in conserved NADH binding domain of the human ortholog results in type I methemoglobinemia	1	-0.79	3.29	-0.77	0.00	0.49	3.19	0.78	0.00	1.95	3.71	0.53
+YNR004W	YNR004W :: 	1	-2.43	5.61	-2.79	0.00	-0.87	5.02	0.11	0.00	0.23	2.51	-1.61
+YNR028W	CPR8 :: Peptidyl-prolyl cis-trans isomerase (cyclophilin), catalyzes the cis-trans isomerization of peptide bonds N-terminal to proline residues; similarity to Cpr4p suggests a potential role in the secretory pathway	1	-4.10	8.80	-1.29	0.00	1.20	6.06	-0.21	0.00	2.63	3.78	-1.00
+YKR013W	PRY2 :: Protein of unknown function, has similarity to Pry1p and Pry3p and to the plant PR-1 class of pathogen related proteins	1	-3.52	1.73	-3.96	0.00	3.23	1.09	3.83	0.00	0.13	0.73	1.19
+YOR378W	YOR378W :: 	1	-1.16	7.09	-8.38	0.00	10.63	5.31	9.17	0.00	6.55	3.19	4.91
+YHR215W	PHO12 :: One of three repressible acid phosphatases, a glycoprotein that is transported to the cell surface by the secretory pathway; nearly identical to Pho11p; upregulated by phosphate starvation	1	2.97	-1.31	-11.15	0.00	-3.17	-0.02	1.86	0.00	2.41	5.12	-10.67
+YIL014C-A	YIL014C-A :: 	1	5.78	5.97	-7.66	0.00	-2.89	2.89	0.30	0.00	-1.31	1.26	-2.12
+YPR085C	YPR085C :: 	1	1.25	0.77	-5.49	0.00	-1.84	2.53	-0.57	0.00	0.68	1.90	1.51
+YOR015W	YOR015W :: 	1	1.52	4.98	-2.72	0.00	0.61	-0.75	-0.18	0.00	0.44	0.02	-1.12
+YOR086C	TCB1 :: Lipid-binding protein containing three calcium and lipid binding domains; non-tagged protein localizes to mitochondria and GFP-fusion protein localizes to the cell periphery; C-termini of Tcb1p, Tcb2p and Tcb3p interact	1	1.68	3.05	-3.79	0.00	-0.14	-2.34	-1.99	0.00	1.91	0.97	-0.49
+YAL034C	FUN19 :: Non-essential protein of unknown function	1	-2.63	-7.46	-2.40	0.00	-3.42	-9.18	-4.36	0.00	2.34	0.04	3.79
+YDR032C	PST2 :: Protein with similarity to members of a family of flavodoxin-like proteins; induced by oxidative stress in a Yap1p dependent manner; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	-0.11	-4.88	-1.73	0.00	-3.10	-4.98	-3.10	0.00	1.10	0.81	3.46
+YLL020C	YLL020C :: 	1	0.27	-13.11	-7.17	0.00	-6.15	-8.32	-5.27	0.00	0.76	0.16	4.71
+YPL025C	YPL025C :: 	1	1.13	-10.23	-4.21	0.00	-2.89	-7.93	-1.60	0.00	4.12	0.24	2.59
+YDL204W	RTN2 :: Protein of unknown function; has similarity to mammalian reticulon proteins; member of the RTNLA (reticulon-like A) subfamily	1	-3.84	-8.23	-10.88	0.00	-4.73	-12.67	-7.71	0.00	6.90	2.20	6.55
+YJL163C	YJL163C :: 	1	-7.06	-5.63	-5.80	0.00	-4.07	-10.51	-6.13	0.00	8.04	2.00	4.57
+YPR127W	YPR127W :: 	1	0.71	-6.40	-4.91	0.00	-3.70	-6.83	-7.27	0.00	4.28	2.24	3.91
+YDL048C	STP4 :: Protein containing a Kruppel-type zinc-finger domain; has similarity to Stp1p, Stp2p, and Stp3p	1	-0.88	-11.49	-8.73	0.00	-0.40	-6.64	-6.50	0.00	-0.23	-0.61	1.77
+YMR027W	YMR027W :: 	1	0.54	-5.07	-6.77	0.00	-1.22	-3.09	-3.35	0.00	1.74	0.90	2.29
+YMR160W	YMR160W :: 	1	-1.60	-6.45	-5.28	0.00	-1.58	-3.65	-3.54	0.00	1.89	0.99	2.17
+YAL061W	BDH2 :: Putative medium-chain alcohol dehydrogenase with similarity to BDH1; transcription induced by constitutively active PDR1 and PDR3; BDH2 is an essential gene	1	1.78	-5.58	-5.64	0.00	-5.99	-14.31	-12.29	0.00	1.51	-2.66	1.13
+YBR054W	YRO2 :: Putative protein of unknown function; the authentic, non-tagged protein is detected in a phosphorylated state in highly purified mitochondria in high-throughput studies; transcriptionally regulated by Haa1p	1	-1.72	-10.57	-15.94	0.00	-16.26	-21.53	-23.81	0.00	3.03	-1.70	1.96
+YMR031C	YMR031C :: 	1	-0.25	-5.14	-6.95	0.00	-4.75	-7.28	-6.65	0.00	-0.48	-2.12	-0.43
+YDR275W	BSC2 :: Protein of unknown function, ORF exhibits genomic organization compatible with a translational readthrough-dependent mode of expression	1	-3.41	-3.84	-2.23	0.00	-5.79	-6.95	-6.44	0.00	1.70	-0.30	2.22
+YLR297W	YLR297W :: 	1	-4.02	-4.43	-4.76	0.00	-6.45	-7.35	-8.19	0.00	3.10	1.07	0.97
+YNL200C	YNL200C :: 	1	-3.01	-2.45	-0.57	0.00	-5.45	-10.66	-5.83	0.00	2.77	0.23	2.27
+YHR097C	YHR097C :: 	1	-2.61	-3.76	-4.73	0.00	-7.02	-8.55	-6.51	0.00	-2.34	-1.94	2.84
+YLR312C	YLR312C :: Protein of unknown function; null mutant quiescent and non-quiescent cells exhibit reduced reproductive capacity	1	-2.19	-9.93	-3.38	0.00	-12.33	-14.59	-10.23	0.00	-0.54	-2.13	5.20
+YBL048W	YBL048W :: 	1	-17.25	-19.27	-17.04	0.00	-15.73	-12.83	-15.75	0.00	-0.04	-4.42	1.10
+YBL049W	MOH1 :: Protein of unknown function, has homology to kinase Snf7p; not required for growth on nonfermentable carbon sources; essential for viability in stationary phase	1	-14.73	-17.24	-8.98	0.00	-10.05	-9.78	-13.09	0.00	1.71	-3.80	1.76
+YLR031W	YLR031W :: 	1	-15.22	-13.28	-10.64	0.00	-9.13	-7.67	-7.88	0.00	0.34	-1.46	-2.16
+YIR014W	YIR014W :: 	1	-4.06	-4.60	-5.93	0.00	-3.26	-4.89	-3.38	0.00	-0.66	0.29	2.81
+YKL151C	YKL151C :: 	1	-9.36	-7.65	-9.22	0.00	-6.66	-9.35	-5.99	0.00	1.69	1.43	1.83
+YMR322C	SNO4 :: Possible chaperone and cysteine protease with similarity to E. coli Hsp31 and S. cerevisiae Hsp31p, Hsp32p, and Hsp33p; member of the DJ-1/ThiJ/PfpI superfamily; may have a role in pyridoxine metabolism	1	-12.91	-16.13	-13.87	0.00	-11.99	-11.71	-10.65	0.00	0.28	1.62	2.35
+YPL280W	HSP32 :: Possible chaperone and cysteine protease with similarity to E. coli Hsp31 and S. cerevisiae Hsp31p, Hsp33p, and Sno4p; member of the DJ-1/ThiJ/PfpI superfamily, which includes human DJ-1 involved in Parkinson's disease	1	-13.23	-12.46	-13.87	0.00	-11.29	-11.19	-10.00	0.00	0.98	2.30	2.52
+YOR391C	HSP33 :: Possible chaperone and cysteine protease with similarity to E. coli Hsp31 and S. cerevisiae Hsp31p, Hsp32p, and Sno4p; member of the DJ-1/ThiJ/PfpI superfamily, which includes human DJ-1 involved in Parkinson's disease	1	-6.00	-9.32	-9.65	0.00	-5.75	-4.54	-5.61	0.00	2.37	2.67	2.33
+YDL169C	UGX2 :: Protein of unknown function, transcript accumulates in response to any combination of stress conditions	1	-7.63	-5.46	-11.50	0.00	-7.29	-7.47	-7.26	0.00	-1.10	-2.79	1.61
+YBR116C	YBR116C :: 	1	-18.58	-25.78	-14.72	0.00	-16.67	-20.54	-23.23	0.00	6.89	4.48	9.14
+YBR302C	COS2 :: Protein of unknown function, member of the DUP380 subfamily of conserved, often subtelomerically-encoded proteins	1	-7.73	-8.10	-3.22	0.00	-4.52	-4.66	-6.33	0.00	1.86	2.63	3.76
+YFL062W	COS4 :: Protein of unknown function, member of the DUP380 subfamily of conserved, often subtelomerically-encoded proteins	1	-4.80	-5.18	-3.53	0.00	-4.00	-4.36	-3.61	0.00	1.47	2.35	3.28
+YBR270C	YBR270C :: Hypothetical protein	1	-3.43	-7.59	-3.10	0.00	-4.96	-3.51	-3.96	0.00	1.79	2.04	2.47
+YMR191W	SPG5 :: Protein required for survival at high temperature during stationary phase; not required for growth on nonfermentable carbon sources	1	-6.55	-6.98	-5.23	0.00	-8.32	-5.05	-5.07	0.00	0.35	3.04	5.53
+YDL110C	TMA17 :: Protein of unknown function that associates with ribosomes; heterozygous deletion demonstrated increases in chromosome instability in a rad9 deletion background; protein abundance is decreased upon intracellular iron depletion	1	-6.38	-9.01	-3.86	0.00	-6.54	-8.95	-9.05	0.00	-2.86	-2.47	-0.79
+YDR504C	SPG3 :: Protein required for survival at high temperature during stationary phase; not required for growth on nonfermentable carbon sources	1	-4.07	-9.17	-2.72	0.00	-5.81	-6.60	-7.41	0.00	-0.84	-2.01	0.90
+YPL186C	UIP4 :: Protein that interacts with Ulp1p, a Ubl (ubiquitin-like protein)-specific protease for Smt3p protein conjugates; detected in a phosphorylated state in the mitochondrial outer membrane; also detected in ER and nuclear envelope	1	-12.71	-19.73	-9.29	0.00	-11.65	-17.45	-13.45	0.00	-1.10	-4.07	0.22
+YDR033W	MRH1 :: Protein that localizes primarily to the plasma membrane, also found at the nuclear envelope; the authentic, non-tagged protein is detected in mitochondria in a phosphorylated state; has similarity to Hsp30p and Yro2p	1	-3.52	-11.79	-12.06	0.00	-7.03	-13.84	-5.57	0.00	2.64	-2.23	3.54
+YGR130C	YGR130C :: 	1	-2.72	-6.74	-7.54	0.00	-3.38	-6.97	-5.65	0.00	-0.00	-0.47	1.72
+YMR196W	YMR196W :: 	1	-2.72	-10.50	-6.35	0.00	-7.42	-14.79	-7.95	0.00	0.71	-2.85	0.06
+YOL084W	PHM7 :: Protein of unknown function, expression is regulated by phosphate levels; green fluorescent protein (GFP)-fusion protein localizes to the cell periphery and vacuole	1	-9.49	-18.61	-10.61	0.00	-13.62	-17.99	-11.50	0.00	3.85	-2.78	4.38
+YGR043C	YGR043C :: Transaldolase of unknown function; transcription is repressed by Mot1p and induced by alpha-factor and during diauxic shift; null mutant non-quiescent cells exhibit reduced reproductive capacity	1	-11.83	-8.44	-14.03	0.00	-16.36	-12.56	-15.99	0.00	0.19	5.63	7.33
+YPR148C	YPR148C :: 	1	-4.30	-1.59	-2.97	0.00	-4.74	-3.94	-3.85	0.00	-0.43	0.83	1.74
+YPL156C	PRM4 :: Pheromone-regulated protein, predicted to have 1 transmembrane segment; transcriptionally regulated by Ste12p during mating and by Cat8p during the diauxic shift	1	-2.35	-2.16	-5.32	0.00	-7.24	-3.91	-7.03	0.00	-1.55	1.92	3.15
+YBL113C	YBL113C :: 	1	-2.28	-14.50	-6.62	0.00	-4.27	-13.37	-4.42	0.00	-3.53	-5.72	-0.30
+YLL067C	YLL067C :: 	1	-2.91	-18.07	-3.23	0.00	-5.71	-15.11	-5.62	0.00	-2.76	-4.56	1.96
+YEL077C	YEL077C :: 	1	2.68	-12.78	-6.53	0.00	-4.48	-14.84	-4.64	0.00	-3.50	-6.65	-0.74
+YJL123C	YJL123C :: Protein of unknown function that may interact with ribosomes; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm and to COPI-coated vesicles (early Golgi); mtc1 is synthetically lethal with cdc13-1	1	1.33	-7.72	-3.40	0.00	-1.65	-5.70	-3.04	0.00	-1.20	-1.52	1.26
+YBR071W	YBR071W :: 	1	0.19	-9.20	-2.50	0.00	-4.23	-4.09	-2.13	0.00	-3.08	-3.20	-0.67
+YDR291W	YDR291W :: Putative DNA helicase	1	0.76	-4.42	-0.08	0.00	-1.77	-2.29	-0.54	0.00	-0.06	-0.97	0.11
+YJL105W	SET4 :: Protein of unknown function, contains a SET domain	1	0.22	-5.00	-1.15	0.00	-2.42	-3.45	-2.95	0.00	-0.29	-2.00	-1.60
+YGL096W	TOS8 :: Homeodomain-containing transcription factor; SBF regulated target gene that in turn regulates expression of genes involved in G1/S phase events such as bud site selection, bud emergence and cell cycle progression; similarity to Cup9p	1	-9.70	-19.30	-3.33	0.00	-3.15	-12.27	-5.52	0.00	1.04	-2.66	1.52
+YHR219W	YHR219W :: 	1	-7.96	-18.02	-2.26	0.00	-2.62	-11.33	-2.75	0.00	-3.66	-5.69	-0.33
+YML133C	YML133C :: 	1	-8.24	-17.58	-1.83	0.00	-2.71	-11.16	-2.90	0.00	-3.85	-5.70	-0.25
+YOR396W	YRF1-8 :: One of several telomeric Y' element-encoded DNA helicases, known as Y'-Help1 (Y'-HELicase Protein 1)	1	-7.57	-18.69	-1.94	0.00	-2.84	-11.08	-2.53	0.00	-3.84	-5.79	-0.37
+YLL066C	YLL066C :: 	1	-7.65	-16.96	-3.22	0.00	-2.88	-11.24	-2.71	0.00	-3.73	-5.76	-0.41
+YIL177C	YIL177C :: 	1	-6.93	-19.34	-1.21	0.00	-2.97	-11.31	-3.27	0.00	-3.77	-5.54	0.45
+YPR204W	YPR204W :: 	1	-7.14	-18.98	-0.58	0.00	-3.34	-11.28	-3.07	0.00	-3.85	-5.50	0.36
+YJL225C	YJL225C :: 	1	-6.39	-19.26	-1.79	0.00	-3.49	-11.70	-3.73	0.00	-3.97	-5.53	0.54
+YLR375W	STP3 :: Zinc-finger protein of unknown function, possibly involved in pre-tRNA splicing and in uptake of branched-chain amino acids	1	-3.08	-6.13	-0.90	0.00	-1.50	-5.02	0.11	0.00	0.53	-1.27	1.04
+YOR223W	YOR223W :: 	1	-2.97	-9.82	-2.48	0.00	-2.28	-7.49	-0.26	0.00	0.35	-0.96	3.21
+YML020W	YML020W :: 	1	-3.39	-4.81	0.33	0.00	-0.63	-3.47	-1.01	0.00	0.53	-0.92	1.58
+YMR086W	YMR086W :: 	1	-2.12	-9.28	-0.69	0.00	-1.17	-6.86	-3.06	0.00	2.02	0.04	1.18
+YOL138C	YOL138C :: Protein of unknown function; may interact with ribosomes, based on co-purification experiments; null mutation suppresses cdc13-1 temperature sensitivity	1	-2.08	-6.54	-0.43	0.00	-0.98	-6.18	-3.91	0.00	0.66	-1.38	0.06
+YPR115W	YPR115W :: Pleckstrin homology domain containing protein proposed to function as a glycerol channel activator; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm	1	0.05	-5.39	-1.97	0.00	-0.68	-5.17	-2.31	0.00	0.55	-1.59	1.14
+YMR316C-B	YMR316C-B :: 	1	-1.72	-4.82	-2.67	0.00	-0.58	-5.51	0.58	0.00	0.72	-1.40	0.19
+YIL089W	YIL089W :: 	1	-0.78	-10.59	-0.62	0.00	-0.69	-2.39	-1.59	0.00	1.55	-4.96	0.06
+YJR138W	IML1 :: Protein of unknown function, green fluorescent protein (GFP)-fusion protein localizes to the vacuolar membrane	1	-0.85	-8.40	-1.01	0.00	-1.10	-3.53	-2.17	0.00	1.48	-1.95	1.60
+YOL019W	YOL019W :: 	1	0.10	-7.26	-2.49	0.00	-0.87	-4.11	1.42	0.00	0.48	-4.14	0.50
+YCR025C	YCR025C :: 	1	-0.06	-6.89	-2.91	0.00	0.70	-5.07	-2.21	0.00	0.65	-0.48	-1.72
+YGL131C	SNT2 :: DNA binding protein with similarity to the S. pombe Snt2 protein; computational analysis suggests a role in regulation of expression of genes encoding amine transporters	1	-0.50	-8.48	-3.14	0.00	-0.86	-4.15	-1.14	0.00	1.29	-0.95	-0.23
+YMR252C	YMR252C :: 	1	-1.24	-10.05	-1.82	0.00	0.41	-4.80	-2.05	0.00	3.26	-1.21	-0.45
+YER033C	ZRG8 :: Protein of unknown function; authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies; GFP-fusion protein is localized to the cytoplasm; transcription induced under conditions of zinc deficiency	1	0.63	-5.12	-3.31	0.00	-0.71	-1.75	-1.54	0.00	0.95	-0.26	-0.22
+YJL082W	IML2 :: Protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	1.03	-6.23	-4.54	0.00	-1.23	-5.30	-2.19	0.00	1.02	-1.04	-0.38
+YDR026C	YDR026C :: 	1	-2.10	-6.09	-4.08	0.00	-0.29	-2.85	-0.50	0.00	1.36	0.24	0.57
+YER041W	YEN1 :: Protein of unknown function, has similarity to endonuclease Rth1p; potentially phosphorylated by Cdc28p	1	-2.60	-9.54	-3.43	0.00	-0.63	-2.19	-0.83	0.00	2.66	1.46	1.13
+YML117W	NAB6 :: Putative RNA-binding protein, based on computational analysis of large-scale protein-protein interaction data	1	-3.02	-10.80	-5.09	0.00	-1.48	-4.15	-2.80	0.00	-0.47	-0.63	0.77
+YNL144C	YNL144C :: 	1	-4.19	-15.03	-5.74	0.00	1.07	-5.96	-2.42	0.00	0.38	0.21	1.39
+YDR533C	HSP31 :: Possible chaperone and cysteine protease with similarity to E. coli Hsp31; member of the DJ-1/ThiJ/PfpI superfamily, which includes human DJ-1 involved in Parkinson's disease; exists as a dimer and contains a putative metal-binding site	1	-3.13	-18.20	-11.66	0.00	0.88	-0.84	-5.27	0.00	2.86	0.64	-5.22
+YPR091C	YPR091C :: 	1	-3.18	-7.67	-4.09	0.00	-0.12	-2.23	-1.58	0.00	2.51	1.01	-1.56
+YIL092W	YIL092W :: 	1	-0.97	-8.77	-2.76	0.00	-2.00	-0.30	-2.81	0.00	0.42	0.26	-0.25
+YDL057W	YDL057W :: 	1	-0.27	-5.82	-4.23	0.00	-1.25	-3.78	-1.79	0.00	-1.15	-3.62	-0.98
+YLR257W	YLR257W :: 	1	-0.48	-9.87	-13.16	0.00	-3.91	-9.49	-4.07	0.00	-2.76	-6.68	-1.82
+YPL054W	LEE1 :: Zinc-finger protein of unknown function	1	-1.50	-8.09	-8.10	0.00	-1.86	-4.07	-1.62	0.00	-0.84	-2.79	1.07
+YDR441C	APT2 :: Apparent pseudogene, not transcribed or translated under normal conditions; encodes a protein with similarity to adenine phosphoribosyltransferase, but artificially expressed protein exhibits no enzymatic activity	1	-2.56	-10.67	-8.37	0.00	0.17	-4.13	1.17	0.00	0.08	-3.04	2.48
+YNL254C	YNL254C :: Protein of unknown function; null mutation suppresses cdc13-1 temperature sensitivity; (GFP)-fusion protein localizes to both the cytoplasm and the nucleus	1	0.99	-9.74	-6.35	0.00	-2.10	-4.24	0.24	0.00	-0.13	-2.07	1.19
+YER034W	YER034W :: 	1	0.72	-12.16	-4.94	0.00	-1.70	-5.46	0.40	0.00	-4.40	-5.39	-3.68
+YMR265C	YMR265C :: 	1	-2.94	-13.85	-5.26	0.00	-2.11	-3.51	-1.14	0.00	-3.76	-4.06	-2.50
+YGR017W	YGR017W :: 	1	-0.12	-5.73	-1.41	0.00	-1.41	-1.70	-1.37	0.00	-1.04	-0.50	-2.01
+YBR099C	YBR099C :: 	1	-6.83	-7.86	-1.87	0.00	-3.26	-2.24	-3.69	0.00	-0.89	-1.39	0.94
+YKL133C	YKL133C :: 	1	-8.25	-8.70	-3.36	0.00	-3.41	-2.47	-4.83	0.00	0.76	0.55	0.95
+YIR016W	YIR016W :: 	1	-10.63	-17.23	-4.14	0.00	-8.15	-10.09	-4.24	0.00	-2.65	-0.16	3.38
+YOR022C	YOR022C :: 	1	-2.68	-5.45	0.16	0.00	-2.12	-1.99	-1.93	0.00	-0.64	-0.28	1.16
+YIL152W	YIL152W :: 	1	-4.05	-6.35	-0.05	0.00	-2.94	-2.78	-0.75	0.00	0.98	0.54	0.60
+YLR241W	YLR241W :: 	1	-3.94	-6.25	0.84	0.00	-1.77	-1.74	-0.98	0.00	0.60	-1.33	-0.39
+YDL248W	COS7 :: Protein of unknown function, member of the DUP380 subfamily of conserved, often subtelomerically-encoded proteins; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	-3.86	-8.05	0.58	0.00	-1.98	-1.80	-3.78	0.00	1.65	0.23	3.00
+YDL070W	BDF2 :: Protein involved in transcription initiation at TATA-containing promoters; associates with the basal transcription factor TFIID; contains two bromodomains; corresponds to the C-terminal region of mammalian TAF1; redundant with Bdf1p	1	-13.53	-16.78	-6.32	0.00	-0.65	-4.50	0.26	0.00	1.34	-0.12	4.33
+YDR338C	YDR338C :: 	1	-8.43	-9.08	-2.94	0.00	-0.45	-3.65	1.12	0.00	3.62	0.57	3.05
+YDR476C	YDR476C :: 	1	-12.71	-14.19	-7.61	0.00	-2.91	-4.19	2.26	0.00	5.13	3.94	5.71
+YER158C	YER158C :: 	1	-10.59	-15.64	-6.46	0.00	-2.13	-9.07	-4.47	0.00	6.10	3.15	5.50
+YKL050C	YKL050C :: 	1	-11.52	-14.07	-8.37	0.00	-3.27	-5.19	-1.09	0.00	3.94	1.61	5.95
+YMR323W	ERR3 :: Protein of unknown function, has similarity to enolases	1	-17.45	-23.70	-10.41	0.00	-3.69	-12.34	-3.46	0.00	7.41	0.52	9.82
+YLR164W	YLR164W :: 	1	-24.73	-26.88	-9.88	0.00	-3.28	-8.30	-3.12	0.00	10.59	4.59	9.68
+YMR181C	YMR181C :: 	1	-11.98	-11.01	-5.20	0.00	-4.39	-6.05	-3.94	0.00	2.92	2.07	3.90
+YOR393W	ERR1 :: Protein of unknown function, has similarity to enolases	1	-26.49	-25.71	-12.76	0.00	-4.15	-13.05	-6.02	0.00	7.03	0.76	7.41
+YPL281C	ERR2 :: Protein of unknown function, has similarity to enolases	1	-25.40	-26.64	-12.23	0.00	-5.67	-12.50	-6.18	0.00	6.51	0.94	7.12
+YNL305C	YNL305C :: 	1	-12.14	-14.78	-2.38	0.00	-2.72	-7.62	-3.29	0.00	4.47	1.13	5.27
+YMR052C-A	YMR052C-A :: 	1	-10.18	-15.76	-2.54	0.00	-6.82	-6.74	-4.71	0.00	4.59	2.86	5.03
+YMR258C	YMR258C :: 	1	-6.31	-6.32	-0.67	0.00	-1.94	-2.57	-0.78	0.00	2.21	1.58	2.61
+YDL133W	YDL133W :: 	1	-4.17	-10.22	-4.46	0.00	-3.11	-4.45	-2.37	0.00	1.94	0.43	1.69
+YER130C	YER130C :: 	1	-5.86	-10.74	-4.36	0.00	-3.52	-4.02	-2.93	0.00	0.41	0.86	1.55
+YDR133C	YDR133C :: 	1	-4.89	-25.38	-4.90	0.00	-7.34	-11.44	-6.78	0.00	6.79	3.48	7.86
+YJL079C	PRY1 :: Protein of unknown function, has similarity to Pry2p and Pry3p and to the plant PR-1 class of pathogen related proteins	1	-5.80	-16.62	-7.77	0.00	-5.04	-8.99	-2.78	0.00	5.19	4.07	2.78
+YMR111C	YMR111C :: 	1	-5.02	-7.31	-5.18	0.00	-2.18	-4.91	-1.50	0.00	1.33	0.37	0.53
+YOL087C	YOL087C :: 	1	-3.07	-5.47	-5.39	0.00	-1.61	-4.34	-2.63	0.00	1.12	1.46	1.27
+YNL237W	YTP1 :: Probable type-III integral membrane protein of unknown function, has regions of similarity to mitochondrial electron transport proteins	1	-10.65	-12.86	-8.58	0.00	-7.58	-12.02	-3.90	0.00	5.49	3.87	6.10
+YOR161C	PNS1 :: Protein of unknown function; has similarity to Torpedo californica tCTL1p, which is postulated to be a choline transporter, neither null mutation nor overexpression affects choline transport	1	-9.93	-15.57	-12.39	0.00	-4.47	-11.35	-3.57	0.00	7.31	-0.29	5.67
+YDL211C	YDL211C :: 	1	-3.04	-9.33	-1.99	0.00	3.34	-0.96	2.61	0.00	3.20	0.06	-0.03
+YDR094W	YDR094W :: 	1	-7.02	-13.82	0.18	0.00	2.30	-3.53	-0.65	0.00	5.38	2.75	1.96
+YKL100C	YKL100C :: 	1	-5.11	-10.16	-1.70	0.00	-0.41	-0.24	-1.02	0.00	2.84	1.17	1.85
+YJR015W	YJR015W :: 	1	-3.34	-9.90	-3.69	0.00	1.17	-1.34	2.22	0.00	4.04	1.09	1.42
+YOR291W	YOR291W :: 	1	-3.41	-8.88	-1.91	0.00	1.05	-2.45	0.52	0.00	4.25	1.87	2.89
+YDR049W	YDR049W :: 	1	-3.50	-9.29	-1.54	0.00	-0.53	-3.10	-0.79	0.00	1.33	-0.44	1.10
+YNL023C	FAP1 :: Protein that binds to Fpr1p (FKBP12), conferring rapamycin resistance by competing with rapamycin for Fpr1p binding; has similarity to putative transcription factors, including D. melanogaster shuttle craft and human NFX1	1	-3.93	-8.26	-0.80	0.00	-0.45	-2.54	0.67	0.00	0.60	0.10	-0.03
+YLR177W	YLR177W :: 	1	-5.82	-13.58	-3.84	0.00	1.71	-5.13	0.19	0.00	0.35	-2.66	-0.78
+YDR438W	THI74 :: Mitochondrial transporter repressible by thiamine	1	-3.66	-11.14	0.47	0.00	0.98	-3.14	-0.10	0.00	1.01	-1.45	0.69
+YGL140C	YGL140C :: 	1	-2.89	-10.54	0.55	0.00	0.98	-2.44	1.02	0.00	0.21	-2.52	-0.41
+YMR155W	YMR155W :: 	1	-5.04	-9.59	-2.24	0.00	0.67	-3.07	-0.63	0.00	3.03	-2.28	1.32
+YLL047W	YLL047W :: 	1	-2.48	-8.41	1.40	0.00	-0.63	-1.07	-0.76	0.00	0.79	-0.15	0.88
+YBR062C	YBR062C :: 	1	-7.50	-5.92	-3.17	0.00	-3.34	-4.39	-3.45	0.00	-2.50	-2.94	-2.65
+YLR247C	YLR247C :: Putative helicase; localizes to the mitochondrion and the nucleus; YLR247C is not an essential gene; null mutant displays increased levels of spontaneous Rad52p foci	1	-6.41	-7.37	-2.89	0.00	-3.57	-4.15	-3.17	0.00	-2.30	-2.34	-1.08
+YML116W-A	YML116W-A :: 	1	-6.46	-11.74	-5.18	0.00	-2.99	-6.33	-3.71	0.00	-1.74	-2.61	-0.42
+YOR052C	YOR052C :: 	1	-7.02	-11.61	-4.80	0.00	-4.75	-5.48	-1.74	0.00	-2.95	-3.82	-0.37
+YKL071W	YKL071W :: 	1	-15.60	-23.94	-14.49	0.00	-6.06	-3.92	-7.97	0.00	-3.54	-3.36	-6.38
+YKL142W	MRP8 :: Protein of unknown function; undergoes sumoylation; MRP8 transcription in induced in response to cell wall stress; originally thought to be a mitochondrial ribosomal protein based on sequence analysis	1	-9.84	-11.74	-7.82	0.00	-6.51	-3.58	-6.26	0.00	-3.31	-2.00	-3.23
+YBR063C	YBR063C :: 	1	-3.67	-9.64	-5.54	0.00	-1.31	-0.48	-2.39	0.00	-0.01	-0.92	-1.36
+YMR090W	YMR090W :: 	1	-13.27	-24.25	-12.71	0.00	-4.58	-8.60	-7.53	0.00	2.39	-2.59	-3.18
+YPL150W	YPL150W :: 	1	-4.19	-10.12	-5.61	0.00	-1.66	-3.49	-1.93	0.00	0.55	-1.37	-2.07
+YBR287W	YBR287W :: 	1	-9.48	-16.76	-14.83	0.00	-3.96	-6.50	-3.46	0.00	-0.48	-6.32	-3.59
+YMR295C	YMR295C :: Protein of unknown function that associates with ribosomes and binds to Ilm1p; green fluorescent protein (GFP)-fusion protein localizes to the cell periphery and bud; YMR295C is not an essential gene	1	-6.27	-13.29	-10.73	0.00	-3.50	-3.23	-2.14	0.00	-1.17	-1.26	-0.93
+YIL169C	YIL169C :: 	1	-34.74	-51.38	-61.36	0.00	-11.43	-24.99	-6.82	0.00	-12.65	-11.10	-12.03
+YKL023W	YKL023W :: 	1	-4.48	-9.95	-2.73	0.00	-6.08	-2.90	-7.45	0.00	-1.30	0.56	-2.73
+YMR173W-A	YMR173W-A :: 	1	-5.95	-12.23	-9.18	0.00	-4.75	-3.90	-6.62	0.00	0.70	-0.00	-3.36
+YDR109C	YDR109C :: 	1	-5.77	-8.51	-2.66	0.00	0.02	-1.85	-3.05	0.00	-0.07	0.36	-0.87
+YJL151C	SNA3 :: Integral membrane protein localized to vacuolar intralumenal vesicles, computational analysis of large-scale protein-protein interaction data suggests a possible role in either cell wall synthesis or protein-vacuolar targeting	1	-21.17	-25.54	-16.37	0.00	-2.44	-4.53	-2.61	0.00	5.42	5.46	2.64
+YLR283W	YLR283W :: 	1	-8.45	-8.26	-4.55	0.00	-0.77	-1.01	-1.93	0.00	0.77	1.04	0.25
+YOR292C	YOR292C :: 	1	-11.46	-10.76	-2.19	0.00	-0.88	-0.38	-3.61	0.00	3.26	2.70	1.69
+YPL168W	YPL168W :: 	1	-7.74	-6.77	-2.84	0.00	1.56	-0.91	-1.45	0.00	2.57	1.44	0.10
+YDR532C	YDR532C :: 	1	-11.65	-9.62	-2.42	0.00	-1.66	-1.34	-3.23	0.00	-0.22	-0.85	-1.61
+YKR023W	YKR023W :: 	1	-8.12	-5.53	-1.05	0.00	-1.53	-0.81	-1.87	0.00	-0.30	-0.14	-1.24
+YJR134C	SGM1 :: Protein of unknown function, required for wild-type growth rate on galactose and mannose; localizes to COPI coated vesicles and the Golgi apparatus	1	-8.21	-4.97	-3.76	0.00	-0.09	-1.61	-2.65	0.00	-0.03	-0.21	-1.27
+YNL303W	YNL303W :: 	1	-10.77	-6.89	-4.37	0.00	0.67	-3.34	-1.45	0.00	1.06	0.41	0.49
+YHR146W	CRP1 :: Protein that binds to cruciform DNA structures	1	-10.26	-7.75	-4.65	0.00	-1.07	-3.13	0.87	0.00	-0.51	-1.16	-1.12
+YHR207C	SET5 :: Zinc-finger protein of unknown function, contains one canonical and two unusual fingers in unusual arrangements; deletion enhances replication of positive-strand RNA virus	1	-7.85	-9.33	-2.87	0.00	-1.84	-2.27	-0.75	0.00	-1.31	-1.04	-1.19
+YMR153C-A	YMR153C-A :: 	1	-7.66	-8.56	-2.67	0.00	-1.47	-3.25	-0.93	0.00	-0.55	-3.16	-3.00
+YMR066W	SOV1 :: Mitochondrial protein of unknown function	1	-3.78	-5.52	-1.80	0.00	-0.90	0.63	-1.15	0.00	-0.54	-0.54	-0.31
+YNL077W	APJ1 :: Putative chaperone of the HSP40 (DNAJ) family; overexpression interferes with propagation of the [Psi+] prion; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	-5.95	-6.32	-1.29	0.00	-1.61	-0.62	-1.78	0.00	-2.39	-1.57	-0.65
+YCR095C	YCR095C :: Cytoplasmic protein required for replication of Brome mosaic virus in S. cerevisiae, which is a model system for studying replication of positive-strand RNA viruses in their natural hosts	1	-6.49	-7.15	-7.91	0.00	-2.36	0.72	-5.35	0.00	0.26	1.25	-3.12
+YDR458C	HEH2 :: Inner nuclear membrane (INM) protein; contains helix-extension-helix (HEH) motif, nuclear localization signal sequence; targeting to the INM requires the Srp1p-Kap95p karyopherins and the Ran cycle	1	-3.71	-5.26	-7.32	0.00	-0.20	0.87	-1.85	0.00	0.81	0.31	-1.77
+YEL075C	YEL075C :: 	1	-7.90	-5.31	-14.72	0.00	-0.10	-1.92	-2.80	0.00	0.38	1.01	-3.20
+YER189W	YER189W :: 	1	-7.67	-5.05	-15.20	0.00	-0.56	-1.96	-2.10	0.00	0.68	1.03	-3.62
+YLR462W	YLR462W :: 	1	-8.03	-8.79	-14.16	0.00	-0.30	-2.71	-4.52	0.00	-0.05	-0.08	-4.23
+YGR042W	YGR042W :: 	1	-11.36	-7.42	-10.02	0.00	-1.21	-1.69	-2.17	0.00	1.47	1.23	1.82
+YNR034W-A	YNR034W-A :: 	1	-20.13	-10.54	-24.28	0.00	-6.24	-5.93	-8.62	0.00	3.80	6.22	5.64
+YGR201C	YGR201C :: 	1	-9.68	-12.43	-13.51	0.00	-2.66	-0.55	-4.25	0.00	2.92	2.75	1.55
+YJL162C	JJJ2 :: Protein of unknown function, contains a J-domain, which is a region with homology to the E. coli DnaJ protein	1	-4.18	-4.60	-5.94	0.00	-0.81	-1.01	-1.50	0.00	2.03	1.48	0.29
+YHR057C	CPR2 :: Peptidyl-prolyl cis-trans isomerase (cyclophilin), catalyzes the cis-trans isomerization of peptide bonds N-terminal to proline residues; has a potential role in the secretory pathway	1	-5.08	-4.93	-4.00	0.00	-2.11	0.02	-1.16	0.00	-0.09	2.87	-1.09
+YIR035C	YIR035C :: 	1	-9.57	-11.36	-9.20	0.00	2.08	-5.26	-1.82	0.00	0.60	-3.32	-4.26
+YNR014W	YNR014W :: 	1	-13.16	-11.72	-9.68	0.00	6.35	-4.08	-0.22	0.00	0.52	-3.97	-5.25
+YKL072W	STB6 :: Protein that binds Sin3p in a two-hybrid assay	1	-7.74	-10.86	-11.58	0.00	1.55	-2.10	-2.22	0.00	2.30	0.10	-5.52
+YNL087W	TCB2 :: Bud-specific protein with a potential role in membrane trafficking; GFP-fusion protein migrates from the cell surface to intracellular vesicles near vacuole; contains 3 calcium and lipid binding domains; mRNA is targeted to the bud	1	-7.71	-11.77	-11.20	0.00	0.34	-1.69	1.74	0.00	1.44	-0.96	-3.23
+YOR006C	YOR006C :: Putative protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to both the cytoplasm and the nucleus; Null mutant accumulates 20S pre-rRNA	1	-5.18	-7.87	-4.79	0.00	1.06	0.30	-0.94	0.00	0.23	-0.23	-1.11
+YJL171C	YJL171C :: 	1	-16.07	-22.47	-14.40	0.00	-2.86	-4.17	0.95	0.00	1.14	-1.16	0.57
+YMR304C-A	YMR304C-A :: 	1	-22.66	-29.37	-20.84	0.00	-1.33	-5.52	-1.07	0.00	0.86	0.37	-1.52
+YOR389W	YOR389W :: 	1	-14.95	-20.45	-16.76	0.00	-2.58	-7.75	0.10	0.00	0.96	-0.80	-0.46
+YPL278C	YPL278C :: 	1	-15.29	-19.66	-20.10	0.00	-3.36	-8.48	0.39	0.00	1.17	-0.36	0.27
+YPL277C	YPL277C :: 	1	-12.99	-17.97	-18.46	0.00	-3.29	-8.46	0.58	0.00	3.07	1.07	2.39
+YPL067C	YPL067C :: 	1	-6.07	-10.27	-10.13	0.00	-0.71	-1.75	4.67	0.00	1.44	0.18	3.78
+YPR174C	YPR174C :: 	1	-4.13	-6.36	-4.72	0.00	1.10	-1.71	1.59	0.00	0.51	0.14	1.01
+YBR184W	YBR184W :: 	1	-10.20	-6.86	-3.86	0.00	-3.06	1.77	-1.21	0.00	-1.35	-1.16	-1.89
+YGR168C	YGR168C :: 	1	-6.53	-3.99	-3.03	0.00	-1.69	2.23	-0.31	0.00	-1.51	0.07	-1.65
+YJL023C	PET130 :: Protein required for respiratory growth; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	-6.85	-4.88	-4.76	0.00	-2.49	1.18	-2.47	0.00	-2.17	-0.33	-1.06
+YCR082W	AHC2 :: Protein of unknown function, putative transcriptional regulator; proposed to be a Ada Histone acetyltransferase complex component; GFP tagged protein is localized to the cytoplasm and nucleus	1	-3.15	-4.27	-4.40	0.00	-3.15	0.94	-2.03	0.00	-2.03	-0.80	-0.71
+YBR138C	YBR138C :: 	1	-4.06	-1.44	-0.51	0.00	-0.99	0.57	-2.71	0.00	-0.18	0.02	-0.83
+YDR383C	NKP1 :: Non-essential kinetochore protein, subunit of the Ctf19 central kinetochore complex (Ctf19p-Mcm21p-Okp1p-Mcm22p-Mcm16p-Ctf3p-Chl4p-Mcm19p-Nkp1p-Nkp2p-Ame1p-Mtw1p)	1	-8.34	-4.82	-2.33	0.00	-4.27	-0.54	-3.48	0.00	0.68	1.15	-1.66
+YMR185W	YMR185W :: 	1	-7.74	-5.39	-0.48	0.00	-2.53	-0.76	-1.49	0.00	1.18	0.97	-1.14
+YCR096C	HMRA2 :: Silenced copy of a2 at HMR; similarity to Alpha2p; required along with a1p for inhibiting expression of the HO endonuclease in a/alpha HO/HO diploid cells with an active mating-type interconversion system	1	-14.23	-8.66	-8.29	0.00	-3.52	0.52	-4.31	0.00	3.84	5.92	0.79
+YOR019W	YOR019W :: 	1	-9.29	-5.52	-5.78	0.00	-3.78	0.49	-4.58	0.00	3.99	5.46	3.52
+YGL079W	YGL079W :: 	1	-4.97	-3.28	-2.17	0.00	-1.50	1.88	-1.34	0.00	0.52	1.49	-0.67
+YPL064C	CWC27 :: Component of a complex containing Cef1p, putatively involved in pre-mRNA splicing; has similarity to S. pombe Cwf27p	1	-6.60	-1.83	-3.27	0.00	-0.08	2.05	-2.22	0.00	0.88	1.69	-0.54
+YBR255W	YBR255W :: Protein of unknown function, required for normal growth rate at 15 degrees C; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm in a punctate pattern; mtc4 is synthetically sick with cdc13-1	1	-6.66	-5.13	-3.10	0.00	-2.34	-4.62	-2.22	0.00	0.60	0.12	0.87
+YNL140C	YNL140C :: 	1	-5.24	-3.73	-2.04	0.00	-1.23	-3.37	-1.83	0.00	0.53	0.30	-0.58
+YDL091C	UBX3 :: UBX (ubiquitin regulatory X) domain-containing protein that interacts with Cdc48p, green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm in a punctate pattern	1	-10.06	-7.71	-6.97	0.00	-3.14	-4.69	-4.24	0.00	2.74	1.51	0.75
+YDL176W	YDL176W :: 	1	-8.18	-3.64	-4.32	0.00	-1.49	-3.61	-2.31	0.00	1.44	-0.52	-0.04
+YIL161W	YIL161W :: 	1	-8.59	-3.98	-5.14	0.00	-2.75	-1.92	-2.05	0.00	0.64	0.73	-0.30
+YIL024C	YIL024C :: 	1	-11.05	-9.91	-11.15	0.00	-4.10	-6.07	-7.41	0.00	-0.35	0.18	0.65
+YJR061W	YJR061W :: 	1	-15.45	-13.85	-11.56	0.00	-3.99	-5.28	-5.90	0.00	0.61	0.10	-1.07
+YOR059C	YOR059C :: 	1	-9.09	-6.88	-8.22	0.00	-3.41	-3.48	-2.91	0.00	-1.02	-0.23	-1.76
+YLR327C	TMA10 :: Protein of unknown function that associates with ribosomes	1	-29.31	-24.91	-19.17	0.00	-12.20	-12.48	-6.58	0.00	-3.12	3.71	5.87
+YCL056C	YCL056C :: 	1	-13.12	-2.77	-3.91	0.00	-3.50	-3.80	-2.85	0.00	-0.31	-0.66	-1.73
+YKL076C	PSY1 :: Dubious open reading frame, unlikely to encode a protein; not conserved in closely related Saccharomyces species; 69% of ORF overlaps the uncharacterized ORF YKL075C	1	-6.79	-3.52	-2.45	0.00	-1.97	-2.57	-2.07	0.00	-1.12	-0.68	-1.65
+YMR114C	YMR114C :: 	1	-11.53	-4.65	-6.55	0.00	-4.74	-7.52	-3.73	0.00	0.43	-2.88	-0.61
+YNL215W	IES2 :: Protein that associates with the INO80 chromatin remodeling complex under low-salt conditions; essential for growth under anaerobic conditions	1	-7.24	-2.11	-6.64	0.00	-2.93	-5.52	-4.19	0.00	-1.06	-0.35	-1.44
+YDL021W	GPM2 :: Homolog of Gpm1p phosphoglycerate mutase, which converts 3-phosphoglycerate to 2-phosphoglycerate in glycolysis; may be non-functional derivative of a gene duplication event	1	-12.72	-10.25	-9.32	0.00	-5.19	-9.81	-11.33	0.00	4.27	1.91	-4.54
+YOL083W	YOL083W :: 	1	-6.05	-1.33	-5.82	0.00	-6.17	-4.21	-8.42	0.00	-0.04	0.26	-2.07
+YOR215C	YOR215C :: Putative protein of unknown function; the authentic protein is detected in highly purified mitochondria in high-throughput studies; null mutant displays altered rate of mitochondrial loss and reduced growth rate in minimal glycerol media	1	-8.43	-3.92	-6.52	0.00	-5.71	-3.57	-8.18	0.00	-0.22	1.13	-0.17
+YOR289W	YOR289W :: 	1	-9.31	-3.32	-5.13	0.00	-5.62	-3.55	-6.23	0.00	0.24	0.12	-1.43
+YER053C-A	YER053C-A :: 	1	-12.70	-7.13	-10.08	0.00	-3.13	-2.70	-9.59	0.00	1.13	1.60	0.07
+YLR271W	YLR271W :: 	1	-12.15	-2.62	-8.48	0.00	-3.20	-2.82	-5.57	0.00	2.74	1.87	0.53
+YMR040W	YET2 :: Protein of unknown function that may interact with ribosomes, based on co-purification experiments; homolog of human BAP31 protein	1	-13.45	-0.23	-10.36	0.00	-4.75	-3.99	-6.29	0.00	0.55	2.28	-1.51
+YLR351C	NIT3 :: Nit protein, one of two proteins in S. cerevisiae with similarity to the Nit domain of NitFhit from fly and worm and to the mouse and human Nit protein which interacts with the Fhit tumor suppressor; nitrilase superfamily member	1	-2.85	-1.10	-1.69	0.00	0.22	-0.83	0.18	0.00	-0.13	-1.75	-0.36
+YAR068W	YAR068W :: 	1	-8.72	-12.53	-22.94	0.00	-7.99	-16.29	-4.05	0.00	-5.68	-4.45	-4.98
+YHR214W-A	YHR214W-A :: 	1	-10.18	-14.21	-25.76	0.00	-8.00	-16.87	-4.58	0.00	-6.12	-4.56	-5.37
+YHR214W-A	YHR214W-A :: 	1	-10.18	-14.21	-25.76	0.00	-8.00	-16.87	-4.58	0.00	-6.12	-4.56	-5.37
+YLR030W	YLR030W :: 	1	-9.84	-8.61	-15.87	0.00	-5.91	-3.22	-6.22	0.00	-3.27	-3.11	-5.92
+YBL112C	YBL112C :: 	1	1.26	-4.13	-9.06	0.00	0.74	-3.05	-1.74	0.00	-4.29	-2.19	-2.76
+YBR052C	RFS1 :: Protein of unknown function; member of a flavodoxin-like fold protein family that includes Pst2p and Ycp4p; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm in a punctate pattern	1	-0.80	-2.42	-8.45	0.00	0.91	-3.35	-0.81	0.00	-0.36	-1.60	-1.79
+YFR016C	YFR016C :: 	1	-0.40	-3.33	-6.55	0.00	0.31	-3.29	-1.77	0.00	-0.30	-0.56	0.14
+YBL086C	YBL086C :: 	1	-5.32	-4.00	4.20	0.00	0.55	-1.31	-3.61	0.00	-0.58	-0.78	-1.30
+YLR392C	YLR392C :: 	1	-2.15	-2.51	2.94	0.00	-1.46	-1.83	-2.33	0.00	-2.17	-1.29	-0.67
+YDR482C	CWC21 :: Component of a complex containing Cef1p, putatively involved in pre-mRNA splicing; may bind RNA; has similarity to S. pombe Cwf21p	1	-4.95	-3.60	2.73	0.00	-1.43	-0.59	-1.69	0.00	-1.17	-1.89	-1.31
+YOR364W	YOR364W :: 	1	-4.44	-5.91	3.29	0.00	-1.81	-0.14	0.62	0.00	-1.53	-1.82	-2.36
+YDR154C	YDR154C :: 	1	-10.54	-10.75	0.08	0.00	-2.26	-6.25	-6.11	0.00	1.78	-0.33	-0.60
+YDR391C	YDR391C :: 	1	-5.07	-4.62	1.88	0.00	-2.76	-2.43	-2.51	0.00	0.36	-1.36	-1.13
+YPL216W	YPL216W :: 	1	-3.93	-4.17	1.33	0.00	-0.67	-2.18	-0.52	0.00	0.14	-0.38	-1.88
+YDL206W	YDL206W :: 	1	-5.43	-4.46	5.46	0.00	-2.33	-3.66	-2.81	0.00	1.22	0.14	1.40
+YPL229W	YPL229W :: 	1	-4.37	-3.56	3.83	0.00	-1.17	-1.90	-0.27	0.00	0.35	-0.56	1.07
+YEL023C	YEL023C :: 	1	-2.12	-1.79	4.95	0.00	-1.55	-3.94	0.06	0.00	-0.63	-1.69	0.33
+YDR186C	YDR186C :: 	1	-1.63	-4.36	0.93	0.00	-2.00	-4.99	-2.86	0.00	-1.61	-1.35	-0.74
+YOL036W	YOL036W :: 	1	-2.33	-1.61	2.28	0.00	-2.74	-4.63	-2.20	0.00	-0.47	-1.26	0.42
+YDR505C	PSP1 :: Asn and gln rich protein of unknown function; high-copy suppressor of POL1 (DNA polymerase alpha) and partial suppressor of CDC2 (polymerase delta) and CDC6 (pre-RC loading factor) mutations; overexpression results in growth inhibition	1	1.07	-4.02	2.31	0.00	-3.79	-5.89	-2.73	0.00	0.61	-1.35	0.76
+YKL162C	YKL162C :: 	1	1.13	-1.82	5.38	0.00	-4.62	-5.98	-4.57	0.00	-0.92	-1.98	0.39
+YER004W	YER004W :: Protein of unknown function, localized to the mitochondrial outer membrane; induced by treatment with 8-methoxypsoralen and UVA irradiation	1	-1.06	-5.24	1.73	0.00	-3.50	-3.04	-1.32	0.00	-0.39	-1.13	3.33
+YGR161C	RTS3 :: Putative component of the protein phosphatase type 2A complex	1	-1.43	-10.29	4.49	0.00	-5.59	-7.58	-0.83	0.00	-0.61	-3.22	5.83
+YML131W	YML131W :: 	1	0.33	-7.94	0.52	0.00	-8.15	-6.10	-4.34	0.00	-3.52	-0.49	2.34
+YBR113W	YBR113W :: 	1	-5.72	-3.53	0.98	0.00	-0.06	-2.86	1.69	0.00	-1.50	-2.52	4.01
+YER152C	YER152C :: 	1	-5.82	-9.52	-1.50	0.00	-2.04	-5.89	3.81	0.00	-0.55	-1.77	6.34
+YAR020C	PAU7 :: Part of 23-member seripauperin multigene family, active during alcoholic fermentation, regulated by anaerobiosis, inhibited by oxygen, repressed by heme	1	-3.36	-4.00	0.48	0.00	-1.99	-5.03	-1.62	0.00	4.55	2.62	6.15
+YBL067C	UBP13 :: Putative ubiquitin carboxyl-terminal hydrolase, ubiquitin-specific protease that cleaves ubiquitin-protein fusions	1	-1.41	-4.47	-2.42	0.00	-1.85	-1.61	1.00	0.00	3.01	2.32	5.04
+YMR148W	YMR148W :: 	1	-1.95	-3.90	-0.30	0.00	-1.08	-0.73	0.25	0.00	2.47	1.14	3.24
+YKL031W	YKL031W :: 	1	-5.47	-5.64	-0.04	0.00	0.19	-2.58	2.64	0.00	4.73	2.55	5.06
+YMR034C	YMR034C :: 	1	-4.51	-4.47	-1.42	0.00	-2.94	0.53	-1.97	0.00	2.39	3.36	5.37
+YAR023C	YAR023C :: 	1	-2.81	-4.23	-4.64	0.00	-0.54	0.59	-0.82	0.00	5.30	5.71	3.74
+YLR046C	YLR046C :: 	1	-8.11	-10.83	-4.69	0.00	0.53	0.65	1.13	0.00	6.58	4.63	4.17
+YOR186W	YOR186W :: 	1	-11.52	-12.73	-7.42	0.00	-0.09	-3.33	-2.99	0.00	8.76	6.02	6.82
+YGL072C	YGL072C :: 	1	-10.34	-12.54	-3.92	0.00	1.19	8.29	5.82	0.00	10.99	14.85	11.80
+YDR506C	YDR506C :: 	1	-1.89	-4.55	-6.04	0.00	-0.44	-2.89	-1.44	0.00	2.86	-0.26	0.02
+YKL168C	KKQ8 :: Putative serine/threonine protein kinase with unknown cellular role	1	-1.87	-2.91	-4.98	0.00	0.03	-0.75	-0.63	0.00	2.83	1.68	1.56
+YER039C-A	YER039C-A :: 	1	-0.25	-2.89	-4.82	0.00	2.77	0.58	0.07	0.00	3.21	0.82	4.39
+YER039C-A	YER039C-A :: 	1	-0.25	-2.89	-4.82	0.00	2.77	0.58	0.07	0.00	3.21	0.82	4.39
+YML072C	TCB3 :: Lipid-binding protein, localized to the bud via specific mRNA transport; non-tagged protein detected in a phosphorylated state in mitochondria; GFP-fusion protein localizes to the cell periphery; C-termini of Tcb1p, Tcb2p and Tcb3p interact	1	-3.40	-0.71	-4.90	0.00	1.73	1.41	2.35	0.00	4.18	3.59	2.15
+YBL083C	YBL083C :: 	1	0.01	-4.05	-1.71	0.00	1.78	0.38	3.98	0.00	4.71	3.34	6.06
+YLR374C	YLR374C :: 	1	1.19	-8.04	1.24	0.00	2.14	1.24	2.87	0.00	3.98	2.46	3.82
+YBR206W	YBR206W :: 	1	-0.16	-3.59	-0.65	0.00	2.05	1.45	0.22	0.00	4.54	4.05	1.57
+YIL059C	YIL059C :: 	1	0.65	-4.99	-1.68	0.00	1.99	1.17	0.83	0.00	2.13	1.68	1.82
+YKR045C	YKR045C :: 	1	0.50	-5.30	-1.99	0.00	2.10	1.38	1.03	0.00	2.93	2.76	0.60
+YBR187W	GDT1 :: Putative protein of unknown function; expression is reduced in a gcr1 null mutant; GFP-fusion protein localizes to the vacuole; expression pattern and physical interactions suggest a possible role in ribosome biogenesis	1	-5.29	-7.23	-0.42	0.00	3.67	2.31	2.53	0.00	3.18	0.95	0.53
+YPR136C	YPR136C :: 	1	-2.85	-3.90	0.95	0.00	1.45	0.79	1.22	0.00	1.76	0.68	0.58
+YIL067C	YIL067C :: 	1	-2.68	-3.24	0.37	0.00	1.92	-0.09	1.56	0.00	1.73	0.92	1.17
+YEL017W	GTT3 :: Protein of unknown function with a possible role in glutathione metabolism, as suggested by computational analysis of large-scale protein-protein interaction data; GFP-fusion protein localizes to the nuclear periphery	1	-6.28	-7.20	-0.64	0.00	3.15	-0.08	1.04	0.00	5.71	3.15	2.51
+YIL086C	YIL086C :: 	1	-5.81	-6.04	-0.16	0.00	3.19	1.71	1.85	0.00	3.67	2.79	1.85
+YDL187C	YDL187C :: 	1	-6.43	-3.56	1.57	0.00	3.91	2.12	2.95	0.00	2.29	0.79	-0.27
+YHR093W	AHT1 :: Dubious open reading frame, unlikely to encode a protein; not conserved in closely related Saccharomyces species; multicopy suppressor of glucose transport defects, likely due to the presence of an HXT4 regulatory element in the region	1	-5.01	-2.02	2.61	0.00	3.88	3.06	2.18	0.00	3.00	1.04	0.32
+YPL136W	YPL136W :: 	1	-4.61	-2.92	-1.08	0.00	1.26	1.70	2.39	0.00	3.30	1.09	-0.23
+YPR039W	YPR039W :: 	1	-9.15	-6.21	-0.76	0.00	4.39	4.44	2.81	0.00	4.94	1.61	-0.68
+YCR064C	YCR064C :: 	1	-9.54	-22.41	-7.57	0.00	3.67	2.82	3.66	0.00	6.00	4.33	5.08
+YDR029W	YDR029W :: 	1	-3.26	-5.01	-1.83	0.00	2.85	1.23	0.92	0.00	1.28	1.66	1.24
+YMR215W	GAS3 :: Putative 1,3-beta-glucanosyltransferase, has similarity to Gas1p; localizes to the cell wall	1	-6.80	-8.31	-5.32	0.00	5.99	2.14	4.59	0.00	5.58	2.41	1.46
+YOL056W	GPM3 :: Homolog of Gpm1p phosphoglycerate mutase, which converts 3-phosphoglycerate to 2-phosphoglycerate in glycolysis; may be non-functional derivative of a gene duplication event	1	-8.54	-12.17	-2.99	0.00	3.55	4.52	2.77	0.00	1.70	0.66	-0.68
+YJL118W	YJL118W :: 	1	-11.20	-13.15	-7.61	0.00	2.78	-0.95	4.89	0.00	4.37	1.72	3.03
+YOR246C	YOR246C :: 	1	-2.80	-4.03	-2.61	0.00	0.59	0.41	2.11	0.00	1.49	0.84	0.21
+YPL108W	YPL108W :: 	1	-4.64	-3.93	-3.84	0.00	-0.54	0.95	2.26	0.00	1.51	1.91	1.45
+YOR248W	YOR248W :: 	1	-16.73	-14.60	-4.06	0.00	0.93	0.94	4.56	0.00	3.46	2.79	5.17
+YDL071C	YDL071C :: 	1	-14.23	-5.93	-3.29	0.00	1.02	-1.54	1.55	0.00	5.08	2.99	1.89
+YOR053W	YOR053W :: 	1	-20.26	-7.29	-10.51	0.00	3.46	0.38	4.11	0.00	7.39	6.05	2.92
+YDR444W	YDR444W :: 	1	-4.93	-2.69	-3.06	0.00	2.12	-0.57	-1.39	0.00	1.47	0.89	-0.39
+YJR129C	YJR129C :: 	1	-1.62	-0.71	-0.55	0.00	2.16	-0.40	1.42	0.00	0.81	1.66	2.13
+YMR013W-A	YMR013W-A :: 	1	-7.76	-5.64	0.76	0.00	6.14	8.42	9.20	0.00	1.78	2.68	4.92
+YNL300W	YNL300W :: 	1	-9.38	-0.94	0.83	0.00	5.59	0.85	10.04	0.00	3.68	1.72	2.90
+YBR047W	YBR047W :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	-12.22	3.45	6.76	0.00	-13.01	-0.21	-6.51	0.00	-1.09	6.25	2.59
+YPL250C	ICY2 :: Protein of unknown function; mobilized into polysomes upon a shift from a fermentable to nonfermentable carbon source; potential Cdc28p substrate	1	-11.63	1.10	7.00	0.00	-5.99	3.81	2.40	0.00	2.69	6.39	4.02
+YER175C	TMT1 :: Trans-aconitate methyltransferase, cytosolic enzyme that catalyzes the methyl esterification of 3-isopropylmalate, an intermediate of the leucine biosynthetic pathway, and trans-aconitate, which inhibits the citric acid cycle	1	-1.51	3.36	3.70	0.00	-7.71	2.68	2.46	0.00	1.75	5.14	4.52
+YCR104W	PAU3 :: Part of 23-member seripauperin multigene family encoded mainly in subtelomeric regions, active during alcoholic fermentation, regulated by anaerobiosis, negatively regulated by oxygen, repressed by heme	1	-4.31	3.60	5.09	0.00	-1.49	-3.00	-0.24	0.00	2.78	2.49	6.02
+YIR041W	PAU15 :: Hypothetical protein	1	-4.51	1.23	4.99	0.00	-1.61	-3.99	-0.43	0.00	3.06	2.19	5.77
+YMR325W	YMR325W :: Hypothetical protein	1	-6.44	0.40	3.91	0.00	-1.43	-4.37	-0.74	0.00	3.25	2.34	6.40
+YPL282C	YPL282C :: Hypothetical protein	1	-6.20	0.50	4.53	0.00	-1.86	-4.10	-0.59	0.00	3.29	2.18	6.12
+YOR394W	YOR394W :: Hypothetical protein	1	-5.51	0.12	4.81	0.00	-1.18	-4.23	-1.13	0.00	3.27	2.10	5.98
+YHR130C	YHR130C :: 	1	-2.82	0.09	4.04	0.00	-2.43	-2.28	1.64	0.00	1.62	1.82	4.29
+YDL218W	YDL218W :: 	1	-17.13	3.92	-4.81	0.00	-4.71	0.24	-5.43	0.00	16.02	10.73	13.81
+YLL025W	YLL025W :: Putative protein of unknown function; YLL025W is not an essential gene	1	-4.67	2.87	-0.59	0.00	-0.78	-3.12	-3.83	0.00	4.66	2.96	5.04
+YER079W	YER079W :: 	1	-1.21	1.54	1.37	0.00	-3.28	-2.43	-2.27	0.00	3.22	3.04	4.27
+YER067W	YER067W :: 	1	-8.11	4.83	1.28	0.00	0.12	-1.37	-1.90	0.00	2.57	7.21	8.16
+YOL053W	YOL053W :: Putative protein of unknown function; YOL053W is not an essential gene; null mutant displays decreased frequency of mitochondrial genome loss (petite formation)	1	-4.15	2.61	1.98	0.00	0.51	0.10	-1.74	0.00	1.20	2.61	2.67
+YDR128W	YDR128W :: Protein of unknown function; mtc5 is synthetically sick with cdc13-1	1	-4.83	-0.41	0.18	0.00	-0.95	-3.38	-1.24	0.00	0.17	-0.60	0.89
+YNL295W	YNL295W :: 	1	-6.67	-1.60	1.01	0.00	0.41	-2.05	-0.87	0.00	0.43	0.28	2.12
+YHR080C	YHR080C :: 	1	-10.01	-2.96	-1.15	0.00	-1.30	-3.12	-4.27	0.00	2.10	2.12	1.65
+YKL053W	YKL053W :: 	1	-10.60	-4.06	-1.26	0.00	-2.65	-4.60	-3.64	0.00	2.16	0.95	1.81
+YHR159W	YHR159W :: 	1	-9.97	-5.60	-3.18	0.00	-1.09	-2.75	-2.09	0.00	2.45	2.53	0.76
+YIL087C	YIL087C :: Putative protein of unknown function; protein is detected in purified mitochondria in high-throughput studies; null mutant displays decreased mitochondrial genome loss (petite formation) and severe growth defect in minimal glycerol media	1	-13.86	-4.41	0.85	0.00	-1.03	-3.76	-1.43	0.00	5.42	3.37	5.48
+YLL023C	YLL023C :: 	1	-8.46	-5.92	1.39	0.00	-1.34	-1.49	-1.79	0.00	4.79	3.52	4.47
+YLR356W	YLR356W :: 	1	-6.22	-1.66	2.17	0.00	-2.93	-1.59	0.23	0.00	2.42	2.30	4.69
+YGR149W	YGR149W :: 	1	-4.40	1.43	-0.80	0.00	-1.10	-2.29	-0.89	0.00	1.94	-0.67	2.54
+YLL032C	YLL032C :: 	1	-3.71	2.62	-1.56	0.00	-0.11	-1.66	0.31	0.00	1.70	0.78	1.27
+YOR111W	YOR111W :: 	1	-4.45	-0.31	-1.01	0.00	-2.42	-0.20	2.05	0.00	1.13	0.13	2.14
+YCR076C	YCR076C :: 	1	-1.68	1.53	-2.93	0.00	-3.03	-4.38	-3.11	0.00	-0.72	-0.32	1.02
+YDR379C-A	YDR379C-A :: 	1	-1.92	6.12	-4.69	0.00	-8.38	-7.07	-7.39	0.00	-0.56	0.26	1.18
+YGR250C	YGR250C :: 	1	-1.47	0.08	-2.56	0.00	-5.54	-6.37	-6.94	0.00	-0.41	1.05	2.14
+YKL123W	YKL123W :: 	1	-0.18	0.49	-0.21	0.00	-5.16	-4.11	-5.19	0.00	-0.83	0.84	0.22
+YGR268C	HUA1 :: Cytoplasmic protein containing a zinc finger domain with sequence similarity to that of Type I J-proteins; computational analysis of large-scale protein-protein interaction data suggests a possible role in actin patch assembly	1	-1.32	3.95	-0.44	0.00	-4.26	-5.87	-1.63	0.00	-0.52	0.96	2.11
+YIL055C	YIL055C :: 	1	-3.52	4.43	0.37	0.00	-7.16	-9.77	-4.43	0.00	-1.48	0.19	3.64
+YMR085W	YMR085W :: 	1	0.95	5.83	1.50	0.00	-7.00	-6.16	-3.11	0.00	-0.85	0.29	2.85
+YJL132W	YJL132W :: 	1	-2.05	3.03	3.57	0.00	-5.38	-4.71	-4.80	0.00	0.34	-0.16	1.46
+YFR017C	YFR017C :: 	1	0.28	4.17	0.27	0.00	-3.22	-10.42	-6.06	0.00	2.27	2.86	6.33
+YIL136W	OM45 :: Protein of unknown function, major constituent of the mitochondrial outer membrane; located on the outer (cytosolic) face of the outer membrane	1	-1.57	-3.98	-2.00	0.00	-10.47	-15.09	-14.62	0.00	1.34	2.31	10.09
+YPL222W	YPL222W :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	-3.69	0.60	-4.22	0.00	-5.50	-9.03	-5.94	0.00	2.53	1.78	8.32
+YLR001C	YLR001C :: 	1	0.64	-0.83	-0.41	0.00	-2.45	-3.11	-3.66	0.00	2.13	1.34	2.16
+YJL185C	YJL185C :: 	1	1.45	0.53	-0.01	0.00	-5.66	-2.69	-4.70	0.00	0.49	1.69	2.83
+YDR070C	YDR070C :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	-4.79	-4.87	-11.90	0.00	-9.55	-7.60	-19.26	0.00	8.74	8.25	3.31
+YPL223C	GRE1 :: Hydrophilin of unknown function; stress induced (osmotic, ionic, oxidative, heat shock and heavy metals); regulated by the HOG pathway	1	-15.35	-3.87	-12.59	0.00	-9.94	-4.55	-20.91	0.00	12.64	12.23	8.46
+YDR282C	YDR282C :: 	1	-0.29	0.79	-2.82	0.00	-1.58	-2.57	-3.59	0.00	1.96	1.27	1.29
+YNL115C	YNL115C :: 	1	-2.51	0.77	-6.35	0.00	-4.15	-5.36	-6.73	0.00	2.68	1.77	1.01
+YJL057C	IKS1 :: Putative serine/threonine kinase; expression is induced during mild heat stress; deletion mutants are hypersensitive to copper sulphate and resistant to sorbate; interacts with an N-terminal fragment of Sst2p	1	-1.93	1.01	-9.28	0.00	-3.17	-3.20	-5.73	0.00	1.76	2.18	1.10
+YKR049C	FMP46 :: Putative redox protein containing a thioredoxin fold; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	-4.25	1.28	-6.39	0.00	-5.75	-5.25	-4.91	0.00	2.85	4.37	2.66
+YNL195C	YNL195C :: 	1	-4.97	0.89	-14.01	0.00	-5.30	-6.99	-6.82	0.00	6.35	6.27	7.51
+YHR033W	YHR033W :: 	1	-0.19	2.70	-6.59	0.00	-2.16	-6.94	-8.74	0.00	4.44	1.19	5.35
+YJR085C	YJR085C :: 	1	-2.72	1.20	-2.51	0.00	-1.15	-1.21	-2.90	0.00	0.59	0.39	-0.18
+YKL065C	YET1 :: Endoplasmic reticulum transmembrane protein; may interact with ribosomes, based on co-purification experiments; homolog of human BAP31 protein	1	-3.40	1.81	-6.58	0.00	-4.23	-0.71	-3.80	0.00	-0.46	0.67	-0.99
+YEL005C	VAB2 :: Protein with a potential role in vacuolar function, as suggested by its ability to bind Vac8p; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm in a punctate pattern	1	-4.31	0.57	-0.14	0.00	-3.23	-0.84	-3.93	0.00	0.99	2.06	0.16
+YGR053C	YGR053C :: 	1	-5.26	2.74	0.03	0.00	-5.31	-4.52	-6.54	0.00	1.98	2.65	-0.37
+YGR236C	SPG1 :: Protein required for survival at high temperature during stationary phase; not required for growth on nonfermentable carbon sources; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	-17.89	3.38	-10.53	0.00	-13.30	-5.91	-8.82	0.00	2.41	4.89	5.77
+YLR252W	YLR252W :: 	1	-8.61	2.01	-3.41	0.00	-4.13	-3.72	-4.94	0.00	1.61	1.37	0.06
+YPL039W	YPL039W :: 	1	-3.87	0.19	-0.82	0.00	-2.41	-2.37	-0.74	0.00	0.49	1.22	0.21
+YJL161W	YJL161W :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	-11.37	-1.66	-3.13	0.00	-8.05	-8.87	-7.73	0.00	5.90	5.98	5.33
+YOR044W	YOR044W :: Putative protein of unknown function; green fluorescent protein (GFP)-fusion localizes to the ER; null mutant displays increased levels of spontaneous Rad52p foci	1	-9.24	-0.37	2.06	0.00	-4.91	-1.35	-4.00	0.00	4.97	3.89	0.41
+YLR290C	YLR290C :: 	1	-3.19	-2.62	-2.35	0.00	-6.68	-1.30	-3.04	0.00	0.19	0.82	-1.00
+YDR366C	YDR366C :: 	1	-7.71	3.14	-1.53	0.00	-3.15	-6.10	0.19	0.00	-2.43	-2.79	-1.14
+YPR002C-A	YPR002C-A :: 	1	-6.68	1.09	-1.85	0.00	-3.92	-8.05	3.25	0.00	-0.33	-2.11	1.62
+YGR011W	YGR011W :: 	1	-1.19	0.53	-3.50	0.00	-2.27	-3.30	-0.05	0.00	-0.38	-0.10	2.45
+YKR075C	YKR075C :: 	1	-1.64	1.12	-4.80	0.00	-0.54	-1.19	0.68	0.00	-2.81	-2.66	3.23
+YFL066C	YFL066C :: 	1	2.59	1.58	-2.26	0.00	-0.74	-10.33	0.60	0.00	1.04	-3.31	2.18
+YML009W-B	YML009W-B :: 	1	1.06	-2.24	-0.08	0.00	0.01	-5.36	0.63	0.00	-0.44	-1.65	2.31
+YOL070C	YOL070C :: Protein of unknown function, localizes to the bud neck and cytoplasm; interacts with Nap1p; may interact with ribosomes, based on co-purification experiments; potential Cdc28p substrate	1	-1.20	-1.16	-0.44	0.00	0.02	-5.86	-0.83	0.00	0.74	-2.04	1.72
+YLR072W	YLR072W :: 	1	-1.30	-0.84	-2.49	0.00	-0.22	-3.98	-0.94	0.00	-1.07	-1.00	0.56
+YOR042W	CUE5 :: Protein containing a CUE domain that binds ubiquitin, which may facilitate intramolecular monoubiquitination; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm in a punctate pattern	1	-1.40	-2.21	-1.63	0.00	-2.71	-8.09	-2.50	0.00	-0.64	-1.11	1.51
+YBR150C	TBS1 :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	-1.65	-1.36	0.28	0.00	-1.87	-1.05	-1.67	0.00	-2.68	-1.94	0.46
+YOR385W	YOR385W :: 	1	-5.52	-4.37	-2.39	0.00	-9.55	-2.43	-1.05	0.00	-8.36	-2.86	-0.29
+YMR018W	YMR018W :: 	1	-0.55	-0.53	9.17	0.00	-9.50	-3.97	-1.63	0.00	-11.25	-10.18	-5.84
+YNL040W	YNL040W :: 	1	1.15	-1.65	2.01	0.00	-1.90	-1.08	1.16	0.00	-0.93	-2.36	-0.98
+YDL001W	RMD1 :: Cytoplasmic protein required for sporulation	1	-0.83	-1.28	0.81	0.00	0.98	0.01	-0.83	0.00	-0.88	-1.46	-0.60
+YDR117C	TMA64 :: Protein of unknown function that associates with ribosomes; has a putative RNA binding domain	1	-1.52	-2.92	2.62	0.00	0.80	-0.61	-1.20	0.00	-2.03	-2.38	-3.04
+YHR003C	YHR003C :: 	1	-2.04	-4.91	-2.00	0.00	0.55	0.86	0.74	0.00	-2.29	-2.04	-2.71
+YLR225C	YLR225C :: 	1	-2.91	-5.07	-1.94	0.00	-2.33	0.64	-2.26	0.00	-3.43	-2.82	-3.54
+YPR097W	YPR097W :: 	1	-3.02	-3.24	-0.78	0.00	-0.81	0.13	-0.75	0.00	-1.86	-2.52	-2.69
+YPL009C	YPL009C :: 	1	-0.98	-3.28	-0.65	0.00	0.41	0.61	-2.03	0.00	-2.22	-1.39	-1.54
+YMR124W	YMR124W :: 	1	-2.68	-6.92	1.03	0.00	-1.09	-1.79	0.02	0.00	-1.98	-1.61	-1.17
+YPL034W	YPL034W :: 	1	-3.32	-8.86	0.52	0.00	-0.65	0.56	0.34	0.00	-2.23	-2.60	-2.68
+YNL181W	YNL181W :: 	1	-1.90	-5.57	1.33	0.00	-0.86	-0.35	0.11	0.00	-2.80	-3.17	-3.24
+YNL193W	YNL193W :: 	1	-1.11	-9.21	1.10	0.00	0.94	-2.31	-1.46	0.00	-4.03	-6.71	-5.20
+YOR296W	YOR296W :: 	1	-0.24	-4.15	0.20	0.00	-0.22	1.03	-0.56	0.00	-1.07	-0.93	-2.55
+YOR352W	YOR352W :: 	1	-3.10	-3.48	0.41	0.00	0.68	0.43	-0.25	0.00	-1.12	-1.81	-1.54
+YPL158C	YPL158C :: Protein of unknown function; GFP-fusion protein localizes to the bud neck; transcription is regulated by Swi5p; null mutant displays increased frequency of mitochondrial genome loss and reduced growth rate in minimal glycerol media	1	-3.57	-5.02	1.64	0.00	2.34	1.81	1.11	0.00	-1.56	-0.65	-1.96
+YJL108C	PRM10 :: Pheromone-regulated protein, predicted to have 5 transmembrane segments; induced by treatment with 8-methoxypsoralen and UVA irradiation	1	-3.99	-7.29	-2.46	0.00	-1.63	-1.33	0.67	0.00	-5.11	-3.36	0.46
+YJR072C	NPA3 :: Essential, conserved, cytoplasmic ATPase; phosphorylated by the Pcl1p-Pho85p kinase complex	1	-1.17	-3.43	-1.32	0.00	-0.29	-2.21	-0.38	0.00	-3.63	-2.67	-1.41
+YPL171C	OYE3 :: Widely conserved NADPH oxidoreductase containing flavin mononucleotide (FMN), homologous to Oye2p with slight differences in ligand binding and catalytic properties; may be involved in sterol metabolism	1	-4.10	-9.62	-4.63	0.00	2.22	-6.29	-0.42	0.00	-2.66	-2.09	0.48
+YGL110C	CUE3 :: Protein of unknown function; has a CUE domain that binds ubiquitin, which may facilitate intramolecular monoubiquitination	1	1.11	-2.33	-1.18	0.00	0.69	-0.86	-1.59	0.00	-2.77	-2.36	-3.24
+YPL260W	YPL260W :: 	1	1.08	-3.43	-1.46	0.00	0.18	-2.02	-3.30	0.00	-1.90	-2.65	-2.02
+YLL053C	YLL053C :: 	1	-4.00	-4.18	-4.33	0.00	-5.23	-6.90	-4.66	0.00	-10.29	-7.83	-12.22
+YLR427W	MAG2 :: Cytoplasmic protein of unknown function, predicted by computational analysis of interaction data to encode a DNA-3-methyladenine glycosidase II that catalyzes the hydrolysis of alkylated DNA	1	-0.31	-0.82	-1.12	0.00	-0.58	-0.47	-1.79	0.00	-0.95	-0.34	-1.70
+YGR089W	NNF2 :: Protein that exhibits physical and genetic interactions with Rpb8p, which is a subunit of RNA polymerases I, II, and III; computational analysis of large-scale protein-protein interaction data suggests a role in chromosome segregation	1	-6.49	-3.78	-2.41	0.00	0.63	-1.67	-3.80	0.00	-0.55	-2.21	-5.14
+YGR196C	FYV8 :: Protein of unknown function, required for survival upon exposure to K1 killer toxin	1	-3.00	-1.64	-1.40	0.00	-1.58	-4.63	-2.50	0.00	-0.65	-1.31	-1.67
+YHR140W	YHR140W :: 	1	-4.48	-2.95	-0.24	0.00	-4.91	-5.09	-7.42	0.00	-1.67	-5.05	-8.09
+YDL053C	PBP4 :: Pbp1p binding protein, interacts strongly with Pab1p-binding protein 1 (Pbp1p) in the yeast two-hybrid system; also interacts with Lsm12p in a copurification assay	1	-4.91	-0.58	5.83	0.00	-1.79	0.93	-1.87	0.00	-2.40	-0.22	-2.79
+YER128W	YER128W :: 	1	-6.14	-1.00	5.13	0.00	-3.67	1.84	-2.08	0.00	-1.52	1.11	-3.05
+YFR043C	YFR043C :: Putative protein of unknown function; null mutant displays increased levels of spontaneous Rad52p foci	1	-5.19	2.76	3.33	0.00	-1.45	1.65	-1.27	0.00	-2.31	0.37	-2.22
+YDR067C	YDR067C :: Cytoplasmic protein required for replication of Brome mosaic virus in S. cerevisiae, which is a model system for studying replication of positive-strand RNA viruses in their natural hosts	1	-9.49	-5.58	2.17	0.00	-0.66	4.21	0.38	0.00	-1.73	-0.55	-3.70
+YOL159C-A	YOL159C-A :: 	1	-5.78	-3.02	2.51	0.00	-0.88	2.81	-0.64	0.00	-0.95	-0.47	-1.15
+YJR014W	TMA22 :: Protein of unknown function; associates with ribosomes and has a putative RNA binding domain; interacts with Tma20p; similar to human GRAP and human DRP1, which interacts with human Tma20p homolog MCT-1	1	-6.12	-3.21	1.69	0.00	-1.21	1.35	0.62	0.00	-0.74	-0.06	-1.04
+YJR142W	YJR142W :: 	1	-3.63	-1.98	1.17	0.00	-1.57	4.25	-1.11	0.00	-1.99	0.28	-2.12
+YDR332W	YDR332W :: Putative protein of unknown function; null mutant displays increased levels of spontaneous Rad52p foci; green fluorescent protein (GFP)-fusion protein localizes to the mitochondrion	1	-5.68	-1.37	0.59	0.00	-0.60	-0.66	-2.25	0.00	-1.01	-0.69	-2.15
+YJR083C	ACF4 :: Protein of unknown function, computational analysis of large-scale protein-protein interaction data suggests a possible role in actin cytoskeleton organization; potential Cdc28p substrate	1	-9.38	-0.96	-0.36	0.00	0.05	-1.38	-2.09	0.00	-0.16	-0.49	-2.16
+YNL337W	YNL337W :: 	1	-10.58	2.67	2.93	0.00	-0.93	-3.10	-4.57	0.00	-1.38	-2.25	-3.07
+YLL059C	YLL059C :: 	1	-16.30	-2.20	1.12	0.00	-4.31	-3.30	-4.49	0.00	-8.32	-7.39	-10.01
+YJL197W	UBP12 :: Ubiquitin carboxyl-terminal hydrolase, ubiquitin-specific protease present in the nucleus and cytoplasm that cleaves ubiquitin from ubiquitinated proteins	1	-3.56	-0.74	1.05	0.00	1.34	-0.47	-0.38	0.00	-0.52	-0.62	-2.05
+YGL226W	YGL226W :: Protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the mitochondrion; mtc3 is synthetically sick with cdc13-1	1	-5.02	-0.20	1.78	0.00	-0.35	-0.55	0.78	0.00	-1.70	-1.22	-0.77
+YBL010C	YBL010C :: 	1	-2.47	-7.31	-4.46	0.00	1.10	-0.61	-0.94	0.00	-1.50	-2.30	-1.19
+YCR101C	YCR101C :: 	1	-6.19	-15.17	-7.31	0.00	-0.85	2.74	1.54	0.00	-2.25	1.47	-3.57
+YGL088W	YGL088W :: 	1	-1.79	-23.25	-18.90	0.00	0.25	5.97	0.55	0.00	-2.81	-0.16	-2.10
+YLR049C	YLR049C :: 	1	-0.32	-5.21	-3.31	0.00	0.18	0.37	0.51	0.00	-0.48	-0.94	-1.71
+YMR007W	YMR007W :: 	1	-3.48	-20.68	-12.57	0.00	1.89	6.49	-0.18	0.00	1.87	2.25	1.00
+YPR109W	YPR109W :: 	1	-0.93	-7.68	-3.39	0.00	-0.11	0.10	-0.30	0.00	1.38	0.71	0.12
+YPL074W	YTA6 :: Putative ATPase of the CDC48/PAS1/SEC18 (AAA) family, localized to the cortex of mother cells but not to daughter cells	1	-1.25	-3.51	-3.54	0.00	0.65	0.55	-0.15	0.00	0.37	0.17	0.42
+YIL123W	SIM1 :: Protein of the SUN family (Sim1p, Uth1p, Nca3p, Sun4p) that may participate in DNA replication, promoter contains SCB regulation box at -300 bp indicating that expression may be cell cycle-regulated	1	-0.80	-16.85	-11.05	0.00	5.36	-1.85	8.62	0.00	2.42	-1.43	0.11
+YLR437C	YLR437C :: Protein that regulates the nuclear localization of ribonucleotide reductase Rnr2p and Rnr4p subunits; phosphorylated by Dun1p in response to DNA damage and degraded	1	-3.28	-12.93	-2.72	0.00	0.81	-2.27	6.17	0.00	-0.39	-2.18	-0.16
+YMR086C-A	YMR086C-A :: 	1	-2.14	-12.63	-5.17	0.00	-0.20	-2.88	2.97	0.00	-0.20	-1.64	-1.29
+YJL078C	PRY3 :: Protein of unknown function, has similarity to Pry1p and Pry2p and to the plant PR-1 class of pathogen related proteins	1	-6.40	-12.55	-7.32	0.00	0.18	-0.86	3.35	0.00	-2.45	-2.59	3.69
+YBR007C	DSF2 :: Deletion suppressor of mpt5 mutation	1	-0.61	-5.69	-0.13	0.00	1.95	-1.99	-0.79	0.00	-0.38	-3.64	-3.50
+YGR210C	YGR210C :: 	1	-0.72	-5.04	-0.32	0.00	2.13	-2.19	-0.67	0.00	-0.36	-1.98	-0.99
+YHR179W	OYE2 :: Widely conserved NADPH oxidoreductase containing flavin mononucleotide (FMN), homologous to Oye3p with slight differences in ligand binding and catalytic properties; may be involved in sterol metabolism	1	0.12	-12.71	-3.94	0.00	5.69	-0.74	-0.22	0.00	-0.07	-2.67	-7.91
+YDR307W	YDR307W :: 	1	0.78	-1.87	0.70	0.00	1.49	-0.53	-0.30	0.00	1.10	-0.90	-0.93
+YDR105C	TMS1 :: Vacuolar membrane protein of unknown function that is conserved in mammals; predicted to contain eleven transmembrane helices; interacts with Pdr5p, a protein involved in multidrug resistance	1	-0.40	-1.28	0.15	0.00	0.14	-0.01	-0.10	0.00	0.69	-0.28	-0.18
+YBR259W	YBR259W :: 	1	3.01	-5.69	0.79	0.00	0.31	0.06	1.01	0.00	-0.72	-1.14	-0.98
+YPR053C	YPR053C :: 	1	6.21	-17.31	-0.76	0.00	1.59	-0.69	2.09	0.00	1.63	-0.47	0.78
+YOL022C	YOL022C :: Cytoplasmic protein of unknown function; essential gene in S288C, and non-essential with reduced growth rate in CEN.PK2; Null mutant accumulates 20S pre-rRNA	1	2.31	-5.57	-1.09	0.00	-0.03	0.47	1.02	0.00	-1.59	-2.21	-2.06
+YGL082W	YGL082W :: 	1	1.01	-5.41	-0.98	0.00	1.31	0.53	-2.27	0.00	0.75	-0.39	-0.29
+YLR460C	YLR460C :: 	1	1.76	-10.11	-1.52	0.00	4.23	4.47	0.20	0.00	3.40	-0.21	-2.59
+YBR090C	YBR090C :: 	1	1.03	-6.88	1.87	0.00	0.62	5.91	4.51	0.00	-0.14	0.39	2.56
+YDR119W	YDR119W :: Protein of unknown function with proposed role as a basic amino acid permease based on phylogeny; GFP-fusion protein localizes to vacuolar membrane; physical interaction with Atg27p suggests a possible role in autophagy; non-essential gene	1	-2.04	-8.95	2.41	0.00	-0.13	-0.43	2.14	0.00	0.39	-2.76	1.78
+YOR093C	YOR093C :: Putative protein of unknown function; deletion causes sensitivity to unfolded protein response-inducing agents	1	-0.63	-5.53	2.05	0.00	-1.03	-0.09	0.47	0.00	-0.36	-1.40	-0.42
+YEL068C	YEL068C :: 	1	-1.17	-11.77	2.83	0.00	-1.18	3.60	2.21	0.00	-0.75	0.20	1.45
+YMR119W-A	YMR119W-A :: 	1	-1.29	-6.36	0.66	0.00	-1.27	1.18	-0.56	0.00	-0.07	-0.25	0.34
+YDR157W	YDR157W :: 	1	1.45	-7.98	2.85	0.00	3.06	1.69	0.51	0.00	2.29	-0.01	1.26
+YLR179C	YLR179C :: 	1	2.02	-13.67	8.29	0.00	1.73	0.47	3.66	0.00	1.58	0.87	1.76
+YLR317W	YLR317W :: 	1	-1.54	-14.13	2.30	0.00	2.57	-3.51	2.79	0.00	3.49	-0.45	4.42
+YPL246C	RBD2 :: Possible rhomboid protease, has similarity to eukaryotic rhomboid proteases including Pcp1p	1	-2.16	-14.44	1.11	0.00	2.21	0.36	3.32	0.00	1.63	-0.74	2.41
+YEL067C	YEL067C :: 	1	-3.61	-15.66	-2.28	0.00	-2.18	3.26	2.20	0.00	1.54	3.53	5.71
+YBL104C	YBL104C :: 	1	1.47	-0.99	-1.16	0.00	0.77	1.02	-0.02	0.00	0.96	1.29	0.11
+YDR415C	YDR415C :: 	1	2.81	-1.65	-0.89	0.00	1.01	0.01	-0.10	0.00	1.44	0.54	-0.07
+YLR446W	YLR446W :: 	1	9.40	-4.73	-5.28	0.00	-0.33	1.22	-0.30	0.00	0.58	-0.12	0.87
+YMR291W	YMR291W :: 	1	5.00	-3.28	-3.98	0.00	1.95	-1.94	0.21	0.00	0.64	-0.10	1.58
+YDL156W	YDL156W :: Putative protein of unknown function; protein sequence contains three WD domains (WD-40 repeat); green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm and nucleus	1	3.41	-6.48	-4.28	0.00	2.08	-0.61	-0.90	0.00	1.08	1.75	1.17
+YGR079W	YGR079W :: 	1	3.33	-8.44	-3.09	0.00	1.48	-2.14	0.43	0.00	3.12	1.51	-0.36
+YDR266C	YDR266C :: 	1	0.23	-1.84	-2.24	0.00	1.31	-1.37	-0.34	0.00	0.93	0.20	-0.06
+YBR074W	YBR074W :: 	1	19.57	-13.29	3.78	0.00	2.45	-2.39	3.65	0.00	1.45	-4.03	5.06
+YBR197C	YBR197C :: 	1	3.55	-4.47	0.49	0.00	0.98	-0.33	3.54	0.00	1.35	-0.51	2.18
+YHR032W	YHR032W :: 	1	6.86	-6.92	1.51	0.00	0.61	-6.01	5.47	0.00	0.94	-3.38	2.98
+YOR091W	TMA46 :: Protein of unknown function that associates with ribosomes; interacts with GTPase Rbg1p	1	4.77	-3.81	0.85	0.00	1.95	-0.42	2.25	0.00	-0.68	0.04	0.93
+YDR352W	YDR352W :: 	1	2.25	-2.85	-2.50	0.00	1.71	-1.42	1.70	0.00	2.54	-1.98	1.29
+YGR125W	YGR125W :: 	1	4.44	-7.14	-1.67	0.00	1.52	-2.56	0.89	0.00	1.27	-5.40	-0.13
+YPL105C	YPL105C :: Protein of unknown function that may interact with ribosomes, based on co-purification experiments; authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	2.34	-2.69	-4.04	0.00	1.92	-2.21	1.37	0.00	-0.51	-1.45	0.50
+YBR271W	YBR271W :: 	1	-1.29	-2.85	-0.57	0.00	3.21	1.34	2.19	0.00	1.22	0.10	-1.52
+YJL028W	YJL028W :: 	1	-1.32	-5.56	0.47	0.00	2.94	0.73	2.99	0.00	1.95	-0.22	1.07
+YML018C	YML018C :: 	1	1.36	-7.54	-1.27	0.00	5.05	1.22	4.45	0.00	2.71	0.33	0.15
+YDR514C	YDR514C :: 	1	0.70	-1.50	0.10	0.00	2.63	0.13	1.41	0.00	-0.05	-0.41	1.61
+YHR149C	SKG6 :: Integral membrane protein that localizes primarily to growing sites such as the bud tip or the cell periphery; potential Cdc28p substrate; Skg6p interacts with Zds1p and Zds2p	1	1.88	-1.61	0.14	0.00	3.74	-0.93	2.34	0.00	1.53	-0.79	-1.26
+YJR030C	YJR030C :: 	1	3.56	-2.27	-0.71	0.00	3.98	0.72	2.91	0.00	1.67	-0.47	-0.61
+YAL037W	YAL037W :: 	1	0.09	-3.79	-0.44	0.00	-1.22	0.99	-4.77	0.00	0.68	-0.55	-3.39
+YER186C	YER186C :: 	1	1.75	-4.80	-3.23	0.00	-0.91	1.67	-6.30	0.00	0.85	0.31	-4.41
+YLR454W	YLR454W :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	0.19	-4.08	-4.22	0.00	-2.42	-2.40	-4.56	0.00	2.40	0.64	-1.87
+YNL234W	YNL234W :: 	1	2.22	-9.15	-5.65	0.00	0.54	-0.94	-3.89	0.00	-0.38	-4.29	-4.75
+YOR077W	RTS2 :: Basic zinc-finger protein, similar to human and mouse Kin17 proteins which are chromatin-associated proteins involved in UV response and DNA replication	1	3.58	-4.51	-5.48	0.00	-1.06	-0.78	-5.21	0.00	-1.10	-0.74	-0.37
+YBR056W	YBR056W :: 	1	-2.49	-0.30	-0.16	0.00	-6.76	-5.19	-7.20	0.00	-2.83	-2.94	-2.13
+YJL070C	YJL070C :: 	1	-0.54	-1.28	1.55	0.00	-3.42	-1.85	-5.00	0.00	-0.26	-0.21	-0.32
+YBR269C	YBR269C :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	2.40	-0.13	0.38	0.00	-4.11	-3.34	-3.69	0.00	0.01	0.17	0.24
+YMR278W	YMR278W :: Phosphoglucomutase, catalyzes interconversion of glucose-1-phosphate and glucose-6-phospate; transcription induced in response to stress; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm and nucleus; non-essential	1	5.67	-0.37	-1.17	0.00	-3.74	-5.03	-6.05	0.00	1.14	0.68	-0.30
+YDR222W	YDR222W :: 	1	1.78	-1.18	-2.35	0.00	-5.74	-3.34	-5.15	0.00	0.30	-1.29	0.39
+YDR242W	AMD2 :: Putative amidase	1	0.99	-3.66	-1.04	0.00	-4.38	-6.75	-2.74	0.00	-0.06	-4.33	-0.03
+YNL092W	YNL092W :: 	1	5.89	-3.49	-1.54	0.00	-2.93	-6.03	-3.62	0.00	-0.61	-3.29	-0.50
+YDR262W	YDR262W :: 	1	-0.00	-1.66	-5.41	0.00	-4.96	-0.65	-6.01	0.00	-1.33	-0.85	-2.66
+YKR096W	YKR096W :: 	1	1.53	0.26	-3.52	0.00	-2.31	-2.79	-2.34	0.00	-1.02	-0.42	-0.92
+YBR094W	PBY1 :: Putative tubulin tyrosine ligase associated with P-bodies	1	3.02	-0.20	-0.72	0.00	-0.08	-4.30	-3.57	0.00	-0.26	-2.32	-5.10
+YJL016W	YJL016W :: 	1	1.84	-2.14	2.71	0.00	1.00	-4.69	-5.12	0.00	2.90	-0.57	-3.32
+YOR118W	YOR118W :: Protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm; null mutation suppresses cdc13-1 temperature sensitivity	1	0.34	-0.34	0.39	0.00	0.24	-2.23	-1.27	0.00	0.16	-1.20	-0.26
+YCR069W	CPR4 :: Peptidyl-prolyl cis-trans isomerase (cyclophilin), catalyzes the cis-trans isomerization of peptide bonds N-terminal to proline residues; has a potential role in the secretory pathway	1	-0.66	-0.08	-3.71	0.00	1.02	-3.79	-2.07	0.00	5.56	3.47	2.92
+YGL228W	SHE10 :: Putative glycosylphosphatidylinositol (GPI)-anchored protein of unknown function; overexpression causes growth arrest	1	2.35	-0.72	-3.37	0.00	-0.19	-3.05	-3.77	0.00	1.89	0.82	-0.05
+YLR173W	YLR173W :: 	1	4.68	-2.53	-5.46	0.00	-2.94	-3.60	-2.37	0.00	1.77	0.55	1.59
+YJL126W	NIT2 :: Nit protein, one of two proteins in S. cerevisiae with similarity to the Nit domain of NitFhit from fly and worm and to the mouse and human Nit protein which interacts with the Fhit tumor suppressor; nitrilase superfamily member	1	0.41	-0.02	-1.57	0.00	-0.59	-1.81	-0.99	0.00	0.46	0.95	0.30
+YHR182W	YHR182W :: 	1	3.18	0.99	-0.70	0.00	0.09	0.35	-2.07	0.00	0.64	0.84	-0.18
+YNR018W	YNR018W :: Putative protein of unknown function; non-tagged protein is detected in purified mitochondria; null mutant displays decreased frequency of mitochondrial genome loss (petite formation) and severe growth defect in minimal glycerol media	1	5.63	1.83	-2.12	0.00	-1.32	-4.13	-3.19	0.00	-0.53	0.31	0.84
+YPL070W	MUK1 :: Cytoplasmic protein of unknown function; computational analysis of large-scale protein-protein interaction data suggests a possible role in transcriptional regulation	1	2.34	0.04	-1.13	0.00	-1.44	-0.65	-2.21	0.00	-0.29	0.53	0.58
+YBL066C	SEF1 :: Putative transcription factor, has homolog in Kluyveromyces lactis	1	14.86	1.93	9.74	0.00	-0.08	-4.45	-0.36	0.00	3.39	1.54	6.67
+YNR065C	YNR065C :: 	1	6.16	0.35	2.86	0.00	-0.20	-0.58	-0.05	0.00	0.66	0.61	2.30
+YGR237C	YGR237C :: 	1	3.56	-1.37	2.23	0.00	1.46	-1.59	-0.80	0.00	-0.12	0.07	1.24
+YBR225W	YBR225W :: 	1	7.54	-4.28	6.03	0.00	-1.63	-4.31	-2.00	0.00	0.23	-1.73	1.70
+YHR155W	YSP1 :: Mitochondrial protein with a potential role in promoting mitochondrial fragmentation during programmed cell death in response to high levels of alpha-factor mating pheromone or the drug amiodarone	1	4.55	-2.05	3.73	0.00	-0.88	-0.79	-0.29	0.00	-0.50	-0.23	-0.19
+YLL054C	YLL054C :: 	1	7.18	-1.85	6.86	0.00	0.33	-2.03	0.71	0.00	0.97	-1.91	0.20
+YIR007W	YIR007W :: 	1	8.94	0.06	3.46	0.00	0.37	-3.57	-4.12	0.00	1.62	-0.73	0.36
+YLR422W	YLR422W :: 	1	5.71	-0.03	3.17	0.00	-0.97	-2.82	-2.47	0.00	-0.08	-1.23	0.09
+YNL165W	YNL165W :: 	1	5.65	-1.54	1.53	0.00	-1.66	-1.89	-1.55	0.00	-0.49	-1.08	-0.13
+YPR196W	YPR196W :: 	1	7.81	-1.09	3.90	0.00	-1.82	-1.03	-3.73	0.00	0.59	-0.81	-0.49
+YLL007C	YLL007C :: 	1	7.87	0.77	4.81	0.00	-0.85	-2.13	-1.28	0.00	-0.11	-1.50	-1.59
+YHR035W	YHR035W :: 	1	3.61	-4.37	2.86	0.00	-0.73	-0.67	-1.89	0.00	-0.69	-0.41	-0.97
+YPL068C	YPL068C :: 	1	4.32	-3.32	3.26	0.00	1.21	-0.41	-0.24	0.00	0.80	-0.20	-0.43
+YDR111C	ALT2 :: Putative alanine transaminase (glutamic pyruvic transaminase)	1	6.25	-8.71	12.29	0.00	-10.01	-4.06	2.02	0.00	-3.31	0.41	4.64
+YKL162C-A	YKL162C-A :: 	1	6.34	-5.18	12.61	0.00	-8.52	-6.67	-2.94	0.00	-3.42	-5.60	2.87
+YKL222C	YKL222C :: 	1	3.31	-4.54	6.30	0.00	-2.03	-2.81	-0.26	0.00	0.55	-1.59	1.15
+YHL029C	YHL029C :: Cytoplasmic protein required for replication of Brome mosaic virus in S. cerevisiae, which is a model system for studying replication of positive-strand RNA viruses in their natural hosts	1	2.94	-9.22	8.18	0.00	0.14	-1.91	1.14	0.00	-0.33	-2.84	1.14
+YPL257W	YPL257W :: 	1	2.44	-4.99	3.54	0.00	0.01	-3.46	0.51	0.00	-0.73	-3.80	0.40
+YLR315W	NKP2 :: Non-essential kinetochore protein, subunit of the Ctf19 central kinetochore complex (Ctf19p-Mcm21p-Okp1p-Mcm22p-Mcm16p-Ctf3p-Chl4p-Mcm19p-Nkp1p-Nkp2p-Ame1p-Mtw1p)	1	4.99	-11.12	3.84	0.00	1.99	-3.21	2.67	0.00	3.13	-1.26	5.27
+YPL023C	MET12 :: Protein with methylenetetrahydrofolate reductase (MTHFR) activity in vitro; null mutant has no phenotype and is prototrophic for methionine; MET13 encodes major isozyme of MTHFR	1	2.83	-4.26	2.22	0.00	0.09	-1.80	1.05	0.00	-0.02	-0.87	1.08
+YPR064W	YPR064W :: 	1	4.68	-6.22	5.16	0.00	0.32	-0.82	0.98	0.00	0.17	0.06	5.06
+YNL176C	YNL176C :: 	1	1.09	-1.83	2.49	0.00	0.57	-2.19	-0.75	0.00	1.20	-0.94	0.64
+YBR108W	YBR108W :: Protein interacting with Rsv167p; null mutant displays decreased frequency of mitochondrial genome loss (petite formation) and severe growth defect in minimal glycerol media	1	3.27	-6.24	-1.91	0.00	-1.01	-4.47	1.30	0.00	0.38	-1.01	3.13
+YPR152C	YPR152C :: Putative pre-mRNA splicing factor associated with the U2-U5-U6 snRNPs, the RES complex, and the Prp19-associated complex (NTC); null mutation displays synthetic genetic interactions with U2 snRNA and pre-mRNA splicing factor	1	8.36	-8.73	-1.18	0.00	-0.29	-4.99	-1.21	0.00	1.38	-1.35	2.00
+YMR103C	YMR103C :: 	1	7.02	-6.81	-0.14	0.00	-5.91	-7.98	-0.77	0.00	-2.43	-1.09	4.68
+YER077C	YER077C :: 	1	1.70	-4.60	-1.97	0.00	-0.28	-0.44	-0.41	0.00	-0.38	-0.48	2.10
+YBR163W	DEM1 :: Mitochondrial protein of unknown function; null mutant has defects in cell morphology and in response to air drying; may be regulated by the transcription factor Ace2	1	1.12	-3.43	0.06	0.00	0.11	-0.34	-0.51	0.00	2.21	0.45	-0.15
+YDL129W	YDL129W :: 	1	7.41	-10.57	1.95	0.00	-2.69	-2.82	-2.50	0.00	3.01	1.32	1.63
+YLL056C	YLL056C :: 	1	9.90	-19.40	4.00	0.00	-3.35	-3.09	-2.54	0.00	3.44	0.66	3.87
+YLR156W	YLR156W :: 	1	5.09	-11.37	2.29	0.00	-1.68	-1.65	-1.71	0.00	4.94	1.71	7.15
+YLR161W	YLR161W :: 	1	5.18	-11.54	2.60	0.00	-0.59	-2.28	-0.21	0.00	5.03	1.61	6.80
+YLR159W	YLR159W :: 	1	5.47	-12.55	1.53	0.00	-0.32	-0.89	-0.93	0.00	5.26	2.85	6.68
+YPL162C	YPL162C :: 	1	1.91	-4.67	0.88	0.00	0.53	-0.32	-0.76	0.00	1.66	-0.20	1.87
+YPL236C	YPL236C :: 	1	1.05	-4.34	2.19	0.00	-0.18	-2.75	-0.31	0.00	2.64	-0.18	2.66
+YPR117W	YPR117W :: 	1	3.70	-5.06	3.15	0.00	0.44	-4.10	-3.15	0.00	3.83	1.58	4.62
+YDL123W	SNA4 :: Protein of unknown function, localized to the vacuolar outer membrane; predicted to be palmitoylated	1	0.80	-9.09	1.27	0.00	-2.63	-4.03	1.83	0.00	2.72	0.44	7.04
+YER047C	SAP1 :: Putative ATPase of the AAA family, interacts with the Sin1p transcriptional repressor in the two-hybrid system	1	0.37	-7.39	-3.21	0.00	-0.08	-3.60	-1.22	0.00	2.30	0.43	3.39
+YGL176C	YGL176C :: 	1	1.21	-7.72	-1.72	0.00	-0.19	-2.83	1.34	0.00	2.95	0.15	3.24
+YMR253C	YMR253C :: 	1	2.40	-8.25	-4.77	0.00	-0.78	-3.61	0.19	0.00	4.71	1.73	3.67
+YLR122C	YLR122C :: 	1	1.98	-2.14	0.95	0.00	0.62	-1.99	-1.53	0.00	-0.44	0.65	-0.26
+YMR102C	YMR102C :: 	1	2.90	-5.01	0.88	0.00	-0.07	-3.78	-3.59	0.00	1.67	-0.57	0.73
+YML002W	YML002W :: 	1	4.52	-2.16	-0.91	0.00	-0.82	-1.48	-3.13	0.00	1.14	0.47	-0.11
+YGR071C	YGR071C :: 	1	-0.82	-2.88	2.86	0.00	0.18	-0.75	-0.09	0.00	2.91	0.36	0.47
+YPL041C	YPL041C :: 	1	-0.37	-5.19	1.38	0.00	0.52	-0.75	-4.14	0.00	3.20	1.46	0.84
+YPR157W	YPR157W :: 	1	-0.33	-6.85	5.50	0.00	1.04	-2.51	-3.50	0.00	3.08	0.42	1.05
+YBR157C	ICS2 :: Protein of unknown function; null mutation does not confer any obvious defects in growth, spore germination, viability, or carbohydrate utilization	1	3.88	-0.62	-0.62	0.00	-2.80	-1.27	-1.31	0.00	2.53	2.04	3.04
+YJL149W	YJL149W :: Putative SCF ubiquitin ligase F-box protein; interacts physically with both Cdc53p and Skp1 and genetically with CDC34; similar to putative F-box protein YDR131C; null mutant suppresses dst1delta sensitivity for 6-azauracil	1	1.67	-1.35	-0.03	0.00	-0.57	-0.24	-0.89	0.00	0.96	1.59	2.52
+YGR205W	YGR205W :: 	1	3.64	-2.21	-2.71	0.00	-1.18	0.25	0.15	0.00	7.07	8.76	5.81
+YLR407W	YLR407W :: 	1	2.16	-0.63	-1.74	0.00	-1.57	-0.99	0.32	0.00	0.75	1.12	2.33
+YGR067C	YGR067C :: 	1	7.02	1.30	5.36	0.00	-10.30	-1.45	0.61	0.00	-1.49	5.89	16.47
+YGR243W	YGR243W :: Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	0.96	-3.55	3.10	0.00	-6.91	-2.37	-6.09	0.00	-1.72	6.49	9.39
+YJR161C	COS5 :: Protein of unknown function, member the DUP380 subfamily of conserved, often subtelomerically-encoded proteins	1	-0.55	-3.18	0.07	0.00	-3.15	-1.77	-2.79	0.00	0.83	1.29	3.62
+YNL336W	COS1 :: Protein of unknown function, member of the DUP380 subfamily of conserved, often subtelomerically-encoded proteins	1	0.43	-2.82	-1.36	0.00	-3.83	-1.94	-4.95	0.00	3.59	6.22	5.54
+YDR349C	YPS7 :: Putative GPI-anchored aspartic protease, located in the cytoplasm and endoplasmic reticulum	1	0.87	-0.63	1.52	0.00	0.02	-1.23	-0.88	0.00	2.00	1.84	1.46
+YFL020C	PAU5 :: Part of 23-member seripauperin multigene family encoded mainly in subtelomeric regions, active during alcoholic fermentation, regulated by anaerobiosis, negatively regulated by oxygen, repressed by heme	1	1.50	-2.80	3.73	0.00	1.47	-1.54	-0.81	0.00	4.64	4.36	5.65
+YDR539W	YDR539W :: 	1	1.25	-3.16	5.11	0.00	0.36	-1.13	-1.13	0.00	6.40	4.84	2.51
+YLR352W	YLR352W :: 	1	0.98	-1.13	1.33	0.00	-0.66	-3.70	-0.98	0.00	2.11	1.23	1.76
+YPL247C	YPL247C :: 	1	1.07	-1.49	3.12	0.00	-0.08	-6.62	-0.06	0.00	4.73	1.50	5.11
+YEL020C	YEL020C :: 	1	5.14	-2.58	2.41	0.00	-3.22	-6.62	-3.19	0.00	0.54	0.42	6.08
+YER184C	YER184C :: 	1	5.40	-4.23	1.24	0.00	-3.41	-3.90	0.69	0.00	1.34	-0.03	3.63
+YHR202W	YHR202W :: 	1	7.99	-2.89	3.34	0.00	-4.33	-5.30	-2.50	0.00	2.46	-1.22	2.95
+YMR262W	YMR262W :: 	1	3.05	-1.82	1.47	0.00	-2.89	-3.75	-1.29	0.00	2.65	1.48	2.56
+YJR039W	YJR039W :: 	1	0.73	-2.01	2.47	0.00	-1.95	-1.57	-0.91	0.00	0.88	0.32	2.08
+YBL111C	YBL111C :: 	1	8.18	-0.55	-7.48	0.00	2.85	-2.07	0.18	0.00	-3.79	-3.10	-2.87
+YHR218W	YHR218W :: 	1	7.66	0.09	-8.62	0.00	2.54	-1.78	0.37	0.00	-3.88	-2.90	-2.92
+YNL212W	VID27 :: Cytoplasmic protein of unknown function; possibly involved in vacuolar protein degradation; not essential for proteasome-dependent degradation of fructose-1,6-bisphosphatase (FBPase); null mutants exhibit normal growth	1	3.68	0.76	-2.52	0.00	0.50	-0.70	-0.74	0.00	-2.04	-2.30	-1.38
+YDL233W	YDL233W :: 	1	2.96	0.10	-3.00	0.00	-1.53	-1.68	0.03	0.00	-3.73	-1.70	1.30
+YKL161C	YKL161C :: 	1	1.74	2.76	-3.85	0.00	-4.71	-0.35	-1.84	0.00	-5.25	-2.38	-0.18
+YLR151C	PCD1 :: Peroxisomal nudix pyrophosphatase with specificity for coenzyme A and CoA derivatives, may function to remove potentially toxic oxidized CoA disulfide from peroxisomes to maintain the capacity for beta-oxidation of fatty acids	1	0.80	1.98	-3.51	0.00	-2.40	-2.35	-3.69	0.00	-4.05	-2.31	-1.57
+YPL141C	YPL141C :: 	1	2.58	6.33	-6.39	0.00	-0.03	-0.82	-0.90	0.00	-4.52	-4.39	-2.36
+YBR028C	YBR028C :: 	1	4.81	-1.62	0.30	0.00	0.25	0.20	-1.46	0.00	0.34	-0.67	-3.15
+YGL053W	PRM8 :: Pheromone-regulated protein with 2 predicted transmembrane segments and an FF sequence, a motif involved in COPII binding; forms a complex with Prp9p in the ER; member of DUP240 gene family	1	3.24	-2.51	-0.86	0.00	-0.75	2.35	-2.17	0.00	-1.83	-2.47	-2.89
+YPL191C	YPL191C :: 	1	2.59	-1.34	-0.42	0.00	-1.19	1.22	-2.33	0.00	-0.29	-0.02	-0.92
+YDL237W	YDL237W :: Putative protein of unknown function; YDL237W is not an essential gene; null mutant displays decreased frequency of mitochondrial genome loss (petite formation) and severe growth defect in minimal glycerol media	1	2.47	0.97	0.07	0.00	-2.25	1.82	-1.49	0.00	-0.47	-1.03	-0.31
+YBR284W	YBR284W :: 	1	8.34	0.28	0.99	0.00	-1.38	-3.35	-1.91	0.00	-3.60	-3.01	-2.61
+YJR098C	YJR098C :: 	1	4.94	-0.42	1.22	0.00	0.40	-0.37	-0.73	0.00	-1.89	-2.94	-3.21
+YOR343C	YOR343C :: 	1	13.51	-0.63	2.20	0.00	0.05	-2.01	-3.65	0.00	-4.66	-3.71	-6.97
+YOR350C	MNE1 :: Mitochondrial protein similar to Lucilia illustris mitochondrial cytochrome oxidase	1	9.39	1.13	3.13	0.00	-0.95	-0.60	-2.27	0.00	-3.53	-4.11	-3.23
+YCR100C	YCR100C :: 	1	10.05	-2.62	2.43	0.00	-2.26	3.46	1.17	0.00	-5.52	-3.57	-3.33
+YLR123C	YLR123C :: 	1	3.47	-1.49	1.24	0.00	-0.12	0.97	0.03	0.00	-1.61	-0.84	-1.97
+YCR004C	YCP4 :: Protein of unknown function, has sequence and structural similarity to flavodoxins; predicted to be palmitoylated; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies	1	7.99	-2.04	0.13	0.00	-4.38	-0.59	-2.01	0.00	-4.89	-1.57	-1.26
+YIL082W-A	YIL082W-A :: 	1	4.11	-2.39	-0.36	0.00	-2.70	-2.13	-3.67	0.00	-3.57	-2.86	-3.50
+YEL057C	YEL057C :: 	1	10.26	2.27	6.58	0.00	-4.55	-1.54	-1.43	0.00	-7.03	-1.67	0.48
+YER066W	YER066W :: 	1	5.57	-1.03	5.94	0.00	-2.47	0.18	-0.46	0.00	-4.38	-3.12	-0.62
+YLR125W	YLR125W :: 	1	10.14	-0.72	0.84	0.00	-1.03	-0.91	0.39	0.00	-4.67	-3.65	-0.18
+YMR147W	YMR147W :: 	1	8.91	-2.82	2.83	0.00	-2.91	-3.53	3.25	0.00	-4.95	-4.88	0.37
+YMR002W	MIC17 :: Mitochondrial intermembrane space cysteine motif protein; MIC17 is not an essential gene	1	4.00	0.48	0.93	0.00	0.55	0.12	0.01	0.00	-2.91	-1.30	0.72
+YBR233W	PBP2 :: Essential subunit of the Dam1 complex (aka DASH complex), couples kinetochores to the force produced by MT depolymerization thereby aiding in chromosome segregation; is transferred to the kinetochore prior to mitosis	1	4.58	0.13	-0.73	0.00	1.02	-2.26	1.38	0.00	-1.10	-2.34	1.77
+YGR031W	YGR031W :: 	1	7.90	0.83	-1.91	0.00	-1.52	-3.99	1.86	0.00	-2.20	-1.26	3.94
+YHL050C	YHL050C :: 	1	6.15	-3.26	-3.44	0.00	-0.26	-8.87	0.15	0.00	-2.43	-5.14	0.80
+YKR018C	YKR018C :: 	1	7.98	0.94	0.43	0.00	-1.40	-5.78	1.94	0.00	-0.66	-3.90	-3.14
+YGR127W	YGR127W :: 	1	3.42	1.43	3.10	0.00	-4.57	-7.45	-3.63	0.00	-1.34	-2.74	1.48
+YKL121W	YKL121W :: Protein of unknown function	1	2.66	1.40	1.59	0.00	-2.27	-4.50	-2.70	0.00	-1.42	-1.53	-0.46
+YIL108W	YIL108W :: 	1	5.74	1.28	3.60	0.00	-2.45	-6.37	-1.01	0.00	-0.66	-2.10	2.58
+YIR036C	YIR036C :: Putative benzil reductase;(GFP)-fusion protein localizes to the cytoplasm and is induced by the DNA-damaging agent MMS; sequence similarity with short-chain dehydrogenase/reductases; null mutant has increased spontaneous Rad52p foci	1	4.35	0.67	0.24	0.00	-1.33	-4.18	0.33	0.00	0.55	-1.46	2.00
+YLR280C	YLR280C :: 	1	4.26	6.38	5.00	0.00	-3.05	-7.41	2.43	0.00	-2.96	-2.46	4.66
+YGR295C	COS6 :: Protein of unknown function, member of the DUP380 subfamily of conserved, often subtelomerically-encoded proteins	1	0.58	0.84	0.21	0.00	-2.07	-1.18	-0.39	0.00	-1.19	-1.82	0.40

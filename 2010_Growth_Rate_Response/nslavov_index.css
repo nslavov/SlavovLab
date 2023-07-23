@@ -1,0 +1,238 @@
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400|Josefin+Slab');
+
+BODY {
+margin: 0px; 
+padding: 0px;
+background: url('drop_shadow.jpg') center top;
+color: black;
+text-align: center;
+} 
+
+A:link {background: none; color: dimgray; text-decoration: none; cursor: pointer;}
+A:visited {background: none; color: dimgray; text-decoration: none; cursor: pointer;}
+A:hover {background: none; color: maroon; text-decoration: underline; cursor: pointer;}
+A:active { background: none; color: red; background: none; cursor: pointer;}
+
+
+
+.Global {
+width: 780px;
+height: 100%;
+margin-left: auto;
+margin-right: auto;
+background: white;
+}
+
+.Global TD {
+vertical-align: top;
+}
+
+.Header_Text {
+font: bold italic 24px tahoma,sans-serif;
+margin: 10px 10px 5px 10px;
+color: dimgray;
+border-top: 1px dotted dimgray;
+border-bottom: 1px dotted dimgray;
+}
+
+.Bold2{
+  font-weight: 700;
+}
+
+
+.header_title{ 
+   font-family: 'Josefin Slab', serif; 
+	line-height:35px;
+	font-size:28px; 
+	padding: 1px 100px 1px 5px;
+    border-bottom: 1px dotted dimgray;	
+    letter-spacing: 0.8px;
+    text-align: left;
+}
+/* font-family: Helvetica, Tahoma, sans-serif;  'Josefin Slab', serif;    letter-spacing: 0.7px;  line-height:45px; */
+ .header_subtitle1{ 
+   font-family:   'Open Sans', sans-serif;
+   line-height: 30px;
+   font-size: 19px;
+   padding: 5px 1px 2px 5px; 
+   letter-spacing: 2.3px; 
+   font-weight: 300; 
+   text-align: left;  
+} 
+ .header_subtitle2{ 
+   font-family: Helvetica, Tahoma, sans-serif; 
+   font-size:16px;  
+   padding: 1px 1px 1px 5px;
+   text-align: left;
+}
+.TopLinks{
+   font-size: 18px; 
+   line-height: 60px;
+   font-family: Helvetica, Tahoma, sans-serif; 
+}
+a#active { background: none; color: black; text-decoration: underline; cursor: pointer; }
+
+
+
+
+
+.Essay_Title {
+font: bold italic 26px tahoma,sans-serif;
+margin: 10px 10px 60px 10px;
+color: dimgray;
+}
+
+.Header_Image {
+width: 760px;
+height: 140px;
+padding: 0px; 
+margin-left: 10px;
+}
+
+.MenuColTD {
+width: 120px;
+/*max-width: 110px;
+min-width: 50px;
+max-width: 50px; */
+background: transparent;
+color: inherit;
+font: normal 13px arial,sans-serif;
+border-right: 1px dotted dimgray; /* */
+line-height: 220%;
+letter-spacing: 0.3px;
+}
+
+.Menu {
+width: 120px;
+margin: 0px 10px 10px 15px;
+text-align: left;
+}
+
+.Menu A {
+display: block;
+width: 120px;
+height: 20px;
+text-align: left;
+font-weight: bold;
+padding: 0px 0px 4px 0px; 
+}
+
+.Content {
+width: 590px; 
+padding: 20px 20px 20px 20px;
+background: transparent;
+color: inherit;
+text-align: justify;
+line-height: 1.3em;
+letter-spacing: 0.5px;
+font-family: Helvetica, Tahoma, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-weight: 300;
+font-size: 13.5px
+} 
+
+
+.Content2 {
+width: 680px;
+padding: 10px 20px 20px 60px;
+background: transparent;
+color: inherit;
+text-align: justify;
+line-height: 1.5em;
+letter-spacing: 0.5px;
+font-family:  Helvetica, Tahoma, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight: 300;
+font-size: 13.5px
+}
+
+.Navigation_Links{
+ white-space: nowrap; 
+ line-height: 180%; 
+ font-size: 15px;
+ letter-spacing: 1px
+}
+
+
+/*
+.FIX_FIREFOX {}
+html:not([dummy]).Content { width: 300px; }
+*/
+/*.MenuColTD { max-width: 120px;} */
+/*
+.FIX_OPERA {}
+@media all and (min-width: 0px) {
+.Content {width: 460px;}
+}
+
+.body.ie .MenuColTD { max-width: 80px; }
+*/
+
+
+/*  font-weight: Bold; font-style: Italic;  #EFEFBF;  #FFF8C6; */
+/* marron is very similar to #900000 */
+
+                          /*FAFAFA */
+.Content A:link {background: none; color: gray; text-decoration: none; cursor: pointer; font-weight: bold;}
+.Content A:visited {background:  none; color: gray; text-decoration: none; cursor: pointer; font-weight: bold;}
+.Content A:hover {background: none; color: maroon; text-decoration: underline; cursor: pointer; font-weight: bold;} 
+.Content A:active { background: none; color: red; background: none; cursor: pointer; font-weight: bold;}
+
+
+.HeadingStyle {
+background: inherit;
+color: dimgray;
+font: bold italic 20px arial,sans-serif;
+}
+
+.SubHeadingStyle {
+background: inherit;
+color: dimgray;
+font: bold italic 16px arial,sans-serif;
+}
+
+P {
+font: 13px arial,sans-serif;
+}
+
+.Padded {
+padding: 20px;
+}
+
+.SmallFont {
+font: 13px arial,sans-serif;
+}
+
+.MedFontBold {
+FONT: bold 15px arial,sans-serif;
+}
+
+.SmallFont TD {
+font: 13px arial,sans-serif;
+}
+
+.MedFontBold TD {
+font: bold 15px arial,sans-serif;
+}
+
+.Footer {
+color: #000000;
+font: 13px arial,sans-serif;
+height: 50px;
+text-align: center;
+vertical-align: top;
+}
+
+.FooterWrap {
+border-top: 1px dotted dimgray;
+margin-top: 10px;
+padding-top: 10px;
+font-style: italic;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.Copyright {
+margin-left: 50px;
+}
+
+

@@ -1,0 +1,10 @@
+YORF	NAME	GWEIGHT	Slope::ETH::Ethanol	Slope::ETH::Nitrogen	Slope::ETH::Phosphate	 	Slope::GLU::Glucose	Slope:GLU::Nitrogen	Slope::GLU::Phosphate	 	FoldChange:CarbonSource	FoldChange::Nitrogen	FoldChange::Phosphate
+EWEIGHT	 		1	1	1	1	1	1	1	1	1	1	1
+YBR212W	NGR1 :: RNA binding protein that negatively regulates growth rate; interacts with the 3' UTR of the mitochondrial porin (POR1) mRNA and enhances its degradation; overexpression impairs mitochondrial function; expressed in stationary phase	1	4.30	6.24	5.17	0.00	-3.27	-5.83	-2.95	0.00	-0.92	-1.39	1.93
+YMR257C	PET111 :: Mitochondrial translational activator specific for the COX2 mRNA; located in the mitochondrial inner membrane	1	7.68	5.69	4.11	0.00	1.34	-0.41	-0.86	0.00	1.13	0.44	-0.02
+YLR067C	PET309 :: Specific translational activator for the COX1 mRNA, also influences stability of intron-containing COX1 primary transcripts; localizes to the mitochondrial inner membrane; contains seven pentatricopeptide repeats (PPRs)	1	1.17	11.60	0.63	0.00	2.51	3.06	0.33	0.00	0.34	1.51	1.10
+YNR045W	PET494 :: Mitochondrial translational activator specific for the COX3 mRNA, acts together with Pet54p and Pet122p; located in the mitochondrial inner membrane	1	2.96	-3.82	-0.90	0.00	0.19	-3.88	-1.94	0.00	0.74	1.12	3.27
+YOR302W	YOR302W :: 	1	0.16	2.15	3.59	0.00	-2.19	-5.17	1.62	0.00	5.64	3.63	9.88
+YER153C	PET122 :: Mitochondrial translational activator specific for the COX3 mRNA, acts together with Pet54p and Pet494p; located in the mitochondrial inner membrane	1	-1.85	-8.54	-12.34	0.00	0.47	-3.26	-5.65	0.00	1.87	-1.74	-6.17
+YGR222W	PET54 :: Mitochondrial inner membrane protein that binds to the 5' UTR of the COX3 mRNA to activate its translation together with Pet122p and Pet494p; also binds to the COX1 Group I intron AI5 beta to facilitate exon ligation during splicing	1	-3.18	4.12	-3.19	0.00	-0.14	3.87	-1.67	0.00	0.67	2.53	-0.05
+YOR276W	CAF20 :: Phosphoprotein of the mRNA cap-binding complex involved in translational control, repressor of cap-dependent translation initiation, competes with eIF4G for binding to eIF4E	1	-5.26	-0.55	-5.18	0.00	3.21	4.40	2.73	0.00	0.17	1.28	-1.44

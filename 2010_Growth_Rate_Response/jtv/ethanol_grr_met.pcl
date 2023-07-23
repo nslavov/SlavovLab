@@ -1,0 +1,99 @@
+NAME	NAME	GWEIGHT	e1	e2	e3	 	n1	n2	n3	 	p1	p2	p3
+EWEIGHT			1	1	1	1	1	1	1	1	1	1	1
+Indole-3-carboxylic acid	Indole-3-carboxylic acid	1	0.54	1.65	1.15		-7.08	1.99	1.20		-0.78	1.14	0.19
+Xanthurenic acid	Xanthurenic acid	1	0.12	1.46	0.43		-4.93	1.73	1.04		-0.59	0.86	-0.12
+proline	proline	1	-0.04	0.03	-0.10		-1.50	-0.13	0.83		0.47	0.19	0.26
+cystathionine	cystathionine	1	-0.76	0.57	-0.01		-2.99	0.34	0.90		0.48	0.70	0.77
+alanine	alanine	1	-0.27	0.23	0.24		-2.25	-0.02	0.84		0.36	0.43	0.43
+asparagine	asparagine	1	1.07	0.73	0.50		-6.38	0.31	0.86		1.05	0.99	0.87
+valine	valine	1	-0.09	0.33	0.12		-1.34	-0.42	0.48		-0.17	0.44	0.66
+tryptophan	tryptophan	1	-0.26	0.48	0.23		-1.84	-0.10	0.68		-0.51	0.55	0.76
+S-adenosyl-L-methionine	S-adenosyl-L-methionine	1	-0.18	1.09	-0.28		-1.79	-0.70	0.56		0.01	0.93	0.36
+leucine/isoleucine	leucine/isoleucine	1	-0.07	0.06	-0.45		-0.79	-0.02	0.40		-0.02	0.47	0.43
+S-methyl-5'-thioadenosine	S-methyl-5'-thioadenosine	1	-0.50	0.22	-0.88		-2.02	0.18	1.41		-0.26	0.69	1.16
+glutamate	glutamate	1	-0.46	-0.11	0.19		-1.19	0.15	0.69		-0.09	0.39	0.43
+NAD+_posi	NAD+_posi	1	-0.30	-0.06	-0.08		-0.50	0.12	0.41		0.01	0.25	0.15
+L-arginino-succinate	L-arginino-succinate	1	-0.58	-0.00	-0.12		-1.28	0.24	1.15		0.10	0.89	-0.38
+FAD	FAD	1	-0.86	0.36	-0.76		-2.22	0.70	1.06		0.43	1.58	-0.29
+orotate	orotate	1	-0.06	0.91	0.07		-1.12	0.19	0.50		-0.60	-0.11	0.21
+histidine	histidine	1	-0.10	0.56	0.23		-1.28	0.28	0.43		-0.48	-0.16	0.53
+arginine	arginine	1	-0.33	0.72	0.49		-2.08	0.34	0.62		-0.69	0.30	0.64
+phenylalanine	phenylalanine	1	-0.54	0.49	0.46		-1.64	-0.03	0.95		-1.07	0.59	0.80
+tyrosine	tyrosine	1	-0.48	0.64	0.93		-2.23	0.23	1.07		-1.59	0.62	0.82
+Kynurenine	Kynurenine	1	-1.12	2.87	1.54		-4.52	1.21	1.54		-3.76	1.28	0.96
+N-carbamoyl-L-aspartate-nega	N-carbamoyl-L-aspartate-nega	1	-0.90	0.49	0.95		-1.33	0.74	0.97		-1.59	-0.30	0.95
+dihydroorotate	dihydroorotate	1	-0.85	-0.22	0.46		-2.05	1.40	1.85		-0.85	-0.57	0.83
+citrulline	citrulline	1	0.09	-0.14	0.54		-2.18	0.84	1.31		-0.30	-0.73	0.57
+ornithine	ornithine	1	-0.36	-0.16	1.51		-1.98	0.13	1.55		-0.58	-0.44	0.33
+phenylpyruvate	phenylpyruvate	1	-0.60	2.33	0.34		-0.58	0.68	-0.23		-2.35	0.60	-0.18
+glutathione-nega	glutathione-nega	1	0.40	0.37	0.28		-0.56	0.27	-0.22		-0.57	0.23	-0.20
+Kynurenic acid	Kynurenic acid	1	-0.43	1.26	-0.10		-1.10	1.15	0.51		-0.97	0.47	-0.78
+aspartate	aspartate	1	-0.57	0.66	-0.37		-0.28	0.40	0.72		-0.48	0.03	-0.12
+serine	serine	1	0.16	0.51	0.09		-1.04	0.26	0.79		-0.44	0.10	-0.42
+threonine	threonine	1	0.01	0.92	-0.28		-0.82	0.13	0.60		-0.29	-0.13	-0.13
+hexose-phosphate	hexose-phosphate	1	0.30	0.58	0.82		-0.85	0.66	1.34		-2.02	-0.42	-0.40
+lysine	lysine	1	0.49	0.57	0.54		-0.74	-0.07	1.20		-1.81	-0.41	0.23
+quinolinate	quinolinate	1	-0.82	0.15	0.23		-2.17	-1.25	-0.07		0.74	1.42	1.78
+shikimate-3-phosphate	shikimate-3-phosphate	1	-0.60	-0.21	0.22		-0.58	-0.60	-0.16		-0.06	0.84	1.15
+choline	choline	1	-0.60	-0.68	0.55		-0.76	-0.52	-0.09		-0.34	0.98	1.44
+Nicotinamide ribotide	Nicotinamide ribotide	1	-0.11	-0.30	0.05		-0.23	-0.17	0.03		-0.09	0.33	0.50
+pyridoxine	pyridoxine	1	-0.63	-0.13	1.15		-0.53	-0.11	0.07		-1.04	1.05	0.18
+ADP-nega	ADP-nega	1	0.43	-1.17	-0.24		-0.49	0.82	1.21		0.49	-0.75	-0.31
+4-aminobutyrate	4-aminobutyrate	1	0.66	-0.64	1.21		-1.32	-0.90	2.74		0.35	-0.93	-1.18
+deoxyadenosine	deoxyadenosine	1	0.83	-0.52	-0.41		-1.33	-1.05	2.05		0.30	-0.22	0.35
+thiamine	thiamine	1	0.07	-0.11	-0.07		-0.15	-0.02	0.39		-0.22	0.12	-0.01
+4-Methylthiazoleethanol	4-Methylthiazoleethanol	1	0.58	0.12	0.23		-0.02	-0.05	0.31		-0.20	-0.42	-0.54
+dihydroxy-acetone-phosphate	dihydroxy-acetone-phosphate	1	-0.91	-0.59	-0.20		-0.21	-0.00	1.22		0.22	0.40	0.08
+Saccharopine_pos	Saccharopine_pos	1	-0.60	-0.74	0.08		-0.37	-0.26	0.87		0.19	0.39	0.43
+methionine	methionine	1	-0.51	-0.38	0.23		-0.15	0.04	0.47		0.20	0.33	-0.22
+histidinol	histidinol	1	-1.96	-0.39	-1.48		0.49	0.86	1.55		1.43	-0.71	0.20
+L-2-Aminoadipate	L-2-Aminoadipate	1	-1.60	-0.06	-0.01		-0.41	0.36	0.88		0.27	-0.01	0.58
+NADH	NADH	1	-3.36	-1.79	-2.87		-0.52	0.64	2.95		0.94	1.54	2.46
+O-Acetyl-Homoserine	O-Acetyl-Homoserine	1	-0.08	-0.20	-0.12		0.11	-0.22	0.23		-0.08	0.30	0.05
+N-Acetyl-L-alanine	N-Acetyl-L-alanine	1	1.54	-0.78	-1.40		-1.24	0.25	0.26		1.49	0.31	-0.42
+glutathione 	glutathione 	1	0.16	0.07	-0.59		-0.77	0.06	0.35		0.36	0.28	0.08
+2,3-dihydroxybenzoic acid	2,3-dihydroxybenzoic acid	1	1.00	-1.74	-1.82		-2.51	-0.11	-0.01		1.90	2.08	1.20
+adenosine	adenosine	1	0.78	-0.23	-0.15		-2.24	-0.79	-0.18		0.96	1.04	0.80
+sn-glycerol-3-phosphate	sn-glycerol-3-phosphate	1	0.22	-0.04	0.05		-0.71	0.07	0.04		0.51	0.07	-0.21
+glutamine	glutamine	1	0.28	-0.20	-0.07		-0.68	-0.33	0.18		0.69	0.17	-0.04
+cytidine	cytidine	1	2.06	1.96	0.97		-4.41	-0.19	0.74		0.40	0.25	-1.78
+riboflavin	riboflavin	1	0.29	1.35	-0.43		-2.02	0.04	0.41		1.18	0.31	-1.13
+guanosine	guanosine	1	1.89	1.14	-0.49		-2.06	-1.02	-0.59		-0.87	1.88	0.13
+Glu-Cys_neg	Glu-Cys_neg	1	1.52	0.34	-1.31		-0.50	-1.82	-2.58		3.69	-0.26	0.92
+Glu-Cys_pos	Glu-Cys_pos	1	0.88	-0.27	-0.54		-0.84	-0.79	-0.85		1.42	0.51	0.48
+Pyridoxamine	Pyridoxamine	1	1.76	0.75	0.13		-0.51	-1.51	-0.71		0.58	-1.19	0.71
+glycerate	glycerate	1	0.69	-0.57	0.32		0.31	-1.08	-0.44		0.37	0.98	-0.58
+NADP+_posi	NADP+_posi	1	-0.01	-1.16	0.69		0.06	-0.94	0.30		0.46	0.42	0.17
+succinate	succinate	1	0.69	-1.05	-0.23		-0.30	0.31	-0.26		0.68	0.71	-0.55
+2-Hydroxy-2-methylbutanedioic acid	2-Hydroxy-2-methylbutanedioic acid	1	0.90	-2.38	-0.27		1.64	-0.39	-0.20		0.79	0.29	-0.37
+Saccharopine_neg	Saccharopine_neg	1	0.09	-0.36	0.20		0.14	0.27	-0.22		-0.28	-0.00	0.17
+fumarate	fumarate	1	-2.66	-1.40	-1.20		3.14	3.53	3.18		-1.61	-1.43	-1.56
+3-phosphoglycerate	3-phosphoglycerate	1	-0.91	-0.35	-0.87		1.92	1.46	1.67		-1.23	-1.21	-0.47
+nicotinate	nicotinate	1	0.07	-0.89	-0.63		0.54	0.91	0.82		-0.58	-0.02	-0.22
+Glycerophosphocholine	Glycerophosphocholine	1	-0.04	-1.11	-0.91		1.42	0.54	1.15		-0.04	-0.25	-0.74
+D-glyceraldehdye-3-phosphate	D-glyceraldehdye-3-phosphate	1	0.12	0.39	-1.75		0.09	1.05	1.48		0.76	-1.57	-0.56
+UDP-nega	UDP-nega	1	-0.35	0.27	-1.41		0.42	0.94	0.57		0.80	-0.71	-0.53
+Fructose-2,6-bisphosphate	Fructose-2,6-bisphosphate	1	-0.10	-0.03	-2.18		-0.19	1.26	1.19		1.10	-0.23	-0.83
+glutathione disulfide-posi	glutathione disulfide-posi	1	-0.48	0.16	-1.46		0.18	0.94	2.03		-0.34	-0.30	-0.74
+ATP-nega	ATP-nega	1	-0.39	-0.28	-0.42		0.23	0.42	0.24		0.39	0.23	-0.41
+malate	malate	1	-0.11	0.49	-0.60		0.01	0.25	0.11		-0.26	0.10	0.01
+p-hydroxybenzoate	p-hydroxybenzoate	1	0.24	1.16	-2.22		0.14	0.67	-0.88		-0.30	0.65	0.55
+phosphoenolpyruvate	phosphoenolpyruvate	1	0.35	0.49	-0.87		0.13	-0.13	0.06		-0.11	0.11	-0.03
+a-ketoglutarate	a-ketoglutarate	1	-0.85	0.31	-0.63		0.74	0.54	0.28		-0.25	-0.01	-0.12
+fructose-1,6-bisphosphate	fructose-1,6-bisphosphate	1	-1.86	-0.13	-1.40		1.89	0.23	1.13		-0.48	0.37	0.25
+pyruvate	pyruvate	1	-0.90	0.48	-1.38		0.51	0.52	1.10		-0.84	0.04	0.45
+2,3-Diphosphoglyceric acid	2,3-Diphosphoglyceric acid	1	-0.88	0.62	-0.64		0.67	-0.04	-0.23		-0.20	-0.06	0.76
+oxaloacetate	oxaloacetate	1	-0.65	-0.06	-0.94		-0.39	-0.14	0.50		2.15	-0.53	0.06
+citrate/isocitrate	citrate/isocitrate	1	-0.39	-0.11	-1.08		0.63	-0.51	-0.36		1.35	-0.15	0.62
+citrate  	citrate  	1	-0.61	-0.21	-0.80		0.56	-0.64	-0.24		1.42	-0.24	0.75
+Acetyllysine	Acetyllysine	1	0.27	-0.12	-0.51		0.73	-0.69	0.53		0.33	-0.39	-0.15
+Atrolactic acid	Atrolactic acid	1	0.67	-0.13	-3.56		2.03	1.35	-1.08		1.39	0.36	-1.02
+isocitrate 	isocitrate 	1	0.23	0.96	-2.30		1.45	0.72	-0.92		0.59	0.11	-0.85
+aconitate	aconitate	1	-0.08	0.73	-1.14		1.77	0.57	-0.51		0.62	-0.86	-1.09
+UTP-nega	UTP-nega	1	0.16	0.65	-1.53		1.33	0.60	0.07		-0.02	-0.81	-0.45
+Phenyllactic acid	Phenyllactic acid	1	0.66	0.98	-1.44		1.83	0.56	-1.01		0.26	0.32	-2.17
+1-Methyladenosine	1-Methyladenosine	1	0.37	-0.16	-0.53		0.98	0.00	-0.71		0.16	0.37	-0.49
+2-Isopropylmalic acid	2-Isopropylmalic acid	1	0.18	0.44	-0.43		0.35	0.26	-0.41		0.89	-0.37	-0.91
+Thiamine pyrophosphate	Thiamine pyrophosphate	1	-0.06	-0.02	-0.31		0.40	-0.21	0.18		1.16	-0.21	-0.94
+trehalose/sucrose	trehalose/sucrose	1	-0.10	-0.28	-0.23		0.65	-0.04	-0.32		-0.18	0.68	-0.18
+acetyl-CoA-posi	acetyl-CoA-posi	1	-0.97	-0.40	-0.67		1.18	-0.20	-1.20		1.07	1.73	-0.54

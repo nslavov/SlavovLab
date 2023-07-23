@@ -1,0 +1,8 @@
+YORF	NAME	GWEIGHT	Slope::ETH::Ethanol	Slope::ETH::Nitrogen	Slope::ETH::Phosphate	 	Slope::GLU::Glucose	Slope:GLU::Nitrogen	Slope::GLU::Phosphate	 	FoldChange:CarbonSource	FoldChange::Nitrogen	FoldChange::Phosphate
+EWEIGHT	 		1	1	1	1	1	1	1	1	1	1	1
+YJR155W	AAD10 :: Putative aryl-alcohol dehydrogenase with similarity to P. chrysosporium aryl-alcohol dehydrogenase; mutational analysis has not yet revealed a physiological role	1	-1.68	-4.73	-0.54	0.00	-5.32	-5.51	-7.22	0.00	-3.49	-2.20	-2.75
+YPL088W	YPL088W :: 	1	-1.93	-6.66	-4.26	0.00	-2.50	-2.21	-3.28	0.00	-4.27	-5.19	-3.83
+YNL331C	AAD14 :: Putative aryl-alcohol dehydrogenase with similarity to P. chrysosporium aryl-alcohol dehydrogenase; mutational analysis has not yet revealed a physiological role	1	1.78	0.76	1.06	0.00	-1.99	-0.47	-0.46	0.00	1.93	4.31	5.79
+YDL243C	AAD4 :: Putative aryl-alcohol dehydrogenase with similarity to P. chrysosporium aryl-alcohol dehydrogenase, involved in the oxidative stress response	1	6.29	5.47	5.29	0.00	2.52	-1.48	0.08	0.00	6.82	7.51	6.25
+YFL057C	AAD16 :: Putative aryl-alcohol dehydrogenase with similarity to P. chrysosporium aryl-alcohol dehydrogenase; mutational analysis has not yet revealed a physiological role	1	5.69	2.94	3.17	0.00	-1.14	-3.45	-2.64	0.00	-2.14	-2.50	-2.12
+YFL056C	AAD6 :: Putative aryl-alcohol dehydrogenase with similarity to P. chrysosporium aryl-alcohol dehydrogenase, involved in the oxidative stress response	1	16.01	10.19	9.83	0.00	-1.01	-2.56	-0.48	0.00	1.98	0.80	3.99

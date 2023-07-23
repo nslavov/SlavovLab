@@ -1,0 +1,8 @@
+Date	Sun Jul 19 22:22:16 EDT 2009
+Aspect	P
+P-value cutoff	0.01
+Calculate FDR	Yes
+Uploaded gene list	1_S.txt
+Annotation file	gene_association.sgd
+Ambiguous identifiers	ADH5 SDH1 SSC1 BAT1 MSF1 RIP1 PRS3 CPD1 TUF1 APA1
+Unknown identifiers	YGL204C YKR012C YOR200W YBL100C YPR012W YGL102C YGR122C-A YOR309C YNL057W YDR417C YAR075W IMD1 YML089C YJL009W YIL058W

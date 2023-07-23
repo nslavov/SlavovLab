@@ -1,0 +1,7 @@
+order deny,allow
+deny from all
+satisfy any
+AuthType Basic
+AuthUserFile /Genomics/Users/nslavov/.htpasswds/grr_ethanol
+AuthName "nslavov"
+require valid-user

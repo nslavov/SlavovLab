@@ -1,0 +1,8 @@
+Date	Sun Jul 19 23:46:56 EDT 2009
+Aspect	P
+P-value cutoff	0.01
+Calculate FDR	Yes
+Uploaded gene list	4_S.txt
+Annotation file	gene_association.sgd
+Ambiguous identifiers	SFH1 CPD1
+Unknown identifiers	YGL102C YPL025C

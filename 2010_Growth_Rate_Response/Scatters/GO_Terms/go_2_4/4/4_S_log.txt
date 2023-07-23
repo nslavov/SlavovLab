@@ -1,0 +1,8 @@
+Date	Mon Jul 20 00:34:20 EDT 2009
+Aspect	P
+P-value cutoff	0.01
+Calculate FDR	Yes
+Uploaded gene list	4_S.txt
+Annotation file	gene_association.sgd
+Ambiguous identifiers	TEX1 TIP1 ANT1 POT1
+Unknown identifiers	MBB1 YBR012C YGR137W YNL285W YML089C YPR150W
