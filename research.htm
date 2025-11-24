@@ -87,23 +87,27 @@
 <!-- ============ Content Column ============== -->
 <td colspan="2" ><div class="Content2"  >
 
-<h1 class="HeadingStyle" style="letter-spacing: 2px; font-size: 28px;" >Research Projects</h1>
+<h1 class="HeadingStyle" style="letter-spacing: 2px; font-size: 28px;" id="Research-Projects">Research Projects</h1>
 We aim to understand the rules governing emergent systems-level physiological functions and to use these rules to rationally engineer biological systems.
 We make <i>direct</i> quantitative measurements, often at the single-cell level, to test different conceptual frameworks and discriminate among different classes of models.
-These aims often motivate developing methods for sensitive quantification of protein levels, activities, modifications, synthsis and degradation rates.
+These aims often motivate developing methods for sensitive quantification of protein levels, activities, modifications, synthesis and degradation rates.
 Areas of focus include:
 
 <ul type="circle" style="line-height: 180%; letter-spacing: 1.5px; Font-Size: 16px; text-align: left;" >
 	<li><a href="#Single-cell-proteomics" title="Single-cell biology of the human proteome" >Single-cell proteome biology</a></li>
-  <li><a href="#Proteostasis" >Dynamics of protein synthsis and degradation</a></li>
+	<ul type="circle" >
+		<li><a href="#Single-Cell-Proteomics-Community" >Resources for single-cell proteomics</a></li>
+	</ul>
+  <li><a href="#Proteostasis" >Dynamics of protein synthesis and degradation</a></li>
 	<li><a href="#Alternate-RNA-decoding" >RNA decoding and control of protein synthesis</a></li>
-  <li><a href="#Single-Cell-Proteomics-Community" >Resources for single-cell proteomics</a></li>
+  <li><a href="#Aging-neurodegeneration" >Aging and neurodegenerative diseases</a></li>
 </ul>
 <!--
 	<li><a href="#SCoPE-Dyn" >Tracking proteome dynamics in single cells</a></li>
 	<li><a href="#Ribosome-Specialization" >Translational </a></li>
 -->
 <br>
+      <hr> <hr>
 <br>
 <br>
 
@@ -119,7 +123,8 @@ Many <a href="https://scp.slavovlab.net/biology" title="single-cell proteome bio
 <br>
 <br>
 <br>
-Taking advantage of <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8571067/" title="Methods for multiplexed single-cell proteomics" target="_blank" >ideas for advancing data acquisition and interpretation</a>, we developed next generation methods that increase the sensitivity, data completeness and flexibility of single-cell protein analysis. These allow <a href="https://scp.slavovlab.net/pSCoPE" title="prioritization single-cell proteomics by pSCoPE" target="_blank" >prioritization</a> of thousands of proteins and highly <a href="https://plexdia.slavovlab.net/" title="plexDIA" target="_blank" >parallel analysis of both single-cells and peptides</a>. All of these <a href="https://scp.slavovlab.net/methods" title="Methods for multiplexed single-cell proteomics" target="_blank" >methods</a> can be implemented using <a  href="https://scope2.slavovlab.net/mass-spec/protocol" target="_blank" title="SCoPE2 Protocol">accessible</a> commercial equipment.
+Taking advantage of <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8571067/" title="strategies for increasing the depth and throughput of single-cell proteomics" target="_blank" >strategies</a> for advancing data acquisition and mass spectra identification, we developed <a href="">methods</a> that increase the sensitivity, data completeness and flexibility of single-cell protein analysis.
+These methods allow <a href="https://scp.slavovlab.net/pSCoPE" title="prioritization single-cell proteomics by pSCoPE" target="_blank" >prioritization</a> of thousands of proteins or parallelization in the mass domain by <a href="https://plexdia.slavovlab.net/" title="plexDIA" target="_blank" >plexDIA</a>, which supports parallel analysis of both single-cells and peptides. The multiplexing in the mass domain can be complemented by time domain multiplexing using <a href="PTI-Publications/2025_Derks_timePlex.pdf">timePlex</a>, which enabled combinatorial increase in throughput as demonstrated by research at PTI. To facilitate accessibility, we introduced robust <a href="https://scp.slavovlab.net/protocols" title="Protocols for multiplexed single-cell proteomics" target="_blank" >protocols</a> and recommended <a href="https://single-cell.net/guidelines" title="Community recommendations and best practices for single-cell proteomics" target="_blank" >best practices</a>.
 <br>
 <br>
 <center><a href="https://scp.slavovlab.net/methods" rel="home" target="_blank" title="single-cell protein mass spectrometry for systems biology from the Slavov laboratory" >
@@ -147,72 +152,6 @@ This research is funded by an <a href="https://alleninstitute.org/person/nikolai
 </table>
 </div>
 <br><br>
-
-
-
-<br>
-<h1 class="HeadingStyle" style="letter-spacing: 2px; font-size: 26px;" id="Proteostasis">
-Dynamics of protein synthsis and degradation</h1>
-
-
-Cellular protein concentrations are maintained through a balance of synthesis and clearance. Clearance occurs through both protein degradation and growth-dependent dilution.
-We have  <a href="https://www.biorxiv.org/content/10.1101/2025.02.10.637566v3.full" title="Protein degradation and growth dependent dilution substantially shape mammalian proteomes">found</a> that the impact of clearence in context-dependent and large, sometimes account for over 50 % of the measured variance in protein abundance.
-We study this contribution of protein degradation to shaping protein variation both across the proteome and across cell states.
-
-<br><br>
-
-<div class="ssmed_tablestyle_rb">  <div class="ssmed_tablestyle_lb">  <div class="ssmed_tablestyle_rt"> <div class="ssmed_tablestyle_lt">  <div class="area_table">
- <div style="letter-spacing: 2px; font-size: 22px; text-align: center;"> <a href="javascript:toggle('Protein-Dynamics')">Selected Publications</a></div><br>
-</div> </div> </div> </div> </div>
-
-<div id="Protein-Dynamics" style="display:none">
-
-<div class="ssmed_tablestyle_rb">  <div class="ssmed_tablestyle_lb">  <div class="ssmed_tablestyle_rt"> <div class="ssmed_tablestyle_lt">  <div class="area_table">
-	 Leduc A, Shipkovenska G, Xu Y, Franks A, Slavov N.<a href="https://nikolai.slavovlab.net"><sup>&#9993;</sup></a> (2025) <br>
-	<a  href="https://www.biorxiv.org/content/10.1101/2025.09.17.676955v1.full" target="_blank">The regulation of protein abundance across single cells in a mammalian tissue</a> <br>
-	<i>bioRxiv</i> 	 &nbsp;
-	doi: <a href="https://doi.org/10.1101/2025.09.17.676955" target="_blank">10.1101/2025.09.17.676955</a>  &nbsp; | &nbsp;
-	<a href="Slavov-Lab-Publications/2025_Protein-Regulation-Single-Cells.pdf"  target="_blank">PDF</a>  &nbsp; | &nbsp;
-	<a href="https://scp.slavovlab.net/Leduc_et_al_2025" target="_blank"title="Principles of protein abundance regulation across single cells in a mammalian tissue" >Data Web</a>
-</div> </div> </div> </div> </div>
-
-<div class="ssmed_tablestyle_rb">  <div class="ssmed_tablestyle_lb">  <div class="ssmed_tablestyle_rt"> <div class="ssmed_tablestyle_lt">  <div class="area_table">
-	Leduc A, Slavov N.<a href="https://nikolai.slavovlab.net"><sup>&#9993;</sup></a> (2025) <br>
-	<a  href="https://www.biorxiv.org/content/10.1101/2025.02.10.637566v3.full" target="_blank">Protein degradation and growth dependent dilution substantially shape mammalian proteomes</a> <br>
-	<i>bioRxiv</i> 	 &nbsp;
-	doi: <a href="https://doi.org/10.1101/2025.02.10.637566" target="_blank">10.1101/2025.02.10.637566</a>  &nbsp; | &nbsp;
-	<a href="Slavov-Lab-Publications/2025_Protein-Clearence.pdf"  target="_blank">PDF</a>  &nbsp; | &nbsp;
-	<a href="https://github.com/SlavovLab/Protein-Clearance" target="_blank"title="Protein degradation and growth dependent dilution substantially shape mammalian proteomes" >Github</a>
-</div> </div> </div> </div> </div>
-
-</div>
-
-<br><br>
-<br>
-
-
-<h1 class="HeadingStyle" style="letter-spacing: 2px; font-size: 26px;" id="proteome-dynamics-in-single-cells">
-Tracking proteome dynamics in single cells</h1>
-
-One of the most significant recent developments in biomedical research and engineering is the explosion of technologies for quantifying thousands of genes in single cells. These technologies have transformed our ability to identify cell types and cell states in healthy and diseased human tissues. Our laboratory has contributed to these efforts by pioneering powerful methods for quantifying proteins in single cells at unprecedented scale. For the first time, we can examine single cells at systems level. Yet, these glimpses are static: we can only take one snapshot of a cell, showing us protein type and the
-amount of each protein, per cell. To overcome this limitation, we develop methods that will enable us to measure the abundance, the birth and the death rates of proteins across time. By introducing isotopically labeled amino acids at different time points over the life of a cell, we create a protein travelogue for each cell. Then, the travelogue of each cell is decoded by mass spectrometry, thus revealing the protein dynamics underpinning the life and functions of each cell. This technology can move biomedical research from the era of still pictures to the era of dynamic movies, the era when we can finally see and understand the dynamics of protein interactions that animate each cell.
-<br><br><br>
-
-<table summary="Slavov laboratory funding through The Paul G. Allen Frontiers Group">
- <tr>
-   <td width="400" style="text-align: center; vertical-align: middle; line-height: 1.8em; letter-spacing: 1.1px;" >
-     This <a href="https://coe.northeastern.edu/news/slavov-named-paul-g-allen-distinguished-investigator-for-pioneering-single-cell-proteomics-research/"
-    target="_blank">research</a> is funded by the <br>Paul G. Allen Frontiers Group
-<br>
-   </td><td>
-     <a href="https://alleninstitute.org/person/nikolai-slavov/"  target="_blank" >
-        <img src="https://slavovlab.net/index_files/Funders/pa_frontiers_group_circlelogo_rgb.png" alt="This research was supported by an Allen Distinguished Investigator award through The Paul G. Allen Frontiers Group."  height="80" style="display: block; margin-left: auto; margin-right: auto;" >
-     </a>
-  </td>
- </tr>
-</table>
-<br>
-<br>
 
 <div class="ssmed_tablestyle_rb">  <div class="ssmed_tablestyle_lb">  <div class="ssmed_tablestyle_rt"> <div class="ssmed_tablestyle_lt">  <div class="area_table">
  <div style="letter-spacing: 2px; font-size: 22px; text-align: center;"> <a href="javascript:toggle('Quantifying-Proteins-in-Single-Cells-Mass-Spec')">Selected Publications</a></div><br>
@@ -439,17 +378,97 @@ amount of each protein, per cell. To overcome this limitation, we develop method
 	<a   href="https://www.youtube.com/watch?v=D4JtnM-4Lds" target="_blank" >CSHL Talk</a> &nbsp; | &nbsp;
 	<!-- <a   href="https://web.northeastern.edu/slavovlab/blog/2017/06/06/single-cell-proteomics_scope-ms/" target="_blank" >SCoPE-MS blog</a> &nbsp; | &nbsp; -->
 	<a   href="https://www.genengnews.com/topics/omics/uncovering-proteomic-patterns-one-cell-at-a-time/" Title="cssbody=[dvbdy1] cssheader=[dvhdr1] header=[Single cell proteomics] body=[
-	SCoPE-MS allows to quantify thousands of proteins in single mammelian cells.]">
+	SCoPE-MS allows to quantify thousands of proteins in single mammalian cells.]">
 	Highlight</a>
 </div> </div> </div> </div> </div>
 </div>
 
+<br>
+Back to <a href="#Research-Projects">Research Projects</a>
+<hr> <hr>
+
 <br><br>
+<br>
+<h1 class="HeadingStyle" style="letter-spacing: 2px; font-size: 26px;" id="Proteostasis">
+Dynamics of protein synthesis and degradation</h1>
+
+
+Cellular protein concentrations are maintained through a balance of synthesis and clearance. Clearance occurs through both protein degradation and growth-dependent dilution.
+We have  <a href="https://www.biorxiv.org/content/10.1101/2025.02.10.637566v3.full" title="Protein degradation and growth dependent dilution substantially shape mammalian proteomes">found</a> that the impact of clearance in context-dependent and large, sometimes account for over 50 % of the measured variance in protein abundance.
+We study this contribution of protein degradation to shaping protein variation both across the proteome and across cell states.
+
+<br><br>
+
+<div class="ssmed_tablestyle_rb">  <div class="ssmed_tablestyle_lb">  <div class="ssmed_tablestyle_rt"> <div class="ssmed_tablestyle_lt">  <div class="area_table">
+ <div style="letter-spacing: 2px; font-size: 22px; text-align: center;"> <a href="javascript:toggle('Protein-Dynamics')">Selected Publications</a></div><br>
+</div> </div> </div> </div> </div>
+
+<div id="Protein-Dynamics" style="display:none">
+
+<div class="ssmed_tablestyle_rb">  <div class="ssmed_tablestyle_lb">  <div class="ssmed_tablestyle_rt"> <div class="ssmed_tablestyle_lt">  <div class="area_table">
+	 Leduc A, Shipkovenska G, Xu Y, Franks A, Slavov N.<a href="https://nikolai.slavovlab.net"><sup>&#9993;</sup></a> (2025) <br>
+	<a  href="https://www.biorxiv.org/content/10.1101/2025.09.17.676955v2.full" target="_blank">The regulation of protein abundance across single cells in a mammalian tissue</a> <br>
+	<i>bioRxiv</i> 	 &nbsp;
+	doi: <a href="https://doi.org/10.1101/2025.09.17.676955" target="_blank">10.1101/2025.09.17.676955</a>  &nbsp; | &nbsp;
+	<a href="Slavov-Lab-Publications/2025_Protein-Regulation-Single-Cells.pdf"  target="_blank">PDF</a>  &nbsp; | &nbsp;
+	<a href="https://scp.slavovlab.net/Leduc_et_al_2025" target="_blank"title="Principles of protein abundance regulation across single cells in a mammalian tissue" >Data Web</a>
+</div> </div> </div> </div> </div>
+
+<div class="ssmed_tablestyle_rb">  <div class="ssmed_tablestyle_lb">  <div class="ssmed_tablestyle_rt"> <div class="ssmed_tablestyle_lt">  <div class="area_table">
+	Leduc A, Slavov N.<a href="https://nikolai.slavovlab.net"><sup>&#9993;</sup></a> (2025) <br>
+	<a  href="https://www.biorxiv.org/content/10.1101/2025.02.10.637566v3.full" target="_blank">Protein degradation and growth dependent dilution substantially shape mammalian proteomes</a> <br>
+	<i>bioRxiv</i> 	 &nbsp;
+	doi: <a href="https://doi.org/10.1101/2025.02.10.637566" target="_blank">10.1101/2025.02.10.637566</a>  &nbsp; | &nbsp;
+	<a href="Slavov-Lab-Publications/2025_Protein-Clearence.pdf"  target="_blank">PDF</a>  &nbsp; | &nbsp;
+	<a href="https://github.com/SlavovLab/Protein-Clearance" target="_blank"title="Protein degradation and growth dependent dilution substantially shape mammalian proteomes" >Github</a>
+</div> </div> </div> </div> </div>
+
+</div>
+
+<br><br>
+<br>
+
+
+<h1 class="HeadingStyle" style="letter-spacing: 2px; font-size: 26px;" id="proteome-dynamics-in-single-cells">
+Tracking proteome dynamics in single cells</h1>
+
+One of the most significant recent developments in biomedical research and engineering is the explosion of technologies for quantifying thousands of genes in single cells. These technologies have transformed our ability to identify cell types and cell states in healthy and diseased human tissues. Our laboratory has contributed to these efforts by pioneering powerful methods for quantifying proteins in single cells at unprecedented scale. For the first time, we can examine single cells at systems level. Yet, these glimpses are static: we can only take one snapshot of a cell, showing us protein type and the
+amount of each protein, per cell. To overcome this limitation, we develop methods that will enable us to measure the abundance, the birth and the death rates of proteins across time. By introducing isotopically labeled amino acids at different time points over the life of a cell, we create a protein travelogue for each cell. Then, the travelogue of each cell is decoded by mass spectrometry, thus revealing the protein dynamics underpinning the life and functions of each cell. This technology can move biomedical research from the era of still pictures to the era of dynamic movies, the era when we can finally see and understand the dynamics of protein interactions that animate each cell.
+<br><br><br>
+
+<table summary="Slavov laboratory funding through The Paul G. Allen Frontiers Group">
+ <tr>
+   <td width="400" style="text-align: center; vertical-align: middle; line-height: 1.8em; letter-spacing: 1.1px;" >
+     This <a href="https://coe.northeastern.edu/news/slavov-named-paul-g-allen-distinguished-investigator-for-pioneering-single-cell-proteomics-research/"
+    target="_blank">research</a> is funded by the <br>Paul G. Allen Frontiers Group
+<br>
+   </td><td>
+     <a href="https://alleninstitute.org/person/nikolai-slavov/"  target="_blank" >
+        <img src="https://slavovlab.net/index_files/Funders/pa_frontiers_group_circlelogo_rgb.png" alt="This research was supported by an Allen Distinguished Investigator award through The Paul G. Allen Frontiers Group."  height="80" style="display: block; margin-left: auto; margin-right: auto;" >
+     </a>
+  </td>
+ </tr>
+</table>
+<br>
+<br>
+
+<div class="ssmed_tablestyle_rb">  <div class="ssmed_tablestyle_lb">  <div class="ssmed_tablestyle_rt"> <div class="ssmed_tablestyle_lt">  <div class="area_table">
+	 Leduc A, Shipkovenska G, Xu Y, Franks A, Slavov N.<a href="https://nikolai.slavovlab.net"><sup>&#9993;</sup></a> (2025) <br>
+	<a  href="https://www.biorxiv.org/content/10.1101/2025.09.17.676955v2.full" target="_blank">The regulation of protein abundance across single cells in a mammalian tissue</a> <br>
+	<i>bioRxiv</i> 	 &nbsp;
+	doi: <a href="https://doi.org/10.1101/2025.09.17.676955" target="_blank">10.1101/2025.09.17.676955</a>  &nbsp; | &nbsp;
+	<a href="Slavov-Lab-Publications/2025_Protein-Regulation-Single-Cells.pdf"  target="_blank">PDF</a>  &nbsp; | &nbsp;
+	<a href="https://scp.slavovlab.net/Leduc_et_al_2025" target="_blank"title="Principles of protein abundance regulation across single cells in a mammalian tissue" >Data Web</a>
+</div> </div> </div> </div> </div>
+
+<br>
+Back to <a href="#Research-Projects">Research Projects</a>
+<hr> <hr>
 <br><br>
 
 <h1 class="HeadingStyle" style="letter-spacing: 2px; font-size: 26px;" id="Alternate-RNA-decoding" >Alternate RNA decoding</h1>
 
-Amino acid substitutions may substantially alter protein stability and function, but the con-tribution of substitutions arising from alternate translation (deviations from the genetic code) is unknown.
+Amino acid substitutions may substantially alter protein stability and function, but the contribution of substitutions arising from alternate translation (deviations from the genetic code) is unknown.
 We have <a href="https://decode.slavovlab.net" >identified</a> 60,024 high confidence substitutions corresponding to 8,801 unique sites in proteins from 1,990 genes. Some substitutions are shared across samples, while others exhibit strong tissue-type and cancer specificity. Surprisingly, products of alternate translation are more abundant than their canonical counterparts for hundreds of proteins, suggesting sense codon recoding. Recoded proteins include transcription factors, proteases, signaling proteins, and proteins associated with neurodegenerative diseases. Mechanisms contributing to substitution abundance include protein stability, codon frequency, codon-anticodon mismatches, and RNA modifications.
 Some substitutions are shared across samples, while others exhibit strong tissue-type and cancer specificity. Surprisingly, products of alternate translation are more abundant than their canonical counterparts for hundreds of proteins, suggesting sense codon recoding. Recoded proteins include transcription factors, proteases, signaling proteins, and proteins associated with neurodegeneration. Mechanisms contributing to substitution abun-dance include protein stability, codon frequency, codon-anticodon mismatches, and RNA modifications. We characterize sequence motifs around alternatively translated amino acids and how substitution ratios vary across protein domains, tissue types and cancers. Both the sequence and the tissue-specificity of alternatively translated proteins are conserved between human and mouse. These results demonstrate the contribution of alternate translation to diversifying mammalian proteomes, and its association with protein stability, tissue-specific proteomes, and diseases.
 
@@ -467,9 +486,7 @@ Some substitutions are shared across samples, while others exhibit strong tissue
 </div> </div> </div> </div> </div>
 
 
-
-
-<br><br>
+<br>
 <br><br>
 <!-- ============ Page Heading ============== -->
 <h1 class="HeadingStyle" style="letter-spacing: 2px; font-size: 26px;" id="Ribosome-Specialization" >Ribosome-mediated translational regulation</h1>
@@ -489,8 +506,8 @@ All living cells must coordinate their metabolism, growth, division, and differe
     target="_blank">NIH Director's New Innovator Award</a>
 <br>
    </td><td>
-<a href="https://projectreporter.nih.gov/project_info_description.cfm?aid=9167004&icde=31336575"  target="_blank" >
-  <img src="https://slavovlab.net/index_files/Funders/NIH_Director_Award_DP2.jpg"  alt="Slavov lab NIH funding"  height="150" border=0></a>
+<a href="https://reporter.nih.gov/search/SUrq_GeBOUaS386xgc1HCw/project-details/9167004" title="Slavov lab NIH Director Award"  target="_blank" >
+  <img src="https://slavovlab.net/index_files/Funders/NIH_Director_Award_DP2.jpg"  alt="Slavov lab NIH Director Award"  height="150" border=0></a>
   </td>
  </tr>
 </table>
@@ -543,13 +560,30 @@ All living cells must coordinate their metabolism, growth, division, and differe
 		Summary</a>   &nbsp; | &nbsp;
 		<a href="http://www.cell.com/trends/biochemical-sciences/abstract/S0968-0004(15)00234-0" target="_blank">TiBS Spotlight</a>
 </div> </div> </div> </div> </div>
-
 </div>
+<br>
+Back to <a href="#Research-Projects">Research Projects</a>
+<hr> <hr>
 
+<br>
+<br><br>
+<h1 class="HeadingStyle" style="letter-spacing: 2px; font-size: 26px;" id="Aging-neurodegeneration">Aging and neurodegenerative diseases</h1>
+Molecular mechanisms that regulate protein synthesis and degradation are central to aging and neurodegenerative diseases because they determine the integrity, quality, and adaptability of the proteome over time. High fidelity protein synthesis is required for maintaining functional proteins and prevents the buildup of aberrant translation products, while efficient degradation pathways, such as the ubiquitin–proteasome system and the autophagy–lysosome axis, remove damaged, misfolded, or aggregated proteins. With aging, both synthesis fidelity and degradative capacity decline, leading to accumulation of toxic protein species, impaired cellular stress responses, and progressive loss of neuronal resilience. In neurodegenerative disorders like Alzheimer’s, Parkinson’s, and ALS, defects in these same pathways directly drive pathogenic protein aggregation, synaptic dysfunction, and neuronal death. Thus, maintaining balanced, high-fidelity protein turnover is essential for delaying aging phenotypes and preventing neurodegeneration.
+<br>
+<br>
 
-<br><br><br><br>
-
-
+<div class="ssmed_tablestyle_rb">  <div class="ssmed_tablestyle_lb">  <div class="ssmed_tablestyle_rt"> <div class="ssmed_tablestyle_lt">  <div class="area_table">
+	 Leduc A, Shipkovenska G, Xu Y, Franks A, Slavov N.<a href="https://nikolai.slavovlab.net"><sup>&#9993;</sup></a> (2025) <br>
+	<a  href="https://www.biorxiv.org/content/10.1101/2025.09.17.676955v2.full" target="_blank">The regulation of protein abundance across single cells in a mammalian tissue</a> <br>
+	<i>bioRxiv</i> 	 &nbsp;
+	doi: <a href="https://doi.org/10.1101/2025.09.17.676955" target="_blank">10.1101/2025.09.17.676955</a>  &nbsp; | &nbsp;
+	<a href="Slavov-Lab-Publications/2025_Protein-Regulation-Single-Cells.pdf"  target="_blank">PDF</a>  &nbsp; | &nbsp;
+	<a href="https://scp.slavovlab.net/Leduc_et_al_2025" target="_blank"title="Principles of protein abundance regulation across single cells in a mammalian tissue" >Data Web</a> &nbsp; | &nbsp;
+	<a href="https://youtu.be/8nhjKSTqeOs?si=my8CR2c0y20qVnUs" title="Protein abundance regulation across single cells in a mammalian tissue" target="_blank">Video</a>
+</div> </div> </div> </div> </div>
+<br>
+Back to <a href="#Research-Projects">Research Projects</a>
+<hr> <hr>
 
 
 <br><br><br>
@@ -566,23 +600,20 @@ All living cells must coordinate their metabolism, growth, division, and differe
 
 
 
-<br><br><br>
 <h1 class="HeadingStyle" style="letter-spacing: 2px; font-size: 26px;" id="Single-Cell-Proteomics-Conference"><a href="https://single-cell.net/"   target="_blank" title="single-cell biology meeting in Boston, MA USA">
 Single-cell proteomics conference</a></h1>
-</div>
 
-
-<div class="SCP_subtitle" style="padding: 5px 10px 10px 100px; font-size: 18px;"  >
-<br><br>
-<a href="https://single-cell.net/proteomics/scp2018"   target="_blank">1st Single-Cell Proteomics Conference, June 9 - 10, 2018</a><br>
-<a href="https://single-cell.net/proteomics/scp2019"   target="_blank">2nd Single-Cell Proteomics Conference, June 10 - 12, 2019</a><br>
-<a href="https://single-cell.net/proteomics/scp2020"   target="_blank">3rd Single-Cell Proteomics Conference, August 18 - 19, 2020</a><br>
-<a href="https://single-cell.net/proteomics/scp2021"   target="_blank">4th Single-Cell Proteomics Conference, August 16 - 18, 2021</a><br>
-<a href="https://single-cell.net/proteomics/scp2022"   target="_blank">5th Single-Cell Proteomics Conference, June 15 - 16, 2022</a><br>
-<a href="https://single-cell.net/proteomics/scp2023"   target="_blank">6th Single-Cell Proteomics Conference, June 1 - 2, 2023</a><br>
-<a href="https://single-cell.net/proteomics/scp2024"   target="_blank">7th Single-Cell Proteomics Conference, May 28 - 29, 2024</a><br>
-<a href="https://single-cell.net/proteomics/scp2025"   target="_blank">8th Single-Cell Proteomics Conference, May 27 - 29, 2025</a><br>
-</div>
+<ul type="circle" style="line-height: 180%; letter-spacing: 1.5px; Font-Size: 16px;">
+  <li> <a href="https://single-cell.net/proteomics/scp2018"   target="_blank">1st Single-Cell Proteomics Conference, June 9 - 10, 2018</a><br>
+  <li> <a href="https://single-cell.net/proteomics/scp2020"   target="_blank">3rd Single-Cell Proteomics Conference, August 18 - 19, 2020</a><br>
+  <li> <a href="https://single-cell.net/proteomics/scp2021"   target="_blank">4th Single-Cell Proteomics Conference, August 16 - 18, 2021</a><br>
+  <li> <a href="https://single-cell.net/proteomics/scp2022"   target="_blank">5th Single-Cell Proteomics Conference, June 15 - 16, 2022</a><br>
+  <li> <a href="https://single-cell.net/proteomics/scp2023"   target="_blank">6th Single-Cell Proteomics Conference, June 1 - 2, 2023</a><br>
+  <li> <a href="https://single-cell.net/proteomics/scp2024"   target="_blank">7th Single-Cell Proteomics Conference, May 28 - 29, 2024</a><br>
+  <li> <a href="https://single-cell.net/proteomics/scp2025"   target="_blank">8th Single-Cell Proteomics Conference, May 27 - 29, 2025</a><br>
+  <li> <a href="https://single-cell.net/proteomics/scp2026"   target="_blank">9th Single-Cell Proteomics Conference, Jul 14 - 15, 2026</a><br>
+</ul>
+<br>
 <br><br>
 
 
@@ -598,6 +629,14 @@ Single-cell proteomics conference</a></h1>
 </div>
 </td></tr>
 </table>
+<br>
+<br><br>
+
+<br>
+Back to <a href="#Research-Projects">Research Projects</a>
+<hr> <hr>
+
+</div>
 
 <br><br>
 <br><br>
